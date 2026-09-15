@@ -101,14 +101,12 @@ export const DAYS = [
         "kind": "dinner",
         "icon": "🍽️",
         "title": "KABEAT, Kabutocho",
-        "status": "Book now",
-        "detail": "Your chosen first-night dinner near the hotel. Aim to sit down around 7:00 so you can be in bed by 9; a relaxed 60–90-minute meal after check-in and freshening up, subject to service. The restaurant’s 120-minute dinner seating limit is a maximum, not a required meal duration. Prefer a weekday seat-only reservation rather than a long prepaid course. No reservation has been made.",
+        "status": "Booked ✓",
+        "detail": "Booked for Friday October 23 at 7:00pm, seat-only. A relaxed 60–90-minute first-night dinner near the hotel; the 120-minute seating limit is a maximum. Choose individual non-soup dishes on arrival.",
         "mapQuery": "KABEAT Kabutocho Tokyo",
         "food": "Choose individual non-soup dishes on arrival. Allow ¥6,000–12,000 for two; menu, drinks and actual total remain to choose.",
-        "tip": "Arrival-night timing depends on the flight and airport processing. Contact KABEAT if delayed; its booking policy allows cancellation if it cannot contact you within 15 minutes of the reservation time.",
-        "mealId": 0,
-        "bookUrl": "https://www.tablecheck.com/en/shops/kabeat/reserve",
-        "bookLabel": "Book on TableCheck (English)"
+        "tip": "Arrival-night timing depends on the flight. Call KABEAT if you are delayed: the booking can be released if they cannot reach you within 15 minutes of the time.",
+        "mealId": 0
       }
     ]
   },
@@ -215,7 +213,7 @@ export const DAYS = [
         "mealId": 3
       },
       {
-        "time": "1:00–2:55pm",
+        "time": "1:00–2:50pm",
         "kind": "activity",
         "icon": "🛍️",
         "title": "Shopping: Tokyo Solamachi",
@@ -225,32 +223,30 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "2:55pm",
+        "time": "2:50pm",
         "kind": "travel",
         "icon": "🚶",
         "title": "Solamachi → JAPANKART, on foot",
         "duration": "15–20 min walk",
-        "detail": "The shop for this tour is at 2-18-15 Azumabashi, between Skytree and Asakusa. JAPANKART asks you to arrive 15 minutes early, so be there by 3:15.",
+        "detail": "The shop is at 2-18-15 Azumabashi, between Skytree and Asakusa. Be there by 3:15 for check-in and the safety briefing.",
         "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "3:30–4:30pm",
+        "time": "3:15–4:45pm",
         "kind": "activity",
         "icon": "🏎️",
-        "title": "JAPANKART go-kart tour · 60 min",
-        "status": "Book now",
-        "detail": "Starts and ends at the JAPANKART shop at 2-18-15 Azumabashi and drives through Ueno, Akihabara, Kappabashi and Asakusa; you finish near sunset (about 4:50). Oct 24 slots are 12:00, 3:30 and 7:00pm; the booking page shows ¥10,000 each (¥20,000 for two). Costumes and guide photos included. Cancel at least 24 hours ahead for a full refund.",
+        "title": "JAPANKART go-karts · 60 min driving",
+        "status": "Booked ✓",
+        "detail": "Booked for Saturday October 24 at 3:30pm: the 60-minute tour for two, ¥20,000 paid. Allow about 90 minutes on site: check in and safety briefing from 3:15, driving 3:30–4:30, then costumes back and guide photos. Starts and ends at the shop at 2-18-15 Azumabashi and drives through Ueno, Akihabara, Kappabashi and Asakusa; you finish near sunset (about 4:50). Costumes and photos included.",
         "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
         "source": "https://japankart.com/",
         "food": null,
-        "tip": "⚠️ Both drivers must bring three originals: your US driver’s license (no temporary or paper licenses), an International Driving Permit under the 1949 Geneva Convention (from AAA), and your passport. Missing documents means no driving and no refund. Ages 18–85.",
-        "bookUrl": "https://widgets.bokun.io/online-sales/42b9f122-22b1-4f6f-8e5f-f8b98311a262/experience/885784",
-        "bookLabel": "Book the 3:30pm tour"
+        "tip": "⚠️ Be at the shop by 3:15, 15 minutes early. Both drivers must bring three originals: your US driver’s license (no temporary or paper licenses), an International Driving Permit under the 1949 Geneva Convention (from AAA), and your passport. Missing documents means no driving and no refund."
       },
       {
-        "time": "4:45pm",
+        "time": "4:50pm",
         "kind": "travel",
         "icon": "🚇",
         "title": "JAPANKART → Nihonbashi for dinner",
@@ -357,13 +353,11 @@ export const DAYS = [
         "kind": "activity",
         "icon": "🦉",
         "title": "Akiba Fukurou owl café",
-        "status": "Book today",
-        "detail": "A quiet hour with about 40 owls; staff guide you to touch them and, in most sessions, rest one on your arm. Photos welcome, no flash. Kanda Neribeicho 67, 2–3 minutes from JR Akihabara. ¥3,800 each. Arrive by 12:50: the door does not open once a session starts.",
+        "status": "Booked ✓",
+        "detail": "Booked for Sunday October 25 at 1:00pm: an hour with about 40 owls; staff guide you to touch them and, in most sessions, rest one on your arm. Photos welcome, no flash. Kanda Neribeicho 67, 2–3 minutes from JR Akihabara. ¥3,800 each.",
         "mapQuery": "Akiba Fukurou owl cafe Akihabara",
         "food": null,
-        "tip": "⚠️ Book today on the official site (akiba2960.com), the only booking channel. As of September 14 the 1:00pm session was the only Sunday slot left for two.",
-        "bookUrl": "https://akiba2960.com/reservation/",
-        "bookLabel": "Book the 1:00pm session"
+        "tip": "Arrive by 12:50. The door does not open once a session starts."
       },
       {
         "time": "2:05pm",
@@ -402,14 +396,12 @@ export const DAYS = [
         "kind": "dinner",
         "icon": "🍣",
         "title": "Manten Sushi, Nihonbashi (omakase)",
-        "status": "Book now",
-        "detail": "Your occasion dinner: the 5:00pm seating of the 90-minute counter omakase (seatings are 5:00 and 6:30). ¥8,800 a person for the omakase, ¥12,100 with drinks included. A credit card is required to book; same-day cancellation or party-size changes are charged in full. Skip strong perfume.",
+        "status": "Booked ✓",
+        "detail": "Booked for Sunday October 25 at 5:00pm: the 90-minute counter omakase, ¥8,800 a person (¥12,100 with drinks). A 12-minute walk from the hotel after you change. Same-day cancellation or party-size changes are charged in full.",
         "mapQuery": "Manten Sushi Nihonbashi COREDO Muromachi",
         "food": "Omakase for two; allow ¥17,600–24,200 plus any extra drinks.",
-        "tip": null,
-        "mealId": 11,
-        "bookUrl": "https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve",
-        "bookLabel": "Book on TableCheck (English)"
+        "tip": "Skip strong perfume; the counter asks guests to avoid it.",
+        "mealId": 11
       }
     ]
   },
@@ -751,13 +743,11 @@ export const DAYS = [
         "kind": "activity",
         "icon": "💆",
         "title": "Couples massage · 60 min",
-        "status": "Book now",
-        "detail": "Two 60-minute body-care massages side by side at Yururuka, the spa’s massage room, right after lunch. ¥7,900 each, paid on site; no card needed to book. Booked separately from the private bath and lunch.",
+        "status": "Booked ✓",
+        "detail": "Booked for Wednesday October 28 at 1:45pm: two 60-minute body-care massages side by side at Yururuka, the spa’s massage room, right after lunch. ¥7,900 each, paid on site, which is why nothing was charged at booking.",
         "mapQuery": "Hakone Yuryo Hogushian Yururuka",
         "food": null,
-        "tip": "Book online now (English booking page, free account): choose 2 people, 1:45pm. Avoid alcohol at lunch and flag any medical considerations.",
-        "bookUrl": "https://online.peakmanager.com/en/s3n0u2/book",
-        "bookLabel": "Book massages (English)"
+        "tip": "Avoid alcohol at lunch and flag any medical considerations when you check in."
       },
       {
         "time": "2:55pm",
@@ -778,14 +768,12 @@ export const DAYS = [
         "kind": "dinner",
         "icon": "🥩",
         "title": "Yakiniku Ushigoro, Shinjuku 3-chome",
-        "status": "Book now",
-        "detail": "A5 kuroge wagyu yakiniku, staff-guided at your table, on the 12th floor beside Kinokuniya, about 10 minutes’ walk from the Romancecar platforms. Book 5:30pm; courses ¥9,760–16,590 a person. The 3D cat at Cross Shinjuku Vision is on the way if you want the photo. Subway back after, hotel by 7:45.",
+        "status": "Booked ✓",
+        "detail": "Booked for Wednesday October 28 at 5:30pm: A5 kuroge wagyu yakiniku, staff-guided at your table, 12th floor beside Kinokuniya, about 10 minutes’ walk from the Romancecar platforms. Courses ¥9,760–16,590 a person plus 5% service. The 3D cat at Cross Shinjuku Vision is on the way if you want the photo.",
         "mapQuery": "Yakiniku Ushigoro Shinjuku Sanchome",
         "food": "One course each; allow ¥20,000–33,000 for two plus drinks.",
-        "tip": null,
-        "mealId": 7,
-        "bookUrl": "https://www.tablecheck.com/en/shops/ushigoro-shinjukusanchome/reserve",
-        "bookLabel": "Book on TableCheck (English)"
+        "tip": "Changes and cancellations are by phone only: +81-3-3358-4129. Arriving 30+ minutes late without calling cancels the table.",
+        "mealId": 7
       }
     ]
   },

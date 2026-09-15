@@ -38,7 +38,7 @@ export const sections = [
         "priceNote": "Planning allowance; not a fixed quote",
         "variety": "Western/Japanese fusion; leave specialist Japanese meals for later days.",
         "selected": true,
-        "selectedStatus": "Chosen · to reserve",
+        "selectedStatus": "Booked ✓ Fri 7:00pm",
         "reason": "Your confirmed choice: near the hotel with flexible non-soup dishes.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
@@ -1144,7 +1144,7 @@ export const sections = [
         "experience": "A5 wagyu grilled at your table",
         "tabelog": "https://tabelog.com/en/tokyo/A1304/A130401/13258565/",
         "selected": true,
-        "selectedStatus": "Chosen · reserve"
+        "selectedStatus": "Booked ✓ Wed 5:30pm"
       },
       {
         "style": "Non-soup choices",
@@ -1926,7 +1926,7 @@ export const sections = [
         "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13166422/",
         "experience": "Omakase counter, strong value",
         "selected": true,
-        "selectedStatus": "Chosen · reserve"
+        "selectedStatus": "Booked ✓ Sun 5:00pm"
       },
       {
         "name": "SUSHI TOKYO TEN, Roppongi",

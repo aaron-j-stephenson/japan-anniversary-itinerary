@@ -211,13 +211,14 @@ const BUDGET_CATEGORIES=[
         "detail": "Booked for 8:00am on Sun Oct 25. Keep this planning amount until you add the exact receipt total; enter barefoot and allow 1.5–2 hours."
       },
       {
-        "name": "Sat: JAPANKART 60-minute Akihabara / Asakusa (× 2)",
+        "name": "Sat: JAPANKART 60-minute go-karts (× 2) — BOOKED",
         "cost": 133,
         "range": [
           133,
-          164
+          133
         ],
-        "detail": "The booking page shows ¥10,000 per adult for Oct 24 at 3:30pm (¥20,000 for two), including guide, kart, insurance, fuel, costume and photos. The higher figure is the ¥12,285 list price if the date price changes."
+        "booked": true,
+        "detail": "Paid: ¥20,000 for the 60-minute tour for two, about $133 at ¥150/$1. Includes guide, kart, insurance, fuel, costumes and photos."
       },
       {
         "name": "JAPANKART costumes + guide photos (included)",
@@ -609,6 +610,36 @@ const PLAN_DATA=[
         "id": "p10",
         "text": "DisneySea: Mon Oct 26 — BOOKED",
         "detail": "Add tickets to the app; meals and optional ride add-ons remain separate."
+      },
+      {
+        "id": "b1",
+        "text": "Owl café — Sun Oct 25, 1:00pm — BOOKED",
+        "detail": "Akiba Fukurou, ¥3,800 each. Arrive by 12:50; the door does not open once a session starts."
+      },
+      {
+        "id": "b5",
+        "text": "KABEAT — Fri Oct 23, 7:00pm — BOOKED",
+        "detail": "Seat-only weekday booking. Call if the flight runs late; they can release the table 15 minutes after the time."
+      },
+      {
+        "id": "b7",
+        "text": "Manten Sushi — Sun Oct 25, 5:00pm — BOOKED",
+        "detail": "90-minute counter omakase, ¥8,800 each. Same-day cancellation is charged the full course price."
+      },
+      {
+        "id": "b4",
+        "text": "Hakone Yuryo massages — Wed Oct 28, 1:45pm — BOOKED",
+        "detail": "Two 60-minute massages at Yururuka, ¥7,900 each. Nothing was charged because you pay at the spa."
+      },
+      {
+        "id": "b8",
+        "text": "Yakiniku Ushigoro — Wed Oct 28, 5:30pm — BOOKED",
+        "detail": "Courses ¥9,760–16,590 each plus 5% service. Changes and cancellations by phone only: +81-3-3358-4129."
+      },
+      {
+        "id": "b2",
+        "text": "JAPANKART go-karts — Sat Oct 24, 3:30pm — BOOKED",
+        "detail": "60-minute tour for two, ¥20,000 paid through Google Pay after their card form kept failing. Be at 2-18-15 Azumabashi by 3:15. Both drivers need original license, IDP and passport, or no driving and no refund."
       }
     ]
   },
@@ -619,32 +650,6 @@ const PLAN_DATA=[
     "text": "#7f1d1d",
     "items": [
       {
-        "id": "b1",
-        "text": "TODAY · Akiba Fukurou owl café — Sun Oct 25, 1:00pm",
-        "detail": "Official site only: akiba2960.com/en. As of September 14 the 1:00pm session was the only Sunday slot left for two. ¥3,800 each. Arrive 10 minutes early; the door does not open once a session starts. Fallback if it is gone: Small Worlds miniature museum (¥3,200, no booking needed).",
-        "links": [
-          {
-            "label": "Book the 1:00pm session",
-            "url": "https://akiba2960.com/reservation/"
-          },
-          {
-            "label": "English info",
-            "url": "https://akiba2960.com/en/"
-          }
-        ]
-      },
-      {
-        "id": "b2",
-        "text": "JAPANKART go-karts — Sat Oct 24, 3:30pm",
-        "detail": "Book at japankart.com (“Book now”, Akihabara / Asakusa 60min, Azumabashi shop). Oct 24 times are 12:00, 3:30 and 7:00pm; ¥10,000 each. Full refund if cancelled 24+ hours ahead.",
-        "links": [
-          {
-            "label": "Book the Akihabara / Asakusa 60min tour",
-            "url": "https://widgets.bokun.io/online-sales/42b9f122-22b1-4f6f-8e5f-f8b98311a262/experience/885784"
-          }
-        ]
-      },
-      {
         "id": "b3",
         "text": "International Driving Permits for both drivers (AAA)",
         "detail": "Required for JAPANKART: the 1949 Geneva Convention IDP from AAA, carried with your original US license (no temporary or paper licenses) and passport. Same day at an AAA branch, or allow a few weeks by mail. Missing documents means no driving and no refund.",
@@ -652,28 +657,6 @@ const PLAN_DATA=[
           {
             "label": "AAA International Driving Permit",
             "url": "https://www.aaa.com/vacation/idpf.html"
-          }
-        ]
-      },
-      {
-        "id": "b4",
-        "text": "Hakone Yuryo massages — Wed Oct 28, 1:45pm for two",
-        "detail": "Booked separately from the private bath (TableCheck, Sep 27) and lunch (phone, Sep 27). Choose 2 people at 1:45pm on the English booking page; free account, ¥7,900 each, paid on site, no card needed.",
-        "links": [
-          {
-            "label": "Book massages (English)",
-            "url": "https://online.peakmanager.com/en/s3n0u2/book"
-          }
-        ]
-      },
-      {
-        "id": "b5",
-        "text": "KABEAT — Fri Oct 23, 7:00pm",
-        "detail": "TableCheck: tablecheck.com/shops/kabeat/reserve. Choose the weekday seat-only plan. Reducing the party size on the day costs ¥3,000 per person; 15+ minutes late without calling may cancel.",
-        "links": [
-          {
-            "label": "Book on TableCheck (English)",
-            "url": "https://www.tablecheck.com/en/shops/kabeat/reserve"
           }
         ]
       },
@@ -689,28 +672,6 @@ const PLAN_DATA=[
           {
             "label": "Restaurant page",
             "url": "https://tenichi.co.jp/shop/nihonbashi-takashimaya/"
-          }
-        ]
-      },
-      {
-        "id": "b7",
-        "text": "Manten Sushi — Sun Oct 25, 5:00pm omakase",
-        "detail": "TableCheck: tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve. Pick the 5:00pm 90-minute omakase. Card required; same-day cancellation is charged the full course price.",
-        "links": [
-          {
-            "label": "Book on TableCheck (English)",
-            "url": "https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve"
-          }
-        ]
-      },
-      {
-        "id": "b8",
-        "text": "Yakiniku Ushigoro Shinjuku 3-chome — Wed Oct 28, 5:30pm",
-        "detail": "TableCheck: tablecheck.com/shops/ushigoro-shinjukusanchome/reserve. Seasonal Master course ¥15,800 each plus 5% service. Cancel or change by phone only (03-3358-4129); 30+ minutes late cancels.",
-        "links": [
-          {
-            "label": "Book on TableCheck (English)",
-            "url": "https://www.tablecheck.com/en/shops/ushigoro-shinjukusanchome/reserve"
           }
         ]
       },
@@ -895,7 +856,7 @@ const PLAN_DATA=[
       }
     ]
   }
-];;;
+];;;;;;
 
 const PACK_DATA=[
   {cat:"📄 Documents & Money",items:[
