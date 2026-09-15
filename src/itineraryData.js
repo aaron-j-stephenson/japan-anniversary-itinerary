@@ -19,7 +19,10 @@ export const DAYS = [
         "title": "Home → Tampa Airport (TPA)",
         "detail": "Arrange pickup to reach TPA by 4:15am for your confirmed 6:15am departure. Adjust pickup for the actual drive.",
         "food": null,
-        "tip": "Set your Uber pickup the night before. You need to be at TPA by 4:15am for a 6:15am departure."
+        "tip": "Schedule the 3:30am pickup (and the ~10:45pm return on Oct 29) in Uber Reserve, which takes bookings up to 90 days ahead.",
+        "status": "Book now",
+        "bookUrl": "https://www.uber.com/us/en/ride/uber-reserve/",
+        "bookLabel": "Schedule in Uber Reserve"
       },
       {
         "time": "6:15am",
@@ -94,15 +97,18 @@ export const DAYS = [
         "tip": "Confirm breakfast and gym hours. Do not assume hotel breakfast is available before the early teamLab departure."
       },
       {
-        "time": "~7:30–8:00pm start · flexible",
+        "time": "~7:00pm · flexible",
         "kind": "dinner",
         "icon": "🍽️",
         "title": "KABEAT, Kabutocho",
-        "status": "Chosen · to reserve",
-        "detail": "Your chosen first-night dinner near the hotel. Aim for a relaxed 60–90-minute meal after check-in and freshening up, subject to service. The restaurant's 120-minute dinner seating limit is a maximum, not a required meal duration. Prefer a weekday seat-only reservation rather than a long prepaid course. No reservation has been made.",
+        "status": "Book now",
+        "detail": "Your chosen first-night dinner near the hotel. Aim to sit down around 7:00 so you can be in bed by 9; a relaxed 60–90-minute meal after check-in and freshening up, subject to service. The restaurant’s 120-minute dinner seating limit is a maximum, not a required meal duration. Prefer a weekday seat-only reservation rather than a long prepaid course. No reservation has been made.",
         "mapQuery": "KABEAT Kabutocho Tokyo",
         "food": "Choose individual non-soup dishes on arrival. Allow ¥6,000–12,000 for two; menu, drinks and actual total remain to choose.",
-        "tip": "Arrival-night timing depends on the flight and airport processing. Contact KABEAT if delayed; its booking policy allows cancellation if it cannot contact you within 15 minutes of the reservation time."
+        "tip": "Arrival-night timing depends on the flight and airport processing. Contact KABEAT if delayed; its booking policy allows cancellation if it cannot contact you within 15 minutes of the reservation time.",
+        "mealId": 0,
+        "bookUrl": "https://www.tablecheck.com/en/shops/kabeat/reserve",
+        "bookLabel": "Book on TableCheck (English)"
       }
     ]
   },
@@ -117,18 +123,18 @@ export const DAYS = [
     "hotel": "Caption by Hyatt Kabutocho — Night 2",
     "activities": [
       {
-        "time": "7:15–8:00am",
+        "time": "7:00–7:40am",
         "kind": "breakfast",
         "icon": "🍳",
         "title": "Talk Shop, in the hotel",
-        "status": "Chosen",
         "detail": "Paid breakfast downstairs at your hotel, selected for Saturday only. Eggs your way, bacon, sausage, hash browns, avocado and toast, with coffee and juice. Published price ¥2,860 each, ¥5,720 for two. Breakfast is not included in your stay. Other mornings will have their own Western-style breakfast plans; no skipped breakfasts.",
         "mapQuery": "Talk Shop Caption by Hyatt Kabutocho Tokyo",
         "food": "A full American breakfast for each person, not just coffee or a pastry.",
-        "tip": null
+        "tip": null,
+        "mealId": 16
       },
       {
-        "time": "8:15am",
+        "time": "7:45am",
         "kind": "travel",
         "icon": "🚇",
         "title": "Hotel → Asakusa",
@@ -139,28 +145,41 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "9:00–10:45am",
+        "time": "8:15–9:45am",
         "kind": "activity",
         "icon": "⛩️",
         "title": "Senso-ji Temple + Asakusa streets",
-        "detail": "Explore the temple, Kaminarimon and Nakamise at a comfortable pace. Browse shops as they open; no religious participation is needed.",
+        "detail": "Explore the temple, Kaminarimon and Nakamise before the crowds build. The Nakamise snack stalls (ningyo-yaki, fried manju, grilled senbei, melon-pan) open from about 9, so see the temple first and snack on the way out; eat beside the stall, not while walking. No religious participation is needed.",
         "mapQuery": "Sensoji Temple Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "11:00–11:30am",
+        "time": "~9:30am · on the way out",
         "kind": "treat",
-        "icon": "🍵",
-        "title": "Suzukien matcha gelato",
-        "status": "Optional",
-        "detail": "Seven intensities of matcha gelato, not soft serve. Eat in a permitted area. Skip a long queue rather than compressing the aquarium visit.",
-        "mapQuery": "Suzukien Asakusa Tokyo",
-        "food": "One optional matcha treat.",
-        "tip": null
+        "icon": "🍡",
+        "title": "Nakamise street stalls",
+        "status": "Walk-in",
+        "detail": "Snack your way back down Nakamise after the temple: ningyo-yaki, fried manju, grilled senbei, Kagetsudo’s melon-pan by the gate. Stalls open from about 9. Eat beside the stall, not while walking.",
+        "mapQuery": "Nakamise Shopping Street Asakusa",
+        "food": "A couple of snacks each; lunch is at noon.",
+        "tip": null,
+        "mealId": 2
       },
       {
-        "time": "11:30am",
+        "time": "10:00–10:20am",
+        "kind": "treat",
+        "icon": "🍦",
+        "title": "Hokkaido Milk Bar, Asakusa",
+        "status": "Walk-in",
+        "detail": "All-Hokkaido dairy on the Nishi-Sando shopping street, three minutes west of the temple (Asakusa 2-7-13): soft serve, milk pudding, a three-milk tasting flight (¥880), cream buns. Opens 10:00 (some listings say 9:00–9:30 on weekends).",
+        "mapQuery": "HOKKAIDO MILK BAR Asakusa",
+        "food": "One soft serve or pudding each, about ¥700–1,100 per person.",
+        "tip": null,
+        "mealId": 2
+      },
+      {
+        "time": "10:20am",
         "kind": "travel",
         "icon": "🚶",
         "title": "Asakusa → Skytree Town, on foot",
@@ -171,63 +190,32 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "12:15–1:45pm",
+        "time": "10:45am–Noon",
         "kind": "activity",
         "icon": "🐠",
         "title": "Sumida Aquarium",
-        "status": "Book ahead",
-        "detail": "Allow about 90 minutes. Entry is not booked; select an available slot after agreeing on the morning pace.",
+        "status": "Buy Sep 23 · 11am ET",
+        "detail": "Allow about 75–90 minutes. Opens 9:00 on Saturdays. Entry is not booked; select an available slot after agreeing on the morning pace.",
         "mapQuery": "Sumida Aquarium Tokyo",
         "food": null,
-        "tip": null
+        "tip": "Online tickets go on sale 30 days before (Wed Sep 23 around 11am ET). ¥2,700 each, non-refundable but the date can be changed. On a normal Saturday buying at the door is fine too.",
+        "bookUrl": "https://en.sumida-aquarium.com/about/ticket/",
+        "bookLabel": "Aquarium tickets (English)"
       },
       {
-        "time": "1:45–2:45pm",
+        "time": "Noon–1:00pm",
         "kind": "lunch",
         "icon": "🍜",
         "title": "Rokurinsha tsukemen, Solamachi",
-        "status": "Chosen · walk-in",
+        "status": "Walk-in",
         "detail": "Your chosen Saturday lunch: thick tsukemen noodles with a separate rich dipping broth. Solamachi 6F, roughly 5–10 minutes inside the complex from the aquarium, excluding queues. No reservations. Allow ¥3,000–4,000 for two as a meal allowance, not a fixed menu quote.",
         "mapQuery": "Rokurinsha Tokyo Solamachi",
         "food": "One full noodle order each. If hungry earlier, bring a bakery snack; gelato is optional, not a meal replacement.",
-        "tip": null
+        "tip": null,
+        "mealId": 3
       },
       {
-        "time": "2:45pm",
-        "kind": "travel",
-        "icon": "🚶",
-        "title": "Solamachi → JAPANKART, on foot",
-        "duration": "15–20 min walk",
-        "detail": "The shop for this tour is at 2-18-15 Azumabashi, between Skytree and Asakusa. Arriving around 3:00 leaves time to check in before the proposed 3:30pm tour.",
-        "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
-        "food": null,
-        "tip": null
-      },
-      {
-        "time": "~3:30–4:30pm · target, not booked",
-        "kind": "activity",
-        "icon": "🏎️",
-        "title": "JAPANKART go-kart tour · 60 min",
-        "status": "Chosen · to book",
-        "detail": "Your selected tour for Saturday October 24. It starts and ends at the JAPANKART shop at 2-18-15 Azumabashi, near Skytree, and drives through Ueno, Akihabara, Kappabashi and Asakusa. Advertised from ¥10,000 each, ¥20,000 for two; actual date-specific price and availability still need checking. Costumes and guide photos are included. This is not the longer 120-minute Tokyo Bay course.",
-        "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
-        "source": "https://japankart.com/",
-        "food": null,
-        "tip": "Not booked. Each driver needs the operator-approved original driving documents. Confirm check-in time, weather and cancellation rules before paying."
-      },
-      {
-        "time": "4:45pm · flexible",
-        "kind": "travel",
-        "icon": "🚶",
-        "title": "JAPANKART → Tokyo Solamachi, on foot",
-        "duration": "15–20 min walk",
-        "detail": "Walk back toward Skytree after photos and returning costumes.",
-        "mapQuery": "Tokyo Solamachi",
-        "food": null,
-        "tip": null
-      },
-      {
-        "time": "~5:05–6:45pm · flexible",
+        "time": "1:00–2:55pm",
         "kind": "activity",
         "icon": "🛍️",
         "title": "Shopping: Tokyo Solamachi",
@@ -237,26 +225,54 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "6:45pm",
+        "time": "2:55pm",
+        "kind": "travel",
+        "icon": "🚶",
+        "title": "Solamachi → JAPANKART, on foot",
+        "duration": "15–20 min walk",
+        "detail": "The shop for this tour is at 2-18-15 Azumabashi, between Skytree and Asakusa. JAPANKART asks you to arrive 15 minutes early, so be there by 3:15.",
+        "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "3:30–4:30pm",
+        "kind": "activity",
+        "icon": "🏎️",
+        "title": "JAPANKART go-kart tour · 60 min",
+        "status": "Book now",
+        "detail": "Starts and ends at the JAPANKART shop at 2-18-15 Azumabashi and drives through Ueno, Akihabara, Kappabashi and Asakusa; you finish near sunset (about 4:50). Oct 24 slots are 12:00, 3:30 and 7:00pm; the booking page shows ¥10,000 each (¥20,000 for two). Costumes and guide photos included. Cancel at least 24 hours ahead for a full refund.",
+        "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
+        "source": "https://japankart.com/",
+        "food": null,
+        "tip": "⚠️ Both drivers must bring three originals: your US driver’s license (no temporary or paper licenses), an International Driving Permit under the 1949 Geneva Convention (from AAA), and your passport. Missing documents means no driving and no refund. Ages 18–85.",
+        "bookUrl": "https://widgets.bokun.io/online-sales/42b9f122-22b1-4f6f-8e5f-f8b98311a262/experience/885784",
+        "bookLabel": "Book the 3:30pm tour"
+      },
+      {
+        "time": "4:45pm",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Skytree → Nihonbashi for dinner",
-        "duration": "20–25 min",
-        "detail": "One direct train on the Toei Asakusa Line from Oshiage (Skytree) Station toward Nihombashi. The Ningyocho dinner options are one stop earlier.",
+        "title": "JAPANKART → Nihonbashi for dinner",
+        "duration": "25–30 min",
+        "detail": "Walk about 5 minutes to Honjo-azumabashi Station, then the Toei Asakusa Line direct to Nihombashi (6 stops). Takashimaya is next to the station.",
         "mapQuery": "Nihombashi Station Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "~7:15pm · dinner proposal",
+        "time": "~5:45pm",
         "kind": "dinner",
         "icon": "🍤",
         "title": "Tenichi tempura, Nihonbashi Takashimaya",
-        "status": "Proposed",
-        "detail": "Recommended dinner to finish the day near your hotel: tempura adds a different cuisine after noodles. About 20–25 minutes from Solamachi by direct train. Restaurant is on the main building's 8F. Published Fuji dinner set ¥3,850 each; table last order 8pm. Confirm reservation availability after the kart time is booked.",
+        "status": "Call now",
+        "detail": "Seafood and vegetable tempura fried piece by piece, on Takashimaya’s 8F. Straight from the go-karts on one direct train; reserve a 5:45pm table (dinner service from 5pm, table last order 8pm). Published Fuji dinner set ¥3,850 each; counter course from ¥7,260 if you want to watch the frying.",
         "mapQuery": "Tenichi Nihonbashi Takashimaya Tokyo",
-        "food": "Tempura with rice and sides; side soup does not need to be the focus. ¥7,700 for two Fuji sets, plus drinks/extras. Lower-cost shrimp tempura rice bowl ¥2,970 each. Awaiting your dinner choice.",
-        "tip": null
+        "food": "Tempura with rice and sides. ¥7,700 for two Fuji sets, plus drinks; counter course is the upgrade.",
+        "tip": "Phone bookings only: +81-3-3272-3677. They answer 11:00am–9:30pm Japan time, which is 10:00pm–8:30am Eastern. Ask for a table for two at 5:45pm on Saturday October 24.",
+        "mealId": 4,
+        "bookUrl": "tel:+81332723677",
+        "bookLabel": "Call +81-3-3272-3677"
       }
     ]
   },
@@ -266,7 +282,7 @@ export const DAYS = [
     "date": "Oct 25",
     "type": "tokyo",
     "emoji": "🎨",
-    "title": "teamLab → Tokyo Bay → Roppongi",
+    "title": "teamLab → Akihabara owls → Manten omakase",
     "location": "Tokyo, Japan",
     "hotel": "Caption by Hyatt Kabutocho — Night 3",
     "activities": [
@@ -274,12 +290,13 @@ export const DAYS = [
         "time": "6:15am",
         "kind": "breakfast",
         "icon": "🥪",
-        "title": "7-Eleven or FamilyMart, grab and go",
+        "title": "FamilyMart KABUTO ONE, grab and go",
         "status": "No booking",
-        "detail": "Grab something quick at FamilyMart KABUTO ONE near the hotel (opens 6:00am) or any 7-Eleven, and eat on the way to teamLab.",
+        "detail": "FamilyMart KABUTO ONE opens at 6:00: sandwich or onigiri, yogurt and a drink, eaten on the way to teamLab.",
         "mapQuery": "FamilyMart KABUTO ONE Nihonbashi Kabutocho Tokyo",
         "food": "Sandwich or onigiri, yogurt or fruit, and a drink.",
-        "tip": null
+        "tip": null,
+        "mealId": 17
       },
       {
         "time": "6:55am",
@@ -303,46 +320,96 @@ export const DAYS = [
         "tip": "Wear clothing suitable for water and mirrored rooms."
       },
       {
-        "time": "10:30–11:45am",
+        "time": "10:45am",
+        "kind": "travel",
+        "icon": "🚇",
+        "title": "teamLab → Akihabara",
+        "duration": "35–40 min",
+        "detail": "Yurikamome one stop to Toyosu, Yurakucho Line to Yurakucho, then JR three stops to Akihabara. Check the live route.",
+        "mapQuery": "Akihabara Station Tokyo",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "11:15am–Noon",
         "kind": "lunch",
-        "icon": "🍱",
-        "title": "Toyosu, near teamLab",
-        "status": "Pick a spot",
-        "detail": "Eat near teamLab rather than going to Shibuya for lunch. Gyukatsu can fit Tuesday instead.",
-        "mapQuery": "Toyosu Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "icon": "🥩",
+        "title": "Gyukatsu Ichinisan, Akihabara",
+        "status": "Walk-in",
+        "detail": "Beef cutlet fried 60 seconds and served rare; you sear the slices yourself on a hot stone at the counter, with wasabi-soy, rock salt and barley rice. Sotokanda 3-8-17, basement, a minute from Suehirocho Station. Open 11:00–22:00, 13 counter seats, no reservations; arrive by 11:15 to beat the noon line.",
+        "mapQuery": "Gyukatsu Ichinisan Akihabara",
+        "food": "Sets ¥1,630 (130g), ¥2,300 (195g) or ¥2,760 (260g) each, tax included.",
+        "tip": null,
+        "mealId": 15
       },
       {
-        "time": "Noon–3:30pm",
-        "kind": "free",
-        "icon": "🌊",
-        "title": "Tokyo Bay waterfront or hotel rest",
-        "detail": "Karting is now planned for Saturday. Keep this afternoon unhurried after the early teamLab start: enjoy the waterfront or return to the hotel for a break before the evening. No additional ticketed activity is required.",
-        "mapQuery": "Tokyo Bay Tokyo",
-        "food": null,
-        "tip": null
-      },
-      {
-        "time": "3:30–5:30pm",
+        "time": "12:10–12:35pm",
         "kind": "activity",
-        "icon": "🗼",
-        "title": "Roppongi + optional Tokyo Tower photo stop",
-        "detail": "Travel toward Roppongi from your afternoon stop or hotel. Tokyo Tower is an optional photo stop; leave room for a rest rather than adding another mandatory observation deck.",
-        "mapQuery": "Tokyo Midtown Roppongi",
+        "icon": "⛩️",
+        "title": "Kanda Myojin shrine",
+        "detail": "Seven minutes uphill from lunch: a 1,300-year-old shrine that has become Akihabara’s tech-and-anime shrine, with charms for gadgets. Free, 25 minutes, then a 15-minute walk to the owl café.",
+        "mapQuery": "Kanda Myojin Shrine Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "6:00pm onward",
+        "time": "1:00–2:00pm",
+        "kind": "activity",
+        "icon": "🦉",
+        "title": "Akiba Fukurou owl café",
+        "status": "Book today",
+        "detail": "A quiet hour with about 40 owls; staff guide you to touch them and, in most sessions, rest one on your arm. Photos welcome, no flash. Kanda Neribeicho 67, 2–3 minutes from JR Akihabara. ¥3,800 each. Arrive by 12:50: the door does not open once a session starts.",
+        "mapQuery": "Akiba Fukurou owl cafe Akihabara",
+        "food": null,
+        "tip": "⚠️ Book today on the official site (akiba2960.com), the only booking channel. As of September 14 the 1:00pm session was the only Sunday slot left for two.",
+        "bookUrl": "https://akiba2960.com/reservation/",
+        "bookLabel": "Book the 1:00pm session"
+      },
+      {
+        "time": "2:05pm",
+        "kind": "travel",
+        "icon": "🚇",
+        "title": "Akihabara → Hotel",
+        "duration": "~15 min",
+        "detail": "Hibiya Line from Akihabara three stops to Kayabacho, then the short walk.",
+        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "2:30–4:30pm",
+        "kind": "hotel",
+        "icon": "🏨",
+        "title": "Rest and change for dinner",
+        "detail": "A proper rest after the 6:15 start, then change into dinner clothes for the omakase.",
+        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "4:40pm",
+        "kind": "travel",
+        "icon": "🚶",
+        "title": "Hotel → Manten Sushi, on foot",
+        "duration": "~12 min",
+        "detail": "Walk to COREDO Muromachi 2 (Nihonbashi Muromachi 2-3-1). No train in dinner clothes.",
+        "mapQuery": "Manten Sushi Nihonbashi COREDO Muromachi",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "5:00–6:30pm",
         "kind": "dinner",
         "icon": "🍣",
-        "title": "Roppongi, occasion sushi",
-        "status": "Pick a spot",
-        "detail": "Proposed occasion-sushi dinner, replacing Tuesday’s cross-city transfer. Tokyo Ten remains a candidate, not a booking. If celebrating on Tuesday itself matters, choose an occasion restaurant in Shibuya instead.",
-        "mapQuery": "Roppongi Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "title": "Manten Sushi, Nihonbashi (omakase)",
+        "status": "Book now",
+        "detail": "Your occasion dinner: the 5:00pm seating of the 90-minute counter omakase (seatings are 5:00 and 6:30). ¥8,800 a person for the omakase, ¥12,100 with drinks included. A credit card is required to book; same-day cancellation or party-size changes are charged in full. Skip strong perfume.",
+        "mapQuery": "Manten Sushi Nihonbashi COREDO Muromachi",
+        "food": "Omakase for two; allow ¥17,600–24,200 plus any extra drinks.",
+        "tip": null,
+        "mealId": 11,
+        "bookUrl": "https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve",
+        "bookLabel": "Book on TableCheck (English)"
       }
     ]
   },
@@ -360,12 +427,13 @@ export const DAYS = [
         "time": "6:30am",
         "kind": "breakfast",
         "icon": "🥪",
-        "title": "7-Eleven or FamilyMart, grab and go",
+        "title": "7-Eleven Kabutocho Tosho-mae, grab and go",
         "status": "No booking",
-        "detail": "Grab something quick at FamilyMart KABUTO ONE near the hotel (opens 6:00am) or any 7-Eleven, and eat on the way. Disney is the priority today.",
-        "mapQuery": "FamilyMart KABUTO ONE Nihonbashi Kabutocho Tokyo",
+        "detail": "The 24-hour 7-Eleven in front of the Stock Exchange (Kabutocho 6-5), three minutes from the hotel. The closer one at 15-13 opens at 7:00, too late. Eat on the way; Disney is the priority today.",
+        "mapQuery": "7-Eleven Nihonbashi Kabutocho 6-5 Tokyo",
         "food": "Sandwich or onigiri, yogurt or fruit, and a drink.",
-        "tip": null
+        "tip": null,
+        "mealId": 18
       },
       {
         "time": "~6:45am",
@@ -384,10 +452,10 @@ export const DAYS = [
         "icon": "🎢",
         "title": "First priority ride at park opening",
         "status": "Tickets booked ✓",
-        "detail": "Admission is booked for Monday October 26. Choose based on current operation, app access and waits. Journey to the Center of the Earth is a candidate, not a promise of a short opening queue.",
+        "detail": "Admission is booked for Monday October 26. Link both tickets in the Tokyo Disney Resort app the night before. The moment you’re through the gate, open the app and grab a Standby Pass or Premier Access (paid) for the Fantasy Springs rides and Soaring: Fantastic Flight; they go within minutes of opening. Then walk to Journey to the Center of the Earth, another Premier Access candidate.",
         "mapQuery": "Tokyo DisneySea Mysterious Island",
         "food": null,
-        "tip": null
+        "tip": "Park hours vary by date; check the official calendar the week before and be at the gate about an hour before opening."
       },
       {
         "time": "Late morning",
@@ -403,32 +471,57 @@ export const DAYS = [
         "time": "When hungry",
         "kind": "lunch",
         "icon": "🍔",
-        "title": "Inside DisneySea",
-        "status": "Pick a spot",
-        "detail": "One casual lunch near your actual rides. Do not cross the park for the old Mediterranean Harbor placeholder or duplicate Magellan’s at lunch.",
+        "title": "Lunch wherever you are, via the app",
+        "status": "No booking",
+        "detail": "No planned lunch: order at whatever counter is near your rides through the Disney app.",
         "mapQuery": "Tokyo DisneySea Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "food": "Counter-service lunch and snacks, ordered in the app.",
+        "tip": null,
+        "mealId": 14
       },
       {
         "time": "Afternoon",
         "kind": "activity",
         "icon": "🧚",
         "title": "Rides: Fantasy Springs + other priorities",
-        "detail": "Use the app for operation and access. Avoid repeatedly crossing the park for scattered appointments.",
+        "detail": "Use the Fantasy Springs passes you grabbed at opening; the rides there usually need a Standby Pass or Premier Access. Avoid repeatedly crossing the park for scattered appointments.",
         "mapQuery": "Tokyo DisneySea Fantasy Springs",
         "food": null,
         "tip": null
       },
       {
-        "time": "Evening",
+        "time": "5:00–6:15pm",
         "kind": "dinner",
         "icon": "🍽️",
-        "title": "Inside DisneySea",
-        "status": "Pick a spot",
-        "detail": "Choose one dinner later. Magellan’s is a candidate inside the fortress, not aboard the ship. Dining and Priority Seating are separate from your booked admission.",
-        "mapQuery": "Tokyo DisneySea Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
+        "title": "Ristorante di Canaletto",
+        "status": "Book Sep 25 · 9pm ET",
+        "detail": "Your chosen Disney dinner: Italian by the gondola canal in Mediterranean Harbor. Book Priority Seating in the app for about 5:00pm so you can leave the park around 7:30; standard advance requests open one month ahead at 10am JST (September 26 for October 26).",
+        "mapQuery": "Ristorante di Canaletto Tokyo DisneySea",
+        "food": "Pasta and pizza; Priority Seating is separate from your admission.",
+        "tip": "Priority Seating opens one month ahead at 10:00am Japan time: Friday September 25 at 9:00pm Eastern, on the Tokyo Disney Resort reservations site or app (MyDisney account). Free cancellation up to 1 hour before.",
+        "mealId": 8,
+        "bookUrl": "https://reserve.tokyodisneyresort.jp/en/restaurant/search/",
+        "bookLabel": "Disney Priority Seating (English)"
+      },
+      {
+        "time": "6:15–7:30pm",
+        "kind": "activity",
+        "icon": "🎢",
+        "title": "Last rides, then leave the park",
+        "detail": "Evening queues are shorter. Leave around 7:30 to be back at the hotel by 9. The 9pm nighttime show would mean a 10:30 return; skip it unless you want one late night.",
+        "mapQuery": "Tokyo DisneySea",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "~7:30pm",
+        "kind": "travel",
+        "icon": "🚆",
+        "title": "Tokyo DisneySea → Hotel",
+        "duration": "60–75 min",
+        "detail": "Resort Line or walk to Maihama, JR Keiyo to Hatchobori, then the walk to the hotel.",
+        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "food": null,
         "tip": null
       }
     ]
@@ -444,7 +537,7 @@ export const DAYS = [
     "hotel": "Caption by Hyatt Kabutocho — Night 5",
     "activities": [
       {
-        "time": "8:00am",
+        "time": "7:10am",
         "kind": "travel",
         "icon": "🚇",
         "title": "Hotel → Tsukiji Outer Market",
@@ -455,18 +548,19 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "8:20–9:45am",
+        "time": "7:30–9:00am",
         "kind": "breakfast",
         "icon": "🐟",
         "title": "Tsukiji Outer Market, graze + browse",
         "status": "No booking",
-        "detail": "Eat your way through breakfast and browse. Tuesday is a regular market day. Until 9am, chefs and buyers get priority, so eat at the shop rather than while walking.",
+        "detail": "Eat your way through breakfast and browse. Tuesday is a regular market day and most stalls are open by 7:30. Until 9am, chefs and buyers get priority, so eat at the shop rather than while walking.",
         "mapQuery": "Tsukiji Outer Market Tokyo",
         "food": "Graze two or three stops, like tamagoyaki, an onigiri and a coffee. The restaurant guide (Tue · Tsukiji breakfast) lists stops open that early.",
-        "tip": null
+        "tip": null,
+        "mealId": 19
       },
       {
-        "time": "9:45am",
+        "time": "9:00am",
         "kind": "travel",
         "icon": "🚇",
         "title": "Tsukiji → Harajuku",
@@ -477,45 +571,57 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "~10:15am–Noon",
+        "time": "~9:30–10:30am",
+        "kind": "activity",
+        "icon": "🌳",
+        "title": "Meiji Jingu shrine",
+        "detail": "A 10-minute walk from Harajuku Station into a forested shrine: one of Tokyo’s top sights, and free. It fills the gap while the shops open. No religious participation is needed.",
+        "mapQuery": "Meiji Jingu Tokyo",
+        "food": null,
+        "tip": null
+      },
+      {
+        "time": "10:30am–12:30pm",
         "kind": "activity",
         "icon": "🛍️",
         "title": "Shopping: Harajuku → Omotesando",
-        "detail": "Browse Takeshita Street and selected character-goods or fashion stops as shops open. One visit replaces both previous Sunday and Tuesday trips.",
+        "detail": "Takeshita Street and most Omotesando shops open 10:30–11:00. Browse Takeshita Street and selected character-goods or fashion stops.",
         "mapQuery": "Omotesando Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "Noon–1:00pm",
-        "kind": "lunch",
-        "icon": "🍱",
-        "title": "Harajuku / Omotesando",
-        "status": "Pick a spot",
-        "detail": "Lunch on the shopping route. Tonkatsu or gyoza are candidates, or shift lunch toward Shibuya for gyukatsu.",
-        "mapQuery": "Harajuku / Omotesando Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "time": "~11:00am · during shopping",
+        "kind": "treat",
+        "icon": "🍩",
+        "title": "I’m donut? + Marion Crepes, Harajuku",
+        "status": "Walk-in",
+        "detail": "Both treats are on the shopping route: I’m donut? by Harajuku Station, then a Marion crêpe on Takeshita Street. Walk-in; short lines are normal.",
+        "mapQuery": "I'm donut? Harajuku Tokyo",
+        "food": "One doughnut and one crêpe each is plenty before lunch.",
+        "tip": null,
+        "mealId": 10
       },
       {
-        "time": "1:00–2:30pm",
+        "time": "12:30–1:30pm",
+        "kind": "lunch",
+        "icon": "🍱",
+        "title": "Harajuku Gyozaro",
+        "status": "Walk-in",
+        "detail": "Your chosen lunch: pan-fried and boiled gyoza with rice and a couple of sides, a few minutes from Omotesando. Walk-in only; expect a short line at 12:30, and it turns over fast.",
+        "mapQuery": "Harajuku Gyozaro Tokyo",
+        "food": "Two orders of gyoza each plus rice; cheap and quick.",
+        "tip": null,
+        "mealId": 9
+      },
+      {
+        "time": "1:30–3:30pm",
         "kind": "activity",
         "icon": "🚶",
         "title": "Browse on foot toward Shibuya",
-        "detail": "Continue through the shopping corridor. Allow roughly 25–40 minutes for a direct walk, longer with browsing; use transit if tired.",
+        "detail": "Continue through the shopping corridor toward Shibuya. Allow roughly 25–40 minutes for a direct walk, longer with browsing; use transit if tired. The rest is free time in Shibuya before the crossing.",
         "mapQuery": "Shibuya Tokyo",
         "food": null,
-        "tip": null
-      },
-      {
-        "time": "2:30–3:30pm",
-        "kind": "treat",
-        "icon": "🥞",
-        "title": "Shibuya dessert stop",
-        "status": "Pick a spot",
-        "detail": "Choose one main treat: pancakes, crepe or doughnut. FLIPPER’S is a candidate. Do not stack three dessert stops; sharing depends on minimum-order rules.",
-        "mapQuery": "Shibuya dessert Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
         "tip": null
       },
       {
@@ -533,22 +639,25 @@ export const DAYS = [
         "kind": "activity",
         "icon": "🌇",
         "title": "Shibuya Sky at sunset",
-        "status": "Book ahead",
-        "detail": "Moved from Sunday to Tuesday. Not booked and not a verified sunset-time slot. Check official ticket availability and actual sunset before choosing entry. Weather can affect the rooftop; keep an indoor fallback.",
+        "status": "Book Oct 12 · 11am ET",
+        "detail": "Sunset is about 4:50pm on October 27, so this window covers it. Sunset slots sell out weeks ahead: book the moment sales open for the date. If it’s sold out, the Skytree deck on Saturday is the fallback (same-day tickets are usually available). Weather can close the rooftop; keep an indoor fallback.",
         "mapQuery": "Shibuya Sky",
         "food": null,
-        "tip": null
+        "tip": "Online tickets go on sale at midnight Japan time two weeks before: Monday October 12 at 11:00am Eastern. Sunset slots sell out within hours; pick an entry between 4:00 and 4:40pm. ¥3,400 each, free cancellation until the day before.",
+        "bookUrl": "https://www.shibuya-scramble-square.com/sky/ticket/",
+        "bookLabel": "Shibuya Sky tickets"
       },
       {
-        "time": "6:30pm onward",
+        "time": "6:00pm onward",
         "kind": "dinner",
         "icon": "🍽️",
-        "title": "Shibuya",
-        "status": "Pick a spot",
-        "detail": "Stay in the area rather than transferring to Roppongi. Gyukatsu could fit if lunch was a different cuisine. Restaurant and reservation remain open.",
-        "mapQuery": "Shibuya Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "title": "Uobei conveyor belt sushi, Shibuya",
+        "status": "Walk-in",
+        "detail": "Your chosen dinner, a minute from Shibuya Crossing: order on the touchscreen and the sushi races to you on express lanes. Walk-in only, open until 11pm; go straight there after Shibuya Sky for a 6:00 seat. Home by 8.",
+        "mapQuery": "Uobei Shibuya Dogenzaka",
+        "food": "Plates from ¥110; ¥1,500–3,000 each for a full meal.",
+        "tip": null,
+        "mealId": 5
       }
     ]
   },
@@ -563,102 +672,120 @@ export const DAYS = [
     "hotel": "Caption by Hyatt Kabutocho — Night 6",
     "activities": [
       {
-        "time": "7:00am",
+        "time": "6:15am",
         "kind": "breakfast",
-        "icon": "🍳",
-        "title": "Quick breakfast near the hotel",
-        "status": "Pick a spot",
-        "detail": "Have a proper but quick breakfast before heading to Shinjuku.",
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
-        "food": "Hotel breakfast or a convenience-store set: onigiri, egg sandwich, fruit, and tea.",
-        "tip": null
+        "icon": "🥪",
+        "title": "FamilyMart, grab and go",
+        "status": "No booking",
+        "detail": "FamilyMart KABUTO ONE opens at 6:00: sandwich or onigiri, yogurt and a drink. Eat it on the Romancecar; eating on board is normal.",
+        "mapQuery": "FamilyMart KABUTO ONE Nihonbashi Kabutocho Tokyo",
+        "food": "Sandwich or onigiri, yogurt or fruit, and a drink.",
+        "tip": null,
+        "mealId": 20
       },
       {
-        "time": "~7:50am",
+        "time": "6:40am",
         "kind": "travel",
         "icon": "🚇",
         "title": "Hotel → Shinjuku",
-        "detail": "Take the subway to Shinjuku for the Romancecar. This replaces the Fuji day because the goal is a day with experiences, not a long bus ride for one view.",
+        "detail": "Subway to Shinjuku (for example Tozai Line from Kayabacho to Otemachi, then Marunouchi Line to Shinjuku). Leaving at 6:40 gets you to the Odakyu Romancecar platforms around 7:20, with time to find the right car before the 7:37 departure.",
         "mapQuery": "Odakyu Shinjuku Station",
         "food": null,
-        "tip": "Book the Romancecar to Hakone-Yumoto and reserve seats when schedules open. Leave buffer time for the transfer at Shinjuku."
+        "tip": "Book the Romancecar to Hakone-Yumoto and reserve seats when schedules open. Leave buffer time for the transfer at Shinjuku.",
+        "duration": "35–40 min"
+      },
+      {
+        "time": "7:37am",
+        "kind": "travel",
+        "icon": "🚄",
+        "title": "Romancecar Hakone 41: Shinjuku → Hakone-Yumoto",
+        "status": "Book Sep 27 · 9pm ET",
+        "detail": "Reserved seats on the weekday Hakone 41 (there is no 8:00 train). ¥2,470 each way per person; book both directions on EMot Online Tickets. Changes are free until departure on the same day, so you can switch trains in the app if plans move.",
+        "mapQuery": "Hakone-Yumoto Station",
+        "food": null,
+        "tip": "Sales open one month ahead at 10:00am Japan time: Sunday September 27 at 9:00pm Eastern, on EMot Online Tickets. Book both directions at once.",
+        "duration": "7:37 → 9:22",
+        "bookUrl": "https://www.emot-tickets.jp/express-menu?language=en",
+        "bookLabel": "EMot Online Tickets (English)"
       },
       {
         "time": "9:30am",
         "kind": "travel",
-        "icon": "🚄",
-        "title": "Romancecar: Shinjuku → Hakone-Yumoto",
-        "status": "Book ahead",
-        "detail": "The scenic express is part of the outing rather than dead time. This replaces the Fuji bus day with one deliberate, restorative destination: lunch, massage, and a private onsen at Hakone Yuryo—not a race through mountain sightseeing stops.",
-        "mapQuery": "Hakone-Yumoto Station",
-        "food": null,
-        "tip": "Book reserved Romancecar seats. Because you are going straight between Hakone-Yumoto and Hakone Yuryo on the free shuttle, skip the Hakone Freepass for this version of the day."
-      },
-      {
-        "time": "11:00am",
-        "kind": "travel",
         "icon": "🚌",
         "title": "Free shuttle → Hakone Yuryo",
         "duration": "~3 min ride",
-        "detail": "Skip the ropeway and make this a real spa day. The free Hakone Yuryo shuttle leaves Hakone-Yumoto Station every 10–15 minutes and takes about 3 minutes, so there is no need for a taxi or Hakone Freepass.",
+        "detail": "The free Hakone Yuryo shuttle leaves Hakone-Yumoto Station every 10–15 minutes and takes about 3 minutes. You arrive around 9:40; the baths open at 10:00.",
         "mapQuery": "Hakone Yuryo",
         "food": null,
-        "tip": "Look for the Hakone Yuryo shuttle after you exit the Romancecar. Aim to arrive at the facility a little before 11:30am so lunch starts calmly."
+        "tip": "Look for the Hakone Yuryo shuttle after you exit the Romancecar."
       },
       {
-        "time": "11:30am",
-        "kind": "lunch",
-        "icon": "🍢",
-        "title": "Hachiri irori course, Hakone Yuryo",
-        "status": "Chosen · to reserve",
-        "detail": "Your Hakone meal is now the full, onsite lunch rather than a quick soba stop: charcoal-grilled seafood and seasonal vegetables, a grilled river fish, tea soba, and dessert. The March 2026 course PDF you attached prices the standard seasonal course at ¥6,500 per person, tax included; October's ingredients can change, so reconfirm the autumn menu when booking.",
-        "mapQuery": "Hakone Yuryo Irorisaryo Hachiri",
-        "food": "Reserve the standard Seasonal Irori Course for two (¥13,000 total before drinks). The ¥8,500 Special Course is limited to 10 servings per day, so treat it as an upgrade only if you specifically want the extra sashimi and Japanese beef.",
-        "tip": "Reserve the 11:30am seating directly with Hakone Yuryo. It is a proper 60-minute meal and replaces both the separate Yamasoba lunch and the former early dinner."
-      },
-      {
-        "time": "12:45pm",
-        "kind": "activity",
-        "icon": "💆",
-        "title": "Couples massage · 60 min",
-        "status": "Book ahead",
-        "detail": "Each of you gets a 60-minute full-body massage at Hakone Yuryo's onsite Hogushian Yururuka. The published price is ¥7,900 per person (¥15,800 total). Request two therapists at the same time; if that is unavailable, use back-to-back appointments and move the private-bath booking later.",
-        "mapQuery": "Hakone Yuryo Hogushian Yururuka",
-        "food": null,
-        "tip": "⚠️ Reserve this with the bath, not as a walk-in. The relaxation desk is open 11am–8pm, with last entry at 7pm. Avoid alcohol before treatment and flag any medical considerations when booking."
-      },
-      {
-        "time": "2:15pm",
+        "time": "10:00am–Noon",
         "kind": "activity",
         "icon": "♨️",
         "title": "Private open-air onsen · 120 min",
-        "status": "Book ahead",
-        "detail": "This is the anniversary anchor: a Type 1 private outdoor bath for just the two of you, immediately after the massage. Wednesday is a weekday, so the verified 120-minute room rate is ¥10,400 total—not per person. Towels and bath amenities are included; a yukata rental is an optional ¥100 each.",
+        "status": "Book Sep 27 · 11am ET",
+        "detail": "The anniversary anchor: a Type 1 private outdoor bath for just the two of you at the 10:00 opening slot (start times are on the hour or half hour). Weekday 120 minutes is ¥10,400 for the room, tax included; a card holds the booking and you pay on site. Arriving 15+ minutes late without calling cancels it. Yukata rental ¥100 each, optional.",
         "mapQuery": "Hakone Yuryo private open air bath",
         "food": null,
-        "tip": "⚠️ Reserve this first, then fit lunch and both massages around it. Book up to one month ahead; request the 2:15pm slot or the closest available. No swimsuits are used in the private bath."
+        "tip": "Booked separately from the massages and lunch, on TableCheck, from one month before (Sunday September 27, likely 11:00am Eastern; if 10:00 is not selectable yet, try again at 4:00pm Eastern). No swimsuits are used in the private bath.",
+        "bookUrl": "https://www.tablecheck.com/en/shops/hakoneyuryo/reserve",
+        "bookLabel": "Book the private bath on TableCheck (English)"
       },
       {
-        "time": "4:30pm",
+        "time": "12:30pm",
+        "kind": "lunch",
+        "icon": "🍢",
+        "title": "Hachiri irori course, Hakone Yuryo",
+        "status": "Call Sep 27 · 10:30pm ET",
+        "detail": "Charcoal irori course: grilled seafood and seasonal vegetables, a grilled river fish, tea soba and dessert. Autumn Irori Course ¥6,500 each (the limited special course is ¥8,500). Restaurant bookings are by phone only.",
+        "mapQuery": "Hakone Yuryo Irorisaryo Hachiri",
+        "food": "Reserve the standard Seasonal Irori Course for two (¥13,000 total before drinks). The ¥8,500 Special Course is limited to 10 servings per day, so treat it as an upgrade only if you specifically want the extra sashimi and Japanese beef.",
+        "tip": "Phone bookings only, from one month before: call +81-460-85-8411 on Sunday September 27 at 10:30pm Eastern (11:30am Monday in Japan).",
+        "mealId": 12,
+        "bookUrl": "tel:+81460858411",
+        "bookLabel": "Call +81-460-85-8411"
+      },
+      {
+        "time": "1:45pm",
+        "kind": "activity",
+        "icon": "💆",
+        "title": "Couples massage · 60 min",
+        "status": "Book now",
+        "detail": "Two 60-minute body-care massages side by side at Yururuka, the spa’s massage room, right after lunch. ¥7,900 each, paid on site; no card needed to book. Booked separately from the private bath and lunch.",
+        "mapQuery": "Hakone Yuryo Hogushian Yururuka",
+        "food": null,
+        "tip": "Book online now (English booking page, free account): choose 2 people, 1:45pm. Avoid alcohol at lunch and flag any medical considerations.",
+        "bookUrl": "https://online.peakmanager.com/en/s3n0u2/book",
+        "bookLabel": "Book massages (English)"
+      },
+      {
+        "time": "2:55pm",
         "kind": "travel",
         "icon": "🚄",
-        "title": "Shuttle + Romancecar → Shinjuku",
-        "status": "Book ahead",
-        "detail": "Leave the facility around 4:30pm after the proposed bath. Allow shuttle wait, ride and station buffer. Choose the actual return train after confirming spa appointments, not around a dinner deadline.",
+        "title": "Shuttle + Romancecar Hakone 36 → Shinjuku",
+        "status": "Book Sep 27 · 9pm ET",
+        "detail": "Leave right after the massages: shuttle to Hakone-Yumoto for the 3:13pm Hakone 36, arriving Shinjuku 4:46. If you are running behind, switch to the 3:52 (arrives 5:27) in the EMot app before 3:13 and push dinner to 5:45.",
         "mapQuery": "Odakyu Shinjuku Station",
         "food": "Small train snack if needed; dinner remains flexible.",
-        "tip": "Reserve the return Romancecar once the private-bath time is confirmed. The shuttle is free and runs every 10–15 minutes, so leave the facility around 4:30pm to make an early-evening train comfortably."
+        "tip": null,
+        "duration": "3:13 → 4:46",
+        "bookUrl": "https://www.emot-tickets.jp/express-menu?language=en",
+        "bookLabel": "EMot Online Tickets (English)"
       },
       {
-        "time": "After Shinjuku arrival",
+        "time": "5:30pm",
         "kind": "dinner",
-        "icon": "🐈",
-        "title": "Shinjuku 3D cat + griddle dinner",
-        "status": "Optional",
-        "detail": "Romancecar already brings you to Shinjuku. See the cat and have monjayaki/okonomiyaki if you have energy. Monjaya is a candidate, not a booking. Otherwise go directly to the hotel; no prepaid dinner tied to the return train.",
-        "mapQuery": "Cross Shinjuku Vision Tokyo",
-        "food": "One optional dinner, replacing Sunday’s Shinjuku meal.",
-        "tip": null
+        "icon": "🥩",
+        "title": "Yakiniku Ushigoro, Shinjuku 3-chome",
+        "status": "Book now",
+        "detail": "A5 kuroge wagyu yakiniku, staff-guided at your table, on the 12th floor beside Kinokuniya, about 10 minutes’ walk from the Romancecar platforms. Book 5:30pm; courses ¥9,760–16,590 a person. The 3D cat at Cross Shinjuku Vision is on the way if you want the photo. Subway back after, hotel by 7:45.",
+        "mapQuery": "Yakiniku Ushigoro Shinjuku Sanchome",
+        "food": "One course each; allow ¥20,000–33,000 for two plus drinks.",
+        "tip": null,
+        "mealId": 7,
+        "bookUrl": "https://www.tablecheck.com/en/shops/ushigoro-shinjukusanchome/reserve",
+        "bookLabel": "Book on TableCheck (English)"
       }
     ]
   },
@@ -668,7 +795,7 @@ export const DAYS = [
     "date": "Oct 29",
     "type": "travel",
     "emoji": "🛬",
-    "title": "Ginza breakfast → short shopping stop → Haneda",
+    "title": "Ginza breakfast + shopping → Haneda",
     "location": "Tokyo → Minneapolis → Tampa",
     "hotel": null,
     "activities": [
@@ -686,54 +813,68 @@ export const DAYS = [
         "time": "8:30–9:30am",
         "kind": "breakfast",
         "icon": "🍳",
-        "title": "Ginza",
-        "status": "Pick a spot",
-        "detail": "Breakfast before one Ginza shopping stop. bills Ginza is the guide's recommended sit-down option; the cafés near the hotel are quicker if packing runs long. Tsukiji moved to Tuesday morning.",
-        "mapQuery": "Ginza Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "title": "Hoshino Coffee, Yaesu underground (soufflé pancakes)",
+        "status": "Walk-in",
+        "detail": "Oven-baked soufflé pancakes and coffee in the Yaesu underground mall at Tokyo Station, a 15-minute walk from the hotel; opens 8:00, no reservations. Then two stops on the Ginza Line to the shops.",
+        "mapQuery": "Hoshino Coffee Yaesu Underground Mall Tokyo",
+        "food": "One soufflé pancake stack each with coffee.",
+        "tip": null,
+        "mealId": 1
       },
       {
-        "time": "9:30–11:00am",
+        "time": "10:00–10:50am",
         "kind": "activity",
         "icon": "🛍️",
-        "title": "Shopping: one Ginza stop",
-        "detail": "Walk from breakfast to your chosen store. Browse streets until it opens. Skip shopping if running late.",
+        "title": "Shopping: Ginza",
+        "detail": "Tokyo Station to Ginza is two stops on the Ginza Line, or a 15-minute walk. Stores open 10:00–10:30. One or two stops, then lunch at Mitsukoshi at 11:00.",
         "mapQuery": "Ginza Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "11:00am–Noon",
+        "time": "11:00–11:45am",
         "kind": "lunch",
         "icon": "🍱",
-        "title": "Ginza / Nihonbashi",
-        "status": "Optional",
-        "detail": "Optional early lunch with a clear finish time. Eel rice is a candidate, not a reservation. No Akihabara excursion to Kandagawa. A snack or takeaway is fine after breakfast.",
-        "mapQuery": "Ginza / Nihonbashi Tokyo restaurants",
-        "food": "Restaurant, menu and booking remain provisional.",
-        "tip": null
+        "title": "Hitsumabushi Bincho, Ginza Mitsukoshi",
+        "status": "Book now",
+        "detail": "Grilled eel over rice, eaten three ways (plain, with condiments, then with dashi poured over). Ginza Mitsukoshi 11F; 11:00 is the first lunch seating. Arriving more than 15 minutes late without calling cancels the booking.",
+        "mapQuery": "Hitsumabushi Bincho Ginza Mitsukoshi",
+        "food": "One hitsumabushi set each; allow ¥4,000–6,000 per person.",
+        "tip": null,
+        "mealId": 13,
+        "bookUrl": "https://booking.ebica.jp/webrsv/search/e020034301/21802?isfixshop=true",
+        "bookLabel": "Book on ebica"
       },
       {
-        "time": "Noon–12:45pm",
+        "time": "11:50am",
         "kind": "travel",
         "icon": "🚇",
         "title": "Ginza → Hotel, collect bags",
         "duration": "25–40 min",
-        "detail": "Allow roughly 25–40 minutes from Ginza depending on the endpoint, then collect bags. Drop optional shopping or lunch to protect airport departure.",
+        "detail": "Two subway stops or a 20-minute walk, then collect your bags. Allow 25–40 minutes including the pickup.",
         "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "12:45–1:00pm",
+        "time": "~12:45pm",
         "kind": "travel",
         "icon": "🚆",
         "title": "Hotel → Haneda Airport",
         "duration": "60–75 min",
-        "detail": "Walk to Nihombashi using elevators, then Toei Asakusa / Keikyu to Haneda. Allow roughly 60–75 minutes including access and margin. Aim for Terminal 3 by about 2:15pm, three hours before the confirmed 5:15pm flight. Check destination and transfer at Sengakuji if needed.",
+        "detail": "Walk to Nihombashi using elevators, then Toei Asakusa / Keikyu to Haneda. Allow roughly 60–75 minutes including access and margin. Aim for Terminal 3 by about 2:00pm, three hours before the confirmed 5:15pm flight. Check destination and transfer at Sengakuji if needed.",
         "mapQuery": "Tokyo Haneda Airport Terminal 3",
         "food": null,
+        "tip": null
+      },
+      {
+        "time": "~2:00–4:15pm",
+        "kind": "activity",
+        "icon": "🛍️",
+        "title": "Haneda Terminal 3: check in + duty-free",
+        "detail": "Check in and drop bags, then Edo Koji (4F, before security) for a snack if you want one, and duty-free airside for last souvenirs. Be at the gate by about 4:30pm.",
+        "mapQuery": "Tokyo Haneda Airport Terminal 3",
+        "food": "Snacks only; lunch was Bincho.",
         "tip": null
       },
       {
@@ -786,7 +927,7 @@ export const DAY_TRANSIT = {
     "mapQuery": "Caption by Hyatt Kabutocho Tokyo"
   },
   "2": {
-    "leaveBy": "Leave hotel around 8:15am",
+    "leaveBy": "Leave hotel around 7:45am",
     "from": "Nihombashi",
     "to": "Asakusa",
     "route": "Toei Asakusa Line, no transfers; 25–30 min door to door",
@@ -807,23 +948,23 @@ export const DAY_TRANSIT = {
     "mapQuery": "Tokyo DisneySea"
   },
   "5": {
-    "leaveBy": "Leave hotel around 8:00am; leave Tsukiji around 9:45am",
+    "leaveBy": "Leave hotel around 7:10am; leave Tsukiji around 9:00am",
     "from": "Kayabacho → Tsukiji (breakfast)",
     "to": "Harajuku / Meiji-jingumae",
     "route": "Hibiya Line 2 stops; then Hibiya + Chiyoda lines, 30–40 min",
     "mapQuery": "Tsukiji Outer Market Tokyo"
   },
   "6": {
-    "leaveBy": "Leave around 7:50am; adjust to reserved train",
+    "leaveBy": "Leave around 6:40am for the 7:37 Romancecar",
     "from": "Kayabacho",
     "to": "Shinjuku → Hakone-Yumoto",
     "route": "Subway + reserved Romancecar; dinner optional",
     "mapQuery": "Odakyu Shinjuku Station"
   },
   "7": {
-    "leaveBy": "Leave with luggage by 12:45–1:00pm",
-    "from": "Nihombashi",
-    "to": "Haneda T3 by about 2:15pm",
+    "leaveBy": "Leave with luggage around 12:45pm",
+    "from": "Hotel → Tokyo Station (pancakes) → Ginza → hotel",
+    "to": "Haneda T3 by about 2:00pm",
     "route": "Toei Asakusa → Keikyu; 60–75 min with margin",
     "mapQuery": "Tokyo Haneda Airport Terminal 3"
   }

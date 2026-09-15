@@ -42,7 +42,8 @@ export const sections = [
         "reason": "Your confirmed choice: near the hotel with flexible non-soup dishes.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13265669/"
       },
       {
         "name": "Godaime Hanayama Udon, Nihonbashi",
@@ -71,7 +72,8 @@ export const sections = [
         "tradeoff": "A second noodle meal if retaining Saturday tsukemen.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13266849/"
       },
       {
         "name": "Nihonbashi Tamai, Main Shop",
@@ -99,7 +101,8 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13019904/"
       },
       {
         "name": "Taimeiken, Nihonbashi",
@@ -122,7 +125,8 @@ export const sections = [
         "tradeoff": "Longer walk; confirm current location and dinner service.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13252161/"
       },
       {
         "name": "Tenichi, Nihonbashi Takashimaya",
@@ -149,7 +153,9 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13247938/",
+        "experience": "Chef fries each piece at the counter"
       },
       {
         "name": "Hinozen, Ningyocho Honten",
@@ -176,9 +182,11 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13116078/"
       }
-    ]
+    ],
+    "theme": "Modern Japanese small plates, near the hotel"
   },
   {
     "id": 1,
@@ -187,13 +195,71 @@ export const sections = [
     "label": "Thu · Breakfast",
     "origin": "Caption by Hyatt Kabutocho Tokyo",
     "originLabel": "Your hotel, before Ginza",
-    "advice": "Tsukiji moved to Tuesday breakfast, so this is a simple flight-day breakfast. bills fits the Ginza shopping stop; cafés near the hotel are quicker if packing runs long.",
+    "advice": "Hoshino Coffee is chosen: oven-baked soufflé pancakes from 8:00 in the Yaesu underground mall, then two stops to the Ginza shops. Walk-in.",
     "options": [
+      {
+        "name": "Hoshino Coffee, Yaesu Underground Mall",
+        "description": "Hoshino’s signature oven-baked soufflé pancakes, thick and jiggly, with coffee. A café chain, but the pancakes are the real thing and it opens early.",
+        "budget": "¥1,200–1,800",
+        "travel": "W15–20",
+        "sources": [
+          {
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1302/A130201/13262535/"
+          },
+          {
+            "label": "Hoshino Coffee official",
+            "url": "https://www.hoshinocoffee.com/"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "No reservations",
+        "booking": "Yaesu Underground Mall (Yaechika) B1, Tokyo Station Yaesu side; open 8:00–21:30 daily. Walk-in. The Kanda branch opens at 7:00 if you want it even earlier. Confirm the pancakes are served with the morning menu when you arrive.",
+        "priceNote": "Planning allowance, not a quote",
+        "variety": "Soufflé pancakes; the Western breakfast of the week.",
+        "reason": "The only soufflé pancakes open early enough for your 9:00 breakfast and the Bincho lunch.",
+        "tradeoff": "A chain café in an underground mall, not a destination room.",
+        "recommended": true,
+        "experience": "Oven-baked soufflé pancakes",
+        "verification": "Hours checked on Tabelog; pancake availability at 9am likely, confirm on arrival",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130201/13262535/",
+        "selected": true,
+        "selectedStatus": "Chosen · walk-in"
+      },
+      {
+        "name": "A Happy Pancake, Ginza",
+        "description": "The tall, wobbly soufflé pancakes Japan is known for, in Ginza. Sweet stacks with butter cream, or savory ones until 2:30pm.",
+        "budget": "¥1,400–2,200",
+        "travel": "T15–20",
+        "sources": [
+          {
+            "label": "Official web booking",
+            "url": "https://magia.tokyo/reserve/?m=home"
+          },
+          {
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13215803/"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "Reservations available",
+        "booking": "New Ginza Building 10-gokan 7F-B, Ginza 5-8-5, 170 m from Ginza Station exit A5. Open 10:30am–7:30pm; pancake ¥1,390, drink set +¥390. Weekday web booking on the official site; walk-ins check in by QR code at the 1F elevator.",
+        "priceNote": "Published prices",
+        "variety": "Soufflé pancakes; the Western breakfast of the week.",
+        "reason": "The classic wobbly soufflé pancake, and it takes reservations.",
+        "tradeoff": "Opens 10:30, so it becomes brunch and replaces the Bincho lunch; lunch would then be at Haneda.",
+        "experience": "Tall wobbly soufflé pancakes",
+        "verification": "Hours and prices checked on Tabelog; web booking likely",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13215803/",
+        "selected": false
+      },
       {
         "name": "bills, Ginza",
         "description": "Ricotta pancakes or a Western egg breakfast; choose a full dish and drink.",
         "budget": "¥3,000–5,000",
-        "travel": "T20–35",
+        "travel": "T15–20",
         "sources": [
           {
             "label": "Official venue / menu",
@@ -205,112 +271,16 @@ export const sections = [
         "booking": "Opens 08:30 daily. Reserve via the official site, not an unapproved reseller. Keeps breakfast in Ginza before your shopping stop.",
         "priceNote": "Planning allowance, not a quote",
         "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Best sit-down farewell breakfast with familiar food.",
-        "tradeoff": "Higher budget and later start; leave enough time to return for bags.",
-        "recommended": true,
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "PRONTO, Fresa Inn Nihonbashi",
-        "description": "Toast or savory morning bread set, plus another item if the standard set is too small.",
-        "budget": "¥900–1,600",
-        "travel": "W5–10",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://shop.pronto.co.jp/detail/206/"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "This specific Fresa Inn branch opens 06:30, including weekends; weekend service ends 10:00. Confirm available morning set and public guest service. Do not confuse with PRONTO Kayabacho, which opens 11:30 on weekends.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Earliest nearby café candidate without paying hotel-breakfast prices.",
-        "tradeoff": "Standard morning sets can be small; add food.",
+        "reason": "Backup: famous ricotta pancakes, open from 8:30, but not the tall soufflé kind.",
+        "tradeoff": "Fluffy, but not the wobbly soufflé style you asked for.",
+        "recommended": false,
         "verification": "Route reviewed; October availability not checked",
         "checked": "2026-09-13",
-        "photo": {
-          "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
-          "source": "https://shop.pronto.co.jp/detail/206/",
-          "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
-      },
-      {
-        "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3",
-        "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
-        "budget": "¥1,200–2,000",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://baycrews.jp/store/detail/1145"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "Official branch hours 07:30–21:00. Walk-in bakery; exact sandwiches and seating depend on the day.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Japanese bakery interpretation of a familiar Western breakfast.",
-        "tradeoff": "More walking than the hotel; protein-heavy items may vary.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Excelsior Caffé, Ningyocho",
-        "description": "Croque monsieur or ham sandwich, with coffee and an extra item if needed. Chain morning menu also includes thick toast and eggs.",
-        "budget": "¥1,000–1,500",
-        "travel": "W15–20",
-        "sources": [
-          {
-            "label": "Branch hours",
-            "url": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000124"
-          },
-          {
-            "label": "Morning menu",
-            "url": "https://www.doutor.co.jp/exc/menu/list/morning.html"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "Weekdays 06:45; Saturday/Sunday 07:30 opening. Confirm the branch's available morning items. Seating includes a separated smoking area.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "tradeoff": "A chain café and an extra walk, but a substantial sandwich option.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Talk Shop, Caption by Hyatt Kabutocho",
-        "description": "American breakfast with eggs, bacon, sausage, hash browns, avocado, toast, coffee and juice.",
-        "budget": "¥2,860",
-        "travel": "W0–2",
-        "sources": [
-          {
-            "label": "Hours",
-            "url": "https://www.hyatt.com/caption-by-hyatt/en-US/tyocp-caption-by-hyatt-kabutocho-tokyo/dining"
-          },
-          {
-            "label": "Breakfast menu",
-            "url": "https://www.hyatt.com/content/dam/hotel/propertysites/assets/caption/tyocp/en_us/dining/Talk-Shop-Menu.pdf"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Ask hotel at check-in",
-        "booking": "Breakfast 07:00–11:00. Chosen for Saturday only, not every morning. Ham-and-egg panini or egg-sandwich sets are ¥1,650 with fruit and coffee.",
-        "priceNote": "Published price; paid separately",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "selected": false,
-        "selectedStatus": "Chosen · Saturday only",
-        "reason": "Your selected full breakfast, with no travel.",
-        "tradeoff": "Convenient fallback, but repeats Saturday.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13199825/",
+        "selected": false
       }
-    ]
+    ],
+    "theme": "Soufflé pancakes"
   },
   {
     "id": 2,
@@ -319,8 +289,61 @@ export const sections = [
     "label": "Sat · Optional Asakusa treat",
     "origin": "Sensoji Temple Tokyo",
     "originLabel": "Senso-ji main hall",
-    "advice": "Pick at most one. All are Asakusa-area comparisons; travel estimates do not include queues.",
+    "advice": "Two chosen stops: Nakamise stalls on the way out of the temple (~9:30), then Hokkaido Milk Bar at 10:00 before the walk to Skytree. The others stay as alternatives.",
     "options": [
+      {
+        "name": "Nakamise street stalls, Asakusa",
+        "description": "Snack your way along the approach to Senso-ji: ningyo-yaki (little red-bean sponge cakes), fried manju, grilled senbei, and Kagetsudo’s melon-pan by the gate. Buy, step beside the stall, eat, move on.",
+        "budget": "¥500–1,200",
+        "travel": "W0–5",
+        "sources": [
+          {
+            "label": "Nakamise shopping street (official)",
+            "url": "https://www.asakusa-nakamise.jp/"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "Walk-in treat",
+        "booking": "About 90 stalls on the street between Kaminarimon and the temple; most open 9–10am, so snack on the way out around 9:30. No eating while walking.",
+        "priceNote": "Planning allowance, not a quote",
+        "variety": "Street snacks, different from every other treat this week.",
+        "reason": "Your pick: the street vendors by the temple.",
+        "tradeoff": "Stalls are still opening at 8:15; the treat happens at the end of the temple visit.",
+        "selected": true,
+        "selectedStatus": "Chosen · walk-in",
+        "experience": "Street stalls on the temple approach",
+        "verification": "Hours from the street association site; individual stalls vary",
+        "checked": "2026-09-14"
+      },
+      {
+        "name": "Hokkaido Milk Bar, Asakusa",
+        "description": "All-Hokkaido dairy a few minutes west of the temple on Nishi-Sando: soft serve, milk pudding, a three-milk tasting flight, cream buns and milkshakes.",
+        "budget": "¥700–1,100",
+        "travel": "W3–5",
+        "sources": [
+          {
+            "label": "Official site (hours)",
+            "url": "https://hokkaido-milkbar.com/"
+          },
+          {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1311/A131102/13308223/"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "Walk-in treat",
+        "booking": "Asakusa 2-7-13, on the Nishi-Sando shopping street, stall 北15. Official hours 10:00–17:00 daily (some listings show 9:00–9:30 weekend openings). Walk-in; small shop, short waits possible.",
+        "priceNote": "Published item prices",
+        "variety": "Dairy dessert, different from the Nakamise snacks.",
+        "reason": "Your pick from the Maps link; slots in at 10:00 before the walk to Skytree.",
+        "tradeoff": "Opens at 10:00, so it is the last stop in Asakusa rather than a mid-temple snack.",
+        "selected": true,
+        "selectedStatus": "Chosen · walk-in",
+        "experience": "Hokkaido soft serve and a milk tasting flight",
+        "verification": "Hours from the official site; Tabelog page matched",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13308223/"
+      },
       {
         "name": "Suzukien, Asakusa",
         "description": "Compare matcha gelato intensities together, from gentler green tea to deeply bitter matcha.",
@@ -329,7 +352,7 @@ export const sections = [
         "current": false,
         "travel": "W5–10",
         "style": "Non-soup choices",
-        "recommended": true,
+        "recommended": false,
         "sources": [
           {
             "label": "Official store",
@@ -346,7 +369,9 @@ export const sections = [
         "reason": "Matcha intensity tasting is the most distinctive shared treat.",
         "tradeoff": "A queue can eat into your aquarium/lunch buffer.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13153620/",
+        "experience": "Seven matcha intensities"
       },
       {
         "name": "Asakusa Umezono, Main Shop",
@@ -375,7 +400,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13003670/"
       },
       {
         "name": "Funawa, Main Shop",
@@ -398,7 +424,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13003683/"
       },
       {
         "name": "Asakusa Kagetsudo, Kaminarimon branch",
@@ -421,7 +448,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13161092/"
       },
       {
         "name": "Asakusa Silk Purin",
@@ -444,7 +472,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13041523/"
       },
       {
         "name": "Kaminari Issa, Asakusa Main Shop",
@@ -467,9 +496,11 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131102/13183530/"
       }
-    ]
+    ],
+    "theme": "Asakusa street snacks"
   },
   {
     "id": 3,
@@ -509,7 +540,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1312/A131203/13137823/"
       },
       {
         "name": "RAMEN EXPRESS Hakata Ippudo, Tokyo Solamachi",
@@ -532,7 +564,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1312/A131203/13138714/"
       },
       {
         "name": "Tonkatsu Shinjuku Saboten, Tokyo Solamachi",
@@ -553,7 +586,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1312/A131203/13141234/"
       },
       {
         "name": "Kikanbo, Kanda Main Store",
@@ -577,7 +611,8 @@ export const sections = [
         "tradeoff": "Leaves Solamachi for Kanda and adds queue risk before karting; not recommended for this slot.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1310/A131002/13097205/"
       },
       {
         "name": "Menya Musashi Bukotsu, Okachimachi",
@@ -601,7 +636,8 @@ export const sections = [
         "tradeoff": "Okachimachi detour; keep only if you actively change the lunch location.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131101/13003621/"
       },
       {
         "name": "Soranoiro NIPPON, Tokyo Ramen Street",
@@ -625,9 +661,11 @@ export const sections = [
         "tradeoff": "Tokyo Station detour is a poor fit before the kart tour.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130201/13183558/"
       }
-    ]
+    ],
+    "theme": "Tsukemen: thick dipping noodles"
   },
   {
     "id": 4,
@@ -636,7 +674,7 @@ export const sections = [
     "label": "Sat · Dinner",
     "origin": "Tokyo Solamachi",
     "originLabel": "Tokyo Solamachi (after shopping)",
-    "advice": "Six dinner comparisons. Tenichi is a recommendation, not a selection. Travel starts at Tokyo Solamachi: the Nihonbashi and Ningyocho options are on the direct train toward your hotel; the two Akihabara options are now detours.",
+    "advice": "Tenichi is chosen: reserve a ~5:30pm table (dinner service from 5pm, table last order 8pm). The wagyu options stay here in case Wednesday’s wagyu plan changes.",
     "options": [
       {
         "name": "Tenichi, Nihonbashi Takashimaya",
@@ -663,7 +701,39 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13247938/",
+        "experience": "Chef fries each piece at the counter",
+        "selected": true,
+        "selectedStatus": "Chosen · to reserve"
+      },
+      {
+        "name": "Yakiniku Ushigoro, Ginza",
+        "description": "A5 wagyu yakiniku grilled at your table in a plush, dim room: tongue, zabuton, and sukiyaki-style beef dipped in egg yolk. Staff will grill and pace the course for you.",
+        "budget": "¥7,200–15,800 course + 5% service",
+        "travel": "T30–35",
+        "sources": [
+          {
+            "label": "Official branch page",
+            "url": "https://ushigoro.com/shop/ginza/"
+          },
+          {
+            "label": "Reservations (TableCheck)",
+            "url": "https://www.tablecheck.com/en/shops/ushigoro-ginza/reserve"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "Reserve recommended",
+        "booking": "ONE GINZA 7F, Ginza 1-8-19, a minute from Ginza-Itchome exit 7 and about 15 minutes from the hotel. Saturday hours 11:30–23:30, open year-round. Book on the official site via TableCheck: instant confirmation, card prepayment, 2-hour seating; cancellation 50% the day before, 100% same day. Tel 03-3538-1129.",
+        "priceNote": "Published course prices",
+        "variety": "Wagyu yakiniku; keep Tuesday’s dinner non-beef if you choose this.",
+        "reason": "The wagyu splurge: an easy direct train from Solamachi, and 15 minutes from the hotel afterward.",
+        "tradeoff": "The most expensive Saturday option, prepaid with strict cancellation.",
+        "experience": "A5 wagyu grilled at your table",
+        "verification": "Hours, prices and booking checked on the official site",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13263391/",
+        "selected": false
       },
       {
         "name": "Yakiniku Like, Akihabara Denkigai",
@@ -685,7 +755,9 @@ export const sections = [
         "tradeoff": "Fast, individual-roaster format rather than a romantic lingering dinner.",
         "detour": true,
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1310/A131001/13232766/",
+        "selected": false
       },
       {
         "name": "Aging Beef, WATERRAS Kanda Akihabara",
@@ -712,7 +784,10 @@ export const sections = [
           "src": "https://agingbeef.jp/img/OGP.jpg",
           "source": "https://agingbeef.jp/",
           "caption": "Official venue / menu image; not a guaranteed October dish"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1310/A131002/13153556/",
+        "experience": "Aged wagyu, grilled at your table",
+        "selected": false
       },
       {
         "name": "Ningyocho Imahan, Ningyocho Honten",
@@ -738,7 +813,10 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13003059/",
+        "experience": "Wagyu sukiyaki cooked at your table",
+        "selected": false
       },
       {
         "name": "Nihonbashi Tamai, Main Shop",
@@ -766,7 +844,9 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13019904/",
+        "selected": false
       },
       {
         "name": "Hinozen, Ningyocho Honten",
@@ -792,9 +872,12 @@ export const sections = [
           "caption": "Official venue / menu image; not a guaranteed October dish"
         },
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13116078/",
+        "selected": false
       }
-    ]
+    ],
+    "theme": "Tempura counter"
   },
   {
     "id": 5,
@@ -803,8 +886,38 @@ export const sections = [
     "label": "Tue · Dinner",
     "origin": "Shibuya Sky Tokyo",
     "originLabel": "Shibuya Sky / Shibuya Scramble Square exit",
-    "advice": "Six Shibuya dinner choices after the viewpoint. Pick a cuisine that differs from your Tuesday lunch; no cross-city Roppongi transfer.",
+    "advice": "Uobei is chosen for conveyor belt sushi, a minute from Shibuya Crossing; walk-in, so head straight there after Shibuya Sky. Gyukatsu and the hamburg place stay as alternatives.",
     "options": [
+      {
+        "name": "Uobei, Shibuya Dogenzaka",
+        "description": "Order on the seat-side touchscreen and your sushi races to you on a three-tier express lane. Cheap, fast and fun, a minute from Shibuya Crossing.",
+        "budget": "¥1,500–3,000",
+        "travel": "W8–12",
+        "sources": [
+          {
+            "label": "Official Genki Sushi site",
+            "url": "https://club-genki.info/"
+          },
+          {
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1303/A130301/13144109/"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "No reservations",
+        "booking": "Dogenzaka 2-29-11, 1 minute from Shibuya Station. Open 11:00–23:00 weekdays and 10:30–23:00 weekends, no closing days. Walk-in only, 121 seats; a short queue is normal around 6pm. Base plates ¥110, with ¥132–297 tiers.",
+        "priceNote": "Published plate prices; allowance for a full meal",
+        "variety": "Sushi, but a completely different style from Sunday’s omakase.",
+        "reason": "The conveyor belt sushi you asked for, right by Shibuya Sky.",
+        "tradeoff": "Quick and casual, not a lingering anniversary dinner.",
+        "recommended": true,
+        "experience": "Sushi races to you on express lanes",
+        "verification": "Hours and prices checked on the official site and Tabelog",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13144109/",
+        "selected": true,
+        "selectedStatus": "Chosen · walk-in"
+      },
       {
         "name": "Gyukatsu Motomura, Shibuya",
         "description": "Breaded beef cutlet that you finish on your own hot stone, with rice and sides.",
@@ -819,7 +932,7 @@ export const sections = [
           "source": "https://www.gyukatsu-motomura.com/store/Shibuya",
           "caption": "Motomura Shibuya · official venue image"
         },
-        "recommended": true,
+        "recommended": false,
         "sources": [
           {
             "label": "Official branch",
@@ -832,7 +945,10 @@ export const sections = [
         "reason": "The stone-grill beef experience fits the Shibuya evening, without traveling to Roppongi.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13153853/",
+        "experience": "Sear the wagyu cutlet on your own hot stone",
+        "selected": false
       },
       {
         "name": "Hikiniku to Come, Shibuya",
@@ -855,7 +971,10 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13257261/",
+        "experience": "Charcoal hamburg cooked in front of you",
+        "selected": false
       },
       {
         "name": "Kiwamiya, Shibuya PARCO",
@@ -878,7 +997,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13241227/",
+        "selected": false
       },
       {
         "name": "Sushi no Midori, Shibuya",
@@ -901,7 +1022,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13004624/",
+        "selected": false
       },
       {
         "name": "Torigin, Shibuya",
@@ -925,7 +1048,9 @@ export const sections = [
         "reason": "Adds chicken skewers and pot rice instead of another beef meal.",
         "tradeoff": "Less theatrical than the personal-grill counters; confirm dinner service before choosing.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13002030/",
+        "selected": false
       },
       {
         "name": "Suage, Shibuya",
@@ -948,165 +1073,174 @@ export const sections = [
         "tradeoff": "Soup-centered, even though rice is served separately.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13234526/",
+        "selected": false
+      },
+      {
+        "name": "Katsu Midori, Atre Meguro",
+        "description": "The Midori group’s conveyor belt branch: oversized cuts on a real belt plus touch-panel ordering. Tokyo’s benchmark for value kaiten sushi.",
+        "budget": "¥2,000–4,000",
+        "travel": "T15–20",
+        "sources": [
+          {
+            "label": "Official site (live wait time)",
+            "url": "https://katumidori.co.jp/"
+          },
+          {
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1316/A131601/13004540/"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "No reservations",
+        "booking": "Inside Meguro Station, Atre Meguro 2, 1F; two Yamanote stops from Shibuya. Open 11:00–22:00 daily. Walk-in only with long queues; the official site shows the live wait. Arrive by 5:30.",
+        "priceNote": "Published plate prices; allowance for a full meal",
+        "variety": "Higher-grade conveyor sushi than Uobei; still casual.",
+        "reason": "Better fish than Uobei if you want quality over novelty.",
+        "tradeoff": "Off the Shibuya route and a long queue; the Shibuya branch closes September 30, 2026, so only Meguro remains.",
+        "detour": true,
+        "experience": "Quality conveyor belt sushi",
+        "verification": "Hours and prices checked on the official site and Tabelog",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1316/A131601/13004540/",
+        "selected": false
       }
-    ]
+    ],
+    "theme": "Conveyor belt sushi"
   },
   {
     "id": 7,
-    "label": "Wed · Dinner after Hakone",
+    "label": "Wed · Wagyu dinner",
     "origin": "Odakyu Shinjuku Station Tokyo",
     "originLabel": "Odakyu Shinjuku Station (Romancecar arrival)",
-    "advice": "One dinner after the return train. All choices are in Shinjuku; do not make a nonrefundable reservation before confirming your return train. Broth-heavy alternatives are lower priority.",
+    "advice": "Ushigoro Shinjuku 3-chome is chosen: reserve a 5:15–5:30pm table on the official site. The other three stay as alternatives.",
     "options": [
       {
-        "name": "Monjaya, Shinjuku Southeast Exit",
-        "description": "Shared griddle cooking: try monjayaki or the firmer okonomiyaki pancake.",
-        "budget": "¥2,500–4,500",
-        "booking": "Official branch accepts course reservations for two or more. Wednesday hours listed 11:30–22:00, last order 21:00. Book with a buffer after the return train; confirm October availability.",
-        "current": false,
-        "travel": "W8–15",
         "style": "Non-soup choices",
-        "recommended": true,
+        "priceNote": "Published prices",
+        "checked": "2026-09-14",
+        "verification": "Hours, prices and booking checked on the official site and Tabelog",
+        "name": "Yakiniku Ushigoro, Shinjuku 3-chome",
+        "description": "A5 kuroge wagyu yakiniku with staff-guided grilling at your table, on the 12th floor beside Kinokuniya. Same group as the Ginza branch.",
+        "budget": "¥9,760–16,590 courses",
+        "travel": "W8–10",
         "sources": [
           {
-            "label": "Official Shinjuku southeast branch",
-            "url": "https://monjaya.tokyo/shinjyuku-tounan/"
-          }
-        ],
-        "bookingStatus": "Reserve a course for two",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose monjayaki here only if not chosen at Toyosu Sunday.",
-        "reason": "Griddle cooking adds variety and avoids another noodle dinner.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Tsunahachi Sohonten Bekkan, Shinjuku",
-        "description": "A tempura meal with ingredients fried in sequence.",
-        "booking": "Use Sohonten Bekkan, Shinjuku 3-28-4, opened June 2026; the former main-shop building is closed for rebuilding. Confirm your seating and dinner menu.",
-        "budget": "¥4,000–7,000",
-        "travel": "W10–15",
-        "style": "Non-soup choices",
-        "recommended": false,
-        "sources": [
+            "label": "Official branch page",
+            "url": "https://ushigoro.com/"
+          },
           {
-            "label": "Official current branch",
-            "url": "https://www.tunahachi.co.jp/store/53.html"
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1304/A130401/13258565/"
           }
         ],
-        "current": false,
         "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Do not repeat tempura if Saturday is Tenichi.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "booking": "HULIC &New SHINJUKU 12F, Shinjuku 3-17-10, about 8 minutes from the Odakyu west exit through the station passage. Weekdays 17:00–23:30, last order 22:30, open year-round. Book online via the official site (TableCheck) or tel 03-3358-4129; ask for 17:15–17:30.",
+        "variety": "Wagyu yakiniku; Saturday is tempura, so no beef repeat.",
+        "reason": "Best beef of the four, opens at 5pm, and it is on the way to the subway home.",
+        "tradeoff": "Courses run ¥10,000–17,000 each; book ahead, it is a Tabelog Yakiniku TOKYO 100 pick.",
+        "recommended": true,
+        "experience": "A5 wagyu grilled at your table",
+        "tabelog": "https://tabelog.com/en/tokyo/A1304/A130401/13258565/",
+        "selected": true,
+        "selectedStatus": "Chosen · reserve"
       },
       {
-        "name": "Acacia, Shinjuku Main Shop",
-        "description": "Stuffed cabbage rolls in savory stew, with rice: old-school yoshoku.",
-        "booking": "Walk-in planning option; branch reservation policy and October hours need confirmation.",
-        "budget": "¥1,500–3,000",
-        "travel": "W10–15",
-        "style": "Broth / stew-centered",
-        "recommended": false,
+        "style": "Non-soup choices",
+        "priceNote": "Published prices",
+        "checked": "2026-09-14",
+        "verification": "Hours, prices and booking checked on the official site and Tabelog",
+        "name": "Teppanyaki Fujita, Shinjuku Washington Hotel",
+        "description": "A chef cooks brand wagyu (Saga, Kobe, Yonezawa) on the teppan in front of you at a garden-view counter. The splurge night.",
+        "budget": "¥17,600–28,600 courses, tax and service included",
+        "travel": "W9–10",
         "sources": [
           {
-            "label": "Official",
-            "url": "https://www.restaurant-acacia.com/"
+            "label": "Official site / reservations",
+            "url": "https://teppanyaki-fujita.com/"
+          },
+          {
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1304/A130401/13029001/"
           }
         ],
-        "current": false,
-        "bookingStatus": "Policy to confirm",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose only if this cuisine is not already repeated elsewhere.",
-        "tradeoff": "Cabbage-roll stew is soup/stew-centered, so lower priority.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "bookingStatus": "Reserve recommended",
+        "booking": "Washington Hotel Annex 1F, Nishi-Shinjuku 3-2-9, about 9 minutes west of the Odakyu south exit along Koshu-kaido. Dinner 17:30–22:30, course last order 20:30, open daily. Book via TableCheck on the official site or tel 03-3344-6109 (desk 10:00–18:00); book the 17:30 opening.",
+        "variety": "Wagyu steak, cooked to order; the most “show” of the four.",
+        "reason": "The chef-in-front-of-you experience you asked for, with top brand beef.",
+        "tradeoff": "The most expensive option and it opens at 5:30, so about 15 minutes later than the others.",
+        "experience": "Chef cooks wagyu on the teppan in front of you",
+        "tabelog": "https://tabelog.com/en/tokyo/A1304/A130401/13029001/",
+        "selected": false
       },
       {
-        "name": "Udon Shin",
-        "description": "Handmade udon with tempura or richer toppings.",
-        "booking": "Official priority access previously listed ¥2,000 per person separately from food, nonrefundable, and not zero-wait. Recheck the current terms before buying.",
-        "budget": "¥1,500–3,000 food, plus fee if used",
-        "travel": "W8–15",
-        "style": "Dipping / broth optional",
-        "recommended": false,
+        "style": "Non-soup choices",
+        "priceNote": "Published prices",
+        "checked": "2026-09-14",
+        "verification": "Hours, prices and booking checked on the official site and Tabelog",
+        "name": "Rokkasen, Nishi-Shinjuku Main Store",
+        "description": "120-minute all-you-can-eat wagyu yakiniku with free-flow drinks, right above the station opposite Keio department store. Order as you go and grill at your table.",
+        "budget": "¥12,500–17,600 (Matsusaka ¥29,000, Kobe ¥39,000)",
+        "travel": "W2–5",
         "sources": [
           {
-            "label": "Booking rules",
-            "url": "https://www.tablecheck.com/ja/shops/udonshin/reserve"
+            "label": "Official site / reservations",
+            "url": "https://www.rokkasen.co.jp/"
+          },
+          {
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1304/A130401/13297712/"
           }
         ],
-        "current": false,
-        "bookingStatus": "Queue / paid priority option",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "A second noodle meal after Saturday.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "bookingStatus": "Reserve recommended",
+        "booking": "110 Building 10F, Nishi-Shinjuku 1-10-2, about 2 minutes from the Odakyu west exit. Open 11:00–23:00, last order 22:30, no closing days. Book via TableCheck on the official site or tel 03-3348-8676.",
+        "variety": "Wagyu yakiniku, quantity over refinement.",
+        "reason": "The closest to the train and the most beef for the money.",
+        "tradeoff": "A big, busy room; all-you-can-eat pacing rather than a curated course.",
+        "experience": "Grill as much wagyu as you like at your table",
+        "tabelog": "https://tabelog.com/en/tokyo/A1304/A130401/13297712/",
+        "selected": false
       },
       {
-        "name": "Fuunji, Shinjuku Main Shop",
-        "description": "Rich chicken-and-fish tsukemen.",
-        "booking": "Officially queue-based; allow for sellout. Repeats Saturday's dipping-noodle category.",
-        "budget": "¥1,200–2,000",
-        "travel": "W8–15",
-        "style": "Dipping / broth optional",
-        "recommended": false,
+        "style": "Non-soup choices",
+        "priceNote": "Published prices",
+        "checked": "2026-09-14",
+        "verification": "Hours, prices and booking checked on the official site and Tabelog",
+        "name": "Yakiniku Toraji, Takashimaya Times Square",
+        "description": "Dependable table-grill yakiniku on Takashimaya’s 14th-floor restaurant row; thick-cut salted tongue is the signature. Subway downstairs.",
+        "budget": "¥6,000–8,000 à la carte",
+        "travel": "W5–7",
         "sources": [
           {
-            "label": "Official",
-            "url": "https://fu-unji.com/"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "No reservations",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose only if this cuisine is not already repeated elsewhere.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "AFURI, Shinjuku Subnade",
-        "description": "Yuzu ramen in the east-side underground shopping area.",
-        "booking": "Walk-in planning option; branch reservation policy and October hours need confirmation.",
-        "budget": "¥1,300–2,000",
-        "travel": "W12–20",
-        "style": "Broth / stew-centered",
-        "recommended": false,
-        "sources": [
+            "label": "Official site / reservations",
+            "url": "https://www.ebisu-toraji.com/"
+          },
           {
-            "label": "Official directory",
-            "url": "https://www.afuri.com/findus/"
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1304/A130403/13189379/"
           }
         ],
-        "current": false,
-        "bookingStatus": "Policy to confirm",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Another ramen dinner; lower priority.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "bookingStatus": "Reserve recommended",
+        "booking": "Times Square Building 14F, Sendagaya 5-24-2, about 5 minutes from the Odakyu south exit. Dinner 15:00–23:00, food last order 22:00. Book online via the official site or app, or tel 03-5361-1992; no queue at 5:15.",
+        "variety": "Wagyu yakiniku at a lower price point.",
+        "reason": "Cheapest way to get the wagyu grill in, with no wait.",
+        "tradeoff": "A reliable chain, not a destination.",
+        "experience": "Grill at your table",
+        "tabelog": "https://tabelog.com/en/tokyo/A1304/A130403/13189379/",
+        "selected": false
       }
     ],
     "day": "Wed",
-    "meal": "Dinner after Hakone"
+    "meal": "Wagyu dinner",
+    "theme": "Wagyu in Shinjuku"
   },
   {
     "id": 8,
     "label": "Mon · Dinner",
     "origin": "Fantasy Springs Tokyo DisneySea",
     "originLabel": "Fantasy Springs (example ride endpoint)",
-    "advice": "Park routes are not fixed. These walks use one clearly named anchor, not a guaranteed last ride. Use Disney's app for actual route and ordering; pick different cuisines for lunch and dinner.",
+    "advice": "Ristorante di Canaletto is chosen: Italian by the gondola canal in Mediterranean Harbor. Book Priority Seating in the app for about 5:00pm; standard advance requests open one month ahead at 10am JST (September 26 for October 26).",
     "options": [
       {
         "name": "Magellan's, Tokyo DisneySea",
@@ -1122,7 +1256,7 @@ export const sections = [
           "source": "https://www.tokyodisneyresort.jp/en/tds/restaurant/detail/412/",
           "caption": "Magellan’s · Tokyo Disney Resort official image"
         },
-        "recommended": true,
+        "recommended": false,
         "sources": [
           {
             "label": "Official Magellan's information",
@@ -1135,7 +1269,10 @@ export const sections = [
         "reason": "Magellan's setting makes this your strongest special park dinner.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000294/",
+        "experience": "Dinner inside the fortress",
+        "selected": false
       },
       {
         "name": "Ristorante di Canaletto",
@@ -1158,7 +1295,10 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000170/",
+        "selected": true,
+        "selectedStatus": "Chosen · Priority Seating"
       },
       {
         "name": "S.S. Columbia Dining Room",
@@ -1186,7 +1326,10 @@ export const sections = [
           "src": "https://media1.tokyodisneyresort.jp/images/adventure/restaurant/492_main_visual_name_1.jpg?mod=20260730104715",
           "source": "https://www.tokyodisneyresort.jp/en/tds/restaurant/detail/425/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000168/",
+        "experience": "Dinner aboard the ocean liner",
+        "selected": false
       },
       {
         "name": "Restaurant Sakura",
@@ -1209,7 +1352,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12003667/",
+        "selected": false
       },
       {
         "name": "Horizon Bay Restaurant",
@@ -1237,7 +1382,9 @@ export const sections = [
           "src": "https://media1.tokyodisneyresort.jp/food_menu/image/4498_1.2_1_5ZHVd7q3.jpg",
           "source": "https://www.tokyodisneyresort.jp/en/tds/restaurant/food/451/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12003660/",
+        "selected": false
       },
       {
         "name": "Casbah Food Court",
@@ -1260,11 +1407,14 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000171/",
+        "selected": false
       }
     ],
     "day": "Mon",
-    "meal": "Dinner"
+    "meal": "Dinner",
+    "theme": "Disney: Italian by the gondola canal"
   },
   {
     "id": 9,
@@ -1273,7 +1423,7 @@ export const sections = [
     "label": "Tue · Lunch",
     "origin": "Omotesando Hills Tokyo",
     "originLabel": "Omotesando Hills (shopping-area anchor)",
-    "advice": "Maisen and Gyozaro keep lunch near Omotesando/Harajuku. Shibuya choices are explicit route trade-offs, not equally close restaurants.",
+    "advice": "Harajuku Gyozaro is chosen: pan-fried and boiled gyoza with rice, a short walk from Omotesando. Walk-in only; expect a line at 12:30 and turn over quickly.",
     "options": [
       {
         "name": "Tonkatsu Maisen, Aoyama Main Restaurant",
@@ -1288,7 +1438,7 @@ export const sections = [
           "source": "https://mai-sen.com/restaurant/aoyama/",
           "caption": "Maisen Aoyama · fried seafood example, not the pork set"
         },
-        "recommended": true,
+        "recommended": false,
         "sources": [
           {
             "label": "Official",
@@ -1302,7 +1452,9 @@ export const sections = [
         "reason": "Tonkatsu in Omotesando keeps lunch on the shopping corridor.",
         "tradeoff": "Skip if choosing Kaisho Sunday.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130602/13001850/",
+        "selected": false
       },
       {
         "name": "Harajuku Gyozaro",
@@ -1325,7 +1477,10 @@ export const sections = [
         "reason": "Budget dumplings on the Harajuku side.",
         "tradeoff": "Queues and a simple setting.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130601/13001284/",
+        "selected": true,
+        "selectedStatus": "Chosen · walk-in"
       },
       {
         "name": "Gyukatsu Motomura, Shibuya",
@@ -1355,7 +1510,10 @@ export const sections = [
         "reason": "Interactive beef cutlet experience.",
         "tradeoff": "Moves lunch to Shibuya earlier; do not walk back to Omotesando afterward.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13153853/",
+        "experience": "Sear the wagyu cutlet on your own hot stone",
+        "selected": false
       },
       {
         "name": "Hikiniku to Come, Shibuya",
@@ -1379,7 +1537,10 @@ export const sections = [
         "tradeoff": "Shibuya-first lunch changes the shopping order.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13257261/",
+        "experience": "Charcoal hamburg cooked in front of you",
+        "selected": false
       },
       {
         "name": "Pepper PARLOR, Shibuya",
@@ -1407,9 +1568,11 @@ export const sections = [
         "variety": "Choose only if this cuisine is not already repeated elsewhere.",
         "detour": true,
         "reason": "Choose specifically for robots, not Japanese culinary variety.",
-        "tradeoff": "Shibuya venue; changes the midday shopping order.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "tradeoff": "Tabelog marks this branch permanently closed; skip unless the official site says otherwise. Shibuya venue; changes the midday shopping order.",
+        "verification": "Tabelog lists it as closed",
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13241764/",
+        "selected": false
       },
       {
         "name": "AFURI, Harajuku",
@@ -1432,9 +1595,12 @@ export const sections = [
         "tradeoff": "Another ramen meal after Saturday; not my variety pick.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130601/13095244/",
+        "selected": false
       }
-    ]
+    ],
+    "theme": "Gyoza"
   },
   {
     "id": 10,
@@ -1443,7 +1609,7 @@ export const sections = [
     "label": "Tue · One dessert / tea stop",
     "origin": "Omotesando Hills Tokyo",
     "originLabel": "Omotesando Hills (shopping-area anchor)",
-    "advice": "Merged the duplicate treat sections. Choose one experience; nearby Omotesando cafés work earlier, Shibuya pancakes or fruit work later.",
+    "advice": "Two chosen treats, both in Harajuku during the shopping window: I’m donut? near the station, then a Marion crêpe on Takeshita Street. Walk-in; short lines are normal. The Shibuya options stay here as alternatives.",
     "options": [
       {
         "name": "FLIPPER'S, Shibuya",
@@ -1459,7 +1625,7 @@ export const sections = [
           "source": "https://www.flavorworks.co.jp/flippers",
           "caption": "FLIPPER'S · official menu imagery; seasonal dishes vary"
         },
-        "recommended": true,
+        "recommended": false,
         "sources": [
           {
             "label": "Official branch",
@@ -1472,7 +1638,9 @@ export const sections = [
         "reason": "Keeps your pancake wish in the Shibuya end of the shopping corridor.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13228450/",
+        "selected": false
       },
       {
         "name": "A Happy Pancake, Shibuya",
@@ -1495,7 +1663,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13195787/",
+        "selected": false
       },
       {
         "name": "Micasadeco & Café, Jingumae",
@@ -1518,7 +1688,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130601/13244998/",
+        "selected": false
       },
       {
         "name": "Shibuya Nishimura Fruit Parlor, Dogenzaka",
@@ -1541,7 +1713,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13001901/",
+        "selected": false
       },
       {
         "name": "CHAVATY, Omotesando",
@@ -1564,7 +1738,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130602/13224245/",
+        "selected": false
       },
       {
         "name": "Sakurai Japanese Tea Experience",
@@ -1587,7 +1763,10 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130602/13197815/",
+        "experience": "Tea ceremony with sweets",
+        "selected": false
       },
       {
         "name": "Higuma Doughnuts × Coffee Wrights, Omotesando",
@@ -1616,7 +1795,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130602/13226926/",
+        "selected": false
       },
       {
         "name": "Marion Crepes, Harajuku Takeshita Street",
@@ -1645,7 +1826,10 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130601/13088711/",
+        "selected": true,
+        "selectedStatus": "Chosen · Harajuku"
       },
       {
         "name": "I'm donut?, Harajuku",
@@ -1668,7 +1852,10 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1306/A130601/13287491/",
+        "selected": true,
+        "selectedStatus": "Chosen · Harajuku"
       },
       {
         "name": "Nanaya, Aoyama",
@@ -1691,55 +1878,28 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1303/A130301/13199165/",
+        "selected": false
       }
-    ]
+    ],
+    "theme": "Harajuku treats: I’m donut? + Marion Crepes"
   },
   {
     "id": 11,
     "day": "Sun",
     "meal": "Occasion dinner",
     "label": "Sun · Occasion dinner",
-    "origin": "Tokyo Midtown Roppongi",
-    "originLabel": "Tokyo Midtown, Roppongi (flexible afternoon anchor)",
-    "advice": "Local Roppongi choices first. Alternatives in Ginza, Nihonbashi and Shibuya show the real route trade-off. If you return to the hotel beforehand, use directions from your location.",
+    "origin": "Caption by Hyatt Kabutocho Tokyo",
+    "originLabel": "Your hotel, after changing for dinner",
+    "advice": "Manten is chosen: reserve the 5:30pm omakase on TableCheck. Tokyo Ten stays here as the alternative.",
     "options": [
-      {
-        "name": "SUSHI TOKYO TEN, Roppongi",
-        "description": "Chef-selected sushi and small dishes for your anniversary.",
-        "budget": "¥9,900 evening / ¥13,200 all-inclusive",
-        "booking": "Official booking lists ¥9,900 evening or ¥13,200 all-inclusive course. Seat type not guaranteed; same-day cancellations charged in full.",
-        "current": false,
-        "travel": "W5–15",
-        "style": "Non-soup choices",
-        "photo": {
-          "match": "TOKYO TEN",
-          "src": "https://sushitokyo-ten.com/jpg/header_img.jpg",
-          "source": "https://sushitokyo-ten.com/",
-          "caption": "Sushi Tokyo Ten · operator imagery"
-        },
-        "recommended": true,
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve"
-          }
-        ],
-        "bookingStatus": "Reserve recommended",
-        "priceNote": "Published courses; confirm which inclusions apply",
-        "variety": "Choose one main sushi occasion for the week, not another sushi dinner Tuesday.",
-        "detour": false,
-        "reason": "Best budget-to-experience fit while staying in Roppongi.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
       {
         "name": "Manten Sushi, Nihonbashi",
         "description": "Chef-led sushi and small dishes, similar in ambition to your current choice.",
-        "booking": "Use the linked operator/booking channel. Confirm your exact October course, total including service, cancellation policy and meal duration.",
-        "budget": "¥8,800 food, plus drinks/extras",
-        "travel": "T35–50",
+        "booking": "COREDO Muromachi 2, 1F (Nihonbashi Muromachi 2-3-1), about a 12-minute walk from the hotel. Sunday dinner 5:00–11:00pm, last order 9:30. Book on TableCheck (https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve) or tel 03-3277-6045; same-day cancellation is charged in full. No dress code stated; skip strong perfume.",
+        "budget": "¥8,800 omakase; ¥12,100 with drinks",
+        "travel": "W10–12",
         "style": "Non-soup choices",
         "photo": {
           "match": "Manten",
@@ -1747,7 +1907,7 @@ export const sections = [
           "source": "https://www.manten-sushi.com/",
           "caption": "Manten · operator imagery, not a guaranteed course"
         },
-        "recommended": false,
+        "recommended": true,
         "sources": [
           {
             "label": "Official",
@@ -1756,111 +1916,53 @@ export const sections = [
         ],
         "current": false,
         "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose one main sushi occasion for the week, not another sushi dinner Tuesday.",
+        "priceNote": "Published course prices",
+        "variety": "Omakase sushi; Tuesday’s conveyor belt is the casual counterpart.",
         "detour": true,
-        "tradeoff": "Hotel-side alternative, but requires leaving Roppongi.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "tradeoff": "A department-store-complex setting rather than a Roppongi night out.",
+        "reason": "Omakase counter you can walk to after changing at the hotel.",
+        "verification": "Sunday hours and prices checked on Tabelog and the official site",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13166422/",
+        "experience": "Omakase counter, strong value",
+        "selected": true,
+        "selectedStatus": "Chosen · reserve"
       },
       {
-        "name": "Ginza Kyubey, Ginza Main Shop/New Annex",
-        "description": "A more established, higher-budget sushi-counter occasion.",
-        "booking": "Use the linked operator/booking channel. Confirm your exact October course, total including service, cancellation policy and meal duration.",
-        "budget": "¥25,000–40,000+",
-        "travel": "T25–40",
+        "name": "SUSHI TOKYO TEN, Roppongi",
+        "description": "Chef-selected sushi and small dishes for your anniversary.",
+        "budget": "¥9,900 omakase; ¥13,200 with drinks",
+        "booking": "Tokyo Midtown Garden Terrace 1F (Akasaka 9-7-4). Sunday dinner 5:00–11:00pm, last order 9:30. Book on TableCheck (https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve); same-day cancellation is charged in full and the table is released 15 minutes after the slot. Hibiya Line from Kayabacho straight to Roppongi.",
+        "current": false,
+        "travel": "T20–25",
         "style": "Non-soup choices",
+        "photo": {
+          "match": "TOKYO TEN",
+          "src": "https://sushitokyo-ten.com/jpg/header_img.jpg",
+          "source": "https://sushitokyo-ten.com/",
+          "caption": "Sushi Tokyo Ten · operator imagery"
+        },
         "recommended": false,
         "sources": [
           {
-            "label": "Official",
-            "url": "https://www.kyubey.jp/shoplist/ginza/"
+            "label": "Official venue / menu",
+            "url": "https://www.tablecheck.com/en/shops/sushitokyo-ten-roppongi/reserve"
           }
         ],
-        "current": false,
         "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose one main sushi occasion for the week, not another sushi dinner Tuesday.",
-        "detour": true,
-        "tradeoff": "Ginza detour and much higher budget.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Roppongi Fukuzushi",
-        "description": "An intimate family-run sushi experience.",
-        "booking": "Use the linked operator/booking channel. Confirm your exact October course, total including service, cancellation policy and meal duration.",
-        "budget": "¥33,880+ for that course",
-        "travel": "W10–20",
-        "style": "Non-soup choices",
-        "recommended": false,
-        "sources": [
-          {
-            "label": "Official",
-            "url": "https://www.roppongifukuzushi.com/english/"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance; not a fixed quote",
+        "priceNote": "Published course prices",
         "variety": "Choose one main sushi occasion for the week, not another sushi dinner Tuesday.",
         "detour": false,
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Sushi no Midori, Shibuya",
-        "description": "Generous sushi assortments at a more moderate cost. Not equivalent to an intimate omakase counter.",
-        "booking": "Use the linked operator/booking channel. Confirm your exact October course, total including service, cancellation policy and meal duration.",
-        "budget": "¥3,000–6,000",
-        "travel": "T30–45",
-        "style": "Non-soup choices",
-        "recommended": false,
-        "sources": [
-          {
-            "label": "Official",
-            "url": "https://www.sushinomidori.co.jp/shops/shibuya/"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose one main sushi occasion for the week, not another sushi dinner Tuesday.",
-        "detour": true,
-        "tradeoff": "Shibuya is the wrong direction; better offered under Tuesday dinner.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "SUSHI Gonpachi, Nishi-Azabu",
-        "description": "Sushi in a more visitor-oriented special-occasion setting.",
-        "booking": "Use the linked operator/booking channel. Confirm your exact October course, total including service, cancellation policy and meal duration.",
-        "budget": "¥8,000–16,000+",
-        "travel": "W20–30",
-        "style": "Non-soup choices",
-        "recommended": false,
-        "sources": [
-          {
-            "label": "Official",
-            "url": "https://gonpachi.jp/sushi-nishi-azabu/"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose one main sushi occasion for the week, not another sushi dinner Tuesday.",
-        "detour": false,
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "tradeoff": "Menus, queues and October availability can change.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "reason": "The Roppongi option if you want the night out; same price band as Manten.",
+        "tradeoff": "A train ride each way after changing.",
+        "verification": "Sunday hours and prices checked on Tabelog and TableCheck",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1307/A130701/13238526/",
+        "experience": "Omakase counter",
+        "selected": false
       }
-    ]
+    ],
+    "theme": "Omakase sushi: the occasion dinner"
   },
   {
     "id": 12,
@@ -1899,7 +2001,9 @@ export const sections = [
         "reason": "Keeps your chosen spa-and-lunch experience together.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/kanagawa/A1410/A141001/14050342/",
+        "experience": "Charcoal irori hearth"
       },
       {
         "name": "Yubadon Naokichi",
@@ -1923,7 +2027,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/kanagawa/A1410/A141001/14007598/"
       },
       {
         "name": "Yamasoba",
@@ -1947,7 +2052,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/kanagawa/A1410/A141001/14008522/"
       },
       {
         "name": "Kinosuke",
@@ -1971,7 +2077,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/kanagawa/A1410/A141001/14066693/"
       },
       {
         "name": "Hakone Curry Cocoro",
@@ -1995,18 +2102,20 @@ export const sections = [
         "verification": "Address / hours need reconfirmation",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/kanagawa/A1410/A141001/14021129/"
       }
     ],
     "day": "Wed",
-    "meal": "Spa lunch"
+    "meal": "Spa lunch",
+    "theme": "Irori charcoal-hearth course"
   },
   {
     "id": 13,
     "label": "Thu · Optional early lunch",
     "origin": "GINZA SIX Tokyo",
     "originLabel": "GINZA SIX (shopping anchor)",
-    "advice": "Only a quick early lunch: finish by NOON, then return for bags and the airport transfer. Long eel courses and queues are poor fits. No recommendation overrides that deadline.",
+    "advice": "Bincho is chosen: hitsumabushi is grilled eel over rice you eat three ways (plain, with condiments, then with dashi poured over). Ginza Mitsukoshi 11F, opens 11:00; aim to be first in so you can leave by noon.",
     "options": [
       {
         "name": "Kandagawa Honten, Sotokanda",
@@ -2030,7 +2139,9 @@ export const sections = [
         "tradeoff": "Akihabara excursion is not suitable for the current departure-day route.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1310/A131002/13000346/",
+        "selected": false
       },
       {
         "name": "Hitsumabushi Bincho, Ginza Mitsukoshi",
@@ -2064,7 +2175,10 @@ export const sections = [
         "reason": "Best geographic fit among the eel choices; only if the branch confirms an early, short meal.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13226547/",
+        "selected": true,
+        "selectedStatus": "Chosen · confirm seating"
       },
       {
         "name": "Nihonbashi Idumoya, Main Shop",
@@ -2088,7 +2202,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13011198/",
+        "selected": false
       },
       {
         "name": "Chikuyotei, Honten",
@@ -2112,7 +2228,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13002338/",
+        "selected": false
       },
       {
         "name": "Nihonbashi Tamai, Main Shop",
@@ -2141,7 +2259,9 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13019904/",
+        "selected": false
       },
       {
         "name": "Ginza Tenichi, Nihonbashi Takashimaya",
@@ -2165,18 +2285,21 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Deliberate detour; not a nearby fallback.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13247938/",
+        "selected": false
       }
     ],
     "day": "Thu",
-    "meal": "Optional early lunch"
+    "meal": "Optional early lunch",
+    "theme": "Hitsumabushi: grilled eel over rice, three ways"
   },
   {
     "id": 14,
     "label": "Mon · Lunch",
     "origin": "Indiana Jones Adventure Tokyo DisneySea",
     "originLabel": "Indiana Jones Adventure (example ride endpoint)",
-    "advice": "Park routes are not fixed. These walks use one clearly named anchor, not a guaranteed last ride. Use Disney's app for actual route and ordering; pick different cuisines for lunch and dinner.",
+    "advice": "Decided: no planned lunch. Order at whatever counter is near your rides, through the Disney app. These stay only as references.",
     "options": [
       {
         "name": "Vulcania Restaurant",
@@ -2199,7 +2322,8 @@ export const sections = [
         "reason": "Chinese-style lunch adds variety if dinner is a Western course.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12003644/"
       },
       {
         "name": "The Snuggly Duckling",
@@ -2227,7 +2351,8 @@ export const sections = [
           "src": "https://media1.tokyodisneyresort.jp/images/adventure/restaurant/2744_main_visual_name_1.jpg?mod=20260129101115",
           "source": "https://www.tokyodisneyresort.jp/en/tds/restaurant/detail/413/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12059908/"
       },
       {
         "name": "Zambini Brothers' Ristorante",
@@ -2250,7 +2375,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000173/"
       },
       {
         "name": "Casbah Food Court",
@@ -2273,7 +2399,8 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000171/"
       },
       {
         "name": "Lookout Cookout",
@@ -2296,180 +2423,73 @@ export const sections = [
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12059903/"
       }
     ],
     "day": "Mon",
-    "meal": "Lunch"
+    "meal": "Lunch",
+    "theme": "Park counter service",
+    "decided": "Order in the app wherever you are"
   },
   {
     "id": 15,
     "day": "Sun",
-    "meal": "Lunch after teamLab",
-    "label": "Sun · Lunch after teamLab",
-    "origin": "teamLab Planets TOKYO",
-    "originLabel": "teamLab Planets exit",
-    "advice": "All six are in nearby Senkyaku Banrai, not Shibuya and not inside the wholesale-market restaurants that may close Sundays. Walking is an estimate including the complex. Choose one lunch.",
+    "meal": "Lunch in Akihabara",
+    "label": "Sun · Lunch in Akihabara",
+    "origin": "Akihabara Station Electric Town Exit Tokyo",
+    "originLabel": "Akihabara Station",
+    "advice": "Gyukatsu Ichinisan is chosen, before the 1:00 owl café. Marugo is the tonkatsu alternative if you would rather queue for the best pork cutlet in the area.",
     "options": [
       {
-        "name": "Tonkatsu Kaisho, Toyosu Senkyaku Banrai",
-        "description": "Pork cutlets with rice and cabbage; a filling lunch rather than another sushi meal.",
-        "budget": "¥2,000–3,500",
-        "travel": "W15–25",
+        "style": "Non-soup choices",
+        "checked": "2026-09-14",
+        "name": "Gyukatsu Ichinisan, Akihabara",
+        "description": "Sirloin cutlet fried 60 seconds and served rare; you sear each slice on a hot stone at the counter, with wasabi-soy, rock salt and tororo, plus barley rice with one refill.",
+        "budget": "¥1,630–2,760 sets",
+        "travel": "W3–4",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://www.toyosu-senkyakubanrai.jp/302/"
+            "label": "Tabelog (hours, menu, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1311/A131101/13147309/"
           }
         ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in / policy unconfirmed",
-        "booking": "Venue and opening hours verified in the complex's official directory. No confirmed reservation policy or October availability; use a walk-in plan and allow a queue.",
-        "priceNote": "Planning allowance; drinks/extras can increase it.",
-        "hours": "10:00–20:00 listed",
-        "variety": "Pork cutlet overlaps with Maisen Tuesday. Choose a different Tuesday lunch if you select this.",
-        "recommended": true,
-        "reason": "Best substantial non-soup lunch near teamLab; saves sushi for dinner.",
-        "tradeoff": "Tourist-complex prices and possible queue; avoid duplicating tonkatsu Tuesday.",
-        "photo": {
-          "src": "https://www.toyosu-senkyakubanrai.jp/302/wp-content/uploads/sites/142/2026/03/e9c32f04c39e1b4fe6f79b02b5ad02cf.jpg",
-          "source": "https://www.toyosu-senkyakubanrai.jp/302/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "bookingStatus": "No reservations",
+        "booking": "Sotokanda 3-8-17, Watanabe Building B1F; a minute from Suehirocho (Ginza Line), 3–4 minutes from JR Akihabara. Open 11:00–22:00 daily. 13 counter seats, walk-in only; arrive by 11:15.",
+        "priceNote": "Published set prices, tax included",
+        "variety": "Beef katsu; Wednesday’s wagyu is yakiniku, a different style.",
+        "reason": "The hot-stone searing is the fun part, and it is on the way to the owls.",
+        "tradeoff": "Counter-only and small; a short wait at peak.",
+        "selected": true,
+        "selectedStatus": "Chosen · walk-in",
+        "experience": "Sear the beef cutlet on your own hot stone",
+        "verification": "Hours and prices checked on Tabelog",
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131101/13147309/"
       },
       {
-        "name": "Hachiwan Curry, Toyosu Senkyaku Banrai",
-        "description": "Japanese spiced curry rice with cutlet and topping options. This is curry sauce over rice, not soup curry.",
-        "budget": "¥1,500–2,500",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://www.toyosu-senkyakubanrai.jp/111/"
-          }
-        ],
         "style": "Non-soup choices",
-        "bookingStatus": "Walk-in / policy unconfirmed",
-        "booking": "Venue and opening hours verified in the complex's official directory. No confirmed reservation policy or October availability; use a walk-in plan and allow a queue.",
-        "priceNote": "Planning allowance; drinks/extras can increase it.",
-        "hours": "10:00–20:30 listed",
-        "variety": "Adds Japanese curry without another bowl of noodles.",
-        "recommended": false,
-        "reason": "A different food style in the same nearby complex.",
-        "tradeoff": "Adds Japanese curry without another bowl of noodles.",
-        "photo": {
-          "src": "https://www.toyosu-senkyakubanrai.jp/111/wp-content/uploads/sites/136/2026/08/83e45625609d088f64eb7f07cdb6e869.jpg",
-          "source": "https://www.toyosu-senkyakubanrai.jp/111/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Tsukishima Monja Jugoya, Toyosu Senkyaku Banrai",
-        "description": "Griddle-cooked monjayaki or firmer okonomiyaki; staff prepare dishes at the table.",
+        "checked": "2026-09-14",
+        "name": "Tonkatsu Marugo, Akihabara",
+        "description": "Thick-cut pork loin katsu at one of Tokyo’s most respected tonkatsu counters (Tabelog Hyakumeiten 2026), four minutes from the Electric Town exit.",
         "budget": "¥2,000–4,000",
-        "travel": "W15–25",
+        "travel": "W4",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://www.toyosu-senkyakubanrai.jp/265266267/"
+            "label": "Tabelog (hours, photos)",
+            "url": "https://tabelog.com/en/tokyo/A1310/A131001/13000379/"
           }
         ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in / policy unconfirmed",
-        "booking": "Venue and opening hours verified in the complex's official directory. No confirmed reservation policy or October availability; use a walk-in plan and allow a queue.",
-        "priceNote": "Planning allowance; drinks/extras can increase it.",
-        "hours": "10:00–22:00 listed",
-        "variety": "If you choose this, replace Wednesday's monjayaki dinner with another cuisine.",
-        "recommended": false,
-        "reason": "A different food style in the same nearby complex.",
-        "tradeoff": "If you choose this, replace Wednesday's monjayaki dinner with another cuisine.",
-        "photo": {
-          "src": "https://www.toyosu-senkyakubanrai.jp/265266267/wp-content/uploads/sites/119/2024/01/a43debaec096424943fe135cc3a470cc.jpg",
-          "source": "https://www.toyosu-senkyakubanrai.jp/265266267/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Kadoya, Toyosu Senkyaku Banrai",
-        "description": "Uwajima-style sea bream with rice, egg and seasoned sauce; usually raw fish rather than grilled fish.",
-        "budget": "¥2,000–3,500",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://www.toyosu-senkyakubanrai.jp/319/"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in / policy unconfirmed",
-        "booking": "Venue and opening hours verified in the complex's official directory. No confirmed reservation policy or October availability; use a walk-in plan and allow a queue.",
-        "priceNote": "Planning allowance; drinks/extras can increase it.",
-        "hours": "10:00–20:00 listed",
-        "variety": "Distinct regional dish, but raw fish repeats the proposed sushi dinner.",
-        "recommended": false,
-        "reason": "A different food style in the same nearby complex.",
-        "tradeoff": "Distinct regional dish, but raw fish repeats the proposed sushi dinner.",
-        "photo": {
-          "src": "https://www.toyosu-senkyakubanrai.jp/319/wp-content/uploads/sites/140/2025/05/1096ed4d2745e3b09953f4c9a4467bfa.png",
-          "source": "https://www.toyosu-senkyakubanrai.jp/319/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Yoshichan, Toyosu Senkyaku Banrai",
-        "description": "Wagyu and horumon barbecue. Choose meat cuts if offal does not appeal.",
-        "budget": "¥3,000–6,000",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://www.toyosu-senkyakubanrai.jp/317318/"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in / policy unconfirmed",
-        "booking": "Venue and opening hours verified in the complex's official directory. No confirmed reservation policy or October availability; use a walk-in plan and allow a queue.",
-        "priceNote": "Planning allowance; drinks/extras can increase it.",
-        "hours": "10:00–22:00 listed",
-        "variety": "Overlaps with a Saturday or Tuesday beef-grill choice.",
-        "recommended": false,
-        "reason": "A different food style in the same nearby complex.",
-        "tradeoff": "Overlaps with a Saturday or Tuesday beef-grill choice.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
-      },
-      {
-        "name": "Seafood Burger Shimadoji, Toyosu Senkyaku Banrai",
-        "description": "Tuna-cutlet burgers and other seafood fast food; Japanese seafood in a familiar format.",
-        "budget": "¥1,500–2,500",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://www.toyosu-senkyakubanrai.jp/231232/"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in / policy unconfirmed",
-        "booking": "Venue and opening hours verified in the complex's official directory. No confirmed reservation policy or October availability; use a walk-in plan and allow a queue.",
-        "priceNote": "Planning allowance; drinks/extras can increase it.",
-        "hours": "10:00–18:00 listed",
-        "variety": "More casual, with only six listed seats; useful if you do not want a lengthy meal.",
-        "recommended": false,
-        "reason": "A different food style in the same nearby complex.",
-        "tradeoff": "More casual, with only six listed seats; useful if you do not want a lengthy meal.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "bookingStatus": "No reservations",
+        "booking": "Sotokanda 1-8-14. Sunday lunch 11:30–15:00, last order 14:00; closed Monday and Tuesday. No reservations; the line fills within 30 minutes of opening, so be there by 11:00.",
+        "priceNote": "Planning allowance, not a quote",
+        "variety": "Pork katsu instead of beef.",
+        "reason": "Better-known and higher-rated, if a queue does not bother you.",
+        "tradeoff": "Two-hour waits are common; that would squeeze the owl café.",
+        "verification": "Hours checked on Tabelog",
+        "tabelog": "https://tabelog.com/en/tokyo/A1310/A131001/13000379/"
       }
-    ]
+    ],
+    "theme": "Beef katsu you sear on a hot stone"
   },
   {
     "id": 16,
@@ -2505,7 +2525,8 @@ export const sections = [
         "reason": "Your selected full breakfast, with no travel.",
         "tradeoff": "More expensive than a café; hotel breakfast is not included.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13314657/"
       },
       {
         "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3",
@@ -2526,7 +2547,8 @@ export const sections = [
         "reason": "Japanese bakery interpretation of a familiar Western breakfast.",
         "tradeoff": "More walking than the hotel; protein-heavy items may vary.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/"
       },
       {
         "name": "Excelsior Caffé, Ningyocho",
@@ -2551,7 +2573,8 @@ export const sections = [
         "tradeoff": "A chain café and an extra walk, but a substantial sandwich option.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13054386/"
       },
       {
         "name": "PRONTO, Fresa Inn Nihonbashi",
@@ -2577,7 +2600,8 @@ export const sections = [
           "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
           "source": "https://shop.pronto.co.jp/detail/206/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/"
       },
       {
         "name": "Pelican Café, Asakusa",
@@ -2608,7 +2632,8 @@ export const sections = [
           "src": "https://asakusa.hyper-cdn.jp/img/menu/menu_cafe14.jpg",
           "source": "https://asakusa.pelicancafe.jp/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131103/13212182/"
       },
       {
         "name": "FamilyMart, KABUTO ONE",
@@ -2631,7 +2656,8 @@ export const sections = [
         "verification": "Route reviewed; October availability not checked",
         "checked": "2026-09-13"
       }
-    ]
+    ],
+    "theme": "American breakfast at the hotel"
   },
   {
     "id": 17,
@@ -2661,7 +2687,8 @@ export const sections = [
         "reason": "Filling bakery breakfast before the early departure, without depending on a café opening.",
         "tradeoff": "Requires an evening purchase; not freshly cooked that morning.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/"
       },
       {
         "name": "FamilyMart, KABUTO ONE",
@@ -2711,9 +2738,11 @@ export const sections = [
           "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
           "source": "https://shop.pronto.co.jp/detail/206/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/"
       }
-    ]
+    ],
+    "theme": "Grab and go"
   },
   {
     "id": 18,
@@ -2722,8 +2751,36 @@ export const sections = [
     "label": "Mon · Early breakfast",
     "origin": "Caption by Hyatt Kabutocho Tokyo",
     "originLabel": "Your hotel",
-    "advice": "Quick 7-Eleven or FamilyMart breakfast to eat on the way to DisneySea. The FamilyMart near the hotel opens at 6:00am; the other two are backups.",
+    "advice": "Decided: the 24-hour 7-Eleven at Kabutocho 6-5, three minutes from the hotel. The rest are backups.",
     "options": [
+      {
+        "name": "7-Eleven, Kabutocho Tosho-mae",
+        "description": "The 24-hour 7-Eleven in front of the Stock Exchange: sandwiches, onigiri, yogurt, fruit and drinks to eat on the way.",
+        "budget": "¥900–1,500",
+        "travel": "W3",
+        "sources": [
+          {
+            "label": "Tabelog listing",
+            "url": "https://tabelog.com/en/tokyo/A1302/A130203/13260021/"
+          },
+          {
+            "label": "Official 7-Eleven store map",
+            "url": "https://seven-eleven.areamarker.com/711map/top"
+          }
+        ],
+        "style": "Non-soup choices",
+        "bookingStatus": "No booking",
+        "booking": "Nihonbashi Kabutocho 6-5, about 3 minutes from the hotel; open 24 hours. The closer 7-Eleven at Kabutocho 15-13 opens at 7:00, too late for 6:30.",
+        "priceNote": "Planning allowance, not a quote",
+        "variety": "Quick grab-and-go breakfast.",
+        "reason": "Your pick, and the one branch nearby that is open at 6:30.",
+        "tradeoff": "Convenience-store food, not a sit-down breakfast.",
+        "selected": true,
+        "selectedStatus": "Chosen · grab and go",
+        "verification": "Hours checked on Tabelog and the Seven Bank ATM listing",
+        "checked": "2026-09-14",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13260021/"
+      },
       {
         "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3 — buy the previous day",
         "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
@@ -2743,7 +2800,10 @@ export const sections = [
         "reason": "Filling bakery breakfast before the early departure, without depending on a café opening.",
         "tradeoff": "Requires an evening purchase; not freshly cooked that morning.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/",
+        "selected": false,
+        "recommended": false
       },
       {
         "name": "FamilyMart, KABUTO ONE",
@@ -2763,10 +2823,10 @@ export const sections = [
         "variety": "Quick grab-and-go breakfast.",
         "tradeoff": "Convenience-store food, not a sit-down breakfast.",
         "reason": "Quick, close and open before you leave.",
-        "selected": true,
-        "selectedStatus": "Chosen · grab and go",
+        "selected": false,
         "verification": "Store hours checked on the official store page",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "recommended": false
       },
       {
         "name": "PRONTO, Fresa Inn Nihonbashi",
@@ -2793,9 +2853,13 @@ export const sections = [
           "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
           "source": "https://shop.pronto.co.jp/detail/206/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/",
+        "selected": false,
+        "recommended": false
       }
-    ]
+    ],
+    "theme": "Grab and go"
   },
   {
     "id": 19,
@@ -2804,7 +2868,7 @@ export const sections = [
     "label": "Tue · Tsukiji breakfast",
     "origin": "Tsukiji Station Tokyo",
     "originLabel": "Tsukiji Station, next to the market",
-    "advice": "Breakfast is grazing at the market; no booking needed. Try two or three stops, like Yamacho tamagoyaki, a Marutoyo onigiri, and coffee at Yonemoto or a sandwich at Rubins. All are open by 8:20 on a Tuesday except the Shouro sandwich shop (9:00).",
+    "advice": "Decided: breakfast is grazing the market from 7:30. Yamacho tamagoyaki is the anchor stop; add an onigiri and a coffee, or the Shouro sandwich after 9. No booking anywhere.",
     "options": [
       {
         "name": "Tsukiji Yamacho",
@@ -2831,7 +2895,9 @@ export const sections = [
           "src": "https://www.tsukiji.or.jp/_cms/wp-content/uploads/2013/11/201-tukiji-yamachou-1274.jpg",
           "source": "https://www.tsukiji.or.jp/shoplist/cat-c/cat-10/466/",
           "caption": "Official market listing photo"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13100313/",
+        "experience": "Tamagoyaki hot off the pan, eaten at the stall"
       },
       {
         "name": "Marutoyo, Tsukiji",
@@ -2857,7 +2923,8 @@ export const sections = [
           "src": "https://www.tsukiji.or.jp/_cms/wp-content/uploads/2013/11/167-marutoyo-1086.jpg",
           "source": "https://www.tsukiji.or.jp/english/shoplist/cat-d/cat-15/389/",
           "caption": "Official market listing photo"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13095644/"
       },
       {
         "name": "Rubins Coffee, Tsukiji",
@@ -2883,7 +2950,8 @@ export const sections = [
           "src": "https://www.tsukiji.or.jp/_cms/wp-content/uploads/2013/11/145-rubins-ko-hi-0498.jpg",
           "source": "https://www.tsukiji.or.jp/shoplist/cat-d/cat-15/344/",
           "caption": "Official market listing photo"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13088936/"
       },
       {
         "name": "Yonemoto Coffee, Tsukiji Main Shop",
@@ -2913,7 +2981,8 @@ export const sections = [
           "src": "https://www.yonemoto-coffee.com/data/yonemoto-coffee/image/introduction/shop1_1.jpg",
           "source": "https://www.yonemoto-coffee.com/page/introduction",
           "caption": "Official venue image"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13012800/"
       },
       {
         "name": "Tsukiji Shouro, Main Store",
@@ -2947,7 +3016,8 @@ export const sections = [
           "src": "https://www.tsukiji.or.jp/_cms/wp-content/uploads/2013/11/107-tukiji-shouro-1364.jpg",
           "source": "https://www.tsukiji.or.jp/shoplist/cat-c/cat-10/261/",
           "caption": "Official market listing photo"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13007639/"
       },
       {
         "name": "Sushizanmai Bekkan, Tsukiji",
@@ -2977,9 +3047,13 @@ export const sections = [
           "src": "https://www.kiyomura.co.jp/Uploads/store/store_2/1.jpg",
           "source": "https://www.kiyomura.co.jp/store/detail/2",
           "caption": "Official venue image"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1313/A131301/13017101/",
+        "experience": "Market sushi at 8am"
       }
-    ]
+    ],
+    "theme": "Tsukiji market grazing: tamagoyaki, onigiri, sushi",
+    "decided": "Graze the market"
   },
   {
     "id": 20,
@@ -2988,7 +3062,7 @@ export const sections = [
     "label": "Wed · Breakfast before Hakone",
     "origin": "Caption by Hyatt Kabutocho Tokyo",
     "originLabel": "Your hotel; Shinjuku alternatives explicitly include the train",
-    "advice": "Eat before the Romancecar, not during a rushed station transfer. Pick the nearby café for minimum complexity or Shinjuku bakery once the train time is reserved.",
+    "advice": "FamilyMart is chosen: grab a sandwich or onigiri, yogurt and a drink at KABUTO ONE (opens 6:00) and eat before the 7:00 subway.",
     "options": [
       {
         "name": "PRONTO, Fresa Inn Nihonbashi",
@@ -3008,14 +3082,16 @@ export const sections = [
         "variety": "Western-style breakfast; enough food for a full meal.",
         "reason": "Nearby 06:30 opening gives a filling breakfast before Shinjuku.",
         "tradeoff": "Standard morning sets can be small; add food.",
-        "recommended": true,
+        "recommended": false,
         "verification": "Route reviewed; October availability not checked",
         "checked": "2026-09-13",
         "photo": {
           "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
           "source": "https://shop.pronto.co.jp/detail/206/",
           "caption": "Official venue or menu image · seasonal dishes may differ"
-        }
+        },
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/",
+        "selected": false
       },
       {
         "name": "BOUL’ANGE, Shinjuku Southern Terrace",
@@ -3036,7 +3112,10 @@ export const sections = [
         "reason": "Bakery breakfast at the departure end of the train journey.",
         "tradeoff": "Requires traveling to Shinjuku before breakfast; carry something if you wake hungry.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1304/A130401/13209774/",
+        "selected": false,
+        "recommended": false
       },
       {
         "name": "Excelsior Caffé, Ningyocho",
@@ -3061,7 +3140,10 @@ export const sections = [
         "tradeoff": "A chain café and an extra walk, but a substantial sandwich option.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13054386/",
+        "selected": false,
+        "recommended": false
       },
       {
         "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3",
@@ -3082,7 +3164,10 @@ export const sections = [
         "reason": "Japanese bakery interpretation of a familiar Western breakfast.",
         "tradeoff": "More walking than the hotel; protein-heavy items may vary.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/",
+        "selected": false,
+        "recommended": false
       },
       {
         "name": "FamilyMart, KABUTO ONE",
@@ -3103,9 +3188,13 @@ export const sections = [
         "tradeoff": "Practical takeaway, not a sit-down café experience.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "checked": "2026-09-13",
+        "selected": true,
+        "selectedStatus": "Chosen · grab and go",
+        "recommended": false
       }
-    ]
+    ],
+    "theme": "Quick café breakfast"
   }
 ];
 

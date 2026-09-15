@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { DAYS, DAY_TRANSIT } from './itineraryData.js';
 
-const BUDGET_CATEGORIES = [
+const BUDGET_CATEGORIES=[
   {
     "id": "points",
     "icon": "✨",
@@ -163,7 +163,7 @@ const BUDGET_CATEGORIES = [
       },
       {
         "name": "Hakone Romancecar reserved tickets — round trip (× 2)",
-        "cost": 65,
+        "cost": 66,
         "range": [
           60,
           75
@@ -211,13 +211,13 @@ const BUDGET_CATEGORIES = [
         "detail": "Booked for 8:00am on Sun Oct 25. Keep this planning amount until you add the exact receipt total; enter barefoot and allow 1.5–2 hours."
       },
       {
-        "name": "Sat: JAPANKART 60-minute Akihabara / Asakusa (× 2) — TO BOOK",
-        "cost": 133.33,
+        "name": "Sat: JAPANKART 60-minute Akihabara / Asakusa (× 2)",
+        "cost": 133,
         "range": [
-          133.33,
-          133.33
+          133,
+          164
         ],
-        "detail": "Chosen, not booked: advertised from ¥10,000/person, ¥20,000 for two. $133.33 uses a planning rate of ¥150/$1, not live FX. This is a starting-price allowance, not a guaranteed October 24 quote or maximum. Costumes and guide photos included. Official booking: https://japankart.com/east-tokyo-landmark-tour/"
+        "detail": "The booking page shows ¥10,000 per adult for Oct 24 at 3:30pm (¥20,000 for two), including guide, kart, insurance, fuel, costume and photos. The higher figure is the ¥12,285 list price if the date price changes."
       },
       {
         "name": "JAPANKART costumes + guide photos (included)",
@@ -229,6 +229,15 @@ const BUDGET_CATEGORIES = [
         "free": true,
         "freeLabel": "INCLUDED",
         "detail": "Included in the selected JAPANKART tour; no separate costume or guide-photo charge."
+      },
+      {
+        "name": "Sun: Akiba Fukurou owl café (× 2)",
+        "cost": 51,
+        "range": [
+          51,
+          51
+        ],
+        "detail": "Published ¥3,800 each, tax included (¥7,600 for two); the site advertises 10% off online. Book the 1:00pm Sunday session on the official site now."
       },
       {
         "name": "Shibuya Sky observation deck (× 2)",
@@ -251,13 +260,13 @@ const BUDGET_CATEGORIES = [
       },
       {
         "name": "DisneySea Premier Access — optional",
-        "cost": 30,
+        "cost": 53,
         "range": [
-          20,
-          40
+          40,
+          80
         ],
         "optional": true,
-        "detail": "~$10-15 extra per ride to skip longest queues. Recommended for Journey to the Center of the Earth."
+        "detail": "Paid skip-the-line passes are ¥1,500–2,000 per person per ride. Two rides for two people (Fantasy Springs plus Soaring) is about ¥6,000–8,000; three rides about ¥12,000. Optional."
       },
       {
         "name": "Hakone Yuryo Type 1 private onsen — 120 min",
@@ -288,220 +297,207 @@ const BUDGET_CATEGORIES = [
   {
     "id": "food_all",
     "icon": "🍣",
-    "title": "Food — provisional allowances for two",
+    "title": "Food — for two, at ¥150 per $1",
     "accent": "#3730a3",
     "totalLabel": null,
     "items": [
       {
-        "name": "Fri: KABEAT dinner (×2) — chosen, to reserve",
+        "name": "Fri: KABEAT dinner (×2)",
         "cost": 60,
         "range": [
           40,
           80
         ],
-        "detail": "¥6,000–12,000 for two, matching the guide's ¥3,000–6,000 per-person allowance. $40–80 uses a planning rate of ¥150/$1, not live FX. Not a fixed menu quote or paid booking; drinks and extras may increase the total."
+        "detail": "Allowance of ¥3,000–6,000 each for à la carte plates and a drink; KABEAT publishes no set dinner price. Reserve a seat-only booking."
       },
       {
-        "name": "Sat: optional matcha treat (×2)",
-        "cost": 10,
-        "range": [
-          6,
-          14
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Tue: Tsukiji Outer Market breakfast (×2)",
-        "cost": 65,
-        "range": [
-          52,
-          80
-        ],
-        "detail": "Moved from Thursday; replaces Tuesday's hotel-area breakfast. Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the café or stalls."
-      },
-      {
-        "name": "Sat: Rokurinsha Solamachi lunch (×2) — chosen",
-        "cost": 23.33,
-        "range": [
-          20,
-          26.67
-        ],
-        "detail": "¥3,000–4,000 for two full noodle orders, a planning allowance rather than a menu quote. USD uses ¥150/$1 planning FX. Walk-in only; leave enough time for the kart check-in."
-      },
-      {
-        "name": "Sat: Tenichi dinner proposal (×2) — not selected",
-        "cost": 60,
-        "range": [
-          51.33,
-          66.67
-        ],
-        "detail": "Proposed, not selected or booked. Two published Fuji table dinner sets are ¥7,700; allow up to ¥10,000 including modest drinks/extras (not a spending cap). USD uses ¥150/$1 planning FX. Recalculate if choosing a different meal."
-      },
-      {
-        "name": "Sun: 7-Eleven / FamilyMart breakfast (×2)",
-        "cost": 16,
-        "range": [
-          10,
-          22
-        ],
-        "detail": "Grab-and-go convenience-store breakfast, eaten on the way to teamLab. Planning allowance, not a quote."
-      },
-      {
-        "name": "Sun: Toyosu lunch (×2)",
-        "cost": 35,
-        "range": [
-          28,
-          44
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Tue: alternative doughnut treat (×2)",
-        "cost": 10,
-        "range": [
-          8,
-          14
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route.",
-        "optional": true
-      },
-      {
-        "name": "Tue: alternative crepe treat (×2)",
-        "cost": 15,
-        "range": [
-          12,
-          18
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route.",
-        "optional": true
-      },
-      {
-        "name": "Wed: optional Shinjuku griddle dinner (×2)",
-        "cost": 50,
-        "range": [
-          38,
-          62
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route.",
-        "optional": true
-      },
-      {
-        "name": "Mon: 7-Eleven / FamilyMart breakfast (×2)",
-        "cost": 16,
-        "range": [
-          10,
-          22
-        ],
-        "detail": "Grab-and-go convenience-store breakfast, eaten on the way to DisneySea. Planning allowance, not a quote."
-      },
-      {
-        "name": "Mon: Disney lunch + snacks (×2)",
-        "cost": 80,
-        "range": [
-          60,
-          100
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Mon: Disney dinner (×2)",
-        "cost": 110,
-        "range": [
-          105,
-          145
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Thu: Ginza / hotel-area breakfast (×2)",
-        "cost": 50,
-        "range": [
-          38,
-          65
-        ],
-        "detail": "Swapped with Tuesday when Tsukiji moved. Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Tue: one main dessert stop (×2)",
-        "cost": 18,
-        "range": [
-          12,
-          24
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Tue: Harajuku / Omotesando lunch (×2)",
-        "cost": 50,
-        "range": [
-          38,
-          64
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Wed: breakfast (×2)",
-        "cost": 30,
-        "range": [
-          20,
-          44
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Wed: Hachiri lunch (×2)",
-        "cost": 87,
-        "range": [
-          85,
-          115
-        ],
-        "detail": "Your attached March 2026 menu prices the standard seasonal course at ¥6,500/person, ¥13,000 total, tax included. October ingredients/menu may change; the higher range allows for the limited ¥8,500 special course or drinks."
-      },
-      {
-        "name": "Sun: Roppongi occasion dinner (×2)",
-        "cost": 145,
-        "range": [
-          135,
-          175
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Thu: optional lunch / airport snacks (×2)",
-        "cost": 40,
-        "range": [
-          28,
-          55
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route.",
-        "optional": true
-      },
-      {
-        "name": "All-week snacks (×2)",
-        "cost": 55,
-        "range": [
-          40,
-          75
-        ],
-        "detail": "Provisional allowance carried from the earlier draft, not a restaurant quote. Reprice after choosing the venue and menu for the optimized route."
-      },
-      {
-        "name": "Sat: Talk Shop American breakfast (×2) — chosen",
+        "name": "Sat: Talk Shop American breakfast (×2)",
         "cost": 38.13,
         "range": [
           38.13,
           38.13
         ],
-        "detail": "Published ¥2,860 each, ¥5,720 for two including coffee and juice. Paid separately, not included in the hotel stay. Saturday only; no default hotel breakfast on other days. USD uses ¥150/$1 planning FX."
+        "detail": "Published ¥2,860 each, ¥5,720 for two, including coffee and juice. Paid separately from the room."
       },
       {
-        "name": "Tue: Shibuya dinner (×2)",
-        "cost": 45,
+        "name": "Sat: Nakamise street snacks (×2)",
+        "cost": 11,
         "range": [
-          30,
-          75
+          7,
+          16
         ],
-        "detail": "Provisional dinner allowance; choose after lunch to preserve food variety."
+        "detail": "Two or three snacks each at ¥200–600 apiece (ningyo-yaki, fried manju, senbei, melon-pan)."
+      },
+      {
+        "name": "Sat: Hokkaido Milk Bar (×2)",
+        "cost": 12,
+        "range": [
+          9,
+          15
+        ],
+        "detail": "Soft serve, milk pudding (¥650) or the milk tasting flight (¥880); about ¥700–1,100 each."
+      },
+      {
+        "name": "Sat: Rokurinsha tsukemen (×2)",
+        "cost": 23,
+        "range": [
+          20,
+          27
+        ],
+        "detail": "Published bowls ¥1,200–1,500 plus a topping or egg each. Walk-in."
+      },
+      {
+        "name": "Sat: Tenichi tempura dinner (×2)",
+        "cost": 60,
+        "range": [
+          51,
+          97
+        ],
+        "detail": "Published Fuji table set ¥3,850 each (¥7,700 for two); the top of the range is two counter courses at ¥7,260. Drinks extra. Reserve."
+      },
+      {
+        "name": "Sun: FamilyMart breakfast (×2)",
+        "cost": 16,
+        "range": [
+          12,
+          20
+        ],
+        "detail": "Sandwich or onigiri, yogurt and a drink each, ¥900–1,500 per person."
+      },
+      {
+        "name": "Sun: Gyukatsu Ichinisan lunch (×2)",
+        "cost": 27,
+        "range": [
+          22,
+          37
+        ],
+        "detail": "Published sets ¥1,630–2,760 each (¥3,260–5,520 for two), tax included. Walk-in."
+      },
+      {
+        "name": "Sun: Manten Sushi omakase (×2)",
+        "cost": 117,
+        "range": [
+          117,
+          161
+        ],
+        "detail": "Published omakase ¥8,800 each (¥17,600 for two); ¥12,100 each with drinks included. Tax included. Reserve on TableCheck."
+      },
+      {
+        "name": "Mon: 7-Eleven breakfast (×2)",
+        "cost": 16,
+        "range": [
+          12,
+          20
+        ],
+        "detail": "Grab and go from the 24-hour Kabutocho Tosho-mae store, ¥900–1,500 per person."
+      },
+      {
+        "name": "Mon: DisneySea lunch + snacks, via the app (×2)",
+        "cost": 44,
+        "range": [
+          31,
+          60
+        ],
+        "detail": "Counter-service sets run ¥1,300–1,800 each; add ¥1,000–2,500 each for popcorn, churros and drinks through the day."
+      },
+      {
+        "name": "Mon: Ristorante di Canaletto dinner (×2)",
+        "cost": 70,
+        "range": [
+          60,
+          90
+        ],
+        "detail": "Set menus and pasta or pizza mains are roughly ¥3,900–5,500 each plus a drink; confirm the current menu in the Disney app when Priority Seating opens."
+      },
+      {
+        "name": "Tue: Tsukiji market breakfast (×2)",
+        "cost": 27,
+        "range": [
+          20,
+          33
+        ],
+        "detail": "Grazing: tamagoyaki ¥300–600, onigiri ¥500–1,000, coffee ¥400–800, Shouro sando ¥800. About ¥1,500–2,500 each."
+      },
+      {
+        "name": "Tue: Harajuku Gyozaro lunch (×2)",
+        "cost": 16,
+        "range": [
+          13,
+          21
+        ],
+        "detail": "Gyoza plates are about ¥350–400 for six; two plates, rice and a drink each is roughly ¥1,200 per person. Walk-in."
+      },
+      {
+        "name": "Tue: I’m donut? + Marion Crepes (×2)",
+        "cost": 15,
+        "range": [
+          11,
+          19
+        ],
+        "detail": "A doughnut (¥300–500) and a crêpe (¥550–900) each."
+      },
+      {
+        "name": "Tue: Uobei conveyor belt sushi (×2)",
+        "cost": 30,
+        "range": [
+          20,
+          40
+        ],
+        "detail": "Plates from ¥110 (¥132–297 tiers); ¥1,500–3,000 each for a full meal. Walk-in."
+      },
+      {
+        "name": "Wed: FamilyMart breakfast (×2)",
+        "cost": 16,
+        "range": [
+          12,
+          20
+        ],
+        "detail": "Grab and go from KABUTO ONE (opens 6:00), ¥900–1,500 per person."
+      },
+      {
+        "name": "Wed: Hachiri irori lunch (×2)",
+        "cost": 87,
+        "range": [
+          87,
+          113
+        ],
+        "detail": "Published seasonal course ¥6,500 each (¥13,000 for two), tax included; the top of the range is the limited ¥8,500 special course. Drinks extra. Reserve with the spa."
+      },
+      {
+        "name": "Wed: Ushigoro wagyu yakiniku (×2)",
+        "cost": 160,
+        "range": [
+          130,
+          221
+        ],
+        "detail": "Published courses ¥9,760–16,590 each (¥19,520–33,180 for two) before drinks; a service charge may apply. Reserve."
+      },
+      {
+        "name": "Thu: Hoshino Coffee soufflé pancakes (×2)",
+        "cost": 23,
+        "range": [
+          20,
+          27
+        ],
+        "detail": "Soufflé pancakes about ¥1,000–1,300 plus coffee ¥600 each. Walk-in."
+      },
+      {
+        "name": "Thu: Bincho hitsumabushi lunch (×2)",
+        "cost": 73,
+        "range": [
+          60,
+          87
+        ],
+        "detail": "Hitsumabushi sets are roughly ¥4,500–6,500 each at Ginza Mitsukoshi; confirm the current menu on arrival."
+      },
+      {
+        "name": "All-week snacks + drinks (×2)",
+        "cost": 53,
+        "range": [
+          40,
+          73
+        ],
+        "detail": "Convenience-store drinks, vending machines, airport snacks and small extras across the week."
       }
     ]
   },
@@ -559,10 +555,10 @@ const BUDGET_CATEGORIES = [
         "detail": "Traditional fans, chopstick sets, ceramic items, Japanese snack boxes, matcha goods."
       },
       {
-        "name": "Tokyo Solamachi / Harajuku",
+        "name": "Tokyo Solamachi / Akihabara / Harajuku",
         "cost": 50,
         "variable": true,
-        "detail": "Japanese souvenirs and snacks, novelty items, vintage fashion, character goods."
+        "detail": "Japanese souvenirs and snacks, novelty items, Gundam and character goods, vintage fashion."
       },
       {
         "name": "Haneda Airport duty-free (HND)",
@@ -589,10 +585,10 @@ const POINTS_DATA=[
 
 const PLAN_DATA=[
   {
-    "phase": "✅ Confirmed — keep unchanged",
+    "phase": "✅ Already booked",
     "bg": "#f0fdf4",
-    "border": "#86efac",
-    "text": "#166534",
+    "border": "#bbf7d0",
+    "text": "#14532d",
     "items": [
       {
         "id": "p1",
@@ -617,40 +613,234 @@ const PLAN_DATA=[
     ]
   },
   {
-    "phase": "📅 Next: book movable experiences",
+    "phase": "🔴 Book now — this week",
+    "bg": "#fef2f2",
+    "border": "#fecaca",
+    "text": "#7f1d1d",
+    "items": [
+      {
+        "id": "b1",
+        "text": "TODAY · Akiba Fukurou owl café — Sun Oct 25, 1:00pm",
+        "detail": "Official site only: akiba2960.com/en. As of September 14 the 1:00pm session was the only Sunday slot left for two. ¥3,800 each. Arrive 10 minutes early; the door does not open once a session starts. Fallback if it is gone: Small Worlds miniature museum (¥3,200, no booking needed).",
+        "links": [
+          {
+            "label": "Book the 1:00pm session",
+            "url": "https://akiba2960.com/reservation/"
+          },
+          {
+            "label": "English info",
+            "url": "https://akiba2960.com/en/"
+          }
+        ]
+      },
+      {
+        "id": "b2",
+        "text": "JAPANKART go-karts — Sat Oct 24, 3:30pm",
+        "detail": "Book at japankart.com (“Book now”, Akihabara / Asakusa 60min, Azumabashi shop). Oct 24 times are 12:00, 3:30 and 7:00pm; ¥10,000 each. Full refund if cancelled 24+ hours ahead.",
+        "links": [
+          {
+            "label": "Book the Akihabara / Asakusa 60min tour",
+            "url": "https://widgets.bokun.io/online-sales/42b9f122-22b1-4f6f-8e5f-f8b98311a262/experience/885784"
+          }
+        ]
+      },
+      {
+        "id": "b3",
+        "text": "International Driving Permits for both drivers (AAA)",
+        "detail": "Required for JAPANKART: the 1949 Geneva Convention IDP from AAA, carried with your original US license (no temporary or paper licenses) and passport. Same day at an AAA branch, or allow a few weeks by mail. Missing documents means no driving and no refund.",
+        "links": [
+          {
+            "label": "AAA International Driving Permit",
+            "url": "https://www.aaa.com/vacation/idpf.html"
+          }
+        ]
+      },
+      {
+        "id": "b4",
+        "text": "Hakone Yuryo massages — Wed Oct 28, 1:45pm for two",
+        "detail": "Booked separately from the private bath (TableCheck, Sep 27) and lunch (phone, Sep 27). Choose 2 people at 1:45pm on the English booking page; free account, ¥7,900 each, paid on site, no card needed.",
+        "links": [
+          {
+            "label": "Book massages (English)",
+            "url": "https://online.peakmanager.com/en/s3n0u2/book"
+          }
+        ]
+      },
+      {
+        "id": "b5",
+        "text": "KABEAT — Fri Oct 23, 7:00pm",
+        "detail": "TableCheck: tablecheck.com/shops/kabeat/reserve. Choose the weekday seat-only plan. Reducing the party size on the day costs ¥3,000 per person; 15+ minutes late without calling may cancel.",
+        "links": [
+          {
+            "label": "Book on TableCheck (English)",
+            "url": "https://www.tablecheck.com/en/shops/kabeat/reserve"
+          }
+        ]
+      },
+      {
+        "id": "b6",
+        "text": "Call Tenichi — Sat Oct 24, 5:45pm",
+        "detail": "Phone only: +81-3-3272-3677. They answer 11:00am–9:30pm Japan time, which is 10:00pm–8:30am Eastern. Ask for a table for two.",
+        "links": [
+          {
+            "label": "Call +81-3-3272-3677",
+            "url": "tel:+81332723677"
+          },
+          {
+            "label": "Restaurant page",
+            "url": "https://tenichi.co.jp/shop/nihonbashi-takashimaya/"
+          }
+        ]
+      },
+      {
+        "id": "b7",
+        "text": "Manten Sushi — Sun Oct 25, 5:00pm omakase",
+        "detail": "TableCheck: tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve. Pick the 5:00pm 90-minute omakase. Card required; same-day cancellation is charged the full course price.",
+        "links": [
+          {
+            "label": "Book on TableCheck (English)",
+            "url": "https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve"
+          }
+        ]
+      },
+      {
+        "id": "b8",
+        "text": "Yakiniku Ushigoro Shinjuku 3-chome — Wed Oct 28, 5:30pm",
+        "detail": "TableCheck: tablecheck.com/shops/ushigoro-shinjukusanchome/reserve. Seasonal Master course ¥15,800 each plus 5% service. Cancel or change by phone only (03-3358-4129); 30+ minutes late cancels.",
+        "links": [
+          {
+            "label": "Book on TableCheck (English)",
+            "url": "https://www.tablecheck.com/en/shops/ushigoro-shinjukusanchome/reserve"
+          }
+        ]
+      },
+      {
+        "id": "b9",
+        "text": "Hitsumabushi Bincho — Thu Oct 29, 11:00am",
+        "detail": "Online on ebica (link on hitsumabushi.co.jp, Ginza Mitsukoshi branch). 11:00 is the first lunch seating. 15+ minutes late without calling cancels.",
+        "links": [
+          {
+            "label": "Book on ebica",
+            "url": "https://booking.ebica.jp/webrsv/search/e020034301/21802?isfixshop=true"
+          }
+        ]
+      },
+      {
+        "id": "b10",
+        "text": "TPA rides both ways (Uber Reserve)",
+        "detail": "Schedule the ~3:30am pickup on Thu Oct 22 and the ~10:45pm pickup at TPA on Thu Oct 29. Uber Reserve takes bookings up to 90 days ahead.",
+        "links": [
+          {
+            "label": "Uber Reserve",
+            "url": "https://www.uber.com/us/en/ride/uber-reserve/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "📅 Booking calendar — windows that open later (Eastern time)",
     "bg": "#fefce8",
     "border": "#fde68a",
     "text": "#713f12",
     "items": [
       {
-        "id": "p7",
-        "text": "Shibuya Sky: Tue Oct 27 — time to choose",
-        "detail": "Check ticket release rules, actual sunset and weather policy before choosing a slot. The itinerary window is not a booking."
+        "id": "c1",
+        "text": "Wed Sep 23, 11am ET · Sumida Aquarium tickets (Sat Oct 24)",
+        "detail": "Online tickets go on sale 30 days before. ¥2,700 each, non-refundable but the date can be changed. Optional: buying at the door on a normal Saturday is fine.",
+        "links": [
+          {
+            "label": "Aquarium tickets (English)",
+            "url": "https://en.sumida-aquarium.com/about/ticket/"
+          }
+        ]
       },
       {
-        "id": "p8",
-        "text": "JAPANKART: verify both drivers' documents before paying",
-        "detail": "Read the operator's country-specific requirements and arrange original documents for both drivers. Missing documents can mean no driving and no refund."
+        "id": "c2",
+        "text": "Fri Sep 25, 9pm ET · Ristorante di Canaletto Priority Seating (Mon Oct 26, 5:00pm)",
+        "detail": "Opens at 10:00am Japan time one month before, on the Tokyo Disney Resort Online Reservations site or app (MyDisney account). No fee; free cancellation up to 1 hour before.",
+        "links": [
+          {
+            "label": "Disney Priority Seating (English)",
+            "url": "https://reserve.tokyodisneyresort.jp/en/restaurant/search/"
+          }
+        ]
       },
       {
-        "id": "p9",
-        "text": "Hakone Yuryo: Wed Oct 28 — coordinate all appointments",
-        "detail": "Proposed: 11:30 lunch, 12:45 simultaneous 60-minute massages, 2:15 private bath for 120 minutes. None is confirmed. Reserve the bath first and fit treatments/lunch around availability."
+        "id": "c3",
+        "text": "Sun Sep 27, 11am ET · Hakone Yuryo private bath (Wed Oct 28, 10:00am)",
+        "detail": "Booked separately from the massages and lunch. Opens one month before (hour not published); if 10:00 is not selectable at 11am ET, try again at 4pm ET. Type 1, 120 minutes, ¥10,400 for the room; a card holds the booking and you pay on site.",
+        "links": [
+          {
+            "label": "Book the private bath on TableCheck (English)",
+            "url": "https://www.tablecheck.com/en/shops/hakoneyuryo/reserve"
+          }
+        ]
       },
       {
-        "id": "p9b",
-        "text": "Romancecar: Wed Oct 28 — reserve after spa timing",
-        "detail": "Sales open one month ahead at 10am JST: September 28, or September 27 at 9pm EDT. Choose outbound and return with station/shuttle buffers. Regular fare and reserved-seat supplement are separate."
+        "id": "c4",
+        "text": "Sun Sep 27, 9pm ET · Romancecar both ways (Wed Oct 28)",
+        "detail": "EMot Online Tickets (smartphone): Hakone 41 at 7:37am from Shinjuku (arrives 9:22) and Hakone 36 at 3:13pm from Hakone-Yumoto (arrives 4:46). About ¥2,470 each way per person. Changes free until departure; ¥100 per seat to refund.",
+        "links": [
+          {
+            "label": "EMot Online Tickets (phone, English)",
+            "url": "https://www.emot-tickets.jp/express-menu?language=en"
+          },
+          {
+            "label": "e-Romancecar (computer, English)",
+            "url": "https://www.web-odakyu.com/e-romancecar/?language=en"
+          }
+        ]
       },
       {
-        "id": "p13",
-        "text": "Book JAPANKART 60-minute Akihabara / Asakusa: Sat Oct 24",
-        "detail": "Chosen, not booked. Target around 3:30pm after Solamachi lunch, subject to availability. Advertised from ¥20,000 total for two. Confirm exact meeting branch, check-in, date-specific total and return location. https://japankart.com/east-tokyo-landmark-tour/"
+        "id": "c5",
+        "text": "Sun Sep 27, 10:30pm ET · Call Hachiri for lunch (Wed Oct 28, 12:30pm)",
+        "detail": "Phone only: +81-460-85-8411 (restaurant bookings 11:30am–7:00pm Japan time, from one month before). Autumn Irori Course ¥6,500 each.",
+        "links": [
+          {
+            "label": "Call +81-460-85-8411",
+            "url": "tel:+81460858411"
+          },
+          {
+            "label": "Restaurant page (English)",
+            "url": "https://www.hakoneyuryo.jp/english/restaurant/"
+          }
+        ]
       },
       {
-        "id": "p12",
-        "text": "Choose restaurants by the new day areas",
-        "detail": "Fri Kabutocho; Sat Solamachi and Nihonbashi/Ningyocho; Sun Toyosu and Roppongi; Mon Disney; Tue Tsukiji breakfast, Harajuku/Omotesando and Shibuya; Wed Hakone plus optional Shinjuku; Thu Ginza breakfast and optional lunch. No dining reservation is confirmed."
+        "id": "c6",
+        "text": "Mon Oct 12, 11am ET · Shibuya Sky (Tue Oct 27, 4:00–4:40pm entry)",
+        "detail": "Online sales open at midnight Japan time two weeks before, and sunset slots sell out within hours, so be online right at 11am ET. The ticket page is in Japanese; tickets for entry after 3pm are ¥3,400 each. Free cancellation until the day before.",
+        "links": [
+          {
+            "label": "Shibuya Sky tickets",
+            "url": "https://www.shibuya-scramble-square.com/sky/ticket/"
+          }
+        ]
+      },
+      {
+        "id": "c7",
+        "text": "Mon Oct 26, in the park · Disney Premier Access and Standby Pass",
+        "detail": "Only available in the Tokyo Disney Resort app after you enter the park. Grab Fantasy Springs and Soaring first. Premier Access is about ¥1,500–2,500 per person per ride; Standby Pass is free.",
+        "links": [
+          {
+            "label": "How the Disney app works",
+            "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba05101fdf7431bafb6b0/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "🚶 Walk-in — nothing to book",
+    "bg": "#f8fafc",
+    "border": "#e2e8f0",
+    "text": "#334155",
+    "items": [
+      {
+        "id": "w1",
+        "text": "No reservations needed for these",
+        "detail": "Talk Shop breakfast, Nakamise stalls, Hokkaido Milk Bar, Rokurinsha, FamilyMart and 7-Eleven mornings, Gyukatsu Ichinisan, Tsukiji market, Gyozaro, I’m donut? and Marion Crepes, Uobei, Hoshino Coffee, and DisneySea lunch in the app."
       }
     ]
   },
@@ -663,27 +853,40 @@ const PLAN_DATA=[
       {
         "id": "p14",
         "text": "Set up Suica and mobile data for both phones",
-        "detail": "Use the shared transit allowance for airport, Disney and Tokyo trains; top-ups are not extra fares on top of those journeys. Verify the actual data plan and device compatibility."
+        "detail": "Add Suica to Apple Wallet before you leave and top it up with your US card; no physical card or ticket machines needed. Use the shared transit allowance for airport, Disney and Tokyo trains; top-ups are not extra fares on top of those journeys. Verify the actual data plan and device compatibility.",
+        "links": [
+          {
+            "label": "Airalo Japan eSIM",
+            "url": "https://www.airalo.com/japan-esim"
+          }
+        ]
+      },
+      {
+        "id": "p25",
+        "text": "Tokyo Disney Resort app: link both tickets before Mon Oct 26",
+        "detail": "Install the app, link both tickets, and find where Standby Pass and Premier Access live. At park opening, grab passes for the Fantasy Springs rides and Soaring first; they go within minutes.",
+        "links": [
+          {
+            "label": "How the Disney app works",
+            "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba05101fdf7431bafb6b0/"
+          }
+        ]
+      },
+      {
+        "id": "p19",
+        "text": "Register on Visit Japan Web before you fly",
+        "detail": "Enter passport and flight details for each traveler to get the immigration and customs QR code; it speeds up arrival at Haneda. Check current entry requirements and keep passports and the QR codes accessible.",
+        "links": [
+          {
+            "label": "Visit Japan Web",
+            "url": "https://www.vjw.digital.go.jp/"
+          }
+        ]
       },
       {
         "id": "p16",
         "text": "Save tickets, hotel address and route screenshots offline",
         "detail": "Download map areas, but keep mobile data for live walking/transit directions. Offline map downloads do not replace live transit routing."
-      },
-      {
-        "id": "p19",
-        "text": "Complete entry preparation through official sources",
-        "detail": "Check Visit Japan Web and current passport/entry requirements for each traveler; keep documents accessible."
-      },
-      {
-        "id": "p23",
-        "text": "If karting: confirm and pack required driving documents",
-        "detail": "Confirm the operator’s accepted permit and original license requirements before paying."
-      },
-      {
-        "id": "p24",
-        "text": "Book TPA ride to arrive by 4:15am Oct 22",
-        "detail": "Pickup likely around 3:30am, adjusted to your actual drive. Pack and set alarms the night before."
       },
       {
         "id": "p21",
@@ -692,7 +895,7 @@ const PLAN_DATA=[
       }
     ]
   }
-];
+];;;
 
 const PACK_DATA=[
   {cat:"📄 Documents & Money",items:[
@@ -789,8 +992,9 @@ function activityMapLabel(activity){
 
 function statusStyle(status){
   if(/booked ✓/i.test(status))return {color:"#047857",bg:"#ecfdf5",border:"#a7f3d0"};
-  if(/^Chosen/.test(status))return {color:"#1d4ed8",bg:"#eff6ff",border:"#bfdbfe"};
-  if(/^(Book ahead|Pick a spot)/.test(status))return {color:"#b45309",bg:"#fffbeb",border:"#fde68a"};
+  if(/^(Book today|Book now|Call now)/.test(status))return {color:"#b91c1c",bg:"#fef2f2",border:"#fecaca"};
+  if(/^(Book|Call|Buy|Reserve|To book|Priority Seating|Confirm seating|Pick a spot)/.test(status))return {color:"#b45309",bg:"#fffbeb",border:"#fde68a"};
+  if(/^(Walk-in|No booking)/.test(status))return {color:"#047857",bg:"#ecfdf5",border:"#a7f3d0"};
   return {color:"#475569",bg:"#f8fafc",border:"#e2e8f0"};
 }
 
@@ -822,7 +1026,6 @@ export default function JapanItinerary(){
           <div>
             <div style={{color:"#fff",fontSize:20,fontWeight:700,letterSpacing:"-0.3px"}}>🇯🇵 Japan Anniversary</div>
             <div style={{color:"rgba(255,255,255,0.7)",fontSize:13,marginTop:2}}>Oct 22–29 · Delta via Virgin Atlantic · Caption by Hyatt</div>
-            <a href="?view=restaurants" style={{display:"inline-block",color:"#fff",fontSize:13,marginTop:10,textUnderlineOffset:4}}>Explore restaurant choices ↗</a>
           </div>
           <button onClick={()=>setShowPoints(!showPoints)} style={{background:"rgba(255,255,255,0.18)",border:"none",borderRadius:10,padding:"8px 14px",color:"#fff",fontSize:13,fontWeight:600,cursor:"pointer"}}>💳 Points</button>
         </div>
@@ -928,6 +1131,7 @@ export default function JapanItinerary(){
                       <p style={{fontSize:13,color:"#374151",lineHeight:1.6,margin:0}}>{act.detail}</p>
                       {act.food&&<div style={{background:"#fff7ed",border:"1px solid #fed7aa",borderRadius:10,padding:"10px 12px"}}><div style={{fontSize:11,fontWeight:700,color:"#c2410c",marginBottom:4}}>🍽️ FOOD</div><p style={{fontSize:12,color:"#7c2d12",lineHeight:1.5,margin:0}}>{act.food}</p></div>}
                       {act.tip&&<div style={{background:"#eff6ff",border:"1px solid #bfdbfe",borderRadius:10,padding:"10px 12px"}}><div style={{fontSize:11,fontWeight:700,color:"#1d4ed8",marginBottom:4}}>💡 TIP</div><p style={{fontSize:12,color:"#1e3a8a",lineHeight:1.5,margin:0}}>{act.tip}</p></div>}
+                      {act.bookUrl&&<a href={act.bookUrl} target="_blank" rel="noreferrer" style={{display:"inline-flex",alignItems:"center",justifyContent:"center",alignSelf:"flex-start",background:"#fffbeb",color:"#92400e",border:"1px solid #fcd34d",textDecoration:"none",fontSize:12,fontWeight:750,padding:"9px 12px",borderRadius:9}}>{act.bookUrl.startsWith("tel:")?"📞":"🔗"} {act.bookLabel} ↗</a>}
                       {mapQuery&&<a href={mapsUrl(mapQuery)} target="_blank" rel="noreferrer" style={{display:"inline-flex",alignItems:"center",justifyContent:"center",alignSelf:"flex-start",background:theme.headerBg,color:"#fff",textDecoration:"none",fontSize:12,fontWeight:750,padding:"9px 12px",borderRadius:9,boxShadow:"0 2px 5px rgba(15,23,42,0.14)"}}>📍 Open destination in Google Maps ↗</a>}
                     </div>
                   )}
@@ -1072,6 +1276,7 @@ export default function JapanItinerary(){
                           {item.detail&&!done&&<div style={{fontSize:11,color:"#9ca3af",marginTop:3,lineHeight:1.4}}>{item.detail}</div>}
                         </div>
                       </button>
+                      {item.links&&!done&&<div style={{display:"flex",flexWrap:"wrap",gap:6,padding:"0 16px 12px 48px"}}>{item.links.map(l=><a key={l.url} href={l.url} target="_blank" rel="noreferrer" style={{fontSize:11,fontWeight:700,color:"#92400e",background:"#fffbeb",border:"1px solid #fcd34d",borderRadius:8,padding:"6px 9px",textDecoration:"none"}}>{l.url.startsWith("tel:")?"📞":"🔗"} {l.label} ↗</a>)}</div>}
                     </div>
                   );
                 })}
