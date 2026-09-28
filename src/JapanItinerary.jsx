@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSavedState } from "./travelState.js";
 
 import { DAYS, DAY_TRANSIT } from './itineraryData.js';
 
@@ -85,13 +86,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Download Airalo app before leaving Tampa. ~$15-20/person for 10-15 days unlimited data. Installs digitally, activates on landing. No counter pickup at the airport."
       },
       {
-        "name": "International Driving Permits (AAA × 2 drivers)",
+        "name": "International Driving Permits (AAA × 2 drivers) — DONE",
         "cost": 40,
         "range": [
           40,
           40
         ],
-        "detail": "$20 per permit, $40 for both drivers, plus any passport-photo or delivery charges. Confirm AAA processing and JAPANKART's original-document requirements before booking."
+        "detail": "$20 per permit, $40 for both drivers, plus any passport photos."
       },
       {
         "name": "Travel insurance — both passengers",
@@ -192,13 +193,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Free to enter grounds, gate, pagoda, and main hall."
       },
       {
-        "name": "Sat: Sumida Aquarium (× 2)",
+        "name": "Sat: Sumida Aquarium (× 2) — BOOKED",
         "cost": 36,
         "range": [
           32,
           42
         ],
-        "detail": "The panda replacement: a compact, design-forward aquarium in Tokyo Skytree Town with penguins and jellyfish. Buy a timed ticket online if you want certainty."
+        "detail": "Paid: ¥5,400 for two tickets at ¥2,700 each, about $36 at ¥150/$1."
       },
       {
         "name": "teamLab Planets, Toyosu (× 2) — BOOKED",
@@ -270,13 +271,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Paid skip-the-line passes are ¥1,500–2,000 per person per ride. Two rides for two people (Fantasy Springs plus Soaring) is about ¥6,000–8,000; three rides about ¥12,000. Optional."
       },
       {
-        "name": "Hakone Yuryo Type 1 private onsen — 120 min",
+        "name": "Hakone Yuryo private onsen — 120 min — BOOKED",
         "cost": 70,
         "range": [
           68,
           82
         ],
-        "detail": "Verified weekday rate for one Type 1 room for two: ¥10,400 total. Towels and bath amenities are included; optional yukata rental is ¥100/person."
+        "detail": "Booked for Wed Oct 28, 10:00am: ¥10,400 for the room, paid on site. Towels and amenities included; optional yukata ¥100 each."
       },
       {
         "name": "Hakone Yuryo full-body massages — 60 min (× 2)",
@@ -457,12 +458,12 @@ const BUDGET_CATEGORIES=[
       },
       {
         "name": "Wed: Hachiri irori lunch (×2)",
-        "cost": 87,
+        "cost": 80,
         "range": [
-          87,
-          113
+          80,
+          107
         ],
-        "detail": "Published seasonal course ¥6,500 each (¥13,000 for two), tax included; the top of the range is the limited ¥8,500 special course. Drinks extra. Reserve with the spa."
+        "detail": "As a package add-on to the private bath, the Seasonal Irori Course is ¥6,000 each (¥12,000 for two), tax included, with a draft beer or soft drink each thrown in. The top of the range is the limited Special Course at ¥8,000 each. Extra drinks on top."
       },
       {
         "name": "Wed: Ushigoro wagyu yakiniku (×2)",
@@ -640,6 +641,21 @@ const PLAN_DATA=[
         "id": "b2",
         "text": "JAPANKART go-karts — Sat Oct 24, 3:30pm — BOOKED",
         "detail": "60-minute tour for two, ¥20,000 paid through Google Pay after their card form kept failing. Be at 2-18-15 Azumabashi by 3:15. Both drivers need original license, IDP and passport, or no driving and no refund."
+      },
+      {
+        "id": "b3",
+        "text": "International Driving Permits — both drivers — DONE",
+        "detail": "Both in hand. Pack them with your original US licenses and passports for JAPANKART on Saturday."
+      },
+      {
+        "id": "c1",
+        "text": "Sumida Aquarium — Sat Oct 24 — BOOKED",
+        "detail": "Tickets bought, ¥2,700 each. Non-refundable, but the date can be changed."
+      },
+      {
+        "id": "c3",
+        "text": "Hakone Yuryo private bath — Wed Oct 28, 10:00am — BOOKED",
+        "detail": "120 minutes, ¥10,400 for the room, paid on site. Arriving 15+ minutes late without calling cancels it."
       }
     ]
   },
@@ -649,17 +665,6 @@ const PLAN_DATA=[
     "border": "#fecaca",
     "text": "#7f1d1d",
     "items": [
-      {
-        "id": "b3",
-        "text": "International Driving Permits for both drivers (AAA)",
-        "detail": "Required for JAPANKART: the 1949 Geneva Convention IDP from AAA, carried with your original US license (no temporary or paper licenses) and passport. Same day at an AAA branch, or allow a few weeks by mail. Missing documents means no driving and no refund.",
-        "links": [
-          {
-            "label": "AAA International Driving Permit",
-            "url": "https://www.aaa.com/vacation/idpf.html"
-          }
-        ]
-      },
       {
         "id": "b6",
         "text": "Call Tenichi — Sat Oct 24, 5:45pm",
@@ -693,7 +698,7 @@ const PLAN_DATA=[
         "links": [
           {
             "label": "Uber Reserve",
-            "url": "https://www.uber.com/us/en/ride/uber-reserve/"
+            "url": "https://www.uber.com/us/en/ride/how-it-works/reserve/"
           }
         ]
       }
@@ -706,35 +711,17 @@ const PLAN_DATA=[
     "text": "#713f12",
     "items": [
       {
-        "id": "c1",
-        "text": "Wed Sep 23, 11am ET · Sumida Aquarium tickets (Sat Oct 24)",
-        "detail": "Online tickets go on sale 30 days before. ¥2,700 each, non-refundable but the date can be changed. Optional: buying at the door on a normal Saturday is fine.",
-        "links": [
-          {
-            "label": "Aquarium tickets (English)",
-            "url": "https://en.sumida-aquarium.com/about/ticket/"
-          }
-        ]
-      },
-      {
         "id": "c2",
         "text": "Fri Sep 25, 9pm ET · Ristorante di Canaletto Priority Seating (Mon Oct 26, 5:00pm)",
-        "detail": "Opens at 10:00am Japan time one month before, on the Tokyo Disney Resort Online Reservations site or app (MyDisney account). No fee; free cancellation up to 1 hour before.",
+        "detail": "Opens at 10:00am Japan time one month before, on the Tokyo Disney Resort Online Reservations site or app (MyDisney account). Be signed in early — the site puts you in a waiting queue before it lets you search. No fee; free cancellation up to 1 hour before.",
         "links": [
           {
             "label": "Disney Priority Seating (English)",
             "url": "https://reserve.tokyodisneyresort.jp/en/restaurant/search/"
-          }
-        ]
-      },
-      {
-        "id": "c3",
-        "text": "Sun Sep 27, 11am ET · Hakone Yuryo private bath (Wed Oct 28, 10:00am)",
-        "detail": "Booked separately from the massages and lunch. Opens one month before (hour not published); if 10:00 is not selectable at 11am ET, try again at 4pm ET. Type 1, 120 minutes, ¥10,400 for the room; a card holds the booking and you pay on site.",
-        "links": [
+          },
           {
-            "label": "Book the private bath on TableCheck (English)",
-            "url": "https://www.tablecheck.com/en/shops/hakoneyuryo/reserve"
+            "label": "Disney's rule on booking windows",
+            "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba04301fdf7431bafb348/"
           }
         ]
       },
@@ -756,7 +743,7 @@ const PLAN_DATA=[
       {
         "id": "c5",
         "text": "Sun Sep 27, 10:30pm ET · Call Hachiri for lunch (Wed Oct 28, 12:30pm)",
-        "detail": "Phone only: +81-460-85-8411 (restaurant bookings 11:30am–7:00pm Japan time, from one month before). Autumn Irori Course ¥6,500 each.",
+        "detail": "Phone only: +81-460-85-8411. Bookings open one month before, and they answer 11:30am–7:00pm Japan time on weekdays. Your bath is booked, so ask for the “Private Bath + Irori Course package”: ¥6,000 each instead of ¥6,500, plus a free draft beer or soft drink apiece.",
         "links": [
           {
             "label": "Call +81-460-85-8411",
@@ -970,15 +957,21 @@ export default function JapanItinerary(){
   const[showPoints,setShowPoints]=useState(false);
   const[expandedCat,setExpandedCat]=useState(null);
   const[expandedItem,setExpandedItem]=useState(null);
-  const[planChecked,setPlanChecked]=useState(new Set(["p1","p4","p5","p10"]));
-  const[packChecked,setPackChecked]=useState(new Set());
+  const[planSaved,setPlanSaved]=useSavedState("plan-checked",[]);
+  const[packSaved,setPackSaved]=useSavedState("pack-checked",[]);
+  const bookedIds=new Set((PLAN_DATA.find(p=>p.phase.startsWith("✅"))?.items||[]).map(i=>i.id));
+  const planChecked=new Set([...planSaved,...bookedIds]);
+  const packChecked=new Set(packSaved);
   const day=DAYS[activeDay];
   const theme=THEME[day.type]||THEME.tokyo;
   const{low,high,mid}=calcBudgetTotal();
-  const togglePlan=(id)=>{const n=new Set(planChecked);n.has(id)?n.delete(id):n.add(id);setPlanChecked(n);};
-  const togglePack=(id)=>{const n=new Set(packChecked);n.has(id)?n.delete(id):n.add(id);setPackChecked(n);};
+  const flip=(id)=>s=>s.includes(id)?s.filter(x=>x!==id):[...s,id];
+  const togglePlan=(id)=>{if(!bookedIds.has(id))setPlanSaved(flip(id));};
+  const togglePack=(id)=>setPackSaved(flip(id));
   const planTotal=PLAN_DATA.reduce((s,ph)=>s+ph.items.length,0);
   const packTotal=PACK_DATA.reduce((s,cat)=>s+cat.items.length,0);
+  const planDone=PLAN_DATA.reduce((s,ph)=>s+ph.items.filter(i=>planChecked.has(i.id)).length,0);
+  const packDone=PACK_DATA.reduce((s,cat)=>s+cat.items.filter(i=>packChecked.has(i.id)).length,0);
 
   return(
     <div style={{fontFamily:"system-ui,-apple-system,sans-serif",background:"#f8fafc",minHeight:"100vh"}}>
@@ -1214,7 +1207,7 @@ export default function JapanItinerary(){
         <div style={{padding:"14px 16px 48px",display:"flex",flexDirection:"column",gap:12}}>
           <div style={{background:"#0f4c81",borderRadius:16,padding:"16px",color:"#fff"}}>
             <div style={{fontSize:16,fontWeight:700}}>Pre-Trip Checklist</div>
-            <div style={{fontSize:12,color:"rgba(255,255,255,0.65)",marginTop:4}}>{planChecked.size} of {planTotal} items done · tap any item to check off</div>
+            <div style={{fontSize:12,color:"rgba(255,255,255,0.65)",marginTop:4}}>{planDone} of {planTotal} done · tap to check off · saved on this phone</div>
           </div>
           {PLAN_DATA.map((phase,pi)=>{
             const doneInPhase=phase.items.filter(it=>planChecked.has(it.id)).length;
@@ -1225,16 +1218,16 @@ export default function JapanItinerary(){
                   <div style={{fontSize:11,color:phase.text,opacity:0.7}}>{doneInPhase}/{phase.items.length}</div>
                 </div>
                 {phase.items.map((item)=>{
-                  const done=planChecked.has(item.id);
+                  const done=planChecked.has(item.id);const isBooked=bookedIds.has(item.id);
                   return(
                     <div key={item.id} style={{borderTop:`1px solid #f1f5f9`}}>
-                      <button onClick={()=>togglePlan(item.id)} style={{width:"100%",textAlign:"left",padding:"12px 16px",background:"none",border:"none",cursor:"pointer",display:"flex",gap:12,alignItems:"flex-start"}}>
+                      <button onClick={()=>togglePlan(item.id)} style={{width:"100%",textAlign:"left",padding:"12px 16px",background:"none",border:"none",cursor:isBooked?"default":"pointer",display:"flex",gap:12,alignItems:"flex-start"}}>
                         <div style={{width:20,height:20,borderRadius:6,border:`2px solid ${done?"#059669":"#d1d5db"}`,background:done?"#059669":"transparent",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,marginTop:1}}>
                           {done&&<span style={{color:"#fff",fontSize:12,fontWeight:700}}>✓</span>}
                         </div>
                         <div style={{flex:1}}>
-                          <div style={{fontSize:13,fontWeight:500,color:done?"#9ca3af":"#374151",textDecoration:done?"line-through":"none",lineHeight:1.4}}>{item.text}</div>
-                          {item.detail&&!done&&<div style={{fontSize:11,color:"#9ca3af",marginTop:3,lineHeight:1.4}}>{item.detail}</div>}
+                          <div style={{fontSize:13,fontWeight:500,color:done&&!isBooked?"#9ca3af":"#374151",textDecoration:done&&!isBooked?"line-through":"none",lineHeight:1.4}}>{item.text}</div>
+                          {item.detail&&(!done||isBooked)&&<div style={{fontSize:11,color:"#9ca3af",marginTop:3,lineHeight:1.4}}>{item.detail}</div>}
                         </div>
                       </button>
                       {item.links&&!done&&<div style={{display:"flex",flexWrap:"wrap",gap:6,padding:"0 16px 12px 48px"}}>{item.links.map(l=><a key={l.url} href={l.url} target="_blank" rel="noreferrer" style={{fontSize:11,fontWeight:700,color:"#92400e",background:"#fffbeb",border:"1px solid #fcd34d",borderRadius:8,padding:"6px 9px",textDecoration:"none"}}>{l.url.startsWith("tel:")?"📞":"🔗"} {l.label} ↗</a>)}</div>}
@@ -1251,7 +1244,7 @@ export default function JapanItinerary(){
         <div style={{padding:"14px 16px 48px",display:"flex",flexDirection:"column",gap:12}}>
           <div style={{background:"#1e293b",borderRadius:16,padding:"16px",color:"#fff"}}>
             <div style={{fontSize:16,fontWeight:700}}>Packing List</div>
-            <div style={{fontSize:12,color:"rgba(255,255,255,0.65)",marginTop:4}}>{packChecked.size} of {packTotal} packed · tap to check off</div>
+            <div style={{fontSize:12,color:"rgba(255,255,255,0.65)",marginTop:4}}>{packDone} of {packTotal} packed · tap to check off · saved on this phone</div>
             <div style={{fontSize:11,color:"rgba(255,255,255,0.45)",marginTop:6}}>Late Oct Tokyo: ~59–72°F days, cooler evenings. No power adapter needed (Japan = Type A, same as US).</div>
           </div>
           {PACK_DATA.map((cat,ci)=>{

@@ -718,7 +718,7 @@ export const sections = [
             "url": "https://ushigoro.com/shop/ginza/"
           },
           {
-            "label": "Reservations (TableCheck)",
+            "label": "Reservations (TableCheck, Ginza branch)",
             "url": "https://www.tablecheck.com/en/shops/ushigoro-ginza/reserve"
           }
         ],
@@ -1129,6 +1129,10 @@ export const sections = [
           {
             "label": "Official branch page",
             "url": "https://ushigoro.com/"
+          },
+          {
+            "label": "Reservations (TableCheck, Shinjuku 3-chome)",
+            "url": "https://www.tablecheck.com/en/shops/ushigoro-shinjukusanchome/reserve"
           },
           {
             "label": "Tabelog (hours, photos)",
@@ -1544,7 +1548,7 @@ export const sections = [
       },
       {
         "name": "Pepper PARLOR, Shibuya",
-        "description": "Robots and a café meal. Choose for the interaction rather than a specialist Japanese dish.",
+        "description": "CLOSED — Tabelog lists this venue as permanently closed, so it is no longer an option. Left here only so it is not suggested again.",
         "budget": "¥2,000–4,000",
         "booking": "Walk-in planning option; branch reservation policy and October hours need confirmation.",
         "current": false,

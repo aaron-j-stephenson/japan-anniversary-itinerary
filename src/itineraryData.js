@@ -21,7 +21,7 @@ export const DAYS = [
         "food": null,
         "tip": "Schedule the 3:30am pickup (and the ~10:45pm return on Oct 29) in Uber Reserve, which takes bookings up to 90 days ahead.",
         "status": "Book now",
-        "bookUrl": "https://www.uber.com/us/en/ride/uber-reserve/",
+        "bookUrl": "https://www.uber.com/us/en/ride/how-it-works/reserve/",
         "bookLabel": "Schedule in Uber Reserve"
       },
       {
@@ -192,13 +192,11 @@ export const DAYS = [
         "kind": "activity",
         "icon": "🐠",
         "title": "Sumida Aquarium",
-        "status": "Buy Sep 23 · 11am ET",
-        "detail": "Allow about 75–90 minutes. Opens 9:00 on Saturdays. Entry is not booked; select an available slot after agreeing on the morning pace.",
+        "status": "Tickets booked ✓",
+        "detail": "Tickets bought for Saturday October 24. Allow about 75–90 minutes; opens 9:00 on Saturdays. Show the QR code from your email at the gate.",
         "mapQuery": "Sumida Aquarium Tokyo",
         "food": null,
-        "tip": "Online tickets go on sale 30 days before (Wed Sep 23 around 11am ET). ¥2,700 each, non-refundable but the date can be changed. On a normal Saturday buying at the door is fine too.",
-        "bookUrl": "https://en.sumida-aquarium.com/about/ticket/",
-        "bookLabel": "Aquarium tickets (English)"
+        "tip": "Tickets are non-refundable, but the date can be changed on the aquarium site if plans move."
       },
       {
         "time": "Noon–1:00pm",
@@ -243,7 +241,7 @@ export const DAYS = [
         "mapQuery": "JAPANKART 2-18-15 Azumabashi Sumida Tokyo",
         "source": "https://japankart.com/",
         "food": null,
-        "tip": "⚠️ Be at the shop by 3:15, 15 minutes early. Both drivers must bring three originals: your US driver’s license (no temporary or paper licenses), an International Driving Permit under the 1949 Geneva Convention (from AAA), and your passport. Missing documents means no driving and no refund."
+        "tip": "⚠️ Be at the shop by 3:15, 15 minutes early. You have your IDPs — bring them. Both drivers must bring three originals: your US driver’s license (no temporary or paper licenses), an International Driving Permit under the 1949 Geneva Convention (from AAA), and your passport. Missing documents means no driving and no refund."
       },
       {
         "time": "4:50pm",
@@ -716,13 +714,11 @@ export const DAYS = [
         "kind": "activity",
         "icon": "♨️",
         "title": "Private open-air onsen · 120 min",
-        "status": "Book Sep 27 · 11am ET",
-        "detail": "The anniversary anchor: a Type 1 private outdoor bath for just the two of you at the 10:00 opening slot (start times are on the hour or half hour). Weekday 120 minutes is ¥10,400 for the room, tax included; a card holds the booking and you pay on site. Arriving 15+ minutes late without calling cancels it. Yukata rental ¥100 each, optional.",
+        "status": "Booked ✓",
+        "detail": "Booked for Wednesday October 28 at 10:00am: a private outdoor bath for just the two of you, 120 minutes. ¥10,400 for the room, tax included, paid on site; the card on TableCheck only holds it. Arriving 15+ minutes late without calling cancels it. Yukata rental ¥100 each, optional.",
         "mapQuery": "Hakone Yuryo private open air bath",
         "food": null,
-        "tip": "Booked separately from the massages and lunch, on TableCheck, from one month before (Sunday September 27, likely 11:00am Eastern; if 10:00 is not selectable yet, try again at 4:00pm Eastern). No swimsuits are used in the private bath.",
-        "bookUrl": "https://www.tablecheck.com/en/shops/hakoneyuryo/reserve",
-        "bookLabel": "Book the private bath on TableCheck (English)"
+        "tip": "The shuttle gets you there around 9:40. No swimsuits in the private bath. Changes the day before up to 3 days prior are by phone only: +81-460-85-8411."
       },
       {
         "time": "12:30pm",
@@ -732,8 +728,8 @@ export const DAYS = [
         "status": "Call Sep 27 · 10:30pm ET",
         "detail": "Charcoal irori course: grilled seafood and seasonal vegetables, a grilled river fish, tea soba and dessert. Autumn Irori Course ¥6,500 each (the limited special course is ¥8,500). Restaurant bookings are by phone only.",
         "mapQuery": "Hakone Yuryo Irorisaryo Hachiri",
-        "food": "Reserve the standard Seasonal Irori Course for two (¥13,000 total before drinks). The ¥8,500 Special Course is limited to 10 servings per day, so treat it as an upgrade only if you specifically want the extra sashimi and Japanese beef.",
-        "tip": "Phone bookings only, from one month before: call +81-460-85-8411 on Sunday September 27 at 10:30pm Eastern (11:30am Monday in Japan).",
+        "food": "Reserve the Seasonal Irori Course for two. As a package add-on to the private bath it is ¥6,000 each (¥12,000 total) plus a free drink each, instead of ¥6,500 each on its own. The ¥8,000 Special Course is limited to 10 servings a day — an upgrade only if you want the extra sashimi and Japanese beef.",
+        "tip": "Phone only, from one month before: call +81-460-85-8411 on Sunday September 27 at 10:30pm Eastern (11:30am Monday in Japan). Ask for the “Private Bath + Irori Course package” — your bath is booked, so the Seasonal Irori Course drops to ¥6,000 each and includes a draft beer or soft drink apiece.",
         "mealId": 12,
         "bookUrl": "tel:+81460858411",
         "bookLabel": "Call +81-460-85-8411"
