@@ -689,14 +689,12 @@ export const DAYS = [
         "kind": "travel",
         "icon": "🚄",
         "title": "Romancecar Hakone 41: Shinjuku → Hakone-Yumoto",
-        "status": "Book Sep 27 · 9pm ET",
-        "detail": "Reserved seats on the weekday Hakone 41 (there is no 8:00 train). ¥2,470 each way per person; book both directions on EMot Online Tickets. Changes are free until departure on the same day, so you can switch trains in the app if plans move.",
+        "status": "Booked ✓",
+        "detail": "Booked: Hakone 41, car 6, seats 12C and 12D, arriving Hakone-Yumoto 9:22. Board by showing the purchase page on your phone; carry the Visa you paid with in case staff ask. The ticket covers your reserved seats only, so tap Suica at the gates for the base fare (about ¥1,270 each).",
         "mapQuery": "Hakone-Yumoto Station",
         "food": null,
-        "tip": "Sales open one month ahead at 10:00am Japan time: Sunday September 27 at 9:00pm Eastern, on EMot Online Tickets. Book both directions at once.",
-        "duration": "7:37 → 9:22",
-        "bookUrl": "https://www.emot-tickets.jp/express-menu?language=en",
-        "bookLabel": "EMot Online Tickets (English)"
+        "tip": "To pull up the ticket on the day: e-Romancecar → Confirm booking, with the phone number and email you booked with. Same-day train changes are free there until departure.",
+        "duration": "7:37 → 9:22"
       },
       {
         "time": "9:30am",
@@ -746,18 +744,16 @@ export const DAYS = [
         "tip": "Avoid alcohol at lunch and flag any medical considerations when you check in."
       },
       {
-        "time": "2:55pm",
+        "time": "2:50pm",
         "kind": "travel",
         "icon": "🚄",
         "title": "Shuttle + Romancecar Hakone 36 → Shinjuku",
-        "status": "Book Sep 27 · 9pm ET",
-        "detail": "Leave right after the massages: shuttle to Hakone-Yumoto for the 3:13pm Hakone 36, arriving Shinjuku 4:46. If you are running behind, switch to the 3:52 (arrives 5:27) in the EMot app before 3:13 and push dinner to 5:45.",
+        "status": "Booked ✓",
+        "detail": "Booked: Hakone 36 at 3:13pm, car 5, seats 5C and 5D, arriving Shinjuku 4:46. The weekday shuttle runs about every 15 minutes and takes 3 minutes, so go straight from the massage to the front desk and out. Tap Suica at the gates for the base fare.",
         "mapQuery": "Odakyu Shinjuku Station",
-        "food": "Small train snack if needed; dinner remains flexible.",
-        "tip": null,
-        "duration": "3:13 → 4:46",
-        "bookUrl": "https://www.emot-tickets.jp/express-menu?language=en",
-        "bookLabel": "EMot Online Tickets (English)"
+        "food": "Small train snack if needed; dinner is at 5:30.",
+        "tip": "In the morning, ask the front desk for the shuttle times after 2:45 and whether you can settle the bill before the massage. Tell the therapist you have a 3:13 train. If you miss it, buy two seats on the 3:52 at the Hakone-Yumoto ticket machine (about ¥2,300 for both): you reach Shinjuku 5:27 and Ushigoro around 5:40, inside their 30-minute hold.",
+        "duration": "3:13 → 4:46"
       },
       {
         "time": "5:30pm",

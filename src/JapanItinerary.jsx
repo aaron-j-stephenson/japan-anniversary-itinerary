@@ -163,13 +163,13 @@ const BUDGET_CATEGORIES=[
         "detail": "This is the one shared local-transit allowance: load about ¥6,000 each in Apple Wallet, then top up only if needed. It covers your Haneda arrival and departure trains, DisneySea train/Resort Line, and nearly all Tokyo subway/JR/bus rides. Do not add the individual Tokyo train fares elsewhere—those rides are paid from this balance, not on top of it."
       },
       {
-        "name": "Hakone Romancecar reserved tickets — round trip (× 2)",
-        "cost": 66,
+        "name": "Hakone Romancecar round trip (× 2) — BOOKED",
+        "cost": 65,
         "range": [
-          60,
-          75
+          65,
+          65
         ],
-        "detail": "Separate from Suica: reserved Romancecar fare for two, round trip between Shinjuku and Hakone-Yumoto. Your subway ride to/from Shinjuku and the free Hakone Yuryo shuttle are already covered by Suica/free, so do not buy the Hakone Freepass."
+        "detail": "Paid: ¥4,600 for reserved seats both ways. Plus the base fare on Suica, about ¥1,270 each per ride (¥5,080 for four rides). About ¥9,680 total, $65 at ¥150/$1."
       }
     ]
   },
@@ -656,6 +656,11 @@ const PLAN_DATA=[
         "id": "c3",
         "text": "Hakone Yuryo private bath — Wed Oct 28, 10:00am — BOOKED",
         "detail": "120 minutes, ¥10,400 for the room, paid on site. Arriving 15+ minutes late without calling cancels it."
+      },
+      {
+        "id": "c4",
+        "text": "Romancecar both ways — Wed Oct 28 — BOOKED",
+        "detail": "Out: Hakone 41, 7:37am Shinjuku, car 6 seats 12C/12D. Back: Hakone 36, 3:13pm Hakone-Yumoto, car 5 seats 5C/5D. ¥2,300 each way for two, on the Visa. Base fare goes on Suica."
       }
     ]
   },
@@ -722,21 +727,6 @@ const PLAN_DATA=[
           {
             "label": "Disney's rule on booking windows",
             "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba04301fdf7431bafb348/"
-          }
-        ]
-      },
-      {
-        "id": "c4",
-        "text": "Sun Sep 27, 9pm ET · Romancecar both ways (Wed Oct 28)",
-        "detail": "EMot Online Tickets (smartphone): Hakone 41 at 7:37am from Shinjuku (arrives 9:22) and Hakone 36 at 3:13pm from Hakone-Yumoto (arrives 4:46). About ¥2,470 each way per person. Changes free until departure; ¥100 per seat to refund.",
-        "links": [
-          {
-            "label": "EMot Online Tickets (phone, English)",
-            "url": "https://www.emot-tickets.jp/express-menu?language=en"
-          },
-          {
-            "label": "e-Romancecar (computer, English)",
-            "url": "https://www.web-odakyu.com/e-romancecar/?language=en"
           }
         ]
       },
