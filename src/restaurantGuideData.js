@@ -705,7 +705,7 @@ export const sections = [
         "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13247938/",
         "experience": "Chef fries each piece at the counter",
         "selected": true,
-        "selectedStatus": "Chosen · to reserve"
+        "selectedStatus": "Chosen · walk-in"
       },
       {
         "name": "Yakiniku Ushigoro, Ginza",

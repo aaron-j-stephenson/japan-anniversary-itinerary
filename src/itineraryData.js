@@ -255,18 +255,16 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "~5:45pm",
+        "time": "~5:20pm",
         "kind": "dinner",
         "icon": "🍤",
         "title": "Tenichi tempura, Nihonbashi Takashimaya",
-        "status": "Call now",
-        "detail": "Seafood and vegetable tempura fried piece by piece, on Takashimaya’s 8F. Straight from the go-karts on one direct train; reserve a 5:45pm table (dinner service from 5pm, table last order 8pm). Published Fuji dinner set ¥3,850 each; counter course from ¥7,260 if you want to watch the frying.",
+        "status": "Walk-in",
+        "detail": "Seafood and vegetable tempura fried piece by piece, on Takashimaya’s 8F (dinner from 5pm, table last order 8pm). This branch has no online booking, so walk in straight from the go-karts: arriving around 5:20 on a Saturday beats the dinner rush. Published Fuji dinner set ¥3,850 each.",
         "mapQuery": "Tenichi Nihonbashi Takashimaya Tokyo",
         "food": "Tempura with rice and sides. ¥7,700 for two Fuji sets, plus drinks; counter course is the upgrade.",
-        "tip": "Phone bookings only: +81-3-3272-3677. They answer 11:00am–9:30pm Japan time, which is 10:00pm–8:30am Eastern. Ask for a table for two at 5:45pm on Saturday October 24.",
-        "mealId": 4,
-        "bookUrl": "tel:+81332723677",
-        "bookLabel": "Call +81-3-3272-3677"
+        "tip": "If there’s a line, put your name down and browse Takashimaya. Optional: calling +81-3-3272-3677 (answered 10:00pm–8:30am Eastern) locks in a table.",
+        "mealId": 4
       }
     ]
   },

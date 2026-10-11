@@ -24,3 +24,43 @@ export function directions(destination, origin, mode='transit') {
   if (origin) p.set('origin',origin);
   return `https://www.google.com/maps/dir/?${p}`;
 }
+
+// Reload into the newest deploy whenever the app is opened or brought back to
+// the foreground. Home-screen web apps on iPhone resume the old page from memory
+// and have no refresh button, so without this they keep showing stale bookings.
+export function startAutoUpdate() {
+  if (!import.meta.env.PROD) return;
+  let busy = false;
+  const check = async () => {
+    if (busy || document.visibilityState !== 'visible') return;
+    busy = true;
+    try {
+      const res = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) return;
+      const { build } = await res.json();
+      if (!build || build === __BUILD_ID__) return;
+      try {
+        if (sessionStorage.getItem('japan-reloaded-for') === build) return; // one try per deploy, never a loop
+        sessionStorage.setItem('japan-reloaded-for', build);
+      } catch {}
+      refreshApp(build);
+    } catch {
+      // offline or blocked: keep showing what we have
+    } finally {
+      busy = false;
+    }
+  };
+  check();
+  document.addEventListener('visibilitychange', check);
+  window.addEventListener('pageshow', check);
+  setInterval(check, 5 * 60 * 1000);
+}
+
+// A new query string makes GitHub Pages' cache hand back the latest page.
+export function refreshApp(build = String(Date.now())) {
+  const url = new URL(location.href);
+  url.searchParams.set('v', build);
+  location.replace(url);
+}
+
+export const BUILD_LABEL = new Date(Number(__BUILD_ID__)).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });

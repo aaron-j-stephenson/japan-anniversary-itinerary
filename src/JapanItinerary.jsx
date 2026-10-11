@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useSavedState } from "./travelState.js";
+import { useSavedState, refreshApp, BUILD_LABEL } from "./travelState.js";
 
 import { DAYS, DAY_TRANSIT } from './itineraryData.js';
 
@@ -671,21 +671,6 @@ const PLAN_DATA=[
     "text": "#7f1d1d",
     "items": [
       {
-        "id": "b6",
-        "text": "Call Tenichi — Sat Oct 24, 5:45pm",
-        "detail": "Phone only: +81-3-3272-3677. They answer 11:00am–9:30pm Japan time, which is 10:00pm–8:30am Eastern. Ask for a table for two.",
-        "links": [
-          {
-            "label": "Call +81-3-3272-3677",
-            "url": "tel:+81332723677"
-          },
-          {
-            "label": "Restaurant page",
-            "url": "https://tenichi.co.jp/shop/nihonbashi-takashimaya/"
-          }
-        ]
-      },
-      {
         "id": "b9",
         "text": "Hitsumabushi Bincho — Thu Oct 29, 11:00am",
         "detail": "Online on ebica (link on hitsumabushi.co.jp, Ginza Mitsukoshi branch). 11:00 is the first lunch seating. 15+ minutes late without calling cancels.",
@@ -779,6 +764,21 @@ const PLAN_DATA=[
         "id": "w1",
         "text": "No reservations needed for these",
         "detail": "Talk Shop breakfast, Nakamise stalls, Hokkaido Milk Bar, Rokurinsha, FamilyMart and 7-Eleven mornings, Gyukatsu Ichinisan, Tsukiji market, Gyozaro, I’m donut? and Marion Crepes, Uobei, Hoshino Coffee, and DisneySea lunch in the app."
+      },
+      {
+        "id": "b6",
+        "text": "Tenichi — Sat Oct 24, walk in around 5:20pm",
+        "detail": "This branch has no online booking. Walk in straight from the go-karts; early on a Saturday beats the rush. Calling is optional if you want a table locked in.",
+        "links": [
+          {
+            "label": "Call +81-3-3272-3677",
+            "url": "tel:+81332723677"
+          },
+          {
+            "label": "Restaurant page",
+            "url": "https://tenichi.co.jp/shop/nihonbashi-takashimaya/"
+          }
+        ]
       }
     ]
   },
@@ -970,6 +970,7 @@ export default function JapanItinerary(){
           <div>
             <div style={{color:"#fff",fontSize:20,fontWeight:700,letterSpacing:"-0.3px"}}>🇯🇵 Japan Anniversary</div>
             <div style={{color:"rgba(255,255,255,0.7)",fontSize:13,marginTop:2}}>Oct 22–29 · Delta via Virgin Atlantic · Caption by Hyatt</div>
+            <button onClick={()=>refreshApp()} style={{background:"none",border:"none",padding:0,marginTop:4,color:"rgba(255,255,255,0.55)",fontSize:11,cursor:"pointer"}}>Updated {BUILD_LABEL} · tap to refresh</button>
           </div>
           <button onClick={()=>setShowPoints(!showPoints)} style={{background:"rgba(255,255,255,0.18)",border:"none",borderRadius:10,padding:"8px 14px",color:"#fff",fontSize:13,fontWeight:600,cursor:"pointer"}}>💳 Points</button>
         </div>
