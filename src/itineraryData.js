@@ -998,6 +998,22 @@ export const DAYS = [
         "tip": null
       },
       {
+        "time": "8:10am",
+        "kind": "travel",
+        "icon": "🚶",
+        "title": "Hotel → Hoshino Coffee, Yaesu (walk)",
+        "duration": "about 15–20 min walk",
+        "detail": "An easy walk west to the Tokyo Station side. The café is in the Yaesu Underground Mall below the station.",
+        "steps": [
+          "Tap \"Open destination in Google Maps\" below, then Directions → Walking.",
+          "Walk west along Eitai-dori past the Nihombashi crossing toward Tokyo Station’s Yaesu (east) side.",
+          "Go down into the Yaesu Underground Mall (八重洲地下街) and follow the map to Hoshino Coffee."
+        ],
+        "mapQuery": "Hoshino Coffee Yaesu Chikagai Tokyo",
+        "food": null,
+        "tip": null
+      },
+      {
         "time": "8:30–9:30am",
         "kind": "breakfast",
         "icon": "🍳",
@@ -1008,6 +1024,22 @@ export const DAYS = [
         "food": "One soufflé pancake stack each with coffee.",
         "tip": null,
         "mealId": 1
+      },
+      {
+        "time": "9:35am",
+        "kind": "travel",
+        "icon": "🚶",
+        "title": "Yaesu → Ginza (walk)",
+        "duration": "about 15–20 min walk",
+        "detail": "A straight walk south along Chuo-dori to Ginza.",
+        "steps": [
+          "Come up from the Yaesu Underground Mall to street level.",
+          "Tap \"Open destination in Google Maps\" below, then Directions → Walking.",
+          "Walk south to Chuo-dori and follow it into Ginza (about 15–20 minutes). Mitsukoshi, where lunch is at 11:00, is at the Ginza 4-chome crossing."
+        ],
+        "mapQuery": "Ginza 4-chome crossing Tokyo",
+        "food": null,
+        "tip": null
       },
       {
         "time": "10:00–10:50am",
