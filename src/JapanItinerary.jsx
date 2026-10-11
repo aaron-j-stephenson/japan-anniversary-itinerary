@@ -77,13 +77,13 @@ const BUDGET_CATEGORIES=[
         "detail": "A 2nd 23kg checked bag costs $100 per person if you need it. For a week in Tokyo, one bag each should be plenty."
       },
       {
-        "name": "Airalo Japan eSIM × 2 people",
-        "cost": 40,
+        "name": "Ubigi Japan Unlimited eSIM, 8 days × 2 people",
+        "cost": 50,
         "range": [
-          30,
+          50,
           50
         ],
-        "detail": "Download Airalo app before leaving Tampa. ~$15-20/person for 10-15 days unlimited data. Installs digitally, activates on landing. No counter pickup at the airport."
+        "detail": "$25 per phone on Ubigi’s site (checked Oct 11). 5 GB a day at full speed, then 2 Mbps, which still runs Google Maps. Docomo + KDDI networks. Install at home; the 8 days start when it first connects in Japan."
       },
       {
         "name": "International Driving Permits (AAA × 2 drivers) — DONE",
@@ -794,8 +794,8 @@ const PLAN_DATA=[
         "detail": "Add Suica to Apple Wallet before you leave and top it up with your US card; no physical card or ticket machines needed. Use the shared transit allowance for airport, Disney and Tokyo trains; top-ups are not extra fares on top of those journeys. Verify the actual data plan and device compatibility.",
         "links": [
           {
-            "label": "Airalo Japan eSIM",
-            "url": "https://www.airalo.com/japan-esim"
+            "label": "Ubigi Japan Unlimited 8 days",
+            "url": "https://cellulardata.ubigi.com/rates-and-coverage/japan-data-plans/japan-unlimited-8-days/?wmc-currency=USD"
           }
         ]
       },
@@ -846,7 +846,7 @@ const PACK_DATA=[
     {id:"k7",text:"Small amount of yen cash",detail:"Get ¥20,000-30,000 from a 7-Eleven ATM in Japan on arrival — most reliable option for foreign cards. Alternatively get a small amount (~$100) exchanged at home before leaving."},
   ]},
   {cat:"📱 Tech",items:[
-    {id:"k8",text:"Both iPhones — eSIM installed, Suica loaded in Wallet",detail:"eSIM should be installed (Airalo) but not yet activated. Suica in Apple Wallet with ¥6,000 loaded. Double-check both before leaving the house."},
+    {id:"k8",text:"Both iPhones — eSIM installed, Suica loaded in Wallet",detail:"Ubigi eSIM installed at home on Wi-Fi; it starts when it first connects in Japan. Suica in Apple Wallet with ¥6,000 loaded. Double-check both before leaving the house."},
     {id:"k9",text:"Portable charger / power bank (fully charged)",detail:"Essential. Long days in Tokyo mean heavy phone use for Google Maps, translations, Tokyo Disney app, and photos. Bring a power bank that holds at least 2 full phone charges."},
     {id:"k10",text:"Charging cables (USB-C + any other needed)"},
     {id:"k11",text:"Power brick / wall charger",detail:"No adapter needed — Japan uses Type A plugs, identical to US outlets. Your US charger works directly. Japan runs on 100V (vs US 110V) but all modern electronics handle this without issue."},

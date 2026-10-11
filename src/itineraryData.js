@@ -73,7 +73,7 @@ export const DAYS = [
         "title": "Land at Tokyo Haneda (HND)",
         "detail": "Clear immigration, collect luggage and pass customs. Timing is variable; do not tie dinner to a fixed airport exit time.",
         "food": null,
-        "tip": "Download the Airalo app and buy a Japan eSIM before leaving Tampa (~$20/person for 10-15 days unlimited). Installs digitally, no counter pickup needed. iPhone XS+ or most Android 2020+ supported."
+        "tip": "Before you leave the plane: in Settings → Cellular, turn on the Ubigi eSIM, make it your Cellular Data line, and turn Data Roaming on for it. Leave your US line on for texts but keep its data roaming off. Ubigi’s plan starts counting when it first connects here."
       },
       {
         "time": "Late Afternoon",
