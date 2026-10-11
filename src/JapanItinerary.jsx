@@ -78,12 +78,12 @@ const BUDGET_CATEGORIES=[
       },
       {
         "name": "Ubigi Japan Unlimited eSIM, 8 days × 2 people",
-        "cost": 50,
+        "cost": 43,
         "range": [
-          50,
+          43,
           50
         ],
-        "detail": "$25 per phone on Ubigi’s site (checked Oct 11). 5 GB a day at full speed, then 2 Mbps, which still runs Google Maps. Docomo + KDDI networks. Install at home; the 8 days start when it first connects in Japan."
+        "detail": "$25 per phone list price (checked Oct 11). With Ubigi’s codes: $22.50 for the first phone (WELCOME10) and $20 for the second (your referral code, 20% off), so about $42.50 total. 5 GB a day at full speed, then 2 Mbps. Docomo + KDDI. The 8 days start when it first connects in Japan."
       },
       {
         "name": "International Driving Permits (AAA × 2 drivers) — DONE",
@@ -791,7 +791,7 @@ const PLAN_DATA=[
       {
         "id": "p14",
         "text": "Set up Suica and mobile data for both phones",
-        "detail": "Add Suica to Apple Wallet before you leave and top it up with your US card; no physical card or ticket machines needed. Use the shared transit allowance for airport, Disney and Tokyo trains; top-ups are not extra fares on top of those journeys. Verify the actual data plan and device compatibility.",
+        "detail": "Add Suica to Apple Wallet before you leave and top it up with your US card; no physical card or ticket machines needed. Use the shared transit allowance for airport, Disney and Tokyo trains; top-ups are not extra fares on top of those journeys. Verify the actual data plan and device compatibility. eSIM: in the Ubigi app on your phone, buy Japan Unlimited 8 days with code WELCOME10 (10% off). Then open Refer in your app for your personal code; your wife makes her own Ubigi account in the app on her phone and enters that code for 20% off hers (referral codes only work in the app). Install each one at home on Wi-Fi.",
         "links": [
           {
             "label": "Ubigi Japan Unlimited 8 days",
