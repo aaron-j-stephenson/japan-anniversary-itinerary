@@ -155,12 +155,21 @@ const BUDGET_CATEGORIES=[
     "items": [
       {
         "name": "Suica / local trains & buses — all week (× 2)",
-        "cost": 70,
+        "cost": 55,
         "range": [
           55,
           85
         ],
-        "detail": "This is the one shared local-transit allowance: load about ¥6,000 each in Apple Wallet, then top up only if needed. It covers your Haneda arrival and departure trains, DisneySea train/Resort Line, and nearly all Tokyo subway/JR/bus rides. Do not add the individual Tokyo train fares elsewhere—those rides are paid from this balance, not on top of it."
+        "detail": "This is the one shared local-transit allowance: load about ¥6,000 each in Apple Wallet, then top up only if needed. It covers the DisneySea train and Resort Line and nearly all Tokyo subway/JR rides. The airport bus and the taxi to T-CAT are listed separately. Do not add the individual Tokyo train fares elsewhere—those rides are paid from this balance, not on top of it."
+      },
+      {
+        "name": "Airport bus + short taxi, both ways (× 2)",
+        "cost": 43,
+        "range": [
+          40,
+          47
+        ],
+        "detail": "Airport Limousine Bus Haneda ⇄ T-CAT, ¥1,000 each way per person (¥4,000), plus a 5-minute taxi between T-CAT and the hotel each way (about ¥1,200 × 2). About ¥6,400, $43 at ¥150/$1."
       },
       {
         "name": "Hakone Romancecar round trip (× 2) — BOOKED",
@@ -689,6 +698,17 @@ const PLAN_DATA=[
           {
             "label": "Uber Reserve",
             "url": "https://www.uber.com/us/en/ride/how-it-works/reserve/"
+          }
+        ]
+      },
+      {
+        "id": "b11",
+        "text": "Airport bus back to Haneda — Thu Oct 29, 1:00pm from T-CAT",
+        "detail": "Reserve and pay on the official Limousine Bus site: choose 2 passengers, the 1:00pm departure from Tokyo City Air Terminal to Haneda Airport Terminal 3, then pay by card for a QR ticket. ¥1,000 each. No need to book the arrival bus; buy that one at the airport.",
+        "links": [
+          {
+            "label": "Reserve the 1:00pm bus (official)",
+            "url": "https://webservice.limousinebus.co.jp/web/en/ReservationTop.aspx?AirportLine=2&Direction=2&DepartureBusstop=003&ArrivalBusstop=250&DepartureDate=20261029&DepartureTime=1300&siteorigin=wwwlim"
           }
         ]
       }

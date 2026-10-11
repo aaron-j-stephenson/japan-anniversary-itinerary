@@ -85,18 +85,22 @@ export const DAYS = [
         "icon": "🚆",
         "title": "Haneda → hotel: airport bus + short taxi",
         "duration": "about 1 hour",
-        "detail": "The easy way with suitcases: the Airport Limousine Bus to T-CAT (staff load your bags, no stairs), then a 5-minute taxi to the hotel. About ¥3,200 for both of you. Buses leave Terminal 3 at 5:05, 5:50, 6:20, 6:55 and 7:25pm.",
+        "detail": "Take the Airport Limousine Bus (orange and white) on its \"Haneda Airport ⇄ Tokyo City Air Terminal (T-CAT)\" route, get off at T-CAT, then take a 5-minute taxi to the hotel. ¥1,000 each for the bus plus about ¥1,200 for the taxi. From Terminal 3 the bus leaves at 5:05, 5:50, 6:20, 6:55 and 7:25pm, and the ride is about 45 minutes. You don’t need to book ahead: buy tickets once you’re through customs.",
         "mapQuery": "Tokyo City Air Terminal T-CAT Hakozaki",
         "food": null,
-        "tip": "If you are out very late and the next bus is more than 25 minutes away, a taxi straight from Terminal 3 (1F, stop 21) is about ¥9,000–11,000. Dinner at KABEAT is 7:00, across the street from the hotel.",
+        "tip": "Seats are first come, first served, and a full bus can’t take standing passengers. If you want a guaranteed seat, book the next bus on your phone once you have your bags: tap the link below (booking closes 5 minutes before departure) and pay there for a QR ticket. If a bus is full, the next one is 30–45 minutes later, or take a taxi from 1F stop 21 (about ¥9,000–11,000).",
         "steps": [
           "After customs you come out in the 2nd-floor Arrival Lobby of Terminal 3.",
-          "Find the Airport Limousine Bus ticket counter in that lobby and buy 2 tickets to \"T-CAT (Tokyo City Air Terminal)\". ¥1,000 each; card or Suica is fine. You cannot pay on the bus.",
-          "Go down to 1F and walk out to bus stop 2. Hand your big suitcases to the staff; they load them underneath and give you claim tags.",
-          "Ride to the last stop, T-CAT (about 45 minutes). The bus stops at Terminals 2 and 1 first: stay on.",
-          "At T-CAT, collect your bags. The taxi stand is right in front of where the bus lets you off.",
+          "Find the orange Airport Limousine Bus ticket counter in that lobby. Say \"Two to T-CAT, please\" and buy tickets for the next bus. ¥1,000 each; card or Suica is fine. You can’t pay on the bus.",
+          "Your ticket shows the departure time and the bus stop number. Go down to 1F and out to that stop (stop 2 for T-CAT).",
+          "Hand your big suitcases to the staff at the stop. They load them under the bus and give you claim tags.",
+          "Ride about 45 minutes. The bus stops at Terminals 2 and 1 first, and some buses keep going to Tokyo Dome Hotel after T-CAT. Get off at \"Tokyo City Air Terminal (T-CAT)\".",
+          "Collect your bags with the claim tags. The taxi stand is right in front of where the bus lets you off.",
           "Show the driver: キャプション by Hyatt 兜町 東京（中央区日本橋兜町12-1）. About 5 minutes and ¥1,000–1,300; card or Suica works in most taxis. The taxi doors open and close by themselves."
-        ]
+        ],
+        "status": "No booking",
+        "bookUrl": "https://www.limousinebus.co.jp/en/timetable/detail/Haneda-TCAT/?dir=1&d=2026-10-23",
+        "bookLabel": "Bus times + optional booking (official)"
       },
       {
         "time": "~6:45pm",
@@ -1089,17 +1093,20 @@ export const DAYS = [
         "icon": "🚆",
         "title": "Hotel → Haneda: short taxi + airport bus",
         "duration": "about 1 hour",
-        "detail": "Same easy way as arrival, in reverse: a 5-minute taxi to T-CAT, then the 1:00pm Airport Limousine Bus to Terminal 3 (arrives 1:35). Staff load your bags. About ¥3,200 for both of you.",
+        "detail": "A 5-minute taxi to T-CAT, then the 1:00pm Airport Limousine Bus to Terminal 3, arriving 1:35. Book and pay for this bus ahead on the official site: you get a QR ticket and skip the counter. ¥1,000 each.",
         "mapQuery": "Tokyo City Air Terminal T-CAT Hakozaki",
         "food": null,
-        "tip": "Buses leave T-CAT at 12:30, 1:00 and 1:30pm. If you miss them, a taxi straight from the hotel to Terminal 3 is about ¥9,000–10,000 and 30 minutes.",
+        "tip": "Buses leave T-CAT every 30 minutes (12:30, 1:00, 1:30pm). If you miss yours, the next one still gets you there in plenty of time. A taxi straight from the hotel to Terminal 3 is about ¥9,000–10,000.",
         "steps": [
           "Ask the front desk for a taxi to T-CAT (東京シティエアターミナル, 箱崎). About 5 minutes, ¥1,000–1,300.",
-          "At T-CAT, buy 2 bus tickets to \"Haneda Airport Terminal 3\" at the 1F counter or machine. ¥1,000 each; card or Suica.",
-          "Board at the 1F boarding area for Haneda. Staff load the suitcases underneath.",
+          "At T-CAT, go to the 1F boarding area for buses to Haneda. Have your QR ticket ready. If you didn’t book ahead, buy 2 tickets to \"Haneda Airport Terminal 3\" at the 1F counter or machine first.",
+          "Staff load your suitcases underneath and give you claim tags.",
           "The bus stops at Terminal 2 and Terminal 1 first. Stay on: Terminal 3 is the LAST stop (about 35 minutes).",
-          "Go up to 3F Departures and check in with Delta."
-        ]
+          "Collect your bags, go up to 3F Departures, and check in with Delta."
+        ],
+        "status": "Book ahead",
+        "bookUrl": "https://webservice.limousinebus.co.jp/web/en/ReservationTop.aspx?AirportLine=2&Direction=2&DepartureBusstop=003&ArrivalBusstop=250&DepartureDate=20261029&DepartureTime=1300&siteorigin=wwwlim",
+        "bookLabel": "Reserve the 1:00pm bus (official)"
       },
       {
         "time": "~2:00–4:15pm",
