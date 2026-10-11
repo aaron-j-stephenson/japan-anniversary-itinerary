@@ -1074,6 +1074,12 @@ export default function JapanItinerary(){
                   {isOpen&&(
                     <div style={{padding:"0 16px 16px",display:"flex",flexDirection:"column",gap:10}}>
                       <p style={{fontSize:13,color:"#374151",lineHeight:1.6,margin:0}}>{act.detail}</p>
+                      {act.steps&&<ol style={{listStyle:"none",margin:0,padding:0,display:"flex",flexDirection:"column",gap:8}}>{act.steps.map((step,si)=>(
+                        <li key={si} style={{display:"flex",gap:10,alignItems:"flex-start",background:"#f8fafc",border:"1px solid #e2e8f0",borderRadius:10,padding:"9px 11px"}}>
+                          <span style={{flexShrink:0,width:22,height:22,borderRadius:11,background:theme.headerBg,color:"#fff",fontSize:12,fontWeight:800,display:"flex",alignItems:"center",justifyContent:"center"}}>{si+1}</span>
+                          <span style={{fontSize:13.5,color:"#1e293b",lineHeight:1.5}}>{step}</span>
+                        </li>
+                      ))}</ol>}
                       {act.food&&<div style={{background:"#fff7ed",border:"1px solid #fed7aa",borderRadius:10,padding:"10px 12px"}}><div style={{fontSize:11,fontWeight:700,color:"#c2410c",marginBottom:4}}>🍽️ FOOD</div><p style={{fontSize:12,color:"#7c2d12",lineHeight:1.5,margin:0}}>{act.food}</p></div>}
                       {act.tip&&<div style={{background:"#eff6ff",border:"1px solid #bfdbfe",borderRadius:10,padding:"10px 12px"}}><div style={{fontSize:11,fontWeight:700,color:"#1d4ed8",marginBottom:4}}>💡 TIP</div><p style={{fontSize:12,color:"#1e3a8a",lineHeight:1.5,margin:0}}>{act.tip}</p></div>}
                       {act.bookUrl&&<a href={act.bookUrl} target="_blank" rel="noreferrer" style={{display:"inline-flex",alignItems:"center",justifyContent:"center",alignSelf:"flex-start",background:"#fffbeb",color:"#92400e",border:"1px solid #fcd34d",textDecoration:"none",fontSize:12,fontWeight:750,padding:"9px 12px",borderRadius:9}}>{act.bookUrl.startsWith("tel:")?"📞":"🔗"} {act.bookLabel} ↗</a>}
