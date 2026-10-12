@@ -856,7 +856,7 @@ export const DAYS = [
         "icon": "🚄",
         "title": "Romancecar Hakone 41: Shinjuku → Hakone-Yumoto",
         "status": "Booked ✓",
-        "detail": "Booked: Hakone 41, car 6, seats 12C and 12D, arriving Hakone-Yumoto 9:22. Board by showing the purchase page on your phone; carry the Visa you paid with in case staff ask. The ticket covers your reserved seats only, so tap Suica at the gates for the base fare (about ¥1,270 each).",
+        "detail": "Booked: Hakone 41, car 6, seats 12C and 12D, arriving Hakone-Yumoto 9:22. Board by showing the purchase page on your phone; carry the credit card you paid with (your Visa card) in case staff ask. The ticket covers your reserved seats only, so tap Suica at the gates for the base fare (about ¥1,270 each).",
         "mapQuery": "Hakone-Yumoto Station",
         "food": null,
         "tip": "To pull up the ticket on the day: e-Romancecar → Confirm booking, with the phone number and email you booked with. Same-day train changes are free there until departure.",

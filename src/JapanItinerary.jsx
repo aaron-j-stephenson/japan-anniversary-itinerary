@@ -669,7 +669,7 @@ const PLAN_DATA=[
       {
         "id": "c4",
         "text": "Romancecar both ways — Wed Oct 28 — BOOKED",
-        "detail": "Out: Hakone 41, 7:37am Shinjuku, car 6 seats 12C/12D. Back: Hakone 36, 3:13pm Hakone-Yumoto, car 5 seats 5C/5D. ¥2,300 each way for two, on the Visa. Base fare goes on Suica."
+        "detail": "Out: Hakone 41, 7:37am Shinjuku, car 6 seats 12C/12D. Back: Hakone 36, 3:13pm Hakone-Yumoto, car 5 seats 5C/5D. ¥2,300 each way for two, paid by credit card (bring that card on Wednesday). Base fare goes on Suica."
       },
       {
         "id": "c6",
@@ -881,7 +881,7 @@ const PACK_DATA=[
       {
         "id": "k4",
         "text": "Credit cards: your main no-foreign-fee card + a backup",
-        "detail": "Bring a Visa and a Mastercard if you can, since acceptance varies. Carry the Visa you bought the Romancecar tickets with on Wednesday: staff can ask to see it. Keep the backup card in a different bag from the main one."
+        "detail": "Bring a Visa and a Mastercard if you can, since acceptance varies. On Wednesday, carry the credit card you paid for the Romancecar tickets with (your Visa card): train staff can ask to see it with the ticket. Keep the backup card in a different bag from the main one."
       },
       {
         "id": "k7",
@@ -1261,7 +1261,7 @@ const PACK_DATA=[
       {
         "id": "k73",
         "text": "Wed — Hakone: change of underwear, hair tie, small makeup kit",
-        "detail": "The private bath provides towels and amenities. Bring the Visa you bought the Romancecar tickets with, and keep the purchase pages on your phone."
+        "detail": "The private bath provides towels and amenities. Bring the credit card you paid for the Romancecar tickets with (your Visa card), and keep the purchase pages on your phone."
       },
       {
         "id": "k74",
