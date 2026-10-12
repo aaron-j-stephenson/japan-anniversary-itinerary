@@ -251,13 +251,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Published ¥3,800 each, tax included (¥7,600 for two); the site advertises 10% off online. Book the 1:00pm Sunday session on the official site now."
       },
       {
-        "name": "Shibuya Sky observation deck (× 2)",
-        "cost": 46,
+        "name": "Shibuya Sky observation deck (× 2) — BOOKED",
+        "cost": 45,
         "range": [
-          42,
-          52
+          45,
+          45
         ],
-        "detail": "Evening web entry is currently ¥3,400/person. Book the blue-hour slot online; October pricing and availability should be reconfirmed when tickets open."
+        "detail": "Paid: ¥6,800 for two adult tickets (¥3,400 each, 3pm-or-later entry), about $45 at ¥150/$1."
       },
       {
         "name": "Tokyo DisneySea — 1-Day Passport (× 2) — BOOKED",
@@ -670,6 +670,11 @@ const PLAN_DATA=[
         "id": "c4",
         "text": "Romancecar both ways — Wed Oct 28 — BOOKED",
         "detail": "Out: Hakone 41, 7:37am Shinjuku, car 6 seats 12C/12D. Back: Hakone 36, 3:13pm Hakone-Yumoto, car 5 seats 5C/5D. ¥2,300 each way for two, on the Visa. Base fare goes on Suica."
+      },
+      {
+        "id": "c6",
+        "text": "Shibuya Sky — Tue Oct 27, 3:40pm entry — BOOKED",
+        "detail": "2 adult tickets, ¥6,800 paid on Webket. Screenshot the QR code; the email cannot be resent."
       }
     ]
   },
@@ -747,17 +752,6 @@ const PLAN_DATA=[
           {
             "label": "Restaurant page (English)",
             "url": "https://www.hakoneyuryo.jp/english/restaurant/"
-          }
-        ]
-      },
-      {
-        "id": "c6",
-        "text": "Mon Oct 12, 11am ET · Shibuya Sky (Tue Oct 27, 4:00–4:40pm entry)",
-        "detail": "Online sales open at midnight Japan time two weeks before, and sunset slots sell out within hours, so be online right at 11am ET. The ticket page is in Japanese; tickets for entry after 3pm are ¥3,400 each. Free cancellation until the day before.",
-        "links": [
-          {
-            "label": "Shibuya Sky tickets",
-            "url": "https://www.shibuya-scramble-square.com/sky/ticket/"
           }
         ]
       },
@@ -856,53 +850,446 @@ const PLAN_DATA=[
 ];;;;;;
 
 const PACK_DATA=[
-  {cat:"📄 Documents & Money",items:[
-    {id:"k1",text:"Both passports (valid through April 2027+)"},
-    {id:"k2",text:"International Driving Permit (IDP) — for go-kart",detail:"Keep with your US driver's license. You need both documents at the go-kart rental counter."},
-    {id:"k3",text:"US Driver's License (alongside IDP)"},
-    {id:"k4",text:"Credit cards — Chase Sapphire + 1 backup",detail:"Chase Sapphire Reserve earns 3x on dining and travel — use it for all Japan spending to earn points back. Bring a Visa and a Mastercard if possible since acceptance varies."},
-    {id:"k5",text:"Flight + hotel confirmations (offline / printed)"},
-    {id:"k6",text:"All activity confirmations (screenshots or printed)"},
-    {id:"k7",text:"Small amount of yen cash",detail:"Get ¥20,000-30,000 from a 7-Eleven ATM in Japan on arrival — most reliable option for foreign cards. Alternatively get a small amount (~$100) exchanged at home before leaving."},
-  ]},
-  {cat:"📱 Tech",items:[
-    {id:"k8",text:"Both iPhones — eSIM installed, Suica loaded in Wallet",detail:"Ubigi eSIM installed at home on Wi-Fi; it starts when it first connects in Japan. Suica in Apple Wallet with ¥6,000 loaded. Double-check both before leaving the house."},
-    {id:"k9",text:"Portable charger / power bank (fully charged)",detail:"Essential. Long days in Tokyo mean heavy phone use for Google Maps, translations, Tokyo Disney app, and photos. Bring a power bank that holds at least 2 full phone charges."},
-    {id:"k10",text:"Charging cables (USB-C + any other needed)"},
-    {id:"k11",text:"Power brick / wall charger",detail:"No adapter needed — Japan uses Type A plugs, identical to US outlets. Your US charger works directly. Japan runs on 100V (vs US 110V) but all modern electronics handle this without issue."},
-    {id:"k12",text:"Noise-canceling headphones",detail:"Essential for the 13.5-hour DTW→HND flight and the 11-hour return. Worth packing regardless of space."},
-    {id:"k13",text:"Neck pillow (for the long-haul flights)"},
-  ]},
-  {cat:"👟 Clothing — Late Oct Tokyo (~59–72°F / 15–22°C)",items:[
-    {id:"k14",text:"Comfortable walking shoes — slip-on/off preferred",detail:"You'll walk 10-15 miles per day easily. And you'll remove your shoes multiple times throughout the trip (restaurants, spas, some experiences). Easy slip-on shoes over lace-up sneakers is the right call."},
-    {id:"k15",text:"Light jacket or fleece for evenings",detail:"Late October daytime is 15-22°C (59-72°F) — comfortable. But evenings drop. A light jacket or medium fleece covers this perfectly."},
-    {id:"k16",text:"Comfortable layering tops",detail:"Days can be warm (especially inside DisneySea, walking Tsukiji early morning). Layers you can tie around your waist are practical."},
-    {id:"k17",text:"Workout clothes + gym shoes",detail:"You're working out daily. Bring enough for 5 workout sessions. Hotel laundry is available if needed."},
-    {id:"k18",text:"1 nicer outfit for the omakase farewell dinner",detail:"Omakase sushi is not formal, but it's an occasion. Smart casual is appropriate — no athletic wear. One nicer outfit covers this."},
-    {id:"k19",text:"Shorts or easy-change pants for teamLab water room",detail:"The water room at teamLab Planets gets your legs wet to the knee. Wear shorts or bring a separate change of pants in your day bag for Sunday."},
-    {id:"k20",text:"Plenty of socks (more than you think)",detail:"You'll remove your shoes often. Having clean socks matters more in Japan than most destinations. Pack extra."},
-    {id:"k21",text:"Disney day outfit — ultra comfortable",detail:"You'll walk 20,000+ steps at DisneySea. Prioritize your most comfortable shoes and clothes for Monday Oct 26."},
-  ]},
-  {cat:"🎒 Day Bag Essentials",items:[
-    {id:"k22",text:"Small backpack or crossbody bag",detail:"Necessary for daily activities — carries your power bank, water, snacks from convenience stores, activity tickets, and any purchases. Something you can carry all day comfortably."},
-    {id:"k23",text:"Reusable tote bag",detail:"Japan charges for plastic bags at convenience stores and many shops. A reusable bag takes up no space and is useful constantly."},
-    {id:"k24",text:"Collapsible water bottle",detail:"Vending machines with cold/hot drinks are everywhere in Japan (every few hundred feet). But having your own bottle for water is still useful, especially at DisneySea where drink prices are high."},
-    {id:"k25",text:"Small zip-lock bags (2-3)",detail:"For snacks, wet items from teamLab, collecting trash between bins, and keeping things dry if it rains."},
-  ]},
-  {cat:"💊 Health & Toiletries",items:[
-    {id:"k26",text:"Any prescription medications",detail:"Bring in original labeled bottles. Some common US medications are restricted in Japan (certain ADHD medications, some cold medications with pseudoephedrine). Check the Japan customs website if you're unsure about specific prescriptions."},
-    {id:"k27",text:"Sunscreen",detail:"October sun in Tokyo is mild but you'll be outside a lot. SPF 30 minimum."},
-    {id:"k28",text:"Motion sickness medication (optional)",detail:"If you're prone to motion sickness, bring Dramamine or similar for the go-kart and potentially turbulent DisneySea rides (Tower of Terror is a drop ride). Easy to take 30 min before."},
-    {id:"k29",text:"Basic personal toiletries",detail:"Hotels provide: shampoo, conditioner, body wash, toothbrush, toothpaste, razor, comb. Bring anything specific you prefer (face wash, moisturizer, contact lens supplies)."},
-    {id:"k30",text:"Small hand sanitizer for food market days",detail:"Useful at Tsukiji and Ameya-Yokocho when you're eating from stalls and vendors."},
-  ]},
-  {cat:"✈️ Flight Comfort (13.5 hrs in economy)",items:[
-    {id:"k31",text:"Compression socks — wear on both long-haul legs",detail:"Genuinely reduces swelling and discomfort on 13+ hour flights. Wear them from departure, not just when you feel uncomfortable."},
-    {id:"k32",text:"Eye mask",detail:"The cabin lights go down but never fully off. An eye mask gets you to actual sleep on the overnight portions."},
-    {id:"k33",text:"Snacks from home",detail:"Delta economy meal service covers the basics but bring 2-3 snacks you enjoy for the 13.5-hour haul. Protein bars, nuts, anything compact."},
-    {id:"k34",text:"Empty water bottle for the flight",detail:"Fill after security at TPA and DTW. Flight attendants are attentive but having your own bottle means you don't have to wait for service when you're thirsty at 2am over the Pacific."},
-    {id:"k35",text:"Lip balm + hand lotion",detail:"Aircraft air is extremely dry. A small tube of each makes a 13-hour flight noticeably more comfortable."},
-  ]},
+  {
+    "cat": "🛂 Documents & money — keep on you, never in a checked bag",
+    "items": [
+      {
+        "id": "k1",
+        "text": "Both passports",
+        "detail": "US passports: no visa needed for a visit this short. Keep them on you through the airports; at the hotel, lock them in the room safe."
+      },
+      {
+        "id": "k36",
+        "text": "Visit Japan Web QR codes — screenshot both",
+        "detail": "One for immigration and one for customs, for each of you. Screenshot them before the flight, because the airport Wi-Fi can be slow."
+      },
+      {
+        "id": "k37",
+        "text": "Delta boarding passes in the Fly Delta app / Apple Wallet",
+        "detail": "Both outbound legs (TPA→DTW→HND) and both return legs."
+      },
+      {
+        "id": "k2",
+        "text": "International Driving Permits ×2 — for the go-karts",
+        "detail": "Paper booklets, originals only. JAPANKART checks them Saturday at 3:15 with your licenses and passports. No permit means no driving and no refund."
+      },
+      {
+        "id": "k3",
+        "text": "US driver’s licenses ×2 — the real cards",
+        "detail": "No temporary or paper licenses. Needed with the permits on Saturday."
+      },
+      {
+        "id": "k4",
+        "text": "Credit cards: your main no-foreign-fee card + a backup",
+        "detail": "Bring a Visa and a Mastercard if you can, since acceptance varies. Carry the Visa you bought the Romancecar tickets with on Wednesday: staff can ask to see it. Keep the backup card in a different bag from the main one."
+      },
+      {
+        "id": "k7",
+        "text": "Yen cash: about ¥20,000–30,000 for the two of you",
+        "detail": "Take it out at a 7-Eleven ATM after you land; they accept US cards. Small shops, shrines and some food stalls are cash only."
+      },
+      {
+        "id": "k38",
+        "text": "Coin purse",
+        "detail": "Japan uses ¥100 and ¥500 coins constantly, and you will collect a lot of them. A small zip pouch keeps them from piling up in your pockets."
+      },
+      {
+        "id": "k6",
+        "text": "Booking QR codes — screenshot them all into one phone album",
+        "detail": "Shibuya Sky (Webket can’t resend the email), teamLab, Sumida Aquarium, both Romancecar purchase pages, the airport bus if you book it, and the JAPANKART confirmation. Disney tickets live in the Disney app."
+      },
+      {
+        "id": "k5",
+        "text": "Hotel confirmation + hotel address in Japanese",
+        "detail": "The app has the address in Japanese for taxi drivers: キャプション by Hyatt 兜町 東京（中央区日本橋兜町12-1）."
+      },
+      {
+        "id": "k39",
+        "text": "Photo of each passport’s photo page, saved privately",
+        "detail": "Keep it in your phone’s hidden album or Notes. It makes replacing a lost passport much faster."
+      }
+    ]
+  },
+  {
+    "cat": "✈️ Under-the-seat bag — the 13½-hour flight kit (each)",
+    "items": [
+      {
+        "id": "k13",
+        "text": "Neck pillow",
+        "detail": "Clip it to the outside of your bag so it doesn’t use up space."
+      },
+      {
+        "id": "k32",
+        "text": "Eye mask + foam earplugs",
+        "detail": "The cabin lights dim but never go fully dark."
+      },
+      {
+        "id": "k12",
+        "text": "Noise-canceling headphones + a wired backup",
+        "detail": "Bring wired earbuds too, in case the seat screen won’t pair with Bluetooth."
+      },
+      {
+        "id": "k31",
+        "text": "Compression socks — wear them from takeoff",
+        "detail": "They noticeably cut ankle swelling on both long flights (13½ hours out, 11 hours back)."
+      },
+      {
+        "id": "k40",
+        "text": "Warm layer: hoodie or zip sweater",
+        "detail": "Long-haul cabins get cold, especially overnight."
+      },
+      {
+        "id": "k41",
+        "text": "Easy slip-on shoes",
+        "detail": "Easy to kick off on the plane and at security. They also make the Japanese shoes-off places quick."
+      },
+      {
+        "id": "k34",
+        "text": "Empty water bottle",
+        "detail": "Fill it after security at TPA and again at DTW."
+      },
+      {
+        "id": "k33",
+        "text": "Snacks: 3–4 each",
+        "detail": "Protein bars, nuts, crackers. Meals come on a fixed schedule, and you will be hungry in between."
+      },
+      {
+        "id": "k35",
+        "text": "Lip balm, hand lotion, eye drops, face mist",
+        "detail": "Cabin air is very dry. Liquids must be 3.4 oz (100 ml) or less, in your clear quart bag."
+      },
+      {
+        "id": "k42",
+        "text": "Toothbrush, small toothpaste, deodorant, face wipes",
+        "detail": "You can freshen up before landing, since you go straight to the bus and dinner."
+      },
+      {
+        "id": "k43",
+        "text": "Gum or mints",
+        "detail": "Helps your ears on takeoff and landing."
+      },
+      {
+        "id": "k44",
+        "text": "Phone downloads done at home",
+        "detail": "Shows and movies on Netflix or Disney+, music, Google Maps offline areas for Tokyo and Hakone, and Google Translate’s Japanese pack."
+      },
+      {
+        "id": "k45",
+        "text": "Glasses + contacts case and solution (if you wear them)",
+        "detail": "Sleeping in contacts on a 13-hour flight is rough. Switch to glasses after dinner."
+      }
+    ]
+  },
+  {
+    "cat": "🧳 Carry-on bag — what you can’t lose if a suitcase is late",
+    "items": [
+      {
+        "id": "k46",
+        "text": "One full change of clothes each + underwear and socks",
+        "detail": "If a checked bag misses the Detroit connection, you still have clothes for dinner and the next day."
+      },
+      {
+        "id": "k26",
+        "text": "All prescription medicines",
+        "detail": "In their original labeled bottles, with a copy of the prescription. See the medicine section below for what Japan doesn’t allow."
+      },
+      {
+        "id": "k47",
+        "text": "Clear quart bag with the liquids you need first",
+        "detail": "Each item 3.4 oz / 100 ml or less: skincare, contact solution, travel-size shampoo. The full-size bottles go in the checked bag."
+      },
+      {
+        "id": "k9",
+        "text": "Power banks — carry-on only, never checked",
+        "detail": "Each must be under 100 Wh (most 10,000–20,000 mAh banks are). Keep them in your bag or pocket, not loose in the overhead bin. Bring one that holds about 2 full phone charges."
+      },
+      {
+        "id": "k48",
+        "text": "Jewelry, AirPods, anything expensive",
+        "detail": "Never in a checked bag."
+      }
+    ]
+  },
+  {
+    "cat": "👕 Clothes — checked suitcase (per person, 7 days)",
+    "items": [
+      {
+        "id": "k49",
+        "text": "Weather: highs about 66–70°F, lows about 55°F, some rain",
+        "detail": "Late October Tokyo is mild. Mornings and evenings are cool, and Hakone runs a few degrees colder. Dress in layers."
+      },
+      {
+        "id": "k16",
+        "text": "6 tops",
+        "detail": "T-shirts and long-sleeve tops you can layer. Breathable, because you walk 15,000–25,000 steps a day."
+      },
+      {
+        "id": "k50",
+        "text": "3 pants or jeans",
+        "detail": "At least one pair that rolls up above the knee for teamLab’s water rooms."
+      },
+      {
+        "id": "k15",
+        "text": "1 light jacket, water-resistant if possible",
+        "detail": "Enough for the evenings and a rainy day. A heavy coat isn’t needed."
+      },
+      {
+        "id": "k51",
+        "text": "1–2 sweaters or cardigans",
+        "detail": "For layering on cool mornings (Tsukiji at 7:30am, the 6:45am Disney start) and in heavily air-conditioned trains."
+      },
+      {
+        "id": "k18",
+        "text": "2 nicer smart-casual outfits",
+        "detail": "For Manten omakase on Sunday and Ushigoro wagyu on Wednesday. Dark jeans and a nice top are fine; skip athletic wear."
+      },
+      {
+        "id": "k52",
+        "text": "8 pairs of underwear",
+        "detail": "7 days plus a spare."
+      },
+      {
+        "id": "k20",
+        "text": "9 pairs of socks, no holes",
+        "detail": "You take your shoes off at some restaurants, fitting rooms and the spa, so socks get seen. Pack an extra pair in the day bag."
+      },
+      {
+        "id": "k53",
+        "text": "Pajamas / sleepwear",
+        "detail": "The hotel may provide a robe, but bring your own."
+      },
+      {
+        "id": "k17",
+        "text": "Workout clothes + gym shoes, if you will use the hotel gym",
+        "detail": "Pack for the number of sessions you will actually do. The hotel has laundry if needed."
+      },
+      {
+        "id": "k54",
+        "text": "Swimsuit: not needed",
+        "detail": "The Hakone private bath is used without swimsuits, and towels are provided."
+      }
+    ]
+  },
+  {
+    "cat": "👟 Shoes (per person)",
+    "items": [
+      {
+        "id": "k14",
+        "text": "2 pairs of broken-in walking shoes",
+        "detail": "Swap pairs every other day so they dry out and your feet don’t get sore. Brand-new shoes cause blisters."
+      },
+      {
+        "id": "k55",
+        "text": "Closed-toe shoes for go-karts (Saturday)",
+        "detail": "JAPANKART doesn’t allow sandals, high heels or long skirts. Your walking shoes are perfect."
+      },
+      {
+        "id": "k56",
+        "text": "Dinner shoes, comfortable enough to walk 15 minutes",
+        "detail": "You walk to Manten Sunday and from the train to Ushigoro Wednesday."
+      }
+    ]
+  },
+  {
+    "cat": "🧴 Toiletries — checked bag",
+    "items": [
+      {
+        "id": "k29",
+        "text": "What the hotel provides vs. what to bring",
+        "detail": "Japanese hotels usually provide shampoo, conditioner, body wash, toothbrushes, a hair dryer and slippers. Bring your own face wash, skincare, makeup and anything you are particular about."
+      },
+      {
+        "id": "k57",
+        "text": "Deodorant — bring enough for the week",
+        "detail": "Japanese deodorants are much milder than US ones."
+      },
+      {
+        "id": "k27",
+        "text": "Sunscreen SPF 30+",
+        "detail": "You are outdoors most days: Asakusa, Disney, Harajuku, the Shibuya Sky rooftop."
+      },
+      {
+        "id": "k58",
+        "text": "Hair ties, hairbrush, styling products",
+        "detail": "Hair ties matter for the onsen and the go-kart helmet."
+      },
+      {
+        "id": "k59",
+        "text": "Hair straightener or curling iron (optional)",
+        "detail": "Your US one plugs straight in. Japan runs on 100V, so it heats a little more slowly."
+      },
+      {
+        "id": "k60",
+        "text": "Razor, nail clippers, feminine products",
+        "detail": "Nail clippers and razors go in the checked bag."
+      }
+    ]
+  },
+  {
+    "cat": "💊 Medicine & first aid — carry-on",
+    "items": [
+      {
+        "id": "k61",
+        "text": "Japan medicine rules — check before you pack",
+        "detail": "Adderall and other amphetamine-based ADHD medicines are banned even with a prescription. Cold medicines with pseudoephedrine (Sudafed, Claritin-D, Zyrtec-D, Allegra-D, Vicks inhaler) aren’t allowed, so bring the plain non-D versions instead. Up to 1 month of other prescriptions and 2 months of over-the-counter medicine is fine without a permit."
+      },
+      {
+        "id": "k62",
+        "text": "Pain reliever (Tylenol or Advil)",
+        "detail": "Japanese pharmacies sell different brands and doses, so bring what you know works."
+      },
+      {
+        "id": "k63",
+        "text": "Allergy pills (non-D) + stomach meds",
+        "detail": "Claritin or Zyrtec plain, plus Pepto tablets or Imodium for new foods."
+      },
+      {
+        "id": "k28",
+        "text": "Motion sickness pills (optional)",
+        "detail": "For the go-karts, DisneySea’s Tower of Terror, or a bumpy flight."
+      },
+      {
+        "id": "k64",
+        "text": "Blister kit: Band-Aids + moleskin or Compeed",
+        "detail": "Your daily step counts will be very high. Put one in the day bag."
+      },
+      {
+        "id": "k30",
+        "text": "Hand sanitizer (small)",
+        "detail": "For Tsukiji’s food stalls and before snacks on the go."
+      }
+    ]
+  },
+  {
+    "cat": "🔌 Tech",
+    "items": [
+      {
+        "id": "k8",
+        "text": "Both iPhones: Ubigi eSIM installed + Suica in Wallet",
+        "detail": "Install the Ubigi eSIM at home on Wi-Fi; it starts when it first connects in Japan. Put Suica in Apple Wallet and load about ¥6,000 each. Turn on the Ubigi line when you land."
+      },
+      {
+        "id": "k11",
+        "text": "Wall charger with 2+ USB-C ports",
+        "detail": "Japan has the same two-flat-prong plugs as the US. One charger for both phones saves outlet space."
+      },
+      {
+        "id": "k65",
+        "text": "One 3-prong-to-2-prong adapter (only if something has a third, round prong)",
+        "detail": "Some Japanese outlets only take two flat prongs. Most phone and laptop chargers are already two-prong."
+      },
+      {
+        "id": "k10",
+        "text": "Charging cables ×3 (one is a spare)",
+        "detail": "Phone, Apple Watch, earbuds."
+      },
+      {
+        "id": "k66",
+        "text": "Apple Watch charger (if you wear one)",
+        "detail": "Easy to forget."
+      },
+      {
+        "id": "k67",
+        "text": "AirTag in each checked suitcase (optional)",
+        "detail": "Lets you see where a delayed bag is."
+      }
+    ]
+  },
+  {
+    "cat": "🎒 Daily day bag in Tokyo",
+    "items": [
+      {
+        "id": "k22",
+        "text": "Small crossbody or backpack",
+        "detail": "Wear backpacks on your front on crowded trains. That’s the local etiquette."
+      },
+      {
+        "id": "k68",
+        "text": "Small hand towel or handkerchief",
+        "detail": "Many Japanese restrooms have no paper towels or dryers. Locals carry a small towel."
+      },
+      {
+        "id": "k69",
+        "text": "Pocket tissues",
+        "detail": "Some restrooms are out of paper, and you will be eating street food."
+      },
+      {
+        "id": "k70",
+        "text": "Small trash bag",
+        "detail": "Public trash cans are rare in Japan. You carry your trash until you find one, usually at a convenience store."
+      },
+      {
+        "id": "k23",
+        "text": "Foldable tote bag",
+        "detail": "Stores charge for bags, and you will be shopping in Solamachi, Harajuku and Ginza."
+      },
+      {
+        "id": "k24",
+        "text": "Water bottle",
+        "detail": "Refill at the hotel. Vending machines are everywhere too."
+      },
+      {
+        "id": "k71",
+        "text": "Compact umbrella",
+        "detail": "Or buy a clear one for about ¥700 at any convenience store if it rains."
+      },
+      {
+        "id": "k25",
+        "text": "2–3 zip bags",
+        "detail": "For snacks, wet things after teamLab, and keeping your phone dry in rain."
+      }
+    ]
+  },
+  {
+    "cat": "🗓️ Special days — pack the night before",
+    "items": [
+      {
+        "id": "k72",
+        "text": "Sat — go-karts: licenses + permits + passports, closed-toe shoes",
+        "detail": "All three documents for both drivers. JAPANKART lends costumes that go over your clothes. No alcohol before driving."
+      },
+      {
+        "id": "k19",
+        "text": "Sun — teamLab: pants that roll above the knee (or shorts)",
+        "detail": "You walk barefoot through knee-deep water. Some floors are mirrored, so skip skirts and dresses. Lockers hold your shoes and bags."
+      },
+      {
+        "id": "k21",
+        "text": "Mon — DisneySea: your comfiest shoes, power bank, light rain jacket",
+        "detail": "Tickets linked in the Disney app the night before. The app uses a lot of battery all day."
+      },
+      {
+        "id": "k73",
+        "text": "Wed — Hakone: change of underwear, hair tie, small makeup kit",
+        "detail": "The private bath provides towels and amenities. Bring the Visa you bought the Romancecar tickets with, and keep the purchase pages on your phone."
+      },
+      {
+        "id": "k74",
+        "text": "Thu — departure: bags packed and weighed the night before",
+        "detail": "Leave the bags with the front desk after breakfast. Keep passports and boarding passes on you."
+      }
+    ]
+  },
+  {
+    "cat": "✅ Before you zip the suitcases",
+    "items": [
+      {
+        "id": "k75",
+        "text": "Leave about a third of each suitcase empty",
+        "detail": "Or pack a foldable duffel. You will bring back snacks, souvenirs and shopping."
+      },
+      {
+        "id": "k76",
+        "text": "Weigh each checked bag: 50 lb (23 kg) maximum",
+        "detail": "Your Delta tickets include one 50 lb bag each. A second bag is $100 per person. A small luggage scale helps on the way home."
+      },
+      {
+        "id": "k77",
+        "text": "Luggage tags with your phone + email, and a photo of each bag",
+        "detail": "The photo helps if a bag goes missing."
+      }
+    ]
+  }
 ];
 
 function calcBudgetTotal(){

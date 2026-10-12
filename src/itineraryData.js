@@ -735,7 +735,7 @@ export const DAYS = [
         "mealId": 9
       },
       {
-        "time": "1:30–3:30pm",
+        "time": "1:30–3:00pm",
         "kind": "activity",
         "icon": "🚶",
         "title": "Browse on foot toward Shibuya",
@@ -750,27 +750,25 @@ export const DAYS = [
         ]
       },
       {
-        "time": "3:30–4:15pm",
+        "time": "3:00–3:30pm",
         "kind": "activity",
         "icon": "🚦",
         "title": "Shibuya Crossing + browse",
-        "detail": "See the crossing and leave time to find the observation-deck entrance. Shorten shopping to protect the eventual ticket time.",
+        "detail": "Watch the Scramble Crossing (cross it at least once), then head to the Shibuya Sky elevator by about 3:35 for your 3:40 entry. It is about 5 minutes from the crossing.",
         "mapQuery": "Shibuya Scramble Crossing",
         "food": null,
         "tip": null
       },
       {
-        "time": "~4:15–5:45pm",
+        "time": "3:40–5:15pm",
         "kind": "activity",
         "icon": "🌇",
         "title": "Shibuya Sky at sunset",
-        "status": "Book Oct 12 · 11am ET",
-        "detail": "Sunset is about 4:50pm on October 27, so this window covers it. Sunset slots sell out weeks ahead: book the moment sales open for the date. If it’s sold out, the Skytree deck on Saturday is the fallback (same-day tickets are usually available). Weather can close the rooftop; keep an indoor fallback.",
+        "status": "Tickets booked ✓",
+        "detail": "Booked: 2 adult tickets, entry between 3:40 and 3:59pm, ¥6,800 paid. The time slot is only for getting in; once you are up there you can stay through sunset (about 4:55pm) and the city lights coming on.",
         "mapQuery": "Shibuya Sky",
         "food": null,
-        "tip": "Online tickets go on sale at midnight Japan time two weeks before: Monday October 12 at 11:00am Eastern. Sunset slots sell out within hours; pick an entry between 4:00 and 4:40pm. ¥3,400 each, free cancellation until the day before.",
-        "bookUrl": "https://www.shibuya-scramble-square.com/sky/ticket/",
-        "bookLabel": "Shibuya Sky tickets",
+        "tip": "Screenshot the QR code now: Webket cannot resend the confirmation email. It is also in your Webket \"My Page\" purchase history. Before the open-air rooftop you will be asked to put bags and loose items in the lockers.",
         "steps": [
           "Shibuya Sky is on top of the Shibuya Scramble Square tower, right at Shibuya Station.",
           "Use the dedicated \"SHIBUYA SKY\" elevator at street level (1F), outside the building on the east side, facing Shibuya Hikarie. About 5 minutes from the crossing.",
@@ -779,7 +777,7 @@ export const DAYS = [
         ]
       },
       {
-        "time": "6:00pm onward",
+        "time": "~5:30pm",
         "kind": "dinner",
         "icon": "🍽️",
         "title": "Uobei conveyor belt sushi, Shibuya",
@@ -791,7 +789,7 @@ export const DAYS = [
         "mealId": 5
       },
       {
-        "time": "~7:15pm",
+        "time": "~6:30pm",
         "kind": "travel",
         "icon": "🚇",
         "title": "Shibuya → hotel (subway, no changes)",
