@@ -1244,7 +1244,7 @@ export const sections = [
     "label": "Mon · Dinner",
     "origin": "Fantasy Springs Tokyo DisneySea",
     "originLabel": "Fantasy Springs (example ride endpoint)",
-    "advice": "Ristorante di Canaletto is chosen: Italian by the gondola canal in Mediterranean Harbor. Book Priority Seating in the app for about 5:00pm; standard advance requests open one month ahead at 10am JST (September 26 for October 26).",
+    "advice": "Horizon Bay Restaurant is booked: Priority Seating for 2 on Monday at 5:20pm, in Ashley's Disney account.",
     "options": [
       {
         "name": "Magellan's, Tokyo DisneySea",
@@ -1295,14 +1295,13 @@ export const sections = [
         "current": false,
         "bookingStatus": "Check Priority Seating",
         "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Italian; do not pair Canaletto dinner with Zambini lunch.",
+        "variety": "Italian.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
         "checked": "2026-09-13",
         "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12000170/",
-        "selected": true,
-        "selectedStatus": "Chosen · Priority Seating"
+        "selected": false
       },
       {
         "name": "S.S. Columbia Dining Room",
@@ -1388,7 +1387,8 @@ export const sections = [
           "caption": "Official venue or menu image · seasonal dishes may differ"
         },
         "tabelog": "https://tabelog.com/en/chiba/A1202/A120203/12003660/",
-        "selected": false
+        "selected": true,
+        "selectedStatus": "Booked ✓ Mon 5:20pm"
       },
       {
         "name": "Casbah Food Court",
@@ -1978,8 +1978,8 @@ export const sections = [
       {
         "name": "Irorisaryo Hachiri, Hakone Yuryo",
         "description": "Onsite charcoal-hearth lunch, keeping the whole spa day in one place.",
-        "budget": "¥6,500 March menu; reconfirm October",
-        "booking": "March menu quoted ¥6,500 per person; October course/price not confirmed. Coordinate lunch with massages and private bath.",
+        "budget": "¥6,000 Seasonal course (booked)",
+        "booking": "Booked: Seasonal course for 2, Wed Oct 28 at 12:30pm, ¥6,000 each, paid on site.",
         "current": false,
         "travel": "S",
         "style": "Non-soup choices",
@@ -2001,7 +2001,7 @@ export const sections = [
         "variety": "Choose one lunch; offsite queues must not endanger spa appointments.",
         "detour": false,
         "selected": true,
-        "selectedStatus": "Planned onsite · to arrange",
+        "selectedStatus": "Booked ✓ Wed 12:30pm",
         "reason": "Keeps your chosen spa-and-lunch experience together.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",
@@ -2375,7 +2375,7 @@ export const sections = [
         "current": false,
         "bookingStatus": "Counter service / check app",
         "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Italian; do not pair Canaletto dinner with Zambini lunch.",
+        "variety": "Italian.",
         "reason": "Compare this cuisine, setting and travel trade-off.",
         "tradeoff": "Menus, queues and October availability can change.",
         "verification": "Route reviewed; October availability not checked",

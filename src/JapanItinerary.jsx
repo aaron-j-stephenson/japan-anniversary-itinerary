@@ -114,13 +114,13 @@ const BUDGET_CATEGORIES=[
     "totalLabel": null,
     "items": [
       {
-        "name": "Ride-share to TPA — departing (Thu Oct 22, 4:15am)",
-        "cost": 30,
+        "name": "Uber to TPA — Thu Oct 22, 4:00am — BOOKED",
+        "cost": 15,
         "range": [
-          20,
-          55
+          15,
+          20
         ],
-        "detail": "Very early morning — pre-book an Uber the night before so it's confirmed. You need to be at TPA by 4:15am for the 6:15am departure."
+        "detail": "UberX reserved for a 4:00am pickup, quoted $14.95. You reach TPA about 4:10 for the 6:00am flight."
       },
       {
         "name": "Bag check at TPA and DTW hub",
@@ -136,13 +136,13 @@ const BUDGET_CATEGORIES=[
         "detail": "5-year membership at tsa.gov. Worth it for future travel too."
       },
       {
-        "name": "Ride-share from TPA — returning (Thu Oct 29, ~10:45pm)",
-        "cost": 30,
+        "name": "Uber home from TPA (Thu Oct 29, ~11:30pm)",
+        "cost": 20,
         "range": [
-          20,
-          55
+          15,
+          35
         ],
-        "detail": "Late Thursday night return. Pre-book the ride home before you leave so it's confirmed."
+        "detail": "You land at 11:10pm. Book it in Uber Reserve before you leave; the outbound ride was quoted $14.95."
       }
     ]
   },
@@ -412,13 +412,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Counter-service sets run ¥1,300–1,800 each; add ¥1,000–2,500 each for popcorn, churros and drinks through the day."
       },
       {
-        "name": "Mon: Ristorante di Canaletto dinner (×2)",
-        "cost": 70,
+        "name": "Mon: Horizon Bay Restaurant dinner (×2) — BOOKED",
+        "cost": 55,
         "range": [
-          60,
-          90
+          35,
+          70
         ],
-        "detail": "Set menus and pasta or pizza mains are roughly ¥3,900–5,500 each plus a drink; confirm the current menu in the Disney app when Priority Seating opens."
+        "detail": "Priority Seating booked for 5:20pm; you pay at the restaurant. Set menus run roughly ¥2,500–4,500 each, plus drinks."
       },
       {
         "name": "Tue: Tsukiji market breakfast (×2)",
@@ -466,13 +466,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Grab and go from KABUTO ONE (opens 6:00), ¥900–1,500 per person."
       },
       {
-        "name": "Wed: Hachiri irori lunch (×2)",
+        "name": "Wed: Hachiri irori lunch (×2) — BOOKED",
         "cost": 80,
         "range": [
           80,
-          107
+          90
         ],
-        "detail": "As a package add-on to the private bath, the Seasonal Irori Course is ¥6,000 each (¥12,000 for two), tax included, with a draft beer or soft drink each thrown in. The top of the range is the limited Special Course at ¥8,000 each. Extra drinks on top."
+        "detail": "Seasonal course booked at ¥6,000 each (¥12,000 for two), paid on site. Drinks extra."
       },
       {
         "name": "Wed: Ushigoro wagyu yakiniku (×2)",
@@ -604,7 +604,7 @@ const PLAN_DATA=[
       {
         "id": "p1",
         "text": "Airfare: Oct 22 outbound / Oct 29 return — confirmed",
-        "detail": "Use your airline confirmations as the source of truth; no new points transfer or flight purchase needed."
+        "detail": "Delta adjusted the times: Tampa departure now 6:00am Thu Oct 22 (Haneda arrival still 4:15pm Fri). Home: Haneda 5:20pm Thu Oct 29, landing in Tampa at 11:10pm. Your airline confirmations are the source of truth."
       },
       {
         "id": "p4",
@@ -675,6 +675,21 @@ const PLAN_DATA=[
         "id": "c6",
         "text": "Shibuya Sky — Tue Oct 27, 3:40pm entry — BOOKED",
         "detail": "2 adult tickets, ¥6,800 paid on Webket. Screenshot the QR code; the email cannot be resent."
+      },
+      {
+        "id": "b12",
+        "text": "Uber to TPA — Thu Oct 22, 4:00am pickup — BOOKED",
+        "detail": "UberX via Uber Reserve, quoted $14.95. Free cancellation up to 1 hour before."
+      },
+      {
+        "id": "c2",
+        "text": "Horizon Bay Restaurant, DisneySea — Mon Oct 26, 5:20pm — BOOKED",
+        "detail": "Priority Seating for 2, booked in Ashley's Disney account. Pay at the restaurant. Change or cancel online up to 1 hour before."
+      },
+      {
+        "id": "c5",
+        "text": "Hachiri lunch, Hakone Yuryo — Wed Oct 28, 12:30pm — BOOKED",
+        "detail": "Seasonal course for two, ¥6,000 each, paid on site. 15+ minutes late without contacting them cancels it; no same-day cancellation."
       }
     ]
   },
@@ -697,8 +712,8 @@ const PLAN_DATA=[
       },
       {
         "id": "b10",
-        "text": "TPA rides both ways (Uber Reserve)",
-        "detail": "Schedule the ~3:30am pickup on Thu Oct 22 and the ~10:45pm pickup at TPA on Thu Oct 29. Uber Reserve takes bookings up to 90 days ahead.",
+        "text": "Uber home from TPA — Thu Oct 29, ~11:30pm pickup",
+        "detail": "The 4:00am ride to the airport is booked. Still to do: schedule the ride home in Uber Reserve for about 11:30pm on Thu Oct 29 (you land at 11:10pm).",
         "links": [
           {
             "label": "Uber Reserve",
@@ -725,36 +740,6 @@ const PLAN_DATA=[
     "border": "#fde68a",
     "text": "#713f12",
     "items": [
-      {
-        "id": "c2",
-        "text": "Fri Sep 25, 9pm ET · Ristorante di Canaletto Priority Seating (Mon Oct 26, 5:00pm)",
-        "detail": "Opens at 10:00am Japan time one month before, on the Tokyo Disney Resort Online Reservations site or app (MyDisney account). Be signed in early — the site puts you in a waiting queue before it lets you search. No fee; free cancellation up to 1 hour before.",
-        "links": [
-          {
-            "label": "Disney Priority Seating (English)",
-            "url": "https://reserve.tokyodisneyresort.jp/en/restaurant/search/"
-          },
-          {
-            "label": "Disney's rule on booking windows",
-            "url": "https://faq-en.tokyodisneyresort.jp/answer/680ba04301fdf7431bafb348/"
-          }
-        ]
-      },
-      {
-        "id": "c5",
-        "text": "Sun Sep 27, 10:30pm ET · Call Hachiri for lunch (Wed Oct 28, 12:30pm)",
-        "detail": "Phone only: +81-460-85-8411. Bookings open one month before, and they answer 11:30am–7:00pm Japan time on weekdays. Your bath is booked, so ask for the “Private Bath + Irori Course package”: ¥6,000 each instead of ¥6,500, plus a free draft beer or soft drink apiece.",
-        "links": [
-          {
-            "label": "Call +81-460-85-8411",
-            "url": "tel:+81460858411"
-          },
-          {
-            "label": "Restaurant page (English)",
-            "url": "https://www.hakoneyuryo.jp/english/restaurant/"
-          }
-        ]
-      },
       {
         "id": "c7",
         "text": "Mon Oct 26, in the park · Disney Premier Access and Standby Pass",

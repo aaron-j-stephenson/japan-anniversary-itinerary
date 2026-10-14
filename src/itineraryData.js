@@ -13,23 +13,21 @@ export const DAYS = [
     "hotel": null,
     "activities": [
       {
-        "time": "~3:30am",
+        "time": "4:00am",
         "kind": "travel",
         "icon": "🚕",
         "title": "Home → Tampa Airport (TPA)",
-        "detail": "Arrange pickup to reach TPA by 4:15am for your confirmed 6:15am departure. Adjust pickup for the actual drive.",
+        "detail": "Booked: UberX through Uber Reserve, 4:00am pickup. About a 10-minute drive to Delta at the Blue Terminal, so you reach TPA around 4:10 for the 6:00am flight.",
         "food": null,
-        "tip": "Schedule the 3:30am pickup (and the ~10:45pm return on Oct 29) in Uber Reserve, which takes bookings up to 90 days ahead.",
-        "status": "Book now",
-        "bookUrl": "https://www.uber.com/us/en/ride/how-it-works/reserve/",
-        "bookLabel": "Schedule in Uber Reserve",
+        "tip": "The ride home isn't booked yet: schedule an Uber Reserve pickup at TPA for about 11:30pm on Thursday October 29 (you land at 11:10pm).",
+        "status": "Booked ✓",
         "steps": [
-          "Uber Reserve pickup around 3:30am.",
-          "At TPA, check in with Delta for DL2884 at 6:15am."
+          "Uber pickup at 4:00am (booked in the Uber app).",
+          "At TPA, check in with Delta for DL2884 at 6:00am."
         ]
       },
       {
-        "time": "6:15am",
+        "time": "6:00am",
         "kind": "flight",
         "icon": "🛫",
         "title": "Tampa (TPA) → Detroit (DTW) · DL2884",
@@ -39,11 +37,11 @@ export const DAYS = [
         "tip": "Set your watches and phones to Tokyo time (JST) when you board. Japan is 13 hours ahead of EDT."
       },
       {
-        "time": "8:58am",
+        "time": "8:43am",
         "kind": "layover",
         "icon": "⏳",
         "title": "Layover in Detroit (DTW)",
-        "duration": "4 hr 47 min",
+        "duration": "5 hr 2 min",
         "detail": "Enough time for a proper meal, walking the terminal, and relaxing before the long haul. DTW is a clean, manageable airport. Gate area for the international flight has decent food options.",
         "food": "Have a real meal here — you're about to sit on a plane for 13.5 hours. Detroit has good airport dining options. Fuel up properly.",
         "tip": null
@@ -588,21 +586,19 @@ export const DAYS = [
         "tip": null
       },
       {
-        "time": "5:00–6:15pm",
+        "time": "5:20–6:30pm",
         "kind": "dinner",
         "icon": "🍽️",
-        "title": "Ristorante di Canaletto",
-        "status": "Book Sep 25 · 9pm ET",
-        "detail": "Your chosen Disney dinner: Italian by the gondola canal in Mediterranean Harbor. Book Priority Seating in the app for about 5:00pm so you can leave the park around 7:30; standard advance requests open one month ahead at 10am JST (September 26 for October 26).",
-        "mapQuery": "Ristorante di Canaletto Tokyo DisneySea",
-        "food": "Pasta and pizza; Priority Seating is separate from your admission.",
-        "tip": "Priority Seating opens one month ahead at 10:00am Japan time: Friday September 25 at 9:00pm Eastern, on the Tokyo Disney Resort reservations site or app (MyDisney account). Free cancellation up to 1 hour before.",
-        "mealId": 8,
-        "bookUrl": "https://reserve.tokyodisneyresort.jp/en/restaurant/search/",
-        "bookLabel": "Disney Priority Seating (English)"
+        "title": "Horizon Bay Restaurant",
+        "status": "Booked ✓",
+        "detail": "Booked: Priority Seating for 2 on Monday October 26 at 5:20pm, in Ashley's Disney account. A seated Western-style dinner in Port Discovery. Arrive together by 5:20 and give the cast member the reservation number and Ashley's name; you pay at the restaurant.",
+        "mapQuery": "Horizon Bay Restaurant Tokyo DisneySea",
+        "food": "Western-style set menus, paid at the restaurant. Priority Seating is separate from your admission.",
+        "tip": "The reservation number is in the Disney confirmation email Ashley forwarded on Sep 30. Change or cancel online up to 1 hour before (My Booking on the Disney reservations site). Arriving after 5:20 can cancel the booking.",
+        "mealId": 8
       },
       {
-        "time": "6:15–7:30pm",
+        "time": "6:30–7:30pm",
         "kind": "activity",
         "icon": "🎢",
         "title": "Last rides, then leave the park",
@@ -901,14 +897,12 @@ export const DAYS = [
         "kind": "lunch",
         "icon": "🍢",
         "title": "Hachiri irori course, Hakone Yuryo",
-        "status": "Call Sep 27 · 10:30pm ET",
-        "detail": "Charcoal irori course: grilled seafood and seasonal vegetables, a grilled river fish, tea soba and dessert. Autumn Irori Course ¥6,500 each (the limited special course is ¥8,500). Restaurant bookings are by phone only.",
+        "status": "Booked ✓",
+        "detail": "Booked for Wednesday October 28 at 12:30pm: the Seasonal course for two, ¥6,000 each, at Irorisaryo Hachiri, the spa's charcoal-hearth restaurant. Paid on site.",
         "mapQuery": "Hakone Yuryo Irorisaryo Hachiri",
-        "food": "Reserve the Seasonal Irori Course for two. As a package add-on to the private bath it is ¥6,000 each (¥12,000 total) plus a free drink each, instead of ¥6,500 each on its own. The ¥8,000 Special Course is limited to 10 servings a day — an upgrade only if you want the extra sashimi and Japanese beef.",
-        "tip": "Phone only, from one month before: call +81-460-85-8411 on Sunday September 27 at 10:30pm Eastern (11:30am Monday in Japan). Ask for the “Private Bath + Irori Course package” — your bath is booked, so the Seasonal Irori Course drops to ¥6,000 each and includes a draft beer or soft drink apiece.",
-        "mealId": 12,
-        "bookUrl": "tel:+81460858411",
-        "bookLabel": "Call +81-460-85-8411"
+        "food": "Seasonal irori course: grilled seafood and seasonal vegetables, a grilled river fish, tea soba and dessert. Drinks are extra.",
+        "tip": "Arriving 15+ minutes late without contacting them cancels the booking, and same-day cancellation isn't accepted.",
+        "mealId": 12
       },
       {
         "time": "1:45pm",
@@ -1107,17 +1101,17 @@ export const DAYS = [
         "bookLabel": "Reserve the 1:00pm bus (official)"
       },
       {
-        "time": "~2:00–4:15pm",
+        "time": "~2:00–4:30pm",
         "kind": "activity",
         "icon": "🛍️",
         "title": "Haneda Terminal 3: check in + duty-free",
-        "detail": "Check in and drop bags, then Edo Koji (4F, before security) for a snack if you want one, and duty-free airside for last souvenirs. Be at the gate by about 4:30pm.",
+        "detail": "Check in and drop bags, then Edo Koji (4F, before security) for a snack if you want one, and duty-free airside for last souvenirs. Be at the gate by about 4:35pm.",
         "mapQuery": "Tokyo Haneda Airport Terminal 3",
         "food": "Snacks only; lunch was Bincho.",
         "tip": null
       },
       {
-        "time": "5:15pm",
+        "time": "5:20pm",
         "kind": "flight",
         "icon": "✈️",
         "title": "Tokyo Haneda (HND) → Minneapolis (MSP) · DL120",
@@ -1127,35 +1121,35 @@ export const DAYS = [
         "tip": "Sleep as much as you can on the return. You'll arrive in Minneapolis the same day."
       },
       {
-        "time": "2:23pm",
+        "time": "2:28pm",
         "kind": "layover",
         "icon": "⏳",
         "title": "Layover in Minneapolis (MSP)",
-        "duration": "~4 hr",
+        "duration": "4 hr 31 min",
         "detail": "Comfortable layover before the final leg home.",
         "mapQuery": "Minneapolis–Saint Paul International Airport",
         "food": "Have a meal here if hungry — decent airport dining options in MSP.",
         "tip": null
       },
       {
-        "time": "6:20pm",
+        "time": "6:59pm",
         "kind": "flight",
         "icon": "🛫",
         "title": "Minneapolis (MSP) → Tampa (TPA) · DL2385",
         "status": "Booked ✓",
-        "detail": "Delta DL2385, Airbus A321. 3 hours 14 minutes home.",
+        "detail": "Delta DL2385, Airbus A321. 3 hours 11 minutes home.",
         "food": null,
-        "tip": "You arrive Tampa at 10:34pm Thursday. Welcome home, Aaron."
+        "tip": "You arrive Tampa at 11:10pm Thursday. Welcome home, Aaron."
       }
     ]
   }
 ];
 export const DAY_TRANSIT = {
   "0": {
-    "leaveBy": "Pickup around 3:30am; reach TPA by 4:15am",
+    "leaveBy": "Uber pickup 4:00am (booked); at TPA about 4:10",
     "from": "Home",
     "to": "TPA",
-    "route": "Pre-booked ride; adjust for actual drive",
+    "route": "Uber Reserve, booked",
     "mapQuery": "Tampa International Airport"
   },
   "1": {
