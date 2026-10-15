@@ -6,17 +6,17 @@ const DAYS = ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"];
 const DATES = { Fri: "Oct 23", Sat: "Oct 24", Sun: "Oct 25", Mon: "Oct 26", Tue: "Oct 27", Wed: "Oct 28", Thu: "Oct 29" };
 // When each meal happens, from the Trip tab. Keyed by section id.
 const WHEN = {
-  0: "~7:00pm · near the hotel after check-in",
-  16: "7:00am · at the hotel before Asakusa",
+  0: "~7:30pm · walking distance from the hotel in Ginza",
+  16: "7:00am · 6-minute walk, before the Asakusa train",
   2: "~9:30am · Asakusa, on the way out of the temple",
   3: "Noon · Solamachi, after the aquarium",
   4: "5:45pm · direct train from the go-karts",
-  17: "6:15am · grab and go before teamLab",
+  17: "6:40am · grab and go before teamLab",
   15: "11:15am · Akihabara, before the owl café",
-  11: "5:00pm · walk from the hotel after changing",
-  18: "6:30am · grab and go before DisneySea",
+  11: "5:00pm · 3 subway stops after changing",
+  18: "6:20am · grab and go before DisneySea",
   14: "When hungry · inside DisneySea",
-  8: "5:00pm · inside DisneySea, before leaving around 7:30",
+  8: "5:20pm · inside DisneySea, before leaving around 7:30",
   19: "7:30am · graze two or three stops at the market",
   9: "12:30pm · on the Harajuku / Omotesando shopping route",
   10: "~11:00am · during the Harajuku shopping window",
@@ -24,7 +24,7 @@ const WHEN = {
   20: "6:15am · eaten on the 7:37 Romancecar",
   12: "12:30pm · Hakone Yuryo, after the 10:00 bath",
   7: "5:30pm · Shinjuku, off the 3:13 Romancecar",
-  1: "9:00am · Ginza, before shopping",
+  1: "8:30am · Yaesu, before Ginza shopping",
   13: "11:00am · Ginza Mitsukoshi, before collecting bags",
 };
 const mealOrder = s => /breakfast/i.test(s.meal) ? 0 : /Asakusa/i.test(s.meal) ? 1 : /dessert/i.test(s.meal) ? 2 : /lunch/i.test(s.meal) ? 3 : 4;

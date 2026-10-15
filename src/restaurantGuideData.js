@@ -5,16 +5,174 @@ export const sections = [
     "day": "Fri",
     "meal": "Arrival dinner",
     "label": "Fri · Arrival dinner",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Hotel check-in",
-    "advice": "KABEAT is selected. Alternatives are retained only in case you change your mind. Arrival timing is flexible; no restaurant is booked.",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza, after check-in",
+    "advice": "Pick one of these Ginza dinners near the new hotel and book it online for about 7:30pm. KABEAT is still booked for 7:00, but it is now a 20–25 minute subway ride away: cancel it on TableCheck (no fee) once the new booking is confirmed.",
     "options": [
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Last order 8:30pm, so book 7:30 rather than later. Courses (¥8,500+ each) are over budget; order à la carte.",
+        "checked": "2026-10-15",
+        "name": "Shiseido Parlour, Ginza Main Store Restaurant",
+        "description": "Classic Ginza yoshoku (Japanese-Western) since 1928: wagyu-and-pork hamburg steak, pork loin cutlet, meat croquettes, served at white tablecloths.",
+        "booking": "Tokyo Ginza Shiseido Building 4–5F, Ginza 8-8-3. Open 11:30am–9:30pm, last order 8:30pm; closed Mondays. Book on TableCheck: https://www.tablecheck.com/en/shiseido-parlour-ginza/reserve",
+        "budget": "About ¥11,000–13,000 for two à la carte (incl. 10% service)",
+        "travel": "W4–5",
+        "style": "Non-soup choices",
+        "photo": {
+          "match": "Shiseido Parlour",
+          "src": "https://parlour.shiseido.co.jp/wpss/wp-content/uploads/2023/02/2023-02-20_09-15-32_235214.jpg",
+          "source": "https://parlour.shiseido.co.jp/shoplist/restaurantginza/",
+          "caption": "Shiseido Parlour · official image"
+        },
+        "recommended": true,
+        "sources": [
+          {
+            "label": "Official",
+            "url": "https://parlour.shiseido.co.jp/shoplist/restaurantginza/"
+          },
+          {
+            "label": "Book on TableCheck",
+            "url": "https://www.tablecheck.com/en/shiseido-parlour-ginza/reserve"
+          }
+        ],
+        "bookingStatus": "Book online",
+        "variety": "Japanese-Western classics; nothing else like it on the trip.",
+        "reason": "Feels special for an anniversary without a long course, and it is a 5-minute walk.",
+        "verification": "Hours and prices on the official page; October availability not checked",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13004938/"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "Kushi no Bo, Tokyo Ginza Main Branch",
+        "description": "Osaka-style kushiage since 1950: skewers of meat, seafood and vegetables fried one at a time at the counter, served until you say stop.",
+        "booking": "Nishi-Gobangai Sakaguchi Building 3F, Ginza 5-5-8. Weekdays 5:00–10:00pm, last order 9:30. Book on Hot Pepper: https://www.hotpepper.jp/strJ000116997/yoyaku/hpds/?ROUTE_KBN=20 (it showed Oct 23 as instantly bookable on Oct 15).",
+        "budget": "¥4,950 each for the 12-skewer course; about ¥12,000–13,500 for two with drinks",
+        "travel": "W2",
+        "style": "Non-soup choices",
+        "photo": {
+          "match": "Kushi no Bo",
+          "src": "https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/bygxf5c2/62438887/joa2_h600.jpg",
+          "source": "https://kushinobo-ginza.owst.jp/",
+          "caption": "Kushi no Bo · official image"
+        },
+        "sources": [
+          {
+            "label": "Official",
+            "url": "https://kushinobo-ginza.owst.jp/"
+          },
+          {
+            "label": "Book on Hot Pepper",
+            "url": "https://www.hotpepper.jp/strJ000116997/yoyaku/hpds/?ROUTE_KBN=20"
+          }
+        ],
+        "bookingStatus": "Book online",
+        "variety": "Everything is fried, and Saturday is tempura.",
+        "reason": "Two minutes away, a fixed-price counter course with no decisions after a long flight.",
+        "verification": "Hours on the official page; Hot Pepper showed Oct 23 open on Oct 15",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13007779/"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Top of the budget, and a hotel restaurant rather than a Ginza institution.",
+        "checked": "2026-10-15",
+        "name": "NAMIKI667, in the hotel (3F)",
+        "description": "The hotel’s own bistro with tall windows over Namiki-dori. A web-only 5-course dinner at ¥6,900 each (tax and service included).",
+        "booking": "Hyatt Centric Ginza 3F. Dinner 6:00–10:00pm, last order 9:00. Book the web course on TableCheck: https://www.tablecheck.com/en/shops/hyatt-centric-ginza-namiki-667/reserve",
+        "budget": "¥13,800 for two before drinks; about ¥15,000+ with drinks",
+        "travel": "W0",
+        "style": "Non-soup choices",
+        "photo": {
+          "match": "NAMIKI667",
+          "src": "https://www.namiki667.com/img/pic_aboutus.jpg",
+          "source": "https://namiki667.com/en/",
+          "caption": "NAMIKI667 · official image"
+        },
+        "sources": [
+          {
+            "label": "Official",
+            "url": "https://namiki667.com/en/"
+          },
+          {
+            "label": "Book on TableCheck",
+            "url": "https://www.tablecheck.com/en/shops/hyatt-centric-ginza-namiki-667/reserve"
+          }
+        ],
+        "bookingStatus": "Book online",
+        "variety": "Modern bistro; a different style from the rest of the week.",
+        "reason": "Zero walking: an elevator back to your room after dinner.",
+        "verification": "Web course price on TableCheck; October availability not checked",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13217459/"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "Tori Baka Ichidai, Ginza",
+        "description": "Well-reviewed yakitori grilled over charcoal, with counter seats facing the grill.",
+        "booking": "Ginza 3-3-8, floors 1–3. Weekdays 5:00–11:00pm, food last order 10:00. Book seat-only (¥660 each seating charge) on Tabelog and order à la carte.",
+        "budget": "About ¥12,000–14,000 for two",
+        "travel": "W5–6",
+        "style": "Non-soup choices",
+        "photo": {
+          "match": "Tori Baka",
+          "src": "https://rimage.gnst.jp/rest/img/37h7y90d0000/s_0n6l.jpg?format=auto&q=80&t=1782903800",
+          "source": "https://tabelog.com/en/tokyo/A1301/A130101/13108941/",
+          "caption": "Tori Baka Ichidai · listing image"
+        },
+        "sources": [
+          {
+            "label": "Book on Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13108941/"
+          }
+        ],
+        "bookingStatus": "Book online",
+        "variety": "Yakitori, the one classic you don’t have yet.",
+        "reason": "Lively but easy: order a few skewers and a beer and head back.",
+        "verification": "Hours from Tabelog and Gurunavi; October availability not checked",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13108941/"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "A diner feel rather than a romantic one.",
+        "checked": "2026-10-15",
+        "name": "Restaurant Azuma, Ginza",
+        "description": "Homey yoshoku diner: hamburg steak, omurice and croquettes.",
+        "booking": "Ginza 6-7-6, 1F. Open 11:20am–9:00pm, last order 8:30. Booking on the Tabelog form adds ¥350 each and a 2-hour limit: https://yoyaku.tabelog.com/yoyaku/net_booking_form/index?rcd=13002548",
+        "budget": "About ¥7,500–9,500 for two",
+        "travel": "W1–2",
+        "style": "Non-soup choices",
+        "photo": {
+          "match": "Azuma",
+          "src": "https://ginza-restaurant-azuma.com/img/food1.jpg",
+          "source": "https://ginza-restaurant-azuma.com",
+          "caption": "Restaurant Azuma · official image"
+        },
+        "sources": [
+          {
+            "label": "Official",
+            "url": "https://ginza-restaurant-azuma.com"
+          }
+        ],
+        "bookingStatus": "Book online",
+        "variety": "Casual Japanese-Western comfort food.",
+        "reason": "Practically next door and the cheapest option.",
+        "verification": "Hours on the official site; October availability not checked",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13002548/"
+      },
       {
         "name": "KABEAT, Kabutocho / Chuo City",
         "description": "An easy first evening together: a broad Japanese-ingredient menu spanning Japanese, Chinese and Western styles. Choose grilled dishes and other non-soup plates rather than a noodle bowl.",
         "booking": "Weekday seat-only reservations available. Dinner seating maximum 120 minutes, not a required duration. Contact the venue if delayed; avoid a prepaid arrival-night course.",
         "budget": "¥3,000–6,000 allowance, not a menu quote",
-        "travel": "W3–5",
+        "travel": "T20–25",
         "style": "Non-soup choices",
         "photo": {
           "match": "KABEAT",
@@ -34,174 +192,33 @@ export const sections = [
           }
         ],
         "current": false,
-        "bookingStatus": "Seat-only reservations",
+        "bookingStatus": "Booked 7:00 · cancel once replaced",
         "priceNote": "Planning allowance; not a fixed quote",
         "variety": "Western/Japanese fusion; leave specialist Japanese meals for later days.",
-        "selected": true,
-        "selectedStatus": "Booked ✓ Fri 7:00pm",
-        "reason": "Your confirmed choice: near the hotel with flexible non-soup dishes.",
-        "tradeoff": "Menus, queues and October availability can change.",
+        "selected": false,
+        "reason": "Still booked, but no longer across the street from your hotel.",
+        "tradeoff": "From Ginza it is the Hibiya Line 4 stops plus walking, about 20–25 minutes each way after the long flight.",
         "verification": "Route reviewed; October availability not checked",
         "checked": "2026-09-13",
         "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13265669/"
-      },
-      {
-        "name": "Godaime Hanayama Udon, Nihonbashi",
-        "description": "Very wide, silky onihimokawa noodles. A memorable shape and texture without committing to a long tasting menu.",
-        "booking": "Wide-noodle specialist. Confirm dinner service and queue policy; a sellout or line is less forgiving after a flight.",
-        "budget": "¥1,500–3,000",
-        "travel": "W8–15",
-        "style": "Dipping / broth optional",
-        "photo": {
-          "match": "Hanayama",
-          "src": "https://www.hanayamaudon.co.jp/nihonbashi/images/index/syokuji-onihimo.jpg?20220111",
-          "source": "https://www.hanayamaudon.co.jp/nihonbashi/",
-          "caption": "Hanayama Nihonbashi · wide onihimokawa noodles"
-        },
-        "recommended": false,
-        "sources": [
-          {
-            "label": "Official",
-            "url": "https://www.hanayamaudon.co.jp/nihonbashi/"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "Queue / check policy",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose only if this cuisine is not already repeated elsewhere.",
-        "tradeoff": "A second noodle meal if retaining Saturday tsukemen.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13266849/"
-      },
-      {
-        "name": "Nihonbashi Tamai, Main Shop",
-        "description": "Anago, or saltwater conger eel, over rice. Traditional wooden-house setting.",
-        "booking": "Call the main shop to confirm a dinner table, menu and last order. Do not confuse it with the Muromachi or Ginza branch.",
-        "budget": "¥3,000–6,000",
-        "travel": "W8–15",
-        "style": "Dipping / broth optional",
-        "recommended": false,
-        "sources": [
-          {
-            "label": "Official branch",
-            "url": "https://anago-tamai.com/en/nihonbashi/"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "Call to reserve",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Conger eel is different from freshwater unagi, but still overlaps with a Thursday eel lunch.",
-        "reason": "Traditional specialty near your hotel.",
-        "tradeoff": "Less variety if you also choose eel on Thursday.",
-        "photo": {
-          "src": "https://anago-tamai.com/images/tenpo/honten/3.png",
-          "source": "https://anago-tamai.com/en/nihonbashi/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13019904/"
-      },
-      {
-        "name": "Taimeiken, Nihonbashi",
-        "description": "Omurice and other yoshoku: Japan's own interpretation of Western comfort food.",
-        "booking": "Walk-in planning option; branch reservation policy and October hours need confirmation.",
-        "budget": "¥2,000–4,000",
-        "travel": "W15–25",
-        "style": "Non-soup choices",
-        "recommended": false,
-        "sources": [
-          {
-            "label": "Official",
-            "url": "https://www.taimeiken.co.jp/index.html"
-          }
-        ],
-        "current": false,
-        "bookingStatus": "Policy to confirm",
-        "priceNote": "Planning allowance; not a fixed quote",
-        "variety": "Choose only if this cuisine is not already repeated elsewhere.",
-        "tradeoff": "Longer walk; confirm current location and dinner service.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13252161/"
-      },
-      {
-        "name": "Tenichi, Nihonbashi Takashimaya",
-        "description": "Seafood and vegetable tempura, rice and sides. Choose a table set for value or a counter course to watch the frying.",
-        "budget": "¥3,850 Fuji table set; counter from ¥7,260",
-        "travel": "W10–15",
-        "style": "Non-soup choices",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://tenichi.co.jp/shop/nihonbashi-takashimaya/"
-          }
-        ],
-        "booking": "Call 03-3272-3677 or use the operator's reservation channel. Table last order 20:00; counter last order 19:30. Confirm your seating/menu and October date.",
-        "bookingStatus": "Reserve recommended",
-        "priceNote": "Published menu; drinks extra",
-        "variety": "Adds tempura after Saturday noodles. Avoid a second tempura dinner Wednesday.",
-        "recommended": false,
-        "reason": "Best balance of cuisine variety, moderate cost and finishing near your hotel.",
-        "tradeoff": "20:00 table last order makes flight delays awkward.",
-        "photo": {
-          "src": "https://tenichi.co.jp/wp-content/uploads/2026/06/dsc_0208_1024-2-e1786686940467.jpg",
-          "source": "https://tenichi.co.jp/shop/nihonbashi-takashimaya/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13247938/",
-        "experience": "Chef fries each piece at the counter"
-      },
-      {
-        "name": "Hinozen, Ningyocho Honten",
-        "description": "Charcoal-grilled fish skewers and shareable izakaya dishes. Choose a cooked-fish main plus rice, rather than only small nibbles.",
-        "budget": "¥3,500–6,000",
-        "travel": "W15–25",
-        "style": "Non-soup choices",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://hinozen-ningyocho.com/dinner/"
-          }
-        ],
-        "booking": "Use the official reservation link; confirm Saturday dinner hours, cover charge and menu. Budget allows a meal but not unlimited drinks.",
-        "bookingStatus": "Reserve recommended",
-        "priceNote": "Planning allowance, not a menu quote",
-        "variety": "Cooked seafood is distinct from sushi, though charcoal cooking overlaps with Hakone's irori lunch.",
-        "reason": "Relaxed shared-plate alternative.",
-        "tradeoff": "Ordering is less predictable in cost than a fixed set.",
-        "recommended": false,
-        "photo": {
-          "src": "https://hinozen-ningyocho.com/wp-content/uploads/2026/01/TK1_0507-1024x683.jpg",
-          "source": "https://hinozen-ningyocho.com/dinner/",
-          "caption": "Official venue / menu image; not a guaranteed October dish"
-        },
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13116078/"
       }
     ],
-    "theme": "Modern Japanese small plates, near the hotel"
+    "theme": "A relaxed Ginza dinner near the new hotel"
   },
   {
     "id": 1,
     "day": "Thu",
     "meal": "Breakfast",
     "label": "Thu · Breakfast",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Your hotel, before Ginza",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza, before shopping",
     "advice": "Hoshino Coffee is chosen: oven-baked soufflé pancakes from 8:00 in the Yaesu underground mall, then two stops to the Ginza shops. Walk-in.",
     "options": [
       {
         "name": "Hoshino Coffee, Yaesu Underground Mall",
         "description": "Hoshino’s signature oven-baked soufflé pancakes, thick and jiggly, with coffee. A café chain, but the pancakes are the real thing and it opens early.",
         "budget": "¥1,200–1,800",
-        "travel": "W15–20",
+        "travel": "W18–20",
         "sources": [
           {
             "label": "Tabelog (hours, photos)",
@@ -231,7 +248,7 @@ export const sections = [
         "name": "A Happy Pancake, Ginza",
         "description": "The tall, wobbly soufflé pancakes Japan is known for, in Ginza. Sweet stacks with butter cream, or savory ones until 2:30pm.",
         "budget": "¥1,400–2,200",
-        "travel": "T15–20",
+        "travel": "W3–6",
         "sources": [
           {
             "label": "Official web booking",
@@ -259,7 +276,7 @@ export const sections = [
         "name": "bills, Ginza",
         "description": "Ricotta pancakes or a Western egg breakfast; choose a full dish and drink.",
         "budget": "¥3,000–5,000",
-        "travel": "T15–20",
+        "travel": "W3–6",
         "sources": [
           {
             "label": "Official venue / menu",
@@ -1894,16 +1911,16 @@ export const sections = [
     "day": "Sun",
     "meal": "Occasion dinner",
     "label": "Sun · Occasion dinner",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Your hotel, after changing for dinner",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza, after changing for dinner",
     "advice": "Manten is chosen: reserve the 5:30pm omakase on TableCheck. Tokyo Ten stays here as the alternative.",
     "options": [
       {
         "name": "Manten Sushi, Nihonbashi",
         "description": "Chef-led sushi and small dishes, similar in ambition to your current choice.",
-        "booking": "COREDO Muromachi 2, 1F (Nihonbashi Muromachi 2-3-1), about a 12-minute walk from the hotel. Sunday dinner 5:00–11:00pm, last order 9:30. Book on TableCheck (https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve) or tel 03-3277-6045; same-day cancellation is charged in full. No dress code stated; skip strong perfume.",
+        "booking": "COREDO Muromachi 2, 1F (Nihonbashi Muromachi 2-3-1), 3 Ginza Line stops from the hotel (Mitsukoshimae). Sunday dinner 5:00–11:00pm, last order 9:30. Book on TableCheck (https://www.tablecheck.com/en/shops/manten-sushi-nihonbashi/reserve) or tel 03-3277-6045; same-day cancellation is charged in full. No dress code stated; skip strong perfume.",
         "budget": "¥8,800 omakase; ¥12,100 with drinks",
-        "travel": "W10–12",
+        "travel": "T12–15",
         "style": "Non-soup choices",
         "photo": {
           "match": "Manten",
@@ -1924,7 +1941,7 @@ export const sections = [
         "variety": "Omakase sushi; Tuesday’s conveyor belt is the casual counterpart.",
         "detour": true,
         "tradeoff": "A department-store-complex setting rather than a Roppongi night out.",
-        "reason": "Omakase counter you can walk to after changing at the hotel.",
+        "reason": "Omakase counter three subway stops from the hotel.",
         "verification": "Sunday hours and prices checked on Tabelog and the official site",
         "checked": "2026-09-14",
         "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13166422/",
@@ -2500,165 +2517,126 @@ export const sections = [
     "day": "Sat",
     "meal": "Breakfast",
     "label": "Sat · Breakfast",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Your hotel",
-    "advice": "Talk Shop is selected for Saturday only. Alternatives are here for comparison; no hotel breakfast default is applied to other days.",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza",
+    "advice": "Ginza Choshoku Lab is the pick: the closest match to the full breakfast you chose at the old hotel, 6 minutes away and open at 7:00. Book the 7:00 seating on Tabelog. The cafés are cheaper walk-in backups.",
     "options": [
       {
-        "name": "Talk Shop, Caption by Hyatt Kabutocho",
-        "description": "American breakfast with eggs, bacon, sausage, hash browns, avocado, toast, coffee and juice.",
-        "budget": "¥2,860",
-        "travel": "W0–2",
+        "current": false,
+        "priceNote": "Published price",
+        "tradeoff": "The 7:00 seating is the only one you can book online.",
+        "checked": "2026-10-15",
+        "name": "Ginza Choshoku Lab (Hotel Musse Ginza Meitetsu 2F)",
+        "description": "Breakfast buffet with Western and Japanese dishes, eggs, bread and coffee. A full sit-down breakfast, like the old hotel’s.",
+        "booking": "Ginza 7-12-9, 2F. Daily from 7:00, last entry 10:00, 50-minute seatings; hotel guests get priority. Book the 7:00 seating on Tabelog: https://tabelog.com/en/tokyo/A1301/A130101/13259557/",
+        "budget": "¥2,970",
+        "travel": "W6",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Hours",
-            "url": "https://www.hyatt.com/caption-by-hyatt/en-US/tyocp-caption-by-hyatt-kabutocho-tokyo/dining"
-          },
-          {
-            "label": "Breakfast menu",
-            "url": "https://www.hyatt.com/content/dam/hotel/propertysites/assets/caption/tyocp/en_us/dining/Talk-Shop-Menu.pdf"
+            "label": "Official",
+            "url": "https://choshoku.neu-inc.tokyo/"
           }
         ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Ask hotel at check-in",
-        "booking": "Breakfast 07:00–11:00. Chosen for Saturday only, not every morning. Ham-and-egg panini or egg-sandwich sets are ¥1,650 with fruit and coffee.",
-        "priceNote": "Published price; paid separately",
+        "bookingStatus": "Book 7:00 online",
         "variety": "Western-style breakfast; enough food for a full meal.",
         "selected": true,
-        "selectedStatus": "Chosen · Saturday only",
-        "reason": "Your selected full breakfast, with no travel.",
-        "tradeoff": "More expensive than a café; hotel breakfast is not included.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13314657/"
+        "selectedStatus": "Chosen · Saturday 7:00",
+        "reason": "A full breakfast at about the same price as before, done by 7:35.",
+        "verification": "Hours and price on the official site",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13259557/"
       },
       {
-        "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3",
-        "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
-        "budget": "¥1,200–2,000",
-        "travel": "W15–25",
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "St. Marc Café, Ginza Miyuki-dori",
+        "description": "Morning sets with coffee, like a ham-and-cheese hot sandwich set.",
+        "booking": "Ginza 6-12-1, 1F, next to GINZA SIX. Opens 7:00 daily; morning sets until 10:00. Walk-in, order at the counter.",
+        "budget": "¥390–920 per set",
+        "travel": "W4–5",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://baycrews.jp/store/detail/1145"
+            "label": "Official",
+            "url": "https://www.saint-marc-hd.com/saintmarccafe/shop/655/"
           }
         ],
-        "style": "Non-soup choices",
         "bookingStatus": "Walk-in plan",
-        "booking": "Official branch hours 07:30–21:00. Walk-in bakery; exact sandwiches and seating depend on the day.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Japanese bakery interpretation of a familiar Western breakfast.",
-        "tradeoff": "More walking than the hotel; protein-heavy items may vary.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/"
+        "variety": "Café breakfast; lighter than a buffet.",
+        "reason": "Cheapest no-booking backup that opens at 7:00.",
+        "verification": "Hours on the official page",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13259674/"
       },
       {
-        "name": "Excelsior Caffé, Ningyocho",
-        "description": "Croque monsieur or ham sandwich, with coffee and an extra item if needed. Chain morning menu also includes thick toast and eggs.",
-        "budget": "¥1,000–1,500",
-        "travel": "W15–20",
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Half of 2F is a smoking area; sit on 1F.",
+        "checked": "2026-10-15",
+        "name": "Caffè Veloce, Ginza Miyuki-dori",
+        "description": "Morning sets with a drink: toast or a sandwich with egg.",
+        "booking": "Ginza 5-10-6, 1F. Opens 7:00; morning sets until 11:00. 1F is non-smoking. Walk-in.",
+        "budget": "¥550–680 per set",
+        "travel": "W5",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Branch hours",
-            "url": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000124"
-          },
-          {
-            "label": "Morning menu",
-            "url": "https://www.doutor.co.jp/exc/menu/list/morning.html"
+            "label": "Official",
+            "url": "https://c-united.co.jp/store/detail/000316/"
           }
         ],
-        "style": "Non-soup choices",
         "bookingStatus": "Walk-in plan",
-        "booking": "Weekdays 06:45; Saturday/Sunday 07:30 opening. Confirm the branch's available morning items. Seating includes a separated smoking area.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "tradeoff": "A chain café and an extra walk, but a substantial sandwich option.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13054386/"
+        "variety": "Café breakfast; lighter than a buffet.",
+        "reason": "Another cheap 7:00 option.",
+        "verification": "Hours on the official page",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13040766/"
       },
       {
-        "name": "PRONTO, Fresa Inn Nihonbashi",
-        "description": "Toast or savory morning bread set, plus another item if the standard set is too small.",
-        "budget": "¥900–1,600",
-        "travel": "W5–10",
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "Starbucks, GINZA FIVE (B1F)",
+        "description": "A familiar fallback: baguette sandwich and coffee.",
+        "booking": "GINZA FIVE B1F, Ginza 5-1. Opens 7:00 Mon–Sat. Walk-in.",
+        "budget": "About ¥915 per person",
+        "travel": "W3–4",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://shop.pronto.co.jp/detail/206/"
+            "label": "Official",
+            "url": "https://store.starbucks.co.jp/detail-902/"
           }
         ],
-        "style": "Non-soup choices",
         "bookingStatus": "Walk-in plan",
-        "booking": "This specific Fresa Inn branch opens 06:30, including weekends; weekend service ends 10:00. Confirm available morning set and public guest service. Do not confuse with PRONTO Kayabacho, which opens 11:30 on weekends.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Earliest nearby café candidate without paying hotel-breakfast prices.",
-        "tradeoff": "Standard morning sets can be small; add food.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "photo": {
-          "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
-          "source": "https://shop.pronto.co.jp/detail/206/",
-          "caption": "Official venue or menu image · seasonal dishes may differ"
-        },
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/"
+        "variety": "Familiar Western coffee-shop breakfast.",
+        "reason": "Familiar menu, non-smoking, opens at 7:00.",
+        "verification": "Hours on the official page",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13056601/"
       },
       {
-        "name": "Pelican Café, Asakusa",
-        "description": "Omelet sandwich or ham-and-fried-egg toast, with a drink.",
-        "budget": "¥1,500–2,500",
-        "travel": "T30–45",
+        "current": false,
+        "priceNote": "Published price (TableCheck, incl. tax and service)",
+        "tradeoff": "Three times the price of the pick, and a 7:40 departure leaves only 40 minutes.",
+        "checked": "2026-10-15",
+        "name": "NAMIKI667 breakfast buffet, in the hotel",
+        "description": "The hotel’s breakfast buffet with eggs cooked to order.",
+        "booking": "Hotel 3F, 7:00–11:00 (last entry 10:00). Not included in your stay.",
+        "budget": "¥8,855 per person",
+        "travel": "W0",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Hours",
-            "url": "https://asakusa.pelicancafe.jp/"
-          },
-          {
-            "label": "Menu",
-            "url": "https://asakusa.pelicancafe.jp/menu.html"
+            "label": "Official",
+            "url": "https://namiki667.com/en/menu/"
           }
         ],
-        "style": "Non-soup choices",
         "bookingStatus": "Walk-in plan",
-        "booking": "Monday–Saturday opens 09:00; closed Sundays. Saturday all menu items can be ordered from opening. Queue risk; this replaces the early temple start.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "detour": true,
-        "tradeoff": "Too late for the existing early breakfast; only choose if moving the Asakusa morning later.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "photo": {
-          "src": "https://asakusa.hyper-cdn.jp/img/menu/menu_cafe14.jpg",
-          "source": "https://asakusa.pelicancafe.jp/",
-          "caption": "Official venue or menu image · seasonal dishes may differ"
-        },
-        "tabelog": "https://tabelog.com/en/tokyo/A1311/A131103/13212182/"
-      },
-      {
-        "name": "FamilyMart, KABUTO ONE",
-        "description": "Buy egg/ham sandwiches plus yogurt, fruit or another substantial item and a drink. Stock varies; buy the previous evening.",
-        "budget": "¥900–1,500",
-        "travel": "W3–8",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://store.family.co.jp/points/57427"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Buy ahead; no reservation",
-        "booking": "Specific nearby branch at Nihonbashi Kabutocho 7-1. Check store hours and stock; the plan does not rely on a pre-dawn opening. Keep chilled food refrigerated and follow its use-by/storage label.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "tradeoff": "Practical takeaway, not a sit-down café experience.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13"
+        "variety": "Hotel buffet.",
+        "reason": "No walking at all.",
+        "verification": "Price on TableCheck",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13217459/"
       }
     ],
     "theme": "American breakfast at the hotel"
@@ -2668,82 +2646,77 @@ export const sections = [
     "day": "Sun",
     "meal": "Early breakfast",
     "label": "Sun · Early breakfast",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Your hotel",
-    "advice": "Quick 7-Eleven or FamilyMart breakfast to eat on the way to teamLab. The FamilyMart near the hotel opens at 6:00am; the other two are backups.",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza",
+    "advice": "FamilyMart Ginza Miyuki-dori is chosen: open 24 hours, 4 minutes away. Eat before the 7:05 subway to teamLab. The 7-Eleven is the equally close backup.",
     "options": [
       {
-        "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3 — buy the previous day",
-        "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
-        "budget": "¥1,200–2,000",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://baycrews.jp/store/detail/1145"
-          }
-        ],
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "FamilyMart, Ginza Miyuki-dori",
+        "description": "Sandwich or onigiri, yogurt or fruit, and a drink.",
+        "booking": "Ginza 5-9-13, open 24 hours (official store page). About 4 minutes: toward Miyuki-dori, then across Chuo-dori.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W4",
         "style": "Non-soup choices",
-        "bookingStatus": "Buy ahead",
-        "booking": "Buy before its listed 21:00 closing the previous evening. Select items suitable for overnight storage; keep perishable fillings refrigerated. Eat at the hotel before leaving.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Filling bakery breakfast before the early departure, without depending on a café opening.",
-        "tradeoff": "Requires an evening purchase; not freshly cooked that morning.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/"
-      },
-      {
-        "name": "FamilyMart, KABUTO ONE",
-        "description": "Grab a sandwich or onigiri, yogurt or fruit, and a drink, and eat on the way. Any 7-Eleven or FamilyMart works too.",
-        "budget": "¥900–1,500",
-        "travel": "W3–8",
         "sources": [
           {
             "label": "Official store page",
-            "url": "https://store.family.co.jp/points/57427"
+            "url": "https://store.family.co.jp/points/77133"
           }
         ],
-        "style": "Non-soup choices",
         "bookingStatus": "No booking",
-        "booking": "Nihonbashi Kabutocho 7-1, near the hotel. Open 6:00am–11:00pm per the official store page.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Quick grab-and-go breakfast.",
-        "tradeoff": "Convenience-store food, not a sit-down breakfast.",
-        "reason": "Quick, close and open before you leave.",
+        "variety": "Grab and go.",
         "selected": true,
         "selectedStatus": "Chosen · grab and go",
-        "verification": "Store hours checked on the official store page",
-        "checked": "2026-09-13"
+        "reason": "Closest store with official 24-hour hours.",
+        "verification": "24 hours on the official store page"
       },
       {
-        "name": "PRONTO, Fresa Inn Nihonbashi",
-        "description": "Toast or savory morning bread set, plus another item if the standard set is too small.",
-        "budget": "¥900–1,600",
-        "travel": "W5–10",
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "7-Eleven, Ginza 7-chome",
+        "description": "Same grab-and-go breakfast; also has the 7-Eleven ATM.",
+        "booking": "Ginza 7-2-18, open 24 hours (map listings and Seven Bank). About 3–4 minutes: down Namiki-dori to Kojunsha-dori, then right.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W3–4",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://shop.pronto.co.jp/detail/206/"
+            "label": "Seven Bank ATM page",
+            "url": "https://location.sevenbank.co.jp/sevenbank/spot/detail?code=0000037743"
           }
         ],
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
+        "reason": "Equally close backup.",
+        "verification": "24 hours per Yahoo! Map and Seven Bank"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "Lawson, GINZA SIX",
+        "description": "Backup inside GINZA SIX.",
+        "booking": "Ginza 6-10-1, at the TERMINAL GINZA counter. Listed as 24 hours by third-party sites only; street access before the mall opens is unconfirmed.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W4",
         "style": "Non-soup choices",
-        "bookingStatus": "Timing risk",
-        "booking": "Opens 06:30. Only consider pre-arranged quick takeaway if service and travel still leave enough buffer. A sit-down meal does not fit the early departure; buy-ahead is safer.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Earliest nearby café candidate without paying hotel-breakfast prices.",
-        "tradeoff": "Very little buffer before 06:55 departure.",
-        "detour": true,
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "photo": {
-          "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
-          "source": "https://shop.pronto.co.jp/detail/206/",
-          "caption": "Official venue or menu image · seasonal dishes may differ"
-        },
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/"
+        "sources": [
+          {
+            "label": "Listing",
+            "url": "https://www.jalan.net/kankou/spt_guide000000202986/"
+          }
+        ],
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
+        "reason": "Third choice.",
+        "verification": "Unverified hours"
       }
     ],
     "theme": "Grab and go"
@@ -2753,114 +2726,77 @@ export const sections = [
     "day": "Mon",
     "meal": "Early breakfast",
     "label": "Mon · Early breakfast",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Your hotel",
-    "advice": "Decided: the 24-hour 7-Eleven at Kabutocho 6-5, three minutes from the hotel. The rest are backups.",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza",
+    "advice": "FamilyMart Ginza Miyuki-dori is chosen: open 24 hours, 4 minutes away. Eat on the way; Disney is the priority today.",
     "options": [
       {
-        "name": "7-Eleven, Kabutocho Tosho-mae",
-        "description": "The 24-hour 7-Eleven in front of the Stock Exchange: sandwiches, onigiri, yogurt, fruit and drinks to eat on the way.",
-        "budget": "¥900–1,500",
-        "travel": "W3",
-        "sources": [
-          {
-            "label": "Tabelog listing",
-            "url": "https://tabelog.com/en/tokyo/A1302/A130203/13260021/"
-          },
-          {
-            "label": "Official 7-Eleven store map",
-            "url": "https://seven-eleven.areamarker.com/711map/top"
-          }
-        ],
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "FamilyMart, Ginza Miyuki-dori",
+        "description": "Sandwich or onigiri, yogurt or fruit, and a drink.",
+        "booking": "Ginza 5-9-13, open 24 hours (official store page). About 4 minutes: toward Miyuki-dori, then across Chuo-dori.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W4",
         "style": "Non-soup choices",
-        "bookingStatus": "No booking",
-        "booking": "Nihonbashi Kabutocho 6-5, about 3 minutes from the hotel; open 24 hours. The closer 7-Eleven at Kabutocho 15-13 opens at 7:00, too late for 6:30.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Quick grab-and-go breakfast.",
-        "reason": "Your pick, and the one branch nearby that is open at 6:30.",
-        "tradeoff": "Convenience-store food, not a sit-down breakfast.",
-        "selected": true,
-        "selectedStatus": "Chosen · grab and go",
-        "verification": "Hours checked on Tabelog and the Seven Bank ATM listing",
-        "checked": "2026-09-14",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13260021/"
-      },
-      {
-        "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3 — buy the previous day",
-        "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
-        "budget": "¥1,200–2,000",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://baycrews.jp/store/detail/1145"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Buy ahead",
-        "booking": "Buy before its listed 21:00 closing the previous evening. Select items suitable for overnight storage; keep perishable fillings refrigerated. Eat at the hotel before leaving.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Filling bakery breakfast before the early departure, without depending on a café opening.",
-        "tradeoff": "Requires an evening purchase; not freshly cooked that morning.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/",
-        "selected": false,
-        "recommended": false
-      },
-      {
-        "name": "FamilyMart, KABUTO ONE",
-        "description": "Grab a sandwich or onigiri, yogurt or fruit, and a drink, and eat on the way. Any 7-Eleven or FamilyMart works too.",
-        "budget": "¥900–1,500",
-        "travel": "W3–8",
         "sources": [
           {
             "label": "Official store page",
-            "url": "https://store.family.co.jp/points/57427"
+            "url": "https://store.family.co.jp/points/77133"
           }
         ],
-        "style": "Non-soup choices",
         "bookingStatus": "No booking",
-        "booking": "Nihonbashi Kabutocho 7-1, near the hotel. Open 6:00am–11:00pm per the official store page.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Quick grab-and-go breakfast.",
-        "tradeoff": "Convenience-store food, not a sit-down breakfast.",
-        "reason": "Quick, close and open before you leave.",
-        "selected": false,
-        "verification": "Store hours checked on the official store page",
-        "checked": "2026-09-13",
-        "recommended": false
+        "variety": "Grab and go.",
+        "selected": true,
+        "selectedStatus": "Chosen · grab and go",
+        "reason": "Closest store with official 24-hour hours.",
+        "verification": "24 hours on the official store page"
       },
       {
-        "name": "PRONTO, Fresa Inn Nihonbashi",
-        "description": "Toast or savory morning bread set, plus another item if the standard set is too small.",
-        "budget": "¥900–1,600",
-        "travel": "W5–10",
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "7-Eleven, Ginza 7-chome",
+        "description": "Same grab-and-go breakfast; also has the 7-Eleven ATM.",
+        "booking": "Ginza 7-2-18, open 24 hours (map listings and Seven Bank). About 3–4 minutes: down Namiki-dori to Kojunsha-dori, then right.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W3–4",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://shop.pronto.co.jp/detail/206/"
+            "label": "Seven Bank ATM page",
+            "url": "https://location.sevenbank.co.jp/sevenbank/spot/detail?code=0000037743"
           }
         ],
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
+        "reason": "Equally close backup.",
+        "verification": "24 hours per Yahoo! Map and Seven Bank"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "Lawson, GINZA SIX",
+        "description": "Backup inside GINZA SIX.",
+        "booking": "Ginza 6-10-1, at the TERMINAL GINZA counter. Listed as 24 hours by third-party sites only; street access before the mall opens is unconfirmed.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W4",
         "style": "Non-soup choices",
-        "bookingStatus": "Timing risk",
-        "booking": "Opens 06:30. Only consider pre-arranged quick takeaway if service and travel still leave enough buffer. A sit-down meal does not fit the early departure; buy-ahead is safer.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Earliest nearby café candidate without paying hotel-breakfast prices.",
-        "tradeoff": "Very little buffer before 06:45 departure.",
-        "detour": true,
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "photo": {
-          "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
-          "source": "https://shop.pronto.co.jp/detail/206/",
-          "caption": "Official venue or menu image · seasonal dishes may differ"
-        },
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/",
-        "selected": false,
-        "recommended": false
+        "sources": [
+          {
+            "label": "Listing",
+            "url": "https://www.jalan.net/kankou/spt_guide000000202986/"
+          }
+        ],
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
+        "reason": "Third choice.",
+        "verification": "Unverified hours"
       }
     ],
     "theme": "Grab and go"
@@ -3064,144 +3000,82 @@ export const sections = [
     "day": "Wed",
     "meal": "Breakfast before Hakone",
     "label": "Wed · Breakfast before Hakone",
-    "origin": "Caption by Hyatt Kabutocho Tokyo",
-    "originLabel": "Your hotel; Shinjuku alternatives explicitly include the train",
-    "advice": "FamilyMart is chosen: grab a sandwich or onigiri, yogurt and a drink at KABUTO ONE (opens 6:00) and eat before the 7:00 subway.",
+    "origin": "Hyatt Centric Ginza Tokyo",
+    "originLabel": "Hyatt Centric Ginza",
+    "advice": "FamilyMart Ginza Miyuki-dori is chosen: open 24 hours, 4 minutes away. Eat it on the Romancecar; that is normal on board.",
     "options": [
       {
-        "name": "PRONTO, Fresa Inn Nihonbashi",
-        "description": "Toast or savory morning bread set, plus another item if the standard set is too small.",
-        "budget": "¥900–1,600",
-        "travel": "W5–10",
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "FamilyMart, Ginza Miyuki-dori",
+        "description": "Sandwich or onigiri, yogurt or fruit, and a drink.",
+        "booking": "Ginza 5-9-13, open 24 hours (official store page). About 4 minutes: toward Miyuki-dori, then across Chuo-dori.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W4",
+        "style": "Non-soup choices",
         "sources": [
           {
-            "label": "Official venue / menu",
-            "url": "https://shop.pronto.co.jp/detail/206/"
+            "label": "Official store page",
+            "url": "https://store.family.co.jp/points/77133"
           }
         ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "This specific Fresa Inn branch opens 06:30, including weekends; weekend service ends 10:00. Confirm available morning set and public guest service. Do not confuse with PRONTO Kayabacho, which opens 11:30 on weekends.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Nearby 06:30 opening gives a filling breakfast before Shinjuku.",
-        "tradeoff": "Standard morning sets can be small; add food.",
-        "recommended": false,
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "photo": {
-          "src": "https://site-images.hp.admin.can-ly.com/images/cms/managed/directories/62/2026060114062920230816210050144_144_pronto_bar.webp",
-          "source": "https://shop.pronto.co.jp/detail/206/",
-          "caption": "Official venue or menu image · seasonal dishes may differ"
-        },
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130203/13107615/",
-        "selected": false
-      },
-      {
-        "name": "BOUL’ANGE, Shinjuku Southern Terrace",
-        "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
-        "budget": "¥1,200–2,000",
-        "travel": "T40–55",
-        "sources": [
-          {
-            "label": "Official branch directory",
-            "url": "https://baycrews.jp/store/list?area=kanto"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "Listed opening 07:30. Eat before checking in for the Romancecar, allowing station-navigation buffer. Exact booked train time must come first.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Bakery breakfast at the departure end of the train journey.",
-        "tradeoff": "Requires traveling to Shinjuku before breakfast; carry something if you wake hungry.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1304/A130401/13209774/",
-        "selected": false,
-        "recommended": false
-      },
-      {
-        "name": "Excelsior Caffé, Ningyocho",
-        "description": "Croque monsieur or ham sandwich, with coffee and an extra item if needed. Chain morning menu also includes thick toast and eggs.",
-        "budget": "¥1,000–1,500",
-        "travel": "W15–20",
-        "sources": [
-          {
-            "label": "Branch hours",
-            "url": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000124"
-          },
-          {
-            "label": "Morning menu",
-            "url": "https://www.doutor.co.jp/exc/menu/list/morning.html"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "Weekdays 06:45; Saturday/Sunday 07:30 opening. Confirm the branch's available morning items. Seating includes a separated smoking area.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "tradeoff": "A chain café and an extra walk, but a substantial sandwich option.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130204/13054386/",
-        "selected": false,
-        "recommended": false
-      },
-      {
-        "name": "BOUL’ANGE, Nihonbashi COREDO Muromachi 3",
-        "description": "A savory bakery item plus a second pastry and coffee; choose enough food, not one small croissant.",
-        "budget": "¥1,200–2,000",
-        "travel": "W15–25",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://baycrews.jp/store/detail/1145"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Walk-in plan",
-        "booking": "Official branch hours 07:30–21:00. Walk-in bakery; exact sandwiches and seating depend on the day.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "reason": "Japanese bakery interpretation of a familiar Western breakfast.",
-        "tradeoff": "More walking than the hotel; protein-heavy items may vary.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
-        "tabelog": "https://tabelog.com/en/tokyo/A1302/A130202/13209775/",
-        "selected": false,
-        "recommended": false
-      },
-      {
-        "name": "FamilyMart, KABUTO ONE",
-        "description": "Buy egg/ham sandwiches plus yogurt, fruit or another substantial item and a drink. Stock varies; buy the previous evening.",
-        "budget": "¥900–1,500",
-        "travel": "W3–8",
-        "sources": [
-          {
-            "label": "Official venue / menu",
-            "url": "https://store.family.co.jp/points/57427"
-          }
-        ],
-        "style": "Non-soup choices",
-        "bookingStatus": "Buy ahead; no reservation",
-        "booking": "Specific nearby branch at Nihonbashi Kabutocho 7-1. Check store hours and stock; the plan does not rely on a pre-dawn opening. Keep chilled food refrigerated and follow its use-by/storage label.",
-        "priceNote": "Planning allowance, not a quote",
-        "variety": "Western-style breakfast; enough food for a full meal.",
-        "tradeoff": "Practical takeaway, not a sit-down café experience.",
-        "reason": "Compare this cuisine, setting and travel trade-off.",
-        "verification": "Route reviewed; October availability not checked",
-        "checked": "2026-09-13",
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
         "selected": true,
         "selectedStatus": "Chosen · grab and go",
-        "recommended": false
+        "reason": "Closest store with official 24-hour hours.",
+        "verification": "24 hours on the official store page"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "7-Eleven, Ginza 7-chome",
+        "description": "Same grab-and-go breakfast; also has the 7-Eleven ATM.",
+        "booking": "Ginza 7-2-18, open 24 hours (map listings and Seven Bank). About 3–4 minutes: down Namiki-dori to Kojunsha-dori, then right.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W3–4",
+        "style": "Non-soup choices",
+        "sources": [
+          {
+            "label": "Seven Bank ATM page",
+            "url": "https://location.sevenbank.co.jp/sevenbank/spot/detail?code=0000037743"
+          }
+        ],
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
+        "reason": "Equally close backup.",
+        "verification": "24 hours per Yahoo! Map and Seven Bank"
+      },
+      {
+        "current": false,
+        "priceNote": "Planning allowance; not a fixed quote",
+        "tradeoff": "Menus and October availability can change.",
+        "checked": "2026-10-15",
+        "name": "Lawson, GINZA SIX",
+        "description": "Backup inside GINZA SIX.",
+        "booking": "Ginza 6-10-1, at the TERMINAL GINZA counter. Listed as 24 hours by third-party sites only; street access before the mall opens is unconfirmed.",
+        "budget": "¥900–1,500 per person",
+        "travel": "W4",
+        "style": "Non-soup choices",
+        "sources": [
+          {
+            "label": "Listing",
+            "url": "https://www.jalan.net/kankou/spt_guide000000202986/"
+          }
+        ],
+        "bookingStatus": "No booking",
+        "variety": "Grab and go.",
+        "reason": "Third choice.",
+        "verification": "Unverified hours"
       }
     ],
     "theme": "Quick café breakfast"
   }
 ];
-
 export const maps = (destination, origin, mode = 'walking') => origin
   ? `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&travelmode=${mode}`
   : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(destination)}`;

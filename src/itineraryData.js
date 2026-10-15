@@ -66,7 +66,7 @@ export const DAYS = [
     "emoji": "🏙️",
     "title": "Arrive Tokyo Haneda",
     "location": "Tokyo, Japan",
-    "hotel": "Caption by Hyatt Kabutocho — Night 1",
+    "hotel": "Hyatt Centric Ginza — Night 1",
     "activities": [
       {
         "time": "~4:15pm",
@@ -78,49 +78,48 @@ export const DAYS = [
         "tip": "Before you leave the plane: in Settings → Cellular, turn on the Ubigi eSIM, make it your Cellular Data line, and turn Data Roaming on for it. Leave your US line on for texts but keep its data roaming off. Ubigi’s plan starts counting when it first connects here."
       },
       {
-        "time": "~5:50pm",
+        "time": "~5:45pm",
         "kind": "travel",
         "icon": "🚆",
-        "title": "Haneda → hotel: airport bus + short taxi",
-        "duration": "about 1 hour",
-        "detail": "Take the Airport Limousine Bus (orange and white) on its \"Haneda Airport ⇄ Tokyo City Air Terminal (T-CAT)\" route, get off at T-CAT, then take a 5-minute taxi to the hotel. ¥1,000 each for the bus plus about ¥1,200 for the taxi. From Terminal 3 the bus leaves at 5:05, 5:50, 6:20, 6:55 and 7:25pm, and the ride is about 45 minutes. You don’t need to book ahead: buy tickets once you’re through customs.",
-        "mapQuery": "Tokyo City Air Terminal T-CAT Hakozaki",
+        "title": "Haneda → hotel: one train, no changes",
+        "duration": "about 50–60 min",
+        "detail": "The Keikyu train from Terminal 3 runs straight onto the Toei Asakusa Line. Stay on it to Higashi-ginza (about 31–36 minutes), take the elevator up, and walk about 8 minutes. ¥547 each on Suica. City-bound trains leave every 10–12 minutes in the evening.",
+        "mapQuery": "Higashi-ginza Station Exit A1",
         "food": null,
-        "tip": "Seats are first come, first served, and a full bus can’t take standing passengers. If you want a guaranteed seat, book the next bus on your phone once you have your bags: tap the link below (booking closes 5 minutes before departure) and pay there for a QR ticket. If a bus is full, the next one is 30–45 minutes later, or take a taxi from 1F stop 21 (about ¥9,000–11,000).",
+        "tip": "Not sure about a train? Show the platform staff: 東銀座に行きますか？ (Does this go to Higashi-ginza?). If you end up on an \"Airport Limited Express\" (エアポート快特), it skips Higashi-ginza: get off one stop early at Shimbashi and take the next train one stop.",
         "steps": [
-          "After customs you come out in the 2nd-floor Arrival Lobby of Terminal 3.",
-          "Find the orange Airport Limousine Bus ticket counter in that lobby. Say \"Two to T-CAT, please\" and buy tickets for the next bus. ¥1,000 each; card or Suica is fine. You can’t pay on the bus.",
-          "Your ticket shows the departure time and the bus stop number. Go down to 1F and out to that stop (stop 2 for T-CAT).",
-          "Hand your big suitcases to the staff at the stop. They load them under the bus and give you claim tags.",
-          "Ride about 45 minutes. The bus stops at Terminals 2 and 1 first, and some buses keep going to Tokyo Dome Hotel after T-CAT. Get off at \"Tokyo City Air Terminal (T-CAT)\".",
-          "Collect your bags with the claim tags. The taxi stand is right in front of where the bus lets you off.",
-          "Show the driver: キャプション by Hyatt 兜町 東京（中央区日本橋兜町12-1）. About 5 minutes and ¥1,000–1,300; card or Suica works in most taxis. The taxi doors open and close by themselves."
+          "After customs you come out in the 2nd-floor Arrival Lobby of Terminal 3. Follow the red \"Keikyu Line\" (京急線) signs, a few minutes on the same floor.",
+          "Tap your phone (Suica) at the gate for Platform 2, toward Shinagawa and the city. Take the elevator down to the platform.",
+          "Check the destination on the board. Get on a train going to 押上 Oshiage, 青砥 Aoto, 京成高砂 Keisei-Takasago, 成田空港 Narita Airport, 印旛日本医大 Imba Nihon-idai or 芝山千代田 Shibayama-Chiyoda. Do NOT take trains ending at 品川 Shinagawa, 泉岳寺 Sengakuji, or going toward Yokohama (横浜, 逗子・葉山, 金沢文庫, 京急久里浜).",
+          "Stay on the whole way, about 31–36 minutes. After Shinagawa it becomes the Toei Asakusa Line, but you do not change trains.",
+          "Get off at Higashi-ginza (東銀座), the stop after Shimbashi. Trains arrive on Platform 2.",
+          "Follow the signs for the Mihara-bashi gate (三原橋方面改札), tap out, and take the street elevator up next to Exit A1.",
+          "Walk about 8 minutes (open the map): along Harumi-dori past the Ginza 4-chome crossing and the Wako clock tower, then left onto Namiki-dori. Cross Miyuki-dori; Hyatt Centric is just ahead on the right. Lobby elevators at street level go up to reception on 4F."
         ],
-        "status": "No booking",
-        "bookUrl": "https://www.limousinebus.co.jp/en/timetable/detail/Haneda-TCAT/?dir=1&d=2026-10-23",
-        "bookLabel": "Bus times + optional booking (official)"
+        "status": "No booking"
       },
       {
         "time": "~6:45pm",
         "kind": "hotel",
         "icon": "🏨",
-        "title": "Check in · Caption by Hyatt Kabutocho",
+        "title": "Check in · Hyatt Centric Ginza",
         "status": "Booked ✓",
-        "detail": "Check in, drop the bags, and freshen up. KABEAT is across the street for your 7:00 dinner.",
+        "detail": "Reception is on 4F (take the lobby elevator from Namiki-dori). Check in, drop the bags, and freshen up. Dinner is a short walk away.",
         "food": null,
-        "tip": "Confirm breakfast and gym hours. Do not assume hotel breakfast is available before the early teamLab departure."
+        "tip": "Ask for a quiet room on a high floor, away from the construction nearby. Hotel breakfast (NAMIKI667) is ¥8,855 each, so the plan eats out each morning."
       },
       {
-        "time": "~7:00pm · flexible",
+        "time": "~7:30pm",
         "kind": "dinner",
         "icon": "🍽️",
-        "title": "KABEAT, Kabutocho",
-        "status": "Booked ✓",
-        "detail": "Booked for Friday October 23 at 7:00pm, seat-only. A relaxed 60–90-minute first-night dinner near the hotel; the 120-minute seating limit is a maximum. Choose individual non-soup dishes on arrival.",
-        "mapQuery": "KABEAT Kabutocho Tokyo",
-        "food": "Choose individual non-soup dishes on arrival. Allow ¥6,000–12,000 for two; menu, drinks and actual total remain to choose.",
-        "tip": "Arrival-night timing depends on the flight. Call KABEAT if you are delayed: the booking can be released if they cannot reach you within 15 minutes of the time.",
-        "mealId": 0
+        "title": "First-night dinner near the hotel",
+        "status": "Book now",
+        "detail": "Pick one in the restaurant guide (Fri · Arrival dinner) and book it online for about 7:30: Shiseido Parlour (classic Ginza yoshoku, 5-minute walk), Kushi no Bo (kushiage, 2 minutes), NAMIKI667 (in the hotel), Tori Baka Ichidai (yakitori) or Restaurant Azuma (homey diner). KABEAT is still booked for 7:00 but is now a 20–25 minute subway ride away; cancel it on TableCheck (no fee) once the new booking is confirmed.",
+        "mapQuery": "Ginza 6-chome Namiki-dori Tokyo",
+        "food": "Allow ¥8,000–15,000 for two.",
+        "mealId": 0,
+        "bookUrl": "?view=restaurants&day=Fri",
+        "bookLabel": "Choose in the restaurant guide"
       }
     ]
   },
@@ -132,37 +131,38 @@ export const DAYS = [
     "emoji": "🏮",
     "title": "Northeast Tokyo: Asakusa → Skytree → go-karts + shopping",
     "location": "Tokyo, Japan",
-    "hotel": "Caption by Hyatt Kabutocho — Night 2",
+    "hotel": "Hyatt Centric Ginza — Night 2",
     "activities": [
       {
-        "time": "7:00–7:40am",
+        "time": "7:00–7:35am",
         "kind": "breakfast",
         "icon": "🍳",
-        "title": "Talk Shop, in the hotel",
-        "detail": "Paid breakfast downstairs at your hotel, selected for Saturday only. Eggs your way, bacon, sausage, hash browns, avocado and toast, with coffee and juice. Published price ¥2,860 each, ¥5,720 for two. Breakfast is not included in your stay. Other mornings will have their own Western-style breakfast plans; no skipped breakfasts.",
-        "mapQuery": "Talk Shop Caption by Hyatt Kabutocho Tokyo",
-        "food": "A full American breakfast for each person, not just coffee or a pastry.",
-        "tip": null,
-        "mealId": 16
+        "title": "Ginza Choshoku Lab, breakfast buffet",
+        "detail": "A full breakfast buffet, Western and Japanese dishes with eggs, bread and coffee, on 2F of Hotel Musse Ginza Meitetsu (Ginza 7-12-9), about 6 minutes from the hotel. ¥2,970 each. Book the 7:00 seating on Tabelog; seatings are 50 minutes.",
+        "mapQuery": "Ginza Choshoku Lab Hotel Musse Ginza Meitetsu",
+        "food": "A full breakfast each, not just coffee or a pastry.",
+        "tip": "Walk-in backup if it is full: St. Marc Café, Ginza Miyuki-dori (opens 7:00), morning sets ¥390–920.",
+        "mealId": 16,
+        "status": "Book ahead",
+        "bookUrl": "https://tabelog.com/en/tokyo/A1301/A130101/13259557/",
+        "bookLabel": "Book 7:00 on Tabelog"
       },
       {
-        "time": "7:45am",
+        "time": "7:40am",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Hotel → Asakusa (subway, no changes)",
-        "duration": "about 20 min",
-        "detail": "One subway, no changes: the Toei Asakusa Line from Nihombashi, 5 stops to Asakusa.",
+        "title": "Ginza → Asakusa (subway, no changes)",
+        "duration": "about 25 min",
+        "detail": "One subway, no changes: the Ginza Line from Ginza Station, 10 stops to Asakusa, the end of the line.",
         "mapQuery": "Kaminarimon Asakusa",
         "food": null,
         "tip": "Rule for every subway: before you tap in, check the sign over the gate or stairs shows the station you are heading toward. If you went through the wrong gate, ask the staff window to cancel your entry.",
         "steps": [
-          "Leave the hotel and turn left along the big street (Eitai-dori). Walk about 2 minutes to the first big crossing (Edobashi 1-chome).",
-          "Turn left onto Showa-dori. Subway entrance D1 is about 40 m along on your left. Go down.",
-          "There are two different ticket gates down there. Use the one whose sign says \"2 · Oshiage 押上\". The other gate (\"Nishi-magome / Haneda Airport\") goes the wrong way.",
-          "Tap your phone on the gate and go to Platform 2. Get on any train.",
-          "Ride 5 stops (about 8 minutes) and get off at Asakusa.",
-          "Follow the signs for \"Kaminarimon\" and take Exit A4 (stairs).",
-          "Walk about 80 m to the main street and turn left. The big red Kaminarimon gate with the giant lantern is about 70 m ahead."
+          "From breakfast, walk about 6 minutes to Ginza Station and go down any entrance with the orange \"G\" (Ginza Line) sign. (From the hotel: Exit B6, about 3 minutes.)",
+          "Tap in and go to Platform 2, \"for Asakusa\" (浅草). Every train on it goes to Asakusa.",
+          "Ride 10 stops (about 17 minutes) to Asakusa, the last stop.",
+          "Follow the signs for \"Kaminarimon\" and go up Exit 1.",
+          "The big red Kaminarimon gate with the giant lantern is about a minute away (open the map)."
         ]
       },
       {
@@ -313,15 +313,16 @@ export const DAYS = [
         "time": "~7:00pm",
         "kind": "travel",
         "icon": "🚶",
-        "title": "Takashimaya → hotel (walk)",
-        "duration": "about 8 min walk",
-        "detail": "A short walk back to the hotel.",
+        "title": "Takashimaya → hotel (subway, no changes)",
+        "duration": "about 15 min",
+        "detail": "Ginza Line from Nihombashi, 2 stops to Ginza, then a 3-minute walk.",
         "steps": [
-          "Leave Takashimaya by the main entrance on Chuo-dori and walk about a minute to the big crossing with Eitai-dori (the Nihombashi crossing).",
-          "Turn right onto Eitai-dori and keep straight, crossing Showa-dori and the bridge over the expressway.",
-          "The hotel is on your right, about 8 minutes from Takashimaya."
+          "Take the elevator down to Takashimaya’s basement and follow the signs into Nihombashi Station and the orange \"G\" Ginza Line.",
+          "Tap in and go to the platform \"for Shibuya\" (渋谷).",
+          "Ride 2 stops (about 3 minutes) and get off at Ginza.",
+          "Follow the signs for Exit B6. Come up at Exit B6 (or B5) on Harumi-dori. Walk along Namiki-dori away from Harumi-dori, cross Miyuki-dori, and the hotel is just ahead on the right, about 3 minutes. Lobby elevators at street level go up to reception on 4F."
         ],
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null
       }
@@ -335,35 +336,37 @@ export const DAYS = [
     "emoji": "🎨",
     "title": "teamLab → Akihabara owls → Manten omakase",
     "location": "Tokyo, Japan",
-    "hotel": "Caption by Hyatt Kabutocho — Night 3",
+    "hotel": "Hyatt Centric Ginza — Night 3",
     "activities": [
       {
-        "time": "6:45am",
+        "time": "6:40am",
         "kind": "breakfast",
         "icon": "🥪",
-        "title": "FamilyMart KABUTO ONE, grab and go",
+        "title": "FamilyMart Ginza Miyuki-dori, grab and go",
         "status": "No booking",
-        "detail": "FamilyMart in KABUTO ONE, across Eitai-dori from the hotel, opens at 6:00: sandwich or onigiri, yogurt and a drink. Eat at the hotel before your 7:25 taxi.",
-        "mapQuery": "FamilyMart KABUTO ONE Nihonbashi Kabutocho Tokyo",
+        "detail": "The 24-hour FamilyMart at Ginza 5-9-13, about 4 minutes from the hotel: sandwich or onigiri, yogurt and a drink. Eat at the hotel before the 7:05 subway.",
+        "mapQuery": "FamilyMart Ginza Miyuki-dori 5-9-13 Ginza",
         "food": "Sandwich or onigiri, yogurt or fruit, and a drink.",
         "tip": null,
         "mealId": 17
       },
       {
-        "time": "7:25am",
+        "time": "7:05am",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Hotel → teamLab Planets (taxi)",
-        "duration": "about 15 min",
-        "detail": "Take a taxi: about 15 minutes and roughly ¥2,500–3,000. Much simpler than two subways at 7am. You arrive around 7:40 for your 8:00 entry.",
+        "title": "Hotel → teamLab Planets (subway, no changes)",
+        "duration": "about 35 min",
+        "detail": "Walk to Ginza-itchome, then the Yurakucho Line 3 stops to Toyosu and a 10-minute walk. You arrive around 7:40 for your 8:00 entry.",
         "mapQuery": "teamLab Planets Tokyo",
         "food": null,
-        "tip": "If no taxi is around: Hibiya Line from Kayabacho (Platform 1, for Naka-meguro) 2 stops to Tsukiji, Exit 3a, walk 3 minutes to Shintomicho, Yurakucho Line (for Shin-kiba) 2 stops to Toyosu, Exit 7, then an 11-minute walk. About 40 minutes.",
+        "tip": "Running late? A taxi from the hotel is about 15 minutes and ¥2,500–3,000. Show the driver: チームラボプラネッツ TOKYO（江東区豊洲6-1-16）.",
         "steps": [
-          "Ask the hotel front desk to get you a taxi to teamLab Planets TOKYO.",
-          "If you hail one yourself, show the driver: チームラボプラネッツ TOKYO（江東区豊洲6-1-16）.",
-          "Pay at the end by card or Suica. The doors open and close by themselves.",
-          "Get out where the security guard points, and have your 8:00 tickets open on your phone."
+          "Leave the hotel and turn left on Namiki-dori. Walk straight up Namiki-dori to its end in Ginza 1-chome (about 8 minutes), then turn left one block to Sotobori-dori.",
+          "Go down Ginza-itchome Station Exit 3 or 4 (gold \"Y\", Yurakucho Line).",
+          "Tap in and go to Platform 1, \"for Shin-kiba\" (新木場).",
+          "Ride 3 stops (about 6 minutes) and get off at Toyosu.",
+          "Take Exit 7. At street level, follow the elevated Yurikamome tracks; teamLab Planets is on the right after about 10 minutes.",
+          "Have your 8:00 tickets open on your phone."
         ]
       },
       {
@@ -432,17 +435,16 @@ export const DAYS = [
         "kind": "travel",
         "icon": "🚇",
         "title": "Akihabara → hotel (subway, no changes)",
-        "duration": "about 17 min",
-        "detail": "Hibiya Line from Akihabara, 3 stops to Kayabacho. Exit 12 comes up next to the hotel.",
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "duration": "about 25 min",
+        "detail": "Hibiya Line from Akihabara, 7 stops to Ginza, then a 3-minute walk.",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null,
         "steps": [
           "From the owl café, walk east to the big street (Showa-dori) and cross it. Turn right and walk about 3 minutes to Hibiya Line Entrance 2, just past Karaoke Kan. About 8 minutes in all.",
           "Tap in and go to Platform 1, for Naka-meguro (中目黒).",
-          "Ride 3 stops (about 5 minutes) and get off at Kayabacho.",
-          "Follow the signs for the West Gate (西改札). It is a long walk inside the station, about 3 minutes. Then take Exit 12.",
-          "Exit 12 comes up a minute from the hotel: walk about 85 m along Eitai-dori and turn left."
+          "Ride 7 stops (about 13 minutes) and get off at Ginza.",
+          "Follow the signs for Exit B6. Come up at Exit B6 (or B5) on Harumi-dori. Walk along Namiki-dori away from Harumi-dori, cross Miyuki-dori, and the hotel is just ahead on the right, about 3 minutes. Lobby elevators at street level go up to reception on 4F."
         ]
       },
       {
@@ -451,7 +453,7 @@ export const DAYS = [
         "icon": "🏨",
         "title": "Rest and change for dinner",
         "detail": "A proper rest after the 6:15 start, then change into dinner clothes for the omakase.",
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null
       },
@@ -459,16 +461,18 @@ export const DAYS = [
         "time": "4:40pm",
         "kind": "travel",
         "icon": "🚶",
-        "title": "Hotel → Manten Sushi (walk)",
-        "duration": "about 14 min walk",
-        "detail": "A straight 14-minute walk. No train in dinner clothes.",
+        "title": "Hotel → Manten Sushi (subway, no changes)",
+        "duration": "about 15 min",
+        "detail": "Ginza Line 3 stops to Mitsukoshimae; COREDO Muromachi is connected to the station.",
         "mapQuery": "Manten Sushi Nihonbashi COREDO Muromachi 2",
         "food": null,
         "tip": null,
         "steps": [
-          "Leave the hotel and turn left along Eitai-dori. Walk straight about 5 minutes to the big Nihombashi crossing (Chuo-dori).",
-          "Turn right onto Chuo-dori. Cross the old stone Nihonbashi bridge and walk past Mitsukoshi on your left (about 5 minutes).",
-          "COREDO Muromachi 2 is on your right. Manten Sushi is on the 1st floor."
+          "Leave the hotel, turn left on Namiki-dori, cross Miyuki-dori, and go down Ginza Station Exit B6 at the Harumi-dori corner (about 3 minutes). Follow the orange \"G\" (Ginza Line) signs.",
+          "Tap in and go to Platform 2, \"for Asakusa\" (浅草). Ride near the back of the train.",
+          "Ride 3 stops (about 5 minutes) and get off at Mitsukoshimae.",
+          "Follow the signs for Exit A6 (COREDO Muromachi), about 2 minutes.",
+          "Manten Sushi is on the 1st floor of COREDO Muromachi 2, with its door on the building’s outside wall."
         ]
       },
       {
@@ -477,7 +481,7 @@ export const DAYS = [
         "icon": "🍣",
         "title": "Manten Sushi, Nihonbashi (omakase)",
         "status": "Booked ✓",
-        "detail": "Booked for Sunday October 25 at 5:00pm: the 90-minute counter omakase, ¥8,800 a person (¥12,100 with drinks). A 12-minute walk from the hotel after you change. Same-day cancellation or party-size changes are charged in full.",
+        "detail": "Booked for Sunday October 25 at 5:00pm: the 90-minute counter omakase, ¥8,800 a person (¥12,100 with drinks). Three Ginza Line stops from the hotel. Same-day cancellation or party-size changes are charged in full.",
         "mapQuery": "Manten Sushi Nihonbashi COREDO Muromachi",
         "food": "Omakase for two; allow ¥17,600–24,200 plus any extra drinks.",
         "tip": "Skip strong perfume; the counter asks guests to avoid it.",
@@ -487,15 +491,16 @@ export const DAYS = [
         "time": "6:30pm",
         "kind": "travel",
         "icon": "🚶",
-        "title": "Manten Sushi → hotel (walk)",
-        "duration": "about 14 min walk",
-        "detail": "The same walk in reverse.",
+        "title": "Manten Sushi → hotel (subway, no changes)",
+        "duration": "about 15 min",
+        "detail": "Ginza Line from Mitsukoshimae, 3 stops back to Ginza.",
         "steps": [
-          "Leave COREDO Muromachi 2 onto Chuo-dori and turn left (south).",
-          "Walk past Mitsukoshi and over the Nihonbashi bridge to the big Nihombashi crossing (about 5 minutes).",
-          "Turn left onto Eitai-dori and walk straight about 5 minutes. The hotel is on your right."
+          "Go back in at Mitsukoshimae Exit A6 and follow the orange \"G\" Ginza Line signs.",
+          "Tap in and go to the platform \"for Shibuya\" (渋谷).",
+          "Ride 3 stops and get off at Ginza.",
+          "Follow the signs for Exit B6. Come up at Exit B6 (or B5) on Harumi-dori. Walk along Namiki-dori away from Harumi-dori, cross Miyuki-dori, and the hotel is just ahead on the right, about 3 minutes. Lobby elevators at street level go up to reception on 4F."
         ],
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null
       }
@@ -509,33 +514,36 @@ export const DAYS = [
     "emoji": "🎢",
     "title": "Tokyo DisneySea",
     "location": "Maihama, Chiba (30 min from hotel)",
-    "hotel": "Caption by Hyatt Kabutocho — Night 4",
+    "hotel": "Hyatt Centric Ginza — Night 4",
     "activities": [
       {
-        "time": "6:30am",
+        "time": "6:20am",
         "kind": "breakfast",
         "icon": "🥪",
-        "title": "7-Eleven Kabutocho Tosho-mae, grab and go",
+        "title": "FamilyMart Ginza Miyuki-dori, grab and go",
         "status": "No booking",
-        "detail": "The 24-hour 7-Eleven in front of the Stock Exchange (Kabutocho 6-5), three minutes from the hotel. The closer one at 15-13 opens at 7:00, too late. Eat on the way; Disney is the priority today.",
-        "mapQuery": "7-Eleven Nihonbashi Kabutocho 6-5 Tokyo",
+        "detail": "The 24-hour FamilyMart at Ginza 5-9-13, about 4 minutes from the hotel. Eat on the way; Disney is the priority today.",
+        "mapQuery": "FamilyMart Ginza Miyuki-dori 5-9-13 Ginza",
         "food": "Sandwich or onigiri, yogurt or fruit, and a drink.",
         "tip": null,
         "mealId": 18
       },
       {
-        "time": "6:45am",
+        "time": "6:35am",
         "kind": "travel",
         "icon": "🚆",
-        "title": "Hotel → Tokyo DisneySea (JR train + Disney monorail)",
-        "duration": "about 45 min",
-        "detail": "Walk to JR Hatchobori, the JR Keiyo Line 5 stops to Maihama, then the Disney Resort Line monorail 3 stops. You reach the gate around 7:30.",
+        "title": "Hotel → Tokyo DisneySea (subway + JR + monorail)",
+        "duration": "about 50–55 min",
+        "detail": "Hibiya Line 3 stops to Hatchobori, change to the JR Keiyo Line 5 stops to Maihama, then the Disney Resort Line monorail 3 stops. You reach the gate around 7:30.",
         "mapQuery": "Tokyo DisneySea",
         "food": null,
         "tip": "Walking from Maihama to DisneySea instead is about 18 flat minutes, but the monorail is easier on a long day.",
         "steps": [
-          "Walk about 10 minutes south to JR Hatchobori Station (open the map). Go down any entrance marked \"JR\".",
-          "Tap your phone at the JR gate (B1 floor), then go down to Platform 1: \"Keiyo Line, for Maihama & Soga\". Every early-morning train stops at Maihama.",
+          "Leave the hotel, turn left on Namiki-dori, cross Miyuki-dori, and go down Ginza Station Exit B6 at the Harumi-dori corner (about 3 minutes). Follow the gray \"H\" (Hibiya Line) signs.",
+          "Tap in and go to Platform 6, \"for Kita-senju\" (北千住). Ride in the last car.",
+          "Ride 3 stops (about 6 minutes) and get off at Hatchobori.",
+          "Go up the stairs to the Sakuragawa Park gate (桜川公園方面) and tap out. Follow the \"JR Keiyo Line\" signs through the passage to the JR gate (B1) and tap in. About 5–8 minutes.",
+          "Take the escalators down to Platform 1: \"Keiyo Line, for Maihama & Soga\". Every early-morning train stops at Maihama.",
           "Ride 5 stops (about 14 minutes) and get off at Maihama.",
           "Go down one floor, out through the South Exit gate, and turn left. Follow the \"Tokyo DisneySea\" signs to Resort Gateway Station (about 2 minutes).",
           "Tap your phone to ride the Disney Resort Line monorail (¥300 each). It only goes one way round.",
@@ -611,18 +619,19 @@ export const DAYS = [
         "time": "~7:30pm",
         "kind": "travel",
         "icon": "🚆",
-        "title": "Tokyo DisneySea → hotel (monorail + JR train)",
-        "duration": "about 45–50 min",
-        "detail": "Monorail 1 stop to Resort Gateway, JR Keiyo Line 5 stops to Hatchobori, then a 10-minute walk.",
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "title": "Tokyo DisneySea → hotel (monorail + JR + subway)",
+        "duration": "about 50–55 min",
+        "detail": "Monorail 1 stop to Resort Gateway, JR Keiyo Line 5 stops to Hatchobori, then the Hibiya Line 3 stops to Ginza.",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
-        "tip": "If you miss Hatchobori you end up at Tokyo, the last stop. Just ride one stop back, or take a taxi from there (about 10 minutes).",
+        "tip": "If you miss Hatchobori you end up at Tokyo, the last stop. Ride one stop back to Hatchobori.",
         "steps": [
           "At Tokyo DisneySea Station, tap your phone and ride the monorail 1 stop to Resort Gateway (about 4 minutes).",
           "Walk about 2 minutes to JR Maihama Station and tap in.",
           "Go to Platform 2: \"Keiyo Line, for Shin-Kiba & Tokyo\". Every train goes the right way.",
           "Ride 5 stops (about 14 minutes) and get off at Hatchobori, the stop before Tokyo.",
-          "Go up to the B1 gate, then walk about 10 minutes north to the hotel (open the map)."
+          "Tap out at the JR gate and follow the gray \"H\" (Hibiya Line) signs to the Metro gate, about 5–8 minutes. Tap in and go to the platform \"for Naka-meguro\" (中目黒).",
+          "Ride 3 stops and get off at Ginza. Follow the signs for Exit B6. Come up at Exit B6 (or B5) on Harumi-dori. Walk along Namiki-dori away from Harumi-dori, cross Miyuki-dori, and the hotel is just ahead on the right, about 3 minutes. Lobby elevators at street level go up to reception on 4F."
         ]
       }
     ]
@@ -635,24 +644,23 @@ export const DAYS = [
     "emoji": "🛍️",
     "title": "Tsukiji breakfast → Harajuku → Omotesando → Shibuya",
     "location": "Tokyo, Japan",
-    "hotel": "Caption by Hyatt Kabutocho — Night 5",
+    "hotel": "Hyatt Centric Ginza — Night 5",
     "activities": [
       {
-        "time": "7:10am",
+        "time": "7:15am",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Hotel → Tsukiji Outer Market (subway, no changes)",
-        "duration": "about 15–20 min",
-        "detail": "Skip breakfast near the hotel; the market is breakfast. Hibiya Line from Kayabacho, 2 stops to Tsukiji.",
+        "title": "Hotel → Tsukiji Outer Market (walk)",
+        "duration": "about 15 min walk",
+        "detail": "Skip breakfast near the hotel; the market is breakfast. A flat 15-minute walk along Harumi-dori, past the Kabukiza theater.",
         "mapQuery": "Tsukiji Outer Market Tokyo",
         "food": null,
         "tip": null,
         "steps": [
-          "Walk 1 minute to Kayabacho Station, Exit 12. Follow the gray \"H\" (Hibiya Line) signs.",
-          "Tap in and go to Platform 1, \"for Naka-meguro\" (中目黒).",
-          "Ride 2 stops (about 4 minutes) and get off at Tsukiji.",
-          "Take Exit 1 or Exit 2, both signed for \"Tsukiji Outer Market\".",
-          "Walk south with the big Tsukiji Hongwanji temple on your left, to the Harumi-dori crossing. The market streets start on the far corner (about 5 minutes)."
+          "Tap \"Open destination in Google Maps\" below, then Directions → Walking.",
+          "Walk to Harumi-dori (2 minutes from the hotel), then follow it east through the Ginza 4-chome crossing, past the Wako clock tower and Mitsukoshi.",
+          "Keep straight on Harumi-dori past the Kabukiza theater and over the bridge, about 10 minutes.",
+          "At the big Tsukiji 4-chome crossing the market streets start on the corner. Follow the map into the lanes."
         ]
       },
       {
@@ -789,16 +797,15 @@ export const DAYS = [
         "kind": "travel",
         "icon": "🚇",
         "title": "Shibuya → hotel (subway, no changes)",
-        "duration": "about 35 min",
-        "detail": "The Ginza Line from Shibuya runs straight to Nihombashi. Shibuya is the first stop, so every train goes the right way.",
+        "duration": "about 25 min",
+        "detail": "The Ginza Line from Shibuya runs straight to Ginza. Shibuya is the first stop, so every train goes the right way.",
         "steps": [
           "Walk 8–10 minutes to the Ginza Line at Shibuya Station. It is up high (3F) on the east, Meiji-dori side; follow the orange \"G\" signs.",
           "Tap in and get on any train (\"for Asakusa\").",
-          "Ride 10 stops (about 20 minutes) and get off at Nihombashi.",
-          "Follow the signs east toward the Toei Asakusa Line and Exit D1.",
-          "Come up at D1; the hotel is 2 minutes away along Eitai-dori (big road on your left)."
+          "Ride 8 stops (about 16 minutes) and get off at Ginza.",
+          "Follow the signs for Exit B6. Come up at Exit B6 (or B5) on Harumi-dori. Walk along Namiki-dori away from Harumi-dori, cross Miyuki-dori, and the hotel is just ahead on the right, about 3 minutes. Lobby elevators at street level go up to reception on 4F."
         ],
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null
       }
@@ -812,7 +819,7 @@ export const DAYS = [
     "emoji": "♨️",
     "title": "Hakone Yuryo: Couples Massage & Private Onsen",
     "location": "Hakone, Kanagawa",
-    "hotel": "Caption by Hyatt Kabutocho — Night 6",
+    "hotel": "Hyatt Centric Ginza — Night 6",
     "activities": [
       {
         "time": "6:15am",
@@ -820,8 +827,8 @@ export const DAYS = [
         "icon": "🥪",
         "title": "FamilyMart, grab and go",
         "status": "No booking",
-        "detail": "FamilyMart in KABUTO ONE (across Eitai-dori from the hotel) opens at 6:00: sandwich or onigiri, yogurt and a drink. Eat it on the Romancecar; eating on board is normal.",
-        "mapQuery": "FamilyMart KABUTO ONE Nihonbashi Kabutocho Tokyo",
+        "detail": "The 24-hour FamilyMart at Ginza 5-9-13, 4 minutes from the hotel: sandwich or onigiri, yogurt and a drink. Eat it on the Romancecar; eating on board is normal.",
+        "mapQuery": "FamilyMart Ginza Miyuki-dori 5-9-13 Ginza",
         "food": "Sandwich or onigiri, yogurt or fruit, and a drink.",
         "tip": null,
         "mealId": 20
@@ -830,18 +837,16 @@ export const DAYS = [
         "time": "6:40am",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Hotel → Shinjuku Romancecar (Ginza + Marunouchi, same-platform change)",
-        "detail": "Ginza Line 6 stops, step across the platform to the Marunouchi Line, 5 stops to Shinjuku, then the Odakyu gate. You are on the Romancecar platform around 7:17 for the 7:37 departure.",
+        "title": "Hotel → Shinjuku Romancecar (Marunouchi Line, no changes)",
+        "detail": "Marunouchi Line from Ginza straight to Shinjuku, 8 stops, then the Odakyu gate. You are on the Romancecar platform around 7:15 for the 7:37 departure.",
         "mapQuery": "Odakyu Shinjuku Station West Exit",
         "food": null,
-        "tip": "Backup: the 6:54 Ginza Line train still gets you to the platform around 7:27. The Shinjuku West Exit area is under construction, so follow the \"Odakyu / Romancecar\" signs if the layout looks different.",
-        "duration": "about 35 min",
+        "tip": "Marunouchi trains run every few minutes, so leaving the hotel by 6:55 still works. The Shinjuku West Exit area is under construction; follow the \"Odakyu / Romancecar\" signs if the layout looks different.",
+        "duration": "about 30–35 min",
         "steps": [
-          "Walk 2 minutes to Nihombashi Station Exit D1 and go down. Follow the orange \"G\" (Ginza Line) signs west through the underground passage (about 4 minutes).",
-          "Tap in and go to Platform 1, \"for Shibuya\" (渋谷).",
-          "Ride 6 stops (about 10 minutes) and get off at Akasaka-mitsuke.",
-          "Step straight across the same platform to the red \"M\" Marunouchi Line, \"for Shinjuku / Ogikubo\". Trains showing \"Honancho\" also stop at Shinjuku.",
-          "Ride 5 stops (about 9 minutes) and get off at Shinjuku.",
+          "Leave the hotel, turn left on Namiki-dori, cross Miyuki-dori, and go down Ginza Station Exit B6 at the Harumi-dori corner (about 3 minutes). Follow the red \"M\" (Marunouchi Line) signs, a few minutes through the station.",
+          "Tap in and go to Platform 3, \"for Shinjuku / Ogikubo\" (荻窪). Trains showing \"Honancho\" (方南町) also stop at Shinjuku.",
+          "Ride 8 stops (about 16 minutes) and get off at Shinjuku.",
           "Follow the \"Odakyu Line\" signs to the Odakyu West Exit Underground Gate. Tap your phone there; that pays the base fare.",
           "Go up to the ground-floor platforms. Your Romancecar, Hakone 41, leaves from Platform 2. Find car 6, seats 12C and 12D."
         ]
@@ -957,17 +962,16 @@ export const DAYS = [
         "time": "~7:30pm",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Shinjuku → hotel (Marunouchi + Ginza, same-platform change)",
-        "duration": "about 30 min",
-        "detail": "The morning route in reverse: Marunouchi Line 4 stops, step across the platform at Akasaka-mitsuke, Ginza Line 6 stops to Nihombashi.",
+        "title": "Shinjuku → hotel (Marunouchi Line, no changes)",
+        "duration": "about 25 min",
+        "detail": "Marunouchi Line from Shinjuku-sanchome straight to Ginza, 7 stops.",
         "steps": [
           "From Ushigoro, walk about 5 minutes east on Shinjuku-dori (toward Isetan) to Shinjuku-sanchome Station and go down a red \"M\" Marunouchi Line entrance.",
           "Tap in and go to Platform 2, \"for Ikebukuro\" (池袋).",
-          "Ride 4 stops and get off at Akasaka-mitsuke.",
-          "Step straight across the same platform to the orange \"G\" Ginza Line, Platform 3, \"for Asakusa\".",
-          "Ride 6 stops and get off at Nihombashi. Take Exit D1; the hotel is 2 minutes away."
+          "Ride 7 stops (about 14 minutes) and get off at Ginza.",
+          "Follow the signs for Exit B6. Come up at Exit B6 (or B5) on Harumi-dori. Walk along Namiki-dori away from Harumi-dori, cross Miyuki-dori, and the hotel is just ahead on the right, about 3 minutes. Lobby elevators at street level go up to reception on 4F."
         ],
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null
       }
@@ -988,21 +992,21 @@ export const DAYS = [
         "kind": "hotel",
         "icon": "🧳",
         "title": "Pack + store bags at the hotel",
-        "detail": "Pack first and confirm checkout and luggage collection. Carry only the day bag to Ginza.",
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "detail": "Pack, check out at reception (check-out is noon) and leave your bags with the front desk. Carry only the day bag.",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null
       },
       {
-        "time": "8:10am",
+        "time": "8:05am",
         "kind": "travel",
         "icon": "🚶",
         "title": "Hotel → Hoshino Coffee, Yaesu (walk)",
-        "duration": "about 15–20 min walk",
-        "detail": "An easy walk west to the Tokyo Station side. The café is in the Yaesu Underground Mall below the station.",
+        "duration": "about 20 min walk",
+        "detail": "An easy walk up Chuo-dori to Tokyo Station’s Yaesu side. The café is in the Yaesu Underground Mall below the station.",
         "steps": [
           "Tap \"Open destination in Google Maps\" below, then Directions → Walking.",
-          "Walk west along Eitai-dori past the Nihombashi crossing toward Tokyo Station’s Yaesu (east) side.",
+          "Walk to Chuo-dori and head north through the Ginza 4-chome crossing (Wako clock tower and Mitsukoshi), then on through Kyobashi toward Tokyo Station’s Yaesu (east) side.",
           "Go down into the Yaesu Underground Mall (八重洲地下街) and follow the map to Hoshino Coffee."
         ],
         "mapQuery": "Hoshino Coffee Yaesu Chikagai Tokyo",
@@ -1015,7 +1019,7 @@ export const DAYS = [
         "icon": "🍳",
         "title": "Hoshino Coffee, Yaesu underground (soufflé pancakes)",
         "status": "Walk-in",
-        "detail": "Oven-baked soufflé pancakes and coffee in the Yaesu underground mall at Tokyo Station, a 15-minute walk from the hotel; opens 8:00, no reservations. Then two stops on the Ginza Line to the shops.",
+        "detail": "Oven-baked soufflé pancakes and coffee in the Yaesu underground mall at Tokyo Station, a 20-minute walk from the hotel; opens 8:00, no reservations. Then walk back down Chuo-dori to the Ginza shops.",
         "mapQuery": "Hoshino Coffee Yaesu Underground Mall Tokyo",
         "food": "One soufflé pancake stack each with coffee.",
         "tip": null,
@@ -1065,43 +1069,39 @@ export const DAYS = [
         "time": "11:50am",
         "kind": "travel",
         "icon": "🚇",
-        "title": "Ginza → hotel, collect bags (subway, no changes)",
-        "duration": "about 20 min",
-        "detail": "Ginza Line 2 stops to Nihombashi, then a 5-minute walk. Pick up your bags at the front desk.",
-        "mapQuery": "Caption by Hyatt Kabutocho Tokyo",
+        "title": "Ginza → hotel, collect bags (walk)",
+        "duration": "about 6 min walk",
+        "detail": "A 6-minute walk from Mitsukoshi. Pick up your bags at the front desk.",
+        "mapQuery": "Hyatt Centric Ginza Tokyo",
         "food": null,
         "tip": null,
         "steps": [
-          "From Mitsukoshi’s basement, follow the signs into Ginza Station and the orange Ginza Line (\"G\").",
-          "Tap in and go to Platform 2, for Asakusa (浅草).",
-          "Ride 2 stops (about 3 minutes) and get off at Nihombashi.",
-          "Follow the signs for Exit D1.",
-          "Come up, go to the corner of the big street (Eitai-dori) and walk along it with the road on your left, over the bridge above the expressway. The hotel is on your right, about 4 minutes."
+          "From Mitsukoshi at the Ginza 4-chome crossing, walk along Harumi-dori toward Sukiyabashi, two blocks to Namiki-dori, about 3 minutes (open the map).",
+          "Turn left onto Namiki-dori, cross Miyuki-dori, and the hotel is just ahead on the right. Take the lobby elevator up and collect your bags."
         ]
       },
       {
-        "time": "~12:40pm",
+        "time": "~12:20pm",
         "kind": "travel",
         "icon": "🚆",
-        "title": "Hotel → Haneda: short taxi + airport bus",
-        "duration": "about 1 hour",
-        "detail": "A 5-minute taxi to T-CAT, then the 1:00pm Airport Limousine Bus to Terminal 3, arriving 1:35. Book and pay for this bus ahead on the official site: you get a QR ticket and skip the counter. ¥1,000 each.",
-        "mapQuery": "Tokyo City Air Terminal T-CAT Hakozaki",
+        "title": "Hotel → Haneda: one train, no changes",
+        "duration": "about 50 min",
+        "detail": "Walk about 9 minutes to Higashi-ginza (Kabukiza side), then a direct train to Haneda Airport Terminal 3, about 31 minutes. ¥547 each on Suica. Direct airport trains leave at 12:42, 12:52, 1:02 and 1:22pm; you reach Terminal 3 around 1:15.",
+        "mapQuery": "Higashi-ginza Station Exit 3 Kabukiza",
         "food": null,
-        "tip": "Buses leave T-CAT every 30 minutes (12:30, 1:00, 1:30pm). If you miss yours, the next one still gets you there in plenty of time. A taxi straight from the hotel to Terminal 3 is about ¥9,000–10,000.",
+        "tip": "Only board trains showing 羽田空港 (Haneda Airport). Trains to 三崎口 Misakiguchi or 西馬込 Nishi-magome go elsewhere: let them pass, the next airport train is 10–20 minutes away. The airport trains end at Terminals 1·2, so get off at the FIRST airport stop.",
         "steps": [
-          "Ask the front desk for a taxi to T-CAT (東京シティエアターミナル, 箱崎). About 5 minutes, ¥1,000–1,300.",
-          "At T-CAT, go to the 1F boarding area for buses to Haneda. Have your QR ticket ready. If you didn’t book ahead, buy 2 tickets to \"Haneda Airport Terminal 3\" at the 1F counter or machine first.",
-          "Staff load your suitcases underneath and give you claim tags.",
-          "The bus stops at Terminal 2 and Terminal 1 first. Stay on: Terminal 3 is the LAST stop (about 35 minutes).",
-          "Collect your bags, go up to 3F Departures, and check in with Delta."
+          "With your bags, walk to Harumi-dori and follow it east past the Ginza 4-chome crossing to the Showa-dori crossing (Mihara-bashi), about 7 minutes. Cross Showa-dori to the Kabukiza theater side (open the map).",
+          "Take the street elevator at Higashi-ginza Exit 3 (Kabukiza) down to the station.",
+          "Use the Toei Asakusa Line Kabukiza-side gate (歌舞伎座方面改札) and tap in. It leads to Platform 1, toward Nishi-magome and Haneda Airport.",
+          "Board a train showing 羽田空港 Haneda Airport.",
+          "Ride about 31 minutes and get off at Haneda Airport Terminal 3 (羽田空港第3ターミナル), the first airport stop.",
+          "Follow the signs up to 3F Departures and check in with Delta."
         ],
-        "status": "Book ahead",
-        "bookUrl": "https://webservice.limousinebus.co.jp/web/en/ReservationTop.aspx?AirportLine=2&Direction=2&DepartureBusstop=003&ArrivalBusstop=250&DepartureDate=20261029&DepartureTime=1300&siteorigin=wwwlim",
-        "bookLabel": "Reserve the 1:00pm bus (official)"
+        "status": "No booking"
       },
       {
-        "time": "~2:00–4:30pm",
+        "time": "~1:15–4:30pm",
         "kind": "activity",
         "icon": "🛍️",
         "title": "Haneda Terminal 3: check in + duty-free",
@@ -1154,51 +1154,51 @@ export const DAY_TRANSIT = {
   },
   "1": {
     "leaveBy": "After customs, about 5:15–5:45pm",
-    "from": "Haneda T3, 1F bus stop 2",
-    "to": "T-CAT → 5-min taxi → hotel",
-    "route": "Airport Limousine Bus, ¥1,000 each",
-    "mapQuery": "Tokyo City Air Terminal T-CAT Hakozaki"
+    "from": "Haneda T3, Keikyu Line Platform 2",
+    "to": "Higashi-ginza → 8-min walk → hotel",
+    "route": "One train, no changes, ¥547 each",
+    "mapQuery": "Higashi-ginza Station Exit A1"
   },
   "2": {
-    "leaveBy": "Leave hotel around 7:45am",
-    "from": "Nihombashi, entrance D1",
-    "to": "Asakusa",
-    "route": "Toei Asakusa Line, gate 2 \"Oshiage\", 5 stops",
-    "mapQuery": "Nihombashi Station Exit D1"
+    "leaveBy": "Breakfast 7:00; train about 7:40am",
+    "from": "Ginza Station, Platform 2",
+    "to": "Asakusa (last stop)",
+    "route": "Ginza Line \"for Asakusa\", 10 stops",
+    "mapQuery": "Ginza Station Exit B6"
   },
   "3": {
-    "leaveBy": "Taxi at 7:25am; arrive about 7:40",
-    "from": "Hotel front desk",
-    "to": "teamLab Planets",
-    "route": "Taxi, about 15 min, ¥2,500–3,000; 8am entry BOOKED",
-    "mapQuery": "teamLab Planets Tokyo"
+    "leaveBy": "Leave 7:05am; arrive about 7:40",
+    "from": "Ginza-itchome, Platform 1",
+    "to": "Toyosu Exit 7 → teamLab Planets",
+    "route": "Yurakucho Line \"for Shin-kiba\", 3 stops; 8am entry BOOKED",
+    "mapQuery": "Ginza-itchome Station Exit 4"
   },
   "4": {
-    "leaveBy": "Leave hotel 6:45am; at the gate around 7:30",
-    "from": "JR Hatchobori (10-min walk)",
-    "to": "Maihama → DisneySea",
-    "route": "JR Keiyo Line Platform 1, 5 stops + monorail 3 stops",
-    "mapQuery": "JR Hatchobori Station"
+    "leaveBy": "Leave hotel 6:35am; at the gate around 7:30",
+    "from": "Ginza Platform 6 → Hatchobori",
+    "to": "JR Keiyo Line → Maihama → DisneySea",
+    "route": "Hibiya 3 stops + Keiyo 5 stops + monorail 3 stops",
+    "mapQuery": "Ginza Station Exit B6"
   },
   "5": {
-    "leaveBy": "Leave 7:10am; leave Tsukiji 9:00am",
-    "from": "Kayabacho Exit 12 → Tsukiji",
+    "leaveBy": "Leave 7:15am on foot; leave Tsukiji 9:00am",
+    "from": "Hotel → Tsukiji (15-min walk)",
     "to": "Hibiya → Meiji-jingumae (Harajuku)",
     "route": "Hibiya Line; change to Chiyoda Line at Hibiya",
-    "mapQuery": "Kayabacho Station Exit 12"
+    "mapQuery": "Tsukiji Outer Market Tokyo"
   },
   "6": {
     "leaveBy": "Leave 6:40am for the 7:37 Romancecar (Platform 2)",
-    "from": "Nihombashi D1 → Ginza Line",
-    "to": "Akasaka-mitsuke → Shinjuku",
-    "route": "Same-platform change to Marunouchi Line",
+    "from": "Ginza Platform 3 (Marunouchi Line)",
+    "to": "Shinjuku, no changes",
+    "route": "Marunouchi \"for Ogikubo\", 8 stops",
     "mapQuery": "Odakyu Shinjuku Station West Exit"
   },
   "7": {
-    "leaveBy": "Taxi to T-CAT about 12:40pm with bags",
-    "from": "Hotel → T-CAT",
-    "to": "Haneda T3 at 1:35pm",
-    "route": "1:00pm Limousine Bus; T3 is the LAST stop",
-    "mapQuery": "Tokyo City Air Terminal T-CAT Hakozaki"
+    "leaveBy": "Leave the hotel about 12:20pm with bags",
+    "from": "Higashi-ginza Exit 3 (Kabukiza), Platform 1",
+    "to": "Haneda T3 around 1:15pm",
+    "route": "Direct train to 羽田空港, ¥547 each",
+    "mapQuery": "Higashi-ginza Station Exit 3 Kabukiza"
   }
 };

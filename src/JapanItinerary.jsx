@@ -31,10 +31,10 @@ const BUDGET_CATEGORIES=[
         "detail": "Full meal service on Delta international economy flights. Served on both the outbound (DTW→HND) and return (HND→MSP) long-haul legs."
       },
       {
-        "name": "Caption by Hyatt Kabutocho — 6 nights (5th Night Free)",
+        "name": "Hyatt Centric Ginza — 6 nights — BOOKED",
         "free": true,
-        "freeLabel": "125k pts",
-        "detail": "Transfer 125,000 Chase UR → World of Hyatt. 6 nights at 25,000 pts/night: pay for nights 1-4 (100k), night 5 is FREE (5th Night Free benefit), pay for night 6 (25k) = 125,000 total. Confirm the 5th night shows as free in the booking checkout before completing the transfer."
+        "freeLabel": "Points",
+        "detail": "Booked with World of Hyatt points, Oct 23–29 (check-out noon Thursday). Service charge, tax and the ¥200/night accommodation tax are covered on award nights; incidentals are not."
       },
       {
         "name": "Hotel gym access — all week",
@@ -160,16 +160,16 @@ const BUDGET_CATEGORIES=[
           55,
           85
         ],
-        "detail": "This is the one shared local-transit allowance: load about ¥6,000 each in Apple Wallet, then top up only if needed. It covers the DisneySea train and Resort Line and nearly all Tokyo subway/JR rides. The airport bus and the taxi to T-CAT are listed separately. Do not add the individual Tokyo train fares elsewhere—those rides are paid from this balance, not on top of it."
+        "detail": "This is the one shared local-transit allowance: load about ¥6,000 each in Apple Wallet, then top up only if needed. It covers the DisneySea train and Resort Line and nearly all Tokyo subway/JR rides. The two airport train rides are listed separately. Do not add the individual Tokyo train fares elsewhere—those rides are paid from this balance, not on top of it."
       },
       {
-        "name": "Airport bus + short taxi, both ways (× 2)",
-        "cost": 43,
+        "name": "Airport train, both ways (× 2)",
+        "cost": 15,
         "range": [
-          40,
-          47
+          15,
+          15
         ],
-        "detail": "Airport Limousine Bus Haneda ⇄ T-CAT, ¥1,000 each way per person (¥4,000), plus a 5-minute taxi between T-CAT and the hotel each way (about ¥1,200 × 2). About ¥6,400, $43 at ¥150/$1."
+        "detail": "Keikyu/Toei Asakusa Line, no changes: Haneda T3 ⇄ Higashi-ginza, ¥547 each way per person by Suica. ¥2,188 for both of you both ways, about $15 at ¥150/$1."
       },
       {
         "name": "Hakone Romancecar round trip (× 2) — BOOKED",
@@ -313,22 +313,22 @@ const BUDGET_CATEGORIES=[
     "totalLabel": null,
     "items": [
       {
-        "name": "Fri: KABEAT dinner (×2)",
-        "cost": 60,
+        "name": "Fri: first-night dinner near the hotel (×2)",
+        "cost": 80,
         "range": [
-          40,
-          80
+          50,
+          100
         ],
-        "detail": "Allowance of ¥3,000–6,000 each for à la carte plates and a drink; KABEAT publishes no set dinner price. Reserve a seat-only booking."
+        "detail": "Allowance for one of the Ginza picks in the restaurant guide: Shiseido Parlour or Kushi no Bo about ¥12,000–13,500 for two, NAMIKI667’s web course about ¥15,000 with drinks, Restaurant Azuma about ¥8,000–9,500."
       },
       {
-        "name": "Sat: Talk Shop American breakfast (×2)",
-        "cost": 38.13,
+        "name": "Sat: Ginza Choshoku Lab breakfast buffet (×2)",
+        "cost": 39.6,
         "range": [
-          38.13,
-          38.13
+          39.6,
+          39.6
         ],
-        "detail": "Published ¥2,860 each, ¥5,720 for two, including coffee and juice. Paid separately from the room."
+        "detail": "¥2,970 each (¥5,940 for two), about $40 at ¥150/$1. Book the 7:00 seating on Tabelog."
       },
       {
         "name": "Sat: Nakamise street snacks (×2)",
@@ -373,7 +373,7 @@ const BUDGET_CATEGORIES=[
           12,
           20
         ],
-        "detail": "Sandwich or onigiri, yogurt and a drink each, ¥900–1,500 per person."
+        "detail": "Grab and go from FamilyMart Ginza Miyuki-dori (24 hours), ¥900–1,500 per person."
       },
       {
         "name": "Sun: Gyukatsu Ichinisan lunch (×2)",
@@ -394,13 +394,13 @@ const BUDGET_CATEGORIES=[
         "detail": "Published omakase ¥8,800 each (¥17,600 for two); ¥12,100 each with drinks included. Tax included. Reserve on TableCheck."
       },
       {
-        "name": "Mon: 7-Eleven breakfast (×2)",
+        "name": "Mon: FamilyMart breakfast (×2)",
         "cost": 16,
         "range": [
           12,
           20
         ],
-        "detail": "Grab and go from the 24-hour Kabutocho Tosho-mae store, ¥900–1,500 per person."
+        "detail": "Grab and go from FamilyMart Ginza Miyuki-dori (24 hours), ¥900–1,500 per person."
       },
       {
         "name": "Mon: DisneySea lunch + snacks, via the app (×2)",
@@ -463,7 +463,7 @@ const BUDGET_CATEGORIES=[
           12,
           20
         ],
-        "detail": "Grab and go from KABUTO ONE (opens 6:00), ¥900–1,500 per person."
+        "detail": "Grab and go from FamilyMart Ginza Miyuki-dori (24 hours), ¥900–1,500 per person."
       },
       {
         "name": "Wed: Hachiri irori lunch (×2) — BOOKED",
@@ -589,9 +589,7 @@ const THEME={
 const POINTS_DATA=[
   {label:"💳 Current balance",pts:"444,000",sub:"Chase Ultimate Rewards"},
   {label:"✈️ Transfer to Virgin Atlantic (30% bonus)",pts:"−220,000",sub:"220k × 1.3 = 286,000 VA pts → covers 285k needed",warn:true},
-  {label:"🏨 Transfer to Hyatt (Caption, 6 nights)",pts:"−125,000",sub:"25k/night × 5 paid + 1 free (5th Night Free) = 125k",warn:true},
-  {label:"📊 Total Chase Used",pts:"345,000 / 444,000",sub:"",bold:true},
-  {label:"✅ Buffer Remaining",pts:"99,000",sub:"Growing ~20k/month from business spend",green:true},
+  {label:"🏨 Hyatt Centric Ginza, 6 nights — BOOKED",pts:"Points ✓",sub:"Booked with World of Hyatt points; the exact total is in the Hyatt app. Caption’s points come back about 3 days after it is cancelled.",green:true},
 ];
 
 const PLAN_DATA=[
@@ -608,8 +606,8 @@ const PLAN_DATA=[
       },
       {
         "id": "p4",
-        "text": "Caption by Hyatt Kabutocho: Oct 23–29 — confirmed",
-        "detail": "Hotel fixed. Save the existing confirmation; no new hotel booking or points transfer needed."
+        "text": "Hyatt Centric Ginza: Oct 23–29 — BOOKED",
+        "detail": "Booked with points (confirmation in your email from Oct 15). Check-in from 3:00pm, check-out by noon. Make sure Caption is cancelled before Oct 21, 10:59am ET."
       },
       {
         "id": "p5",
@@ -625,11 +623,6 @@ const PLAN_DATA=[
         "id": "b1",
         "text": "Owl café — Sun Oct 25, 1:00pm — BOOKED",
         "detail": "Akiba Fukurou, ¥3,800 each. Arrive by 12:50; the door does not open once a session starts."
-      },
-      {
-        "id": "b5",
-        "text": "KABEAT — Fri Oct 23, 7:00pm — BOOKED",
-        "detail": "Seat-only weekday booking. Call if the flight runs late; they can release the table 15 minutes after the time."
       },
       {
         "id": "b7",
@@ -700,6 +693,28 @@ const PLAN_DATA=[
     "text": "#7f1d1d",
     "items": [
       {
+        "id": "b13",
+        "text": "First-night dinner near the hotel — Fri Oct 23, about 7:30pm",
+        "detail": "Pick one in the restaurant guide (Fri · Arrival dinner): Shiseido Parlour, Kushi no Bo, NAMIKI667, Tori Baka or Restaurant Azuma, and book it online. Then cancel KABEAT on TableCheck (no fee).",
+        "links": [
+          {
+            "label": "Restaurant guide",
+            "url": "?view=restaurants&day=Fri"
+          }
+        ]
+      },
+      {
+        "id": "b14",
+        "text": "Ginza Choshoku Lab — Sat Oct 24, 7:00am breakfast",
+        "detail": "Book the 7:00 seating for 2 on Tabelog. ¥2,970 each. Walk-in backup: St. Marc Café, Ginza Miyuki-dori (opens 7:00).",
+        "links": [
+          {
+            "label": "Book on Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13259557/"
+          }
+        ]
+      },
+      {
         "id": "b9",
         "text": "Hitsumabushi Bincho — Thu Oct 29, 11:00am",
         "detail": "Online on ebica (link on hitsumabushi.co.jp, Ginza Mitsukoshi branch). 11:00 is the first lunch seating. 15+ minutes late without calling cancels.",
@@ -718,17 +733,6 @@ const PLAN_DATA=[
           {
             "label": "Uber Reserve",
             "url": "https://www.uber.com/us/en/ride/how-it-works/reserve/"
-          }
-        ]
-      },
-      {
-        "id": "b11",
-        "text": "Airport bus back to Haneda — Thu Oct 29, 1:00pm from T-CAT",
-        "detail": "Reserve and pay on the official Limousine Bus site: choose 2 passengers, the 1:00pm departure from Tokyo City Air Terminal to Haneda Airport Terminal 3, then pay by card for a QR ticket. ¥1,000 each. No need to book the arrival bus; buy that one at the airport.",
-        "links": [
-          {
-            "label": "Reserve the 1:00pm bus (official)",
-            "url": "https://webservice.limousinebus.co.jp/web/en/ReservationTop.aspx?AirportLine=2&Direction=2&DepartureBusstop=003&ArrivalBusstop=250&DepartureDate=20261029&DepartureTime=1300&siteorigin=wwwlim"
           }
         ]
       }
@@ -762,7 +766,7 @@ const PLAN_DATA=[
       {
         "id": "w1",
         "text": "No reservations needed for these",
-        "detail": "Talk Shop breakfast, Nakamise stalls, Hokkaido Milk Bar, Rokurinsha, FamilyMart and 7-Eleven mornings, Gyukatsu Ichinisan, Tsukiji market, Gyozaro, I’m donut? and Marion Crepes, Uobei, Hoshino Coffee, and DisneySea lunch in the app."
+        "detail": "Nakamise stalls, Hokkaido Milk Bar, Rokurinsha, FamilyMart mornings, Gyukatsu Ichinisan, Tsukiji market, Gyozaro, I’m donut? and Marion Crepes, Uobei, Hoshino Coffee, the airport trains, and DisneySea lunch in the app."
       },
       {
         "id": "b6",
@@ -881,12 +885,12 @@ const PACK_DATA=[
       {
         "id": "k6",
         "text": "Booking QR codes — screenshot them all into one phone album",
-        "detail": "Shibuya Sky (Webket can’t resend the email), teamLab, Sumida Aquarium, both Romancecar purchase pages, the airport bus if you book it, and the JAPANKART confirmation. Disney tickets live in the Disney app."
+        "detail": "Shibuya Sky (Webket can’t resend the email), teamLab, Sumida Aquarium, both Romancecar purchase pages, and the JAPANKART confirmation. Disney tickets live in the Disney app."
       },
       {
         "id": "k5",
         "text": "Hotel confirmation + hotel address in Japanese",
-        "detail": "The app has the address in Japanese for taxi drivers: キャプション by Hyatt 兜町 東京（中央区日本橋兜町12-1）."
+        "detail": "The app has the address in Japanese for taxi drivers: ハイアット セントリック 銀座 東京（東京都中央区銀座6-6-7）."
       },
       {
         "id": "k39",
@@ -946,7 +950,7 @@ const PACK_DATA=[
       {
         "id": "k42",
         "text": "Toothbrush, small toothpaste, deodorant, face wipes",
-        "detail": "You can freshen up before landing, since you go straight to the bus and dinner."
+        "detail": "You can freshen up before landing, since you go straight to the train and dinner."
       },
       {
         "id": "k43",
@@ -1294,7 +1298,7 @@ function mapsUrl(query){
 function mapQueryForActivity(activity,day){
   if(activity.mapQuery)return activity.mapQuery;
   const title=activity.title;
-  if(/Caption by Hyatt|Hotel Gym|Hotel Full Meal|Quick Hotel|Check In/i.test(title))return "Caption by Hyatt Kabutocho Tokyo";
+  if(/Hyatt Centric|Hotel Gym|Hotel Full Meal|Quick Hotel|Check In/i.test(title))return "Hyatt Centric Ginza Tokyo";
   if(/Tampa|TPA/i.test(title))return "Tampa International Airport";
   if(/Detroit|DTW/i.test(title))return "Detroit Metropolitan Wayne County Airport";
   if(/Haneda|HND/i.test(title))return "Tokyo Haneda Airport";
@@ -1361,7 +1365,7 @@ export default function JapanItinerary(){
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start"}}>
           <div>
             <div style={{color:"#fff",fontSize:20,fontWeight:700,letterSpacing:"-0.3px"}}>🇯🇵 Japan Anniversary</div>
-            <div style={{color:"rgba(255,255,255,0.7)",fontSize:13,marginTop:2}}>Oct 22–29 · Delta via Virgin Atlantic · Caption by Hyatt</div>
+            <div style={{color:"rgba(255,255,255,0.7)",fontSize:13,marginTop:2}}>Oct 22–29 · Delta via Virgin Atlantic · Hyatt Centric Ginza</div>
             <button onClick={()=>refreshApp()} style={{background:"none",border:"none",padding:0,marginTop:4,color:"rgba(255,255,255,0.55)",fontSize:11,cursor:"pointer"}}>Updated {BUILD_LABEL} · tap to refresh</button>
           </div>
           <button onClick={()=>setShowPoints(!showPoints)} style={{background:"rgba(255,255,255,0.18)",border:"none",borderRadius:10,padding:"8px 14px",color:"#fff",fontSize:13,fontWeight:600,cursor:"pointer"}}>💳 Points</button>
@@ -1381,10 +1385,10 @@ export default function JapanItinerary(){
             </div>
           ))}
           <div style={{background:"#fef2f2",border:"1px solid #fecaca",borderRadius:10,padding:"10px 12px",marginTop:10,fontSize:12,color:"#7f1d1d",lineHeight:1.5}}>
-            🚨 DO NOW: Transfer 220,000 Chase → Virgin Atlantic Flying Club while 30% bonus is live. Book Delta flights immediately after transfer clears.
+            ✈️ DONE: Delta flights booked through Virgin Atlantic Flying Club for 285,000 points plus taxes.
           </div>
           <div style={{background:"#f0fdf4",border:"1px solid #bbf7d0",borderRadius:10,padding:"10px 12px",marginTop:8,fontSize:12,color:"#14532d",lineHeight:1.5}}>
-            🏨 THEN: Transfer 125,000 Chase → World of Hyatt. Book Caption by Hyatt Kabutocho Oct 23–29 (6 nights). Confirm 5th Night Free shows in checkout before completing transfer.
+            🏨 DONE: Hyatt Centric Ginza, Oct 23–29 (6 nights), booked with points. Check-out is noon on Thursday.
           </div>
         </div>
       )}

@@ -39,10 +39,10 @@ export function TravelTools({onToday}) {
     {waiting&&<button onClick={update}>New version ready · update now</button>}
     {storageError&&<p role="alert">Your browser could not save changes. Keep a separate copy of important notes.</p>}
     <details><summary>Hotel, emergencies & practical help</summary>
-      <h3>Caption by Hyatt Kabutocho Tokyo</h3>
-      <p lang="ja">キャプション by Hyatt 兜町 東京<br/>〒103-0026 東京都中央区日本橋兜町12-1</p>
-      <p>12-1 Nihonbashi Kabutocho, Chuo-ku, Tokyo</p>
-      <div className="travel-links"><a href={directions('Caption by Hyatt Kabutocho Tokyo')}>Train back to hotel ↗</a><a href={directions('Caption by Hyatt Kabutocho Tokyo',null,'walking')}>Walk back ↗</a><a href="tel:+81345881234">Call hotel</a><a href="https://www.hyatt.com/caption-by-hyatt/en-US/tyocp-caption-by-hyatt-kabutocho-tokyo/hotel-info" target="_blank" rel="noreferrer">Hotel source ↗</a></div>
+      <h3>Hyatt Centric Ginza Tokyo</h3>
+      <p lang="ja">ハイアット セントリック 銀座 東京<br/>〒104-0061 東京都中央区銀座6-6-7</p>
+      <p>6-6-7 Ginza, Chuo-ku, Tokyo, on Namiki-dori. Lobby elevators at street level go up to reception on 4F. Nearest station: Ginza, Exit B6, about 3 minutes.</p>
+      <div className="travel-links"><a href={directions('Hyatt Centric Ginza Tokyo')}>Train back to hotel ↗</a><a href={directions('Hyatt Centric Ginza Tokyo',null,'walking')}>Walk back ↗</a><a href="tel:+81368371234">Call hotel</a><a href="https://www.hyatt.com/hyatt-centric/en-US/tyoct-hyatt-centric-ginza-tokyo" target="_blank" rel="noreferrer">Hotel source ↗</a></div>
       <p>In Japan: <a href="tel:110">110 Police</a> · <a href="tel:119">119 Ambulance / Fire</a><br/><a href="tel:+815038162787">JNTO visitor hotline: +81 50-3816-2787</a> (24 hours). <a href="https://www.japan.travel/en/plan/hotline/" target="_blank" rel="noreferrer">Official information ↗</a></p>
       <p>Rain plan: shorten outdoor browsing; use Solamachi on Saturday, the owl café and Akihabara’s indoor floors on Sunday, and indoor Shibuya shops Tuesday. Confirm kart weather/cancellation policy and Shibuya Sky rooftop status directly. Never substitute a new paid activity automatically.</p>
       <p className="travel-small">Plan and Pack checkmarks are saved on this phone, not shared with your spouse’s phone. Anything marked BOOKED shows checked everywhere. Clearing browser data removes your checkmarks. Offline saves the itinerary and guide text, not external photos, live train directions or third-party tickets. Keep QR codes privately in Photos/Wallet, never in this public repository.</p>
