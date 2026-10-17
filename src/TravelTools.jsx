@@ -40,6 +40,7 @@ export function TravelTools({onToday}) {
     {storageError&&<p role="alert">Your browser could not save changes. Keep a separate copy of important notes.</p>}
     <details><summary>Hotel, emergencies & practical help</summary>
       <h3>Hyatt Centric Ginza Tokyo</h3>
+      <p>Show taxi drivers this address (you don’t need to read it):</p>
       <p lang="ja">ハイアット セントリック 銀座 東京<br/>〒104-0061 東京都中央区銀座6-6-7</p>
       <p>6-6-7 Ginza, Chuo-ku, Tokyo, on Namiki-dori. Lobby elevators at street level go up to reception on 4F. Nearest station: Ginza, Exit B6, about 3 minutes.</p>
       <div className="travel-links"><a href={directions('Hyatt Centric Ginza Tokyo')}>Train back to hotel ↗</a><a href={directions('Hyatt Centric Ginza Tokyo',null,'walking')}>Walk back ↗</a><a href="tel:+81368371234">Call hotel</a><a href="https://www.hyatt.com/hyatt-centric/en-US/tyoct-hyatt-centric-ginza-tokyo" target="_blank" rel="noreferrer">Hotel source ↗</a></div>
