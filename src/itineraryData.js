@@ -113,14 +113,12 @@ export const DAYS = [
         "kind": "dinner",
         "icon": "🍽️",
         "title": "Kushiyaki Bistro Fukumimi, Ginza (yakitori)",
-        "status": "Book now",
-        "detail": "Yakitori (charcoal-grilled chicken skewers) in a warm room of wood booths and lantern light, in the basement of the Tobu Ginza Daiichi Building (Ginza 6-14-5, B1F), a 5–6 minute walk from the hotel. English menu with photos. Open until 11:15pm (last order 10:30). Book Fri Oct 23, 7:30pm, 2 people, \"Seat reservation\" on Tabelog: free cancellation until 5:59am on Oct 23 Japan time.",
+        "status": "Booked ✓",
+        "detail": "Booked: Fri Oct 23, 7:30pm, 2 people, seats only (Tabelog; confirmation in your email). Yakitori (charcoal-grilled chicken skewers) in a warm room of wood booths and lantern light, in the basement of the Tobu Ginza Daiichi Building (Ginza 6-14-5, B1F), a 5–6 minute walk from the hotel. English menu with photos. You take your shoes off at the entrance. Card or phone payment only, no cash.",
         "mapQuery": "Kushiyaki Bistro Fukumimi Ginza 6",
-        "food": "Order skewers à la carte, or their ¥3,850-per-person set (4 special skewers plus their popular dishes, 11 items), which you can order at the table. About ¥8,000–10,000 for two with a drink each.",
+        "food": "Order skewers à la carte, or their ¥3,850-per-person set (4 special skewers plus their popular dishes, 11 items). Plus a ¥660-per-person table charge. About ¥8,000–10,000 for two with a drink each.",
         "mealId": 0,
-        "bookUrl": "https://tabelog.com/en/tokyo/A1301/A130101/13307478/",
-        "bookLabel": "Book on Tabelog (Fri 7:30, 2 people)",
-        "tip": "Your booking lives in your Tabelog account (tabelog.com → My reservations). Once it is booked, cancel KABEAT on TableCheck (no fee).",
+        "tip": "The table is released if you are 15 minutes late, and a no-show costs ¥5,000 each. If the flight is badly delayed, change or cancel with the link in the Tabelog confirmation email as soon as you know (free until 5:59am Oct 23 Japan time). Once you are sure of dinner, cancel KABEAT on TableCheck (no fee).",
         "steps": [
           "Leave the hotel and walk about 5–6 minutes toward Showa-dori to the Tobu Ginza Daiichi Building (東武銀座第一ビル), Ginza 6-14-5 (open the map).",
           "Go down to B1F and give your name for the 7:30 booking."

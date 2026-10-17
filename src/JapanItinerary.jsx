@@ -313,13 +313,13 @@ const BUDGET_CATEGORIES=[
     "totalLabel": null,
     "items": [
       {
-        "name": "Fri: Kushiyaki Bistro Fukumimi yakitori (×2)",
+        "name": "Fri: Kushiyaki Bistro Fukumimi yakitori (×2) — BOOKED",
         "cost": 60,
         "range": [
           55,
           67
         ],
-        "detail": "Skewers à la carte or the ¥3,850-per-person set, plus a drink each: about ¥8,000–10,000 for two."
+        "detail": "Booked, seats only. ¥880 Tabelog fee already paid; at the restaurant, skewers or the ¥3,850-per-person set plus a ¥660-per-person table charge and drinks: about ¥8,000–10,000 for two."
       },
       {
         "name": "Sat: Furutoshi hotel breakfast (×2)",
@@ -683,6 +683,11 @@ const PLAN_DATA=[
         "id": "c5",
         "text": "Hachiri lunch, Hakone Yuryo — Wed Oct 28, 12:30pm — BOOKED",
         "detail": "Seasonal course for two, ¥6,000 each, paid on site. 15+ minutes late without contacting them cancels it; no same-day cancellation."
+      },
+      {
+        "id": "b13",
+        "text": "Kushiyaki Bistro Fukumimi — Fri Oct 23, 7:30pm — BOOKED",
+        "detail": "Seats only for 2, booked on Tabelog (¥880 booking fee paid). Shoes off at the door, card only, table released after 15 minutes. Next: cancel KABEAT on TableCheck (no fee)."
       }
     ]
   },
@@ -692,17 +697,6 @@ const PLAN_DATA=[
     "border": "#fecaca",
     "text": "#7f1d1d",
     "items": [
-      {
-        "id": "b13",
-        "text": "Kushiyaki Bistro Fukumimi — Fri Oct 23, 7:30pm (book on Tabelog)",
-        "detail": "Yakitori, 5–6 minutes from the hotel. Choose \"Seat reservation\" for 2; free cancellation until 5:59am Oct 23 Japan time. Then cancel KABEAT on TableCheck (no fee).",
-        "links": [
-          {
-            "label": "Book on Tabelog",
-            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13307478/"
-          }
-        ]
-      },
       {
         "id": "b9",
         "text": "Hitsumabushi Bincho — Thu Oct 29, 11:00am",
