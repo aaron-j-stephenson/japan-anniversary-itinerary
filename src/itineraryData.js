@@ -118,7 +118,7 @@ export const DAYS = [
         "mapQuery": "Kushiyaki Bistro Fukumimi Ginza 6",
         "food": "Order skewers à la carte, or their ¥3,850-per-person set (4 special skewers plus their popular dishes, 11 items). Plus a ¥660-per-person table charge. About ¥8,000–10,000 for two with a drink each.",
         "mealId": 0,
-        "tip": "The table is released if you are 15 minutes late, and a no-show costs ¥5,000 each. If the flight is badly delayed, change or cancel with the link in the Tabelog confirmation email as soon as you know (free until 5:59am Oct 23 Japan time). Once you are sure of dinner, cancel KABEAT on TableCheck (no fee).",
+        "tip": "The table is released if you are 15 minutes late, and a no-show costs ¥5,000 each. If the flight is badly delayed, change or cancel with the link in the Tabelog confirmation email as soon as you know (free until 5:59am Oct 23 Japan time).",
         "steps": [
           "Leave the hotel and walk about 5–6 minutes toward Showa-dori to the Tobu Ginza Daiichi Building, Ginza 6-14-5 (open the map; the pin takes you to the door).",
           "Go down to B1F and give your name for the 7:30 booking."

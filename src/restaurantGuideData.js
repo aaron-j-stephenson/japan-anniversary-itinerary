@@ -7,7 +7,7 @@ export const sections = [
     "label": "Fri · Arrival dinner",
     "origin": "Hyatt Centric Ginza Tokyo",
     "originLabel": "Hyatt Centric Ginza, after check-in",
-    "advice": "Kushiyaki Bistro Fukumimi is booked for Friday at 7:30pm: yakitori in a warm wood-and-lantern room, 5–6 minutes from the hotel. Cancel KABEAT on TableCheck.",
+    "advice": "Kushiyaki Bistro Fukumimi is booked for Friday at 7:30pm: yakitori in a warm wood-and-lantern room, 5–6 minutes from the hotel.",
     "options": [
       {
         "name": "Kushiyaki Bistro Fukumimi, Ginza 6",
@@ -226,7 +226,7 @@ export const sections = [
           }
         ],
         "current": false,
-        "bookingStatus": "Booked 7:00 · cancel once replaced",
+        "bookingStatus": "Cancelled (hotel changed)",
         "priceNote": "Planning allowance; not a fixed quote",
         "variety": "Western/Japanese fusion; leave specialist Japanese meals for later days.",
         "selected": false,

@@ -687,7 +687,7 @@ const PLAN_DATA=[
       {
         "id": "b13",
         "text": "Kushiyaki Bistro Fukumimi — Fri Oct 23, 7:30pm — BOOKED",
-        "detail": "Seats only for 2, booked on Tabelog (¥880 booking fee paid). Shoes off at the door, card only, table released after 15 minutes. Next: cancel KABEAT on TableCheck (no fee)."
+        "detail": "Seats only for 2, booked on Tabelog (¥880 booking fee paid). Shoes off at the door, card only, table released after 15 minutes."
       }
     ]
   },
