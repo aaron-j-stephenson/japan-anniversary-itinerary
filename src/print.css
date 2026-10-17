@@ -1,0 +1,16 @@
+/* Safety net for the browser's own Print command, including Safari. */
+@media print {
+  @page { size: A5; margin: 13mm 12mm 15mm; }
+  html,body,#root,.travel-app,.print-copy { background: #fff !important; background-image: none !important; color: #202020 !important; color-scheme: light; }
+  .travel-app,.print-copy { margin: 0 !important; padding: 0 !important; max-width: none !important; width: auto !important; }
+  .print-copy,.print-copy * { box-shadow: none !important; text-shadow: none !important; filter: none !important; backdrop-filter: none !important; transform: none !important; }
+  .print-copy { font: 11pt/1.42 Arial,sans-serif !important; }
+  .print-copy p,.print-copy li { font-size: 11pt; line-height: 1.42; color: #202020; orphans: 3; widows: 3; }
+  .print-copy .stop-body { font-size: 11pt; }
+  .print-copy h1 { font: 25pt/1.15 Georgia,serif; }
+  .print-copy h2 { font: 19pt/1.2 Georgia,serif; border-bottom: 2px solid #88565d; padding-bottom: 8pt; }
+  .print-copy h3 { font-size: 12pt; }
+  .print-copy .stop-body h3 { font-size: 10pt; }
+  .print-copy .stop-body section { margin-top: 10pt; }
+  .print-copy .stop-body li { margin: 6pt 0; }
+}
