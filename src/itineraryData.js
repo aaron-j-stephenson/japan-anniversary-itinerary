@@ -109,17 +109,22 @@ export const DAYS = [
         "tip": "Ask for a quiet room on a high floor, away from the construction nearby. Hotel breakfast (NAMIKI667) is ¥8,855 each, so the plan eats out each morning."
       },
       {
-        "time": "~7:30pm",
+        "time": "7:30pm",
         "kind": "dinner",
         "icon": "🍽️",
-        "title": "First-night dinner near the hotel",
+        "title": "Kushiyaki Bistro Fukumimi, Ginza (yakitori)",
         "status": "Book now",
-        "detail": "Pick one in the restaurant guide (Fri · Arrival dinner) and book it online for about 7:30: Shiseido Parlour (classic Ginza yoshoku, 5-minute walk), Kushi no Bo (kushiage, 2 minutes), NAMIKI667 (in the hotel), Tori Baka Ichidai (yakitori) or Restaurant Azuma (homey diner). KABEAT is still booked for 7:00 but is now a 20–25 minute subway ride away; cancel it on TableCheck (no fee) once the new booking is confirmed.",
-        "mapQuery": "Ginza 6-chome Namiki-dori Tokyo",
-        "food": "Allow ¥8,000–15,000 for two.",
+        "detail": "Yakitori (charcoal-grilled chicken skewers) in a warm room of wood booths and lantern light, in the basement of the Tobu Ginza Daiichi Building (Ginza 6-14-5, B1F), a 5–6 minute walk from the hotel. English menu with photos. Open until 11:15pm (last order 10:30). Book Fri Oct 23, 7:30pm, 2 people, \"Seat reservation\" on Tabelog: free cancellation until 5:59am on Oct 23 Japan time.",
+        "mapQuery": "Kushiyaki Bistro Fukumimi Ginza 6",
+        "food": "Order skewers à la carte, or their ¥3,850-per-person set (4 special skewers plus their popular dishes, 11 items), which you can order at the table. About ¥8,000–10,000 for two with a drink each.",
         "mealId": 0,
-        "bookUrl": "?view=restaurants&day=Fri",
-        "bookLabel": "Choose in the restaurant guide"
+        "bookUrl": "https://tabelog.com/en/tokyo/A1301/A130101/13307478/",
+        "bookLabel": "Book on Tabelog (Fri 7:30, 2 people)",
+        "tip": "Your booking lives in your Tabelog account (tabelog.com → My reservations). Once it is booked, cancel KABEAT on TableCheck (no fee).",
+        "steps": [
+          "Leave the hotel and walk about 5–6 minutes toward Showa-dori to the Tobu Ginza Daiichi Building (東武銀座第一ビル), Ginza 6-14-5 (open the map).",
+          "Go down to B1F and give your name for the 7:30 booking."
+        ]
       }
     ]
   },
@@ -137,15 +142,17 @@ export const DAYS = [
         "time": "7:00–7:35am",
         "kind": "breakfast",
         "icon": "🍳",
-        "title": "Ginza Choshoku Lab, breakfast buffet",
-        "detail": "A full breakfast buffet, Western and Japanese dishes with eggs, bread and coffee, on 2F of Hotel Musse Ginza Meitetsu (Ginza 7-12-9), about 6 minutes from the hotel. ¥2,970 each. Book the 7:00 seating on Tabelog; seatings are 50 minutes.",
-        "mapQuery": "Ginza Choshoku Lab Hotel Musse Ginza Meitetsu",
-        "food": "A full breakfast each, not just coffee or a pastry.",
-        "tip": "Walk-in backup if it is full: St. Marc Café, Ginza Miyuki-dori (opens 7:00), morning sets ¥390–920.",
+        "title": "Furutoshi, hotel breakfast (walk-in)",
+        "detail": "A beautiful hotel dining room on 2F of Solaria Nishitetsu Hotel Ginza (Ginza 4-9-2), about 5 minutes from your hotel. Weekend breakfast is a half-buffet with a main dish, plus their famous fruit sandwiches, about ¥2,800 each. Breakfast can’t be booked, so arrive right at 7:00 when it opens (Saturday breakfast 7:00–10:00).",
+        "mapQuery": "Furutoshi Solaria Nishitetsu Hotel Ginza",
+        "food": "A full breakfast each.",
+        "tip": "If there is a wait: Ginza Choshoku Lab (Hotel Musse Ginza Meitetsu 2F, Ginza 7-12-9) also opens at 7:00, or St. Marc Café on Miyuki-dori for a quick morning set.",
         "mealId": 16,
-        "status": "Book ahead",
-        "bookUrl": "https://tabelog.com/en/tokyo/A1301/A130101/13259557/",
-        "bookLabel": "Book 7:00 on Tabelog"
+        "status": "Walk-in",
+        "steps": [
+          "Walk about 5 minutes to Solaria Nishitetsu Hotel Ginza (ソラリア西鉄ホテル銀座), Ginza 4-9-2, near the Ginza 4-chome crossing (open the map).",
+          "Take the elevator to 2F, Furutoshi, and ask for breakfast for two."
+        ]
       },
       {
         "time": "7:40am",
@@ -158,7 +165,7 @@ export const DAYS = [
         "food": null,
         "tip": "Rule for every subway: before you tap in, check the sign over the gate or stairs shows the station you are heading toward. If you went through the wrong gate, ask the staff window to cancel your entry.",
         "steps": [
-          "From breakfast, walk about 6 minutes to Ginza Station and go down any entrance with the orange \"G\" (Ginza Line) sign. (From the hotel: Exit B6, about 3 minutes.)",
+          "From Furutoshi, walk about 3 minutes back to the Ginza 4-chome crossing and go down any Ginza Station entrance with the orange \"G\" (Ginza Line) sign.",
           "Tap in and go to Platform 2, \"for Asakusa\" (浅草). Every train on it goes to Asakusa.",
           "Ride 10 stops (about 17 minutes) to Asakusa, the last stop.",
           "Follow the signs for \"Kaminarimon\" and go up Exit 1.",
@@ -1160,7 +1167,7 @@ export const DAY_TRANSIT = {
     "mapQuery": "Higashi-ginza Station Exit A1"
   },
   "2": {
-    "leaveBy": "Breakfast 7:00; train about 7:40am",
+    "leaveBy": "Breakfast 7:00 at Furutoshi; train about 7:40am",
     "from": "Ginza Station, Platform 2",
     "to": "Asakusa (last stop)",
     "route": "Ginza Line \"for Asakusa\", 10 stops",

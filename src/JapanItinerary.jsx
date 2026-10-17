@@ -313,22 +313,22 @@ const BUDGET_CATEGORIES=[
     "totalLabel": null,
     "items": [
       {
-        "name": "Fri: first-night dinner near the hotel (×2)",
-        "cost": 80,
+        "name": "Fri: Kushiyaki Bistro Fukumimi yakitori (×2)",
+        "cost": 60,
         "range": [
-          50,
-          100
+          55,
+          67
         ],
-        "detail": "Allowance for one of the Ginza picks in the restaurant guide: Shiseido Parlour or Kushi no Bo about ¥12,000–13,500 for two, NAMIKI667’s web course about ¥15,000 with drinks, Restaurant Azuma about ¥8,000–9,500."
+        "detail": "Skewers à la carte or the ¥3,850-per-person set, plus a drink each: about ¥8,000–10,000 for two."
       },
       {
-        "name": "Sat: Ginza Choshoku Lab breakfast buffet (×2)",
-        "cost": 39.6,
+        "name": "Sat: Furutoshi hotel breakfast (×2)",
+        "cost": 37.33,
         "range": [
-          39.6,
-          39.6
+          37.33,
+          40
         ],
-        "detail": "¥2,970 each (¥5,940 for two), about $40 at ¥150/$1. Book the 7:00 seating on Tabelog."
+        "detail": "About ¥2,800 each (¥5,600 for two), walk-in."
       },
       {
         "name": "Sat: Nakamise street snacks (×2)",
@@ -694,23 +694,12 @@ const PLAN_DATA=[
     "items": [
       {
         "id": "b13",
-        "text": "First-night dinner near the hotel — Fri Oct 23, about 7:30pm",
-        "detail": "Pick one in the restaurant guide (Fri · Arrival dinner): Shiseido Parlour, Kushi no Bo, NAMIKI667, Tori Baka or Restaurant Azuma, and book it online. Then cancel KABEAT on TableCheck (no fee).",
-        "links": [
-          {
-            "label": "Restaurant guide",
-            "url": "?view=restaurants&day=Fri"
-          }
-        ]
-      },
-      {
-        "id": "b14",
-        "text": "Ginza Choshoku Lab — Sat Oct 24, 7:00am breakfast",
-        "detail": "Book the 7:00 seating for 2 on Tabelog. ¥2,970 each. Walk-in backup: St. Marc Café, Ginza Miyuki-dori (opens 7:00).",
+        "text": "Kushiyaki Bistro Fukumimi — Fri Oct 23, 7:30pm (book on Tabelog)",
+        "detail": "Yakitori, 5–6 minutes from the hotel. Choose \"Seat reservation\" for 2; free cancellation until 5:59am Oct 23 Japan time. Then cancel KABEAT on TableCheck (no fee).",
         "links": [
           {
             "label": "Book on Tabelog",
-            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13259557/"
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13307478/"
           }
         ]
       },
@@ -766,7 +755,7 @@ const PLAN_DATA=[
       {
         "id": "w1",
         "text": "No reservations needed for these",
-        "detail": "Nakamise stalls, Hokkaido Milk Bar, Rokurinsha, FamilyMart mornings, Gyukatsu Ichinisan, Tsukiji market, Gyozaro, I’m donut? and Marion Crepes, Uobei, Hoshino Coffee, the airport trains, and DisneySea lunch in the app."
+        "detail": "Furutoshi breakfast (Sat, arrive 7:00), Nakamise stalls, Hokkaido Milk Bar, Rokurinsha, FamilyMart mornings, Gyukatsu Ichinisan, Tsukiji market, Gyozaro, I’m donut? and Marion Crepes, Uobei, Hoshino Coffee, the airport trains, and DisneySea lunch in the app."
       },
       {
         "id": "b6",

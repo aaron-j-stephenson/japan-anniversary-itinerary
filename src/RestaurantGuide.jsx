@@ -6,8 +6,8 @@ const DAYS = ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"];
 const DATES = { Fri: "Oct 23", Sat: "Oct 24", Sun: "Oct 25", Mon: "Oct 26", Tue: "Oct 27", Wed: "Oct 28", Thu: "Oct 29" };
 // When each meal happens, from the Trip tab. Keyed by section id.
 const WHEN = {
-  0: "~7:30pm · walking distance from the hotel in Ginza",
-  16: "7:00am · 6-minute walk, before the Asakusa train",
+  0: "7:30pm · 5–6 minute walk from the hotel",
+  16: "7:00am · 5-minute walk, then the Ginza Line to Asakusa",
   2: "~9:30am · Asakusa, on the way out of the temple",
   3: "Noon · Solamachi, after the aquarium",
   4: "5:45pm · direct train from the go-karts",

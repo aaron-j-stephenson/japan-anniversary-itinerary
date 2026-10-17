@@ -7,8 +7,33 @@ export const sections = [
     "label": "Fri · Arrival dinner",
     "origin": "Hyatt Centric Ginza Tokyo",
     "originLabel": "Hyatt Centric Ginza, after check-in",
-    "advice": "Pick one of these Ginza dinners near the new hotel and book it online for about 7:30pm. KABEAT is still booked for 7:00, but it is now a 20–25 minute subway ride away: cancel it on TableCheck (no fee) once the new booking is confirmed.",
+    "advice": "Kushiyaki Bistro Fukumimi is the pick: yakitori in a warm wood-and-lantern room, 5–6 minutes from the hotel, with an English menu. Book 7:30 on Tabelog, then cancel KABEAT on TableCheck.",
     "options": [
+      {
+        "name": "Kushiyaki Bistro Fukumimi, Ginza 6",
+        "description": "Charcoal-grilled yakitori and chicken dishes in wood booths with lantern light; English menu with photos and multilingual staff.",
+        "booking": "Tobu Ginza Daiichi Building B1F, Ginza 6-14-5. Open daily 4:30–11:15pm (last order 10:30). Book on Tabelog: https://tabelog.com/en/tokyo/A1301/A130101/13307478/",
+        "budget": "About ¥8,000–10,000 for two (¥3,850-per-person set available)",
+        "travel": "W5–6",
+        "style": "Non-soup choices",
+        "sources": [
+          {
+            "label": "Book on Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13307478/"
+          }
+        ],
+        "current": false,
+        "bookingStatus": "Book online",
+        "priceNote": "Planning allowance; not a fixed quote",
+        "variety": "Yakitori; nothing else like it on the trip.",
+        "selected": true,
+        "selectedStatus": "Chosen · book Fri 7:30",
+        "reason": "Pretty, relaxed and close, with an English menu: easy after the flight.",
+        "tradeoff": "Fairly new (34 reviews); one review rates the room above the food.",
+        "verification": "Hours, address and Oct 23 7:30 availability checked on Tabelog",
+        "checked": "2026-10-17",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13307478/"
+      },
       {
         "current": false,
         "priceNote": "Planning allowance; not a fixed quote",
@@ -26,7 +51,7 @@ export const sections = [
           "source": "https://parlour.shiseido.co.jp/shoplist/restaurantginza/",
           "caption": "Shiseido Parlour · official image"
         },
-        "recommended": true,
+        "recommended": false,
         "sources": [
           {
             "label": "Official",
@@ -41,7 +66,8 @@ export const sections = [
         "variety": "Japanese-Western classics; nothing else like it on the trip.",
         "reason": "Feels special for an anniversary without a long course, and it is a 5-minute walk.",
         "verification": "Hours and prices on the official page; October availability not checked",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13004938/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13004938/",
+        "selected": false
       },
       {
         "current": false,
@@ -74,7 +100,9 @@ export const sections = [
         "variety": "Everything is fried, and Saturday is tempura.",
         "reason": "Two minutes away, a fixed-price counter course with no decisions after a long flight.",
         "verification": "Hours on the official page; Hot Pepper showed Oct 23 open on Oct 15",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13007779/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13007779/",
+        "recommended": false,
+        "selected": false
       },
       {
         "current": false,
@@ -107,7 +135,9 @@ export const sections = [
         "variety": "Modern bistro; a different style from the rest of the week.",
         "reason": "Zero walking: an elevator back to your room after dinner.",
         "verification": "Web course price on TableCheck; October availability not checked",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13217459/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13217459/",
+        "recommended": false,
+        "selected": false
       },
       {
         "current": false,
@@ -136,7 +166,9 @@ export const sections = [
         "variety": "Yakitori, the one classic you don’t have yet.",
         "reason": "Lively but easy: order a few skewers and a beer and head back.",
         "verification": "Hours from Tabelog and Gurunavi; October availability not checked",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13108941/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13108941/",
+        "recommended": false,
+        "selected": false
       },
       {
         "current": false,
@@ -165,7 +197,9 @@ export const sections = [
         "variety": "Casual Japanese-Western comfort food.",
         "reason": "Practically next door and the cheapest option.",
         "verification": "Hours on the official site; October availability not checked",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13002548/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13002548/",
+        "recommended": false,
+        "selected": false
       },
       {
         "name": "KABEAT, Kabutocho / Chuo City",
@@ -2519,8 +2553,37 @@ export const sections = [
     "label": "Sat · Breakfast",
     "origin": "Hyatt Centric Ginza Tokyo",
     "originLabel": "Hyatt Centric Ginza",
-    "advice": "Ginza Choshoku Lab is the pick: the closest match to the full breakfast you chose at the old hotel, 6 minutes away and open at 7:00. Book the 7:00 seating on Tabelog. The cafés are cheaper walk-in backups.",
+    "advice": "Furutoshi is the pick: a beautiful hotel dining room 5 minutes away that opens at 7:00, so the Asakusa morning stays on schedule. Walk-in only; Ginza Choshoku Lab is the backup.",
     "options": [
+      {
+        "name": "Furutoshi (Solaria Nishitetsu Hotel Ginza 2F)",
+        "description": "Half-buffet breakfast with a main dish and their famous fruit sandwiches, in an elegant hotel dining room.",
+        "booking": "Ginza 4-9-2, 2F. Saturday breakfast 7:00–10:00 (last order 9:30). Breakfast reservations not accepted; arrive at 7:00.",
+        "budget": "About ¥2,800",
+        "travel": "W5",
+        "style": "Non-soup choices",
+        "sources": [
+          {
+            "label": "Tabelog",
+            "url": "https://tabelog.com/en/tokyo/A1301/A130101/13131389/"
+          },
+          {
+            "label": "GINZA OFFICIAL breakfast guide",
+            "url": "https://www.ginza.jp/en/recommended-selectio/29322"
+          }
+        ],
+        "current": false,
+        "bookingStatus": "Walk-in plan",
+        "priceNote": "Published price (2024 guide); confirm on the day",
+        "variety": "Western-style hotel breakfast.",
+        "selected": true,
+        "selectedStatus": "Chosen · Sat 7:00 walk-in",
+        "reason": "The prettiest breakfast room nearby, open at 7:00, so the day stays on schedule.",
+        "tradeoff": "No bookings, so there may be a short wait.",
+        "verification": "Hours on Tabelog; walk-in policy from GINZA OFFICIAL",
+        "checked": "2026-10-17",
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13131389/"
+      },
       {
         "current": false,
         "priceNote": "Published price",
@@ -2540,8 +2603,7 @@ export const sections = [
         ],
         "bookingStatus": "Book 7:00 online",
         "variety": "Western-style breakfast; enough food for a full meal.",
-        "selected": true,
-        "selectedStatus": "Chosen · Saturday 7:00",
+        "selected": false,
         "reason": "A full breakfast at about the same price as before, done by 7:35.",
         "verification": "Hours and price on the official site",
         "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13259557/"
@@ -2567,7 +2629,8 @@ export const sections = [
         "variety": "Café breakfast; lighter than a buffet.",
         "reason": "Cheapest no-booking backup that opens at 7:00.",
         "verification": "Hours on the official page",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13259674/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13259674/",
+        "selected": false
       },
       {
         "current": false,
@@ -2590,7 +2653,8 @@ export const sections = [
         "variety": "Café breakfast; lighter than a buffet.",
         "reason": "Another cheap 7:00 option.",
         "verification": "Hours on the official page",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13040766/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13040766/",
+        "selected": false
       },
       {
         "current": false,
@@ -2613,7 +2677,8 @@ export const sections = [
         "variety": "Familiar Western coffee-shop breakfast.",
         "reason": "Familiar menu, non-smoking, opens at 7:00.",
         "verification": "Hours on the official page",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13056601/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13056601/",
+        "selected": false
       },
       {
         "current": false,
@@ -2636,7 +2701,8 @@ export const sections = [
         "variety": "Hotel buffet.",
         "reason": "No walking at all.",
         "verification": "Price on TableCheck",
-        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13217459/"
+        "tabelog": "https://tabelog.com/en/tokyo/A1301/A130101/13217459/",
+        "selected": false
       }
     ],
     "theme": "American breakfast at the hotel"
